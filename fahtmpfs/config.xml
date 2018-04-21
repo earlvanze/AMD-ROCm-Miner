@@ -1,0 +1,30 @@
+<config>
+  <!-- Folding Core -->
+  <checkpoint v='30'/>
+
+  <!-- Folding Slot Configuration -->
+  <cause v='CANCER'/>
+  <client-type v='advanced'/>
+
+  <!-- HTTP Server -->
+  <allow v='127.0.0.1 192.168.8.101'/>
+
+  <!-- Network -->
+  <proxy v=':8080'/>
+
+  <!-- Remote Command Server -->
+  <password v='PASS'/>
+
+  <!-- User Information -->
+  <passkey v='f1292c9070504784ca9d8930aaf6015e'/>
+  <team v='224497'/>
+  <user v='THEQ'/>
+
+  <!-- Web Server -->
+  <web-allow v='127.0.0.1 192.168.8.100'/>
+
+  <!-- Folding Slots -->
+  <slot id='0' type='CPU'>
+    <cpus v='4'/>
+  </slot>
+</config>

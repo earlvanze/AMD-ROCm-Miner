@@ -1,0 +1,538 @@
+Card 0 selected
+Card 0: PP data loaded from '/sys/class/drm/card0/device/pp_table'
+Card 0: {
+  "StructureSize": 833,
+  "TableFormatRevision": 7,
+  "TableContentRevision": 1,
+  "RevisionId": 0,
+  "TableSize": 77,
+  "GoldenPPId": 1685,
+  "GoldenRevision": 10351,
+  "FormatId": 25,
+  "VoltageTime": 0,
+  "PlatformCaps": 17170432,
+  "SocClockMaxOD": 200000,
+  "MemClockMaxOD": 225000,
+  "PowerControlLimit": 50,
+  "UlvVoltageOffset": 25,
+  "StateTable": {
+    "RevisionId": 1,
+    "NumEntries": 2,
+    "Entries": [
+      {
+        "SocClockIndexHigh": 0,
+        "SocClockIndexLow": 0,
+        "MemClockIndexHigh": 0,
+        "MemClockIndexLow": 0,
+        "PCIEGenLow": 0,
+        "PCIEGenHigh": 0,
+        "PCIELaneLow": 0,
+        "PCIELaneHigh": 0,
+        "Classification": 8,
+        "CapsAndSettings": 0,
+        "Classification2": 0,
+        "Reserved1": 0
+      },
+      {
+        "SocClockIndexHigh": 7,
+        "SocClockIndexLow": 0,
+        "MemClockIndexHigh": 2,
+        "MemClockIndexLow": 0,
+        "PCIEGenLow": 0,
+        "PCIEGenHigh": 0,
+        "PCIELaneLow": 0,
+        "PCIELaneHigh": 0,
+        "Classification": 5,
+        "CapsAndSettings": 0,
+        "Classification2": 0,
+        "Reserved1": 0
+      }
+    ]
+  },
+  "FanTable": {
+    "RevisionId": 9,
+    "THyst": 3,
+    "TMin": 4000,
+    "TMed": 6500,
+    "THigh": 8500,
+    "PWMMin": 2000,
+    "PWMMed": 4000,
+    "PWMHigh": 6000,
+    "TMax": 10900,
+    "FanControlMode": 1,
+    "FanPWMMax": 100,
+    "FanOutputSensitivity": 4836,
+    "FanRPMMax": 3000,
+    "MinFanSocClockAcousticLimit": 91000,
+    "TargetTemperature": 75,
+    "MinimumPWMLimit": 35,
+    "Reserved1": 100
+  },
+  "ThermalController": {
+    "RevisionId": 1,
+    "ControlType": 23,
+    "I2CLine": 0,
+    "I2CAddress": 0,
+    "FanParameters": 2,
+    "FanMinRPM": 0,
+    "FanMaxRPM": 38,
+    "Reserved1": 0,
+    "Flags": 0
+  },
+  "Reserved1": 0,
+  "MemClockDependencyTable": {
+    "RevisionId": 0,
+    "NumEntries": 3,
+    "Entries": [
+      {
+        "Vddc": 0,
+        "Vddci": 900,
+        "VddcGfxOffset": 0,
+        "Mvdd": 1000,
+        "MemClock": 30000,
+        "Reserved1": 0
+      },
+      {
+        "Vddc": 8,
+        "Vddci": 900,
+        "VddcGfxOffset": 0,
+        "Mvdd": 1000,
+        "MemClock": 100000,
+        "Reserved1": 0
+      },
+      {
+        "Vddc": 10,
+        "Vddci": 900,
+        "VddcGfxOffset": 0,
+        "Mvdd": 1000,
+        "MemClock": 210000,
+        "Reserved1": 0
+      }
+    ]
+  },
+  "SocClockDependencyTable": {
+    "RevisionId": 1,
+    "NumEntries": 8,
+    "Entries": [
+      {
+        "Vddc": 0,
+        "VddcOffset": 0,
+        "SocClock": 30000,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 128,
+        "SocClockOffset": 0
+      },
+      {
+        "Vddc": 1,
+        "VddcOffset": -26,
+        "SocClock": 58800,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 0,
+        "SocClockOffset": 0
+      },
+      {
+        "Vddc": 2,
+        "VddcOffset": -26,
+        "SocClock": 95200,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 0,
+        "SocClockOffset": 0
+      },
+      {
+        "Vddc": 3,
+        "VddcOffset": -26,
+        "SocClock": 100000,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 0,
+        "SocClockOffset": 0
+      },
+      {
+        "Vddc": 4,
+        "VddcOffset": -26,
+        "SocClock": 102000,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 0,
+        "SocClockOffset": 0
+      },
+      {
+        "Vddc": 5,
+        "VddcOffset": -26,
+        "SocClock": 105000,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 0,
+        "SocClockOffset": 0
+      },
+      {
+        "Vddc": 6,
+        "VddcOffset": -26,
+        "SocClock": 108000,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 0,
+        "SocClockOffset": 0
+      },
+      {
+        "Vddc": 7,
+        "VddcOffset": 0,
+        "SocClock": 128700,
+        "EDCCurrent": 0,
+        "ReliabilityTemperature": 0,
+        "CKSOffsetAndDisable": 0,
+        "SocClockOffset": 0
+      }
+    ]
+  },
+  "VddcLookupTable": {
+    "RevisionId": 0,
+    "NumEntries": 16,
+    "Entries": [
+      {
+        "Vdd": 750,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65282,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65283,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65284,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65285,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65286,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65287,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65288,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 800,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 850,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 900,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 950,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 1000,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 1050,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 1100,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 1150,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      }
+    ]
+  },
+  "VddGfxLookupTable": {
+    "RevisionId": 0,
+    "NumEntries": 8,
+    "Entries": [
+      {
+        "Vdd": 900,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65282,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65283,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65284,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65285,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65286,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65287,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      },
+      {
+        "Vdd": 65288,
+        "CACLow": 0,
+        "CACMid": 0,
+        "CACHigh": 0
+      }
+    ]
+  },
+  "MMDependencyTable": {
+    "RevisionId": 0,
+    "NumEntries": 8,
+    "Entries": [
+      {
+        "Vddc": 8,
+        "VddcGfxOffset": 0,
+        "DCLK": 58000,
+        "VCLK": 75000,
+        "ECLK": 63000,
+        "ACLK": 0,
+        "SAMUCLK": 57000
+      },
+      {
+        "Vddc": 9,
+        "VddcGfxOffset": -76,
+        "DCLK": 63000,
+        "VCLK": 80000,
+        "ECLK": 69000,
+        "ACLK": 0,
+        "SAMUCLK": 64000
+      },
+      {
+        "Vddc": 10,
+        "VddcGfxOffset": -101,
+        "DCLK": 68000,
+        "VCLK": 85000,
+        "ECLK": 75000,
+        "ACLK": 0,
+        "SAMUCLK": 70000
+      },
+      {
+        "Vddc": 11,
+        "VddcGfxOffset": -126,
+        "DCLK": 73000,
+        "VCLK": 89000,
+        "ECLK": 81000,
+        "ACLK": 0,
+        "SAMUCLK": 76000
+      },
+      {
+        "Vddc": 12,
+        "VddcGfxOffset": -151,
+        "DCLK": 77000,
+        "VCLK": 92000,
+        "ECLK": 86000,
+        "ACLK": 0,
+        "SAMUCLK": 81000
+      },
+      {
+        "Vddc": 13,
+        "VddcGfxOffset": -201,
+        "DCLK": 80000,
+        "VCLK": 95000,
+        "ECLK": 91000,
+        "ACLK": 0,
+        "SAMUCLK": 85000
+      },
+      {
+        "Vddc": 14,
+        "VddcGfxOffset": -251,
+        "DCLK": 83000,
+        "VCLK": 98000,
+        "ECLK": 96000,
+        "ACLK": 0,
+        "SAMUCLK": 88000
+      },
+      {
+        "Vddc": 15,
+        "VddcGfxOffset": 0,
+        "DCLK": 86000,
+        "VCLK": 100000,
+        "ECLK": 100000,
+        "ACLK": 0,
+        "SAMUCLK": 91000
+      }
+    ]
+  },
+  "VCEStateTable": {
+    "RevisionId": 1,
+    "NumEntries": 6,
+    "Entries": [
+      {
+        "VCEClockIndex": 0,
+        "Flag": 0,
+        "SocClockIndex": 1,
+        "MemClockIndex": 2
+      },
+      {
+        "VCEClockIndex": 0,
+        "Flag": 1,
+        "SocClockIndex": 1,
+        "MemClockIndex": 2
+      },
+      {
+        "VCEClockIndex": 0,
+        "Flag": 2,
+        "SocClockIndex": 1,
+        "MemClockIndex": 2
+      },
+      {
+        "VCEClockIndex": 0,
+        "Flag": 2,
+        "SocClockIndex": 1,
+        "MemClockIndex": 2
+      },
+      {
+        "VCEClockIndex": 0,
+        "Flag": 2,
+        "SocClockIndex": 1,
+        "MemClockIndex": 2
+      },
+      {
+        "VCEClockIndex": 0,
+        "Flag": 2,
+        "SocClockIndex": 1,
+        "MemClockIndex": 2
+      }
+    ]
+  },
+  "PPMTable": null,
+  "PowerTuneTable": {
+    "RevisionId": 4,
+    "TDP": 120,
+    "ConfigurableTDP": 0,
+    "TDC": 112,
+    "BatteryPowerLimit": 125,
+    "SmallPowerLimit": 125,
+    "LowCACLeakage": 0,
+    "HighCACLeakage": 0,
+    "MaximumPowerDeliveryLimit": 125,
+    "TjMax": 90,
+    "PowerTuneDataSetId": 0,
+    "EDCLimit": 0,
+    "SoftwareShutdownTemp": 94,
+    "ClockStretchAmount": 2,
+    "TemperatureLimitHotspot": 105,
+    "TemperatureLimitLiquid1": 80,
+    "TemperatureLimitLiquid2": 80,
+    "TemperatureLimitVrVddc": 115,
+    "TemperatureLimitVrMvdd": 115,
+    "TemperatureLimitPlx": 95,
+    "Liquid1I2CAddress": 0,
+    "Liquid2I2CAddress": 0,
+    "LiquidI2CLine": 144,
+    "VrI2CAddress": 16,
+    "VrI2CLine": 150,
+    "PlxI2CAddress": 0,
+    "PlxI2CLine": 144,
+    "Reserved1": 0
+  },
+  "HardLimitTable": null,
+  "PCIETable": {
+    "RevisionId": 1,
+    "NumEntries": 3,
+    "Entries": [
+      {
+        "PCIEGenSpeed": 0,
+        "PCIELaneWidth": 16,
+        "Reserved1": 0,
+        "PCIEClock": 0
+      },
+      {
+        "PCIEGenSpeed": 0,
+        "PCIELaneWidth": 16,
+        "Reserved1": 0,
+        "PCIEClock": 0
+      },
+      {
+        "PCIEGenSpeed": 2,
+        "PCIELaneWidth": 16,
+        "Reserved1": 0,
+        "PCIEClock": 0
+      }
+    ]
+  },
+  "GPIOTable": {
+    "RevisionId": 0,
+    "VRHotTriggeredSocClockDPMIndex": 1,
+    "Reserved1": 0,
+    "Reserved2": 0,
+    "Reserved3": 0,
+    "Reserved4": 0,
+    "Reserved5": 0
+  },
+  "Reserved2": 64664,
+  "Reserved3": 1,
+  "Reserved4": 1875,
+  "Reserved5": 0,
+  "Reserved6": 0,
+  "Reserved7": 0
+}
