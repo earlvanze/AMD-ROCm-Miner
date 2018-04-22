@@ -1,36 +1,48 @@
 #!/bin/bash
 #Here is the example for the dreaded pirate roberts 570 samsung nitro's
+#set fan to 50%
+/opt/rocm/bin/rocm-smi --setfan 130 
 
-rocm-smi --device 2 --setmclk 2
-rocm-smi --device 1 --setmclk 2
-rocm-smi --device 0 --setmclk 2
-rocm-smi --device 2 --setsclk 7
-rocm-smi --device 1 --setsclk 7
-rocm-smi --device 0 --setsclk 7
-rocm-smi --setfan 133 
-rocm-smi --device 2 --setoverdrive 7 --autorespond yes
-rocm-smi --device 0 --setoverdrive 7 --autorespond yes
-rocm-smi --device 1 --setoverdrive 7 --autorespond yes
+#Use the command to find all the cards at once
+#find /sys | grep power_dpm_state
+#find /sys | grep power_dpm_force_performance_level
+
+echo performance > /sys/class/drm/card0/device/power_dpm_state
+echo performance > /sys/class/drm/card1/device/power_cpm_state
+echo performance > /sys/class/drm/card2/device/power_cpm_state
+echo performance > /sys/class/drm/card3/device/power_cpm_state
+echo performance > /sys/class/drm/card4/device/power_cpm_state
+echo performance > /sys/class/drm/card5/device/power_cpm_state
 echo high > /sys/class/drm/card0/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card1/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card2/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card3/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card4/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card5/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card6/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card7/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card8/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card9/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card10/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card11/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card12/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card13/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card14/device/power_dpm_force_performance_level
-echo high > /sys/class/drm/card15/device/power_dpm_force_performance_level
-#amdcovc memclk:2=2250
-#amdcovc memclk:1=2250
-#amdcovc memclk:0=2250
-#amdcovc memclk:0=2250
-#amdcovc memclk:1=2250
-#amdcovc memclk:2=2250
+echo 1 > /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1b.4/0000:04:00.0/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.0/0000:05:00.0/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.1/0000:06:00.0/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/remove
 
+
+#Run the first command and then then it will give you the find command to run to
+#get the over drive paths
+
+#lspci | grep VGA | awk '{print $1}'| sed s/^/find\ \\/sys\ \|\ egrep\ \-v\ volt\|grep\ od\|grep\ clk\|grep\ /
+
+#find /sys | egrep -v volt|grep od|grep clk|grep 00:02.0
+#find /sys | egrep -v volt|grep od|grep clk|grep 02:00.0
+#find /sys | egrep -v volt|grep od|grep clk|grep 04:00.0
+#find /sys | egrep -v volt|grep od|grep clk|grep 05:00.0
+#find /sys | egrep -v volt|grep od|grep clk|grep 06:00.0
+#find /sys | egrep -v volt|grep od|grep clk|grep 08:00.0
+#find /sys | egrep -v volt|grep od|grep clk|grep 09:00.0
+
+echo 17 > /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/pp_mclk_od
+echo 17 > /sys/devices/pci0000:00/0000:00:1b.4/0000:04:00.0/pp_sclk_od
+echo 17 > /sys/devices/pci0000:00/0000:00:1c.0/0000:05:00.0/pp_sclk_od
+echo 17 > /sys/devices/pci0000:00/0000:00:1c.1/0000:06:00.0/pp_mclk_od
+echo 17 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/pp_mclk_od
+echo 17 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/pp_mclk_od
