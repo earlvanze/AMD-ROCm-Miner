@@ -1,0 +1,108 @@
+*********************** Log Started 2018-04-22T04:16:56Z ***********************
+04:16:56:************************* Folding@home Client *************************
+04:16:56:        Website: http://folding.stanford.edu/
+04:16:56:      Copyright: (c) 2009-2016 Stanford University
+04:16:56:         Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+04:16:56:           Args: 
+04:16:56:         Config: /root/fahtmpfs/config.xml
+04:16:56:******************************** Build ********************************
+04:16:56:        Version: 7.4.16
+04:16:56:           Date: Jan 6 2017
+04:16:56:           Time: 08:08:33
+04:16:56:     Repository: Git
+04:16:56:       Revision: e12187cbb0bd6937c067b9749af011374563b7b9
+04:16:56:         Branch: master
+04:16:56:       Compiler: GNU 4.9.2
+04:16:56:        Options: -std=gnu++98 -O3 -funroll-loops -ffast-math -mfpmath=sse
+04:16:56:                 -fno-unsafe-math-optimizations -msse2
+04:16:56:       Platform: linux2 4.8.0-2-amd64
+04:16:56:           Bits: 64
+04:16:56:           Mode: Release
+04:16:56:******************************* System ********************************
+04:16:56:            CPU: Intel(R) Celeron(R) CPU G3930 @ 2.90GHz
+04:16:56:         CPU ID: GenuineIntel Family 6 Model 158 Stepping 9
+04:16:56:           CPUs: 2
+04:16:56:         Memory: 7.65GiB
+04:16:56:    Free Memory: 5.90GiB
+04:16:56:        Threads: POSIX_THREADS
+04:16:56:     OS Version: 4.13
+04:16:56:    Has Battery: false
+04:16:56:     On Battery: false
+04:16:56:     UTC Offset: 2
+04:16:56:            PID: 2305
+04:16:56:            CWD: /root/fahtmpfs
+04:16:56:             OS: Linux 4.13.0-32-lowlatency x86_64
+04:16:56:        OS Arch: AMD64
+04:16:56:           GPUs: 1
+04:16:56:          GPU 0: Bus:9 Slot:0 Func:0 ATI:5 Ellesmere XT [Radeon RX
+04:16:56:                 470/480/570/580]
+04:16:56:           CUDA: Not detected: Failed to open dynamic library 'libcuda.so':
+04:16:56:                 libcuda.so: cannot open shared object file: No such file or
+04:16:56:                 directory
+04:16:56:OpenCL Device 0: Platform:0 Device:0 Bus:9 Slot:0 Compute:1.2 Driver:2527.3
+04:16:56:***********************************************************************
+04:16:56:<config>
+04:16:56:  <!-- Folding Core -->
+04:16:56:  <checkpoint v='30'/>
+04:16:56:
+04:16:56:  <!-- Folding Slot Configuration -->
+04:16:56:  <cause v='CANCER'/>
+04:16:56:  <client-type v='advanced'/>
+04:16:56:
+04:16:56:  <!-- HTTP Server -->
+04:16:56:  <allow v='127.0.0.1 192.168.8.101'/>
+04:16:56:
+04:16:56:  <!-- Network -->
+04:16:56:  <proxy v=':8080'/>
+04:16:56:
+04:16:56:  <!-- Remote Command Server -->
+04:16:56:  <password v='****'/>
+04:16:56:
+04:16:56:  <!-- User Information -->
+04:16:56:  <passkey v='********************************'/>
+04:16:56:  <team v='224497'/>
+04:16:56:  <user v='THEQ'/>
+04:16:56:
+04:16:56:  <!-- Web Server -->
+04:16:56:  <web-allow v='127.0.0.1 192.168.8.100'/>
+04:16:56:
+04:16:56:  <!-- Folding Slots -->
+04:16:56:  <slot id='0' type='CPU'/>
+04:16:56:</config>
+04:16:56:Trying to access database...
+04:16:56:Successfully acquired database lock
+04:16:56:Enabled folding slot 00: READY cpu:1
+04:16:56:WU00:FS00:Starting
+04:16:56:WU00:FS00:Running FahCore: /root/fahtmpfs/FAHCoreWrapper /root/fahtmpfs/cores/fahwebx.stanford.edu/cores/Linux/AMD64/Core_a4.fah/FahCore_a4 -dir 00 -suffix 01 -version 704 -lifeline 2305 -checkpoint 30 -np 1
+04:16:56:WU00:FS00:Started FahCore on PID 2368
+04:16:56:WU00:FS00:Core PID:2372
+04:16:56:WU00:FS00:FahCore 0xa4 started
+04:16:57:WU00:FS00:0xa4:
+04:16:57:WU00:FS00:0xa4:*------------------------------*
+04:16:57:WU00:FS00:0xa4:Folding@Home Gromacs GB Core
+04:16:57:WU00:FS00:0xa4:Version 2.27 (Dec. 15, 2010)
+04:16:57:WU00:FS00:0xa4:
+04:16:57:WU00:FS00:0xa4:Preparing to commence simulation
+04:16:57:WU00:FS00:0xa4:- Ensuring status. Please wait.
+04:17:06:WU00:FS00:0xa4:- Looking at optimizations...
+04:17:06:WU00:FS00:0xa4:- Working with standard loops on this execution.
+04:17:06:WU00:FS00:0xa4:- Previous termination of core was improper.
+04:17:06:WU00:FS00:0xa4:- Files status OK
+04:17:06:WU00:FS00:0xa4:- Expanded 738619 -> 1926016 (decompressed 260.7 percent)
+04:17:06:WU00:FS00:0xa4:Called DecompressByteArray: compressed_data_size=738619 data_size=1926016, decompressed_data_size=1926016 diff=0
+04:17:06:WU00:FS00:0xa4:- Digital signature verified
+04:17:06:WU00:FS00:0xa4:
+04:17:06:WU00:FS00:0xa4:Project: 8621 (Run 0, Clone 984, Gen 9)
+04:17:06:WU00:FS00:0xa4:
+04:17:06:WU00:FS00:0xa4:Entering M.D.
+04:17:12:WU00:FS00:0xa4:Using Gromacs checkpoints
+04:17:12:WU00:FS00:0xa4:Resuming from checkpoint
+04:17:12:WU00:FS00:0xa4:Verified 00/wudata_01.log
+04:17:12:WU00:FS00:0xa4:Verified 00/wudata_01.trr
+04:17:12:WU00:FS00:0xa4:Verified 00/wudata_01.xtc
+04:17:12:WU00:FS00:0xa4:Verified 00/wudata_01.edr
+04:17:13:WU00:FS00:0xa4:Completed 717410 out of 2500000 steps  (28%)
+04:20:13:Caught signal SIGTERM(15) on PID 2305
+04:20:13:Exiting, please wait. . .
+04:20:13:Caught signal SIGTERM(15) on PID 2305
+[93m04:20:13:WARNING:Next signal will force exit[0m

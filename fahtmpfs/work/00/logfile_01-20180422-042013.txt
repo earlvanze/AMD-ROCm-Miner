@@ -6,6 +6,8 @@ Version 2.27 (Dec. 15, 2010)
 Preparing to commence simulation
 - Ensuring status. Please wait.
 - Looking at optimizations...
+- Working with standard loops on this execution.
+- Previous termination of core was improper.
 - Files status OK
 - Expanded 738619 -> 1926016 (decompressed 260.7 percent)
 Called DecompressByteArray: compressed_data_size=738619 data_size=1926016, decompressed_data_size=1926016 diff=0
@@ -13,7 +15,6 @@ Called DecompressByteArray: compressed_data_size=738619 data_size=1926016, decom
 
 Project: 8621 (Run 0, Clone 984, Gen 9)
 
-Assembly optimizations on if available.
 Entering M.D.
 Using Gromacs checkpoints
 Resuming from checkpoint
@@ -22,3 +23,6 @@ Verified 00/wudata_01.trr
 Verified 00/wudata_01.xtc
 Verified 00/wudata_01.edr
 Completed 717410 out of 2500000 steps  (28%)
+Client no longer detected. Shutting down core.
+
+Folding@home Core Shutdown: CLIENT_DIED

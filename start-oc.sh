@@ -19,12 +19,12 @@ echo high > /sys/class/drm/card2/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card3/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card4/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card5/device/power_dpm_force_performance_level
-echo 1 > /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/remove
-echo 1 > /sys/devices/pci0000:00/0000:00:1b.4/0000:04:00.0/remove
-echo 1 > /sys/devices/pci0000:00/0000:00:1c.0/0000:05:00.0/remove
-echo 1 > /sys/devices/pci0000:00/0000:00:1c.1/0000:06:00.0/remove
-echo 1 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/remove
-echo 1 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.1/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1b.4/0000:04:00.1/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.0/0000:05:00.1/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.1/0000:06:00.1/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.1/remove
+echo 1 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.1/remove
 
 
 #Run the first command and then then it will give you the find command to run to
