@@ -1,0 +1,26 @@
+           CPU0       CPU1
+  0:         57          0   IO-APIC   2-edge      timer
+  8:          1          0   IO-APIC   8-edge      rtc0
+  9:          0          0   IO-APIC   9-fasteoi   acpi
+120:          0          0   PCI-MSI 16384-edge      PCIe PME
+121:          0          0   PCI-MSI 18432-edge      PCIe PME
+122:          0          0   PCI-MSI 442368-edge      PCIe PME, pciehp
+123:          0          0   PCI-MSI 450560-edge      aerdrv, PCIe PME
+124:          0          0   PCI-MSI 458752-edge      aerdrv, PCIe PME
+125:          0          0   PCI-MSI 460800-edge      aerdrv, PCIe PME
+126:          0          0   PCI-MSI 466944-edge      aerdrv, PCIe PME
+127:          0          0   PCI-MSI 471040-edge      aerdrv, PCIe PME
+128:          0          0   PCI-MSI 473088-edge      aerdrv, PCIe PME
+129:          0          0   PCI-MSI 475136-edge      PCIe PME, pciehp
+130:         26          2   PCI-MSI 327680-edge      xhci_hcd
+131:          0          0   PCI-MSI 3670016-edge      xhci_hcd
+132:          0          0   PCI-MSI 3670017-edge      xhci_hcd
+133:          0          0   PCI-MSI 3670018-edge      xhci_hcd
+134:       2018       2730   PCI-MSI 376832-edge      ahci[0000:00:17.0]
+135:        463        613   PCI-MSI 520192-edge      enp0s31f6
+136:         14       1466   PCI-MSI 1048576-edge      amdgpu
+137:         13       1174   PCI-MSI 2097152-edge      amdgpu
+138:         12       1156   PCI-MSI 2621440-edge      amdgpu
+139:         17       1600   PCI-MSI 3145728-edge      amdgpu
+140:         14       1517   PCI-MSI 4194304-edge      amdgpu
+141:         13       1577   PCI-MSI 4718592-edge      amdgpu

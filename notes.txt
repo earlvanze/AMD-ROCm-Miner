@@ -1,0 +1,25 @@
+Examples:
+##########################
+Switch from a dynamic ip to static ip address:
+
+Simply get the dhcp address and in this example to switch the ip from dhcp to static is one line the ip address and the router gw.
+
+ssh guru@192.168.2.2
+guru@192.168.2.2's password:
+guru@AMD-rocm-rippa:~$ sudo su
+root@AMD-rocm-rippa:/home/guru# echo "killall dhclient ; ifconfig $eth0 192.168.2.2 netmask 255.255.255.0 up ; route add default gw 192.168.8.1" >> /root/start-net.sh
+root@AMD-rocm-rippa:/home/guru# reboot
+
+#########################
+Push a system update to 254 machines at once then restart
+for i in {2..254}; do scp /root/*-*.sh root@192.168.2.$i:/root/; ssh root@192.168.2.$i reboot ; done
+
+This would do the following
+scp /root/-.sh root@192.168.2.2:/root/
+ssh root@192.168.2.2 reboot
+scp /root/-.sh root@192.168.2.3:/root/
+ssh root@192.168.2.3 reboot
+scp /root/-.sh root@192.168.2.4:/root/
+ssh root@192.168.2.4 reboot
+
+Pushing the new startup configuration and system configurations to 254 rigs at once then restart them :)
