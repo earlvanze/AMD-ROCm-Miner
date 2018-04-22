@@ -14,12 +14,12 @@ rocm-smi --device 2 --setsclk 7
 rocm-smi --device 1 --setsclk 7
 rocm-smi --device 0 --setsclk 7
 rocm-smi --setfan 133 
-rocm-smi --device 5 --setoverdrive 7 --autorespond yes
-rocm-smi --device 4 --setoverdrive 7 --autorespond yes
-rocm-smi --device 3 --setoverdrive 7 --autorespond yes
-rocm-smi --device 2 --setoverdrive 7 --autorespond yes
-rocm-smi --device 1 --setoverdrive 7 --autorespond yes
-rocm-smi --device 0 --setoverdrive 7 --autorespond yes
+rocm-smi --device 5 --setoverdrive 20 --autorespond yes
+rocm-smi --device 4 --setoverdrive 20 --autorespond yes
+rocm-smi --device 3 --setoverdrive 20 --autorespond yes
+rocm-smi --device 2 --setoverdrive 20 --autorespond yes
+rocm-smi --device 1 --setoverdrive 20 --autorespond yes
+rocm-smi --device 0 --setoverdrive 20 --autorespond yes
 echo high > /sys/class/drm/card0/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card1/device/power_dpm_force_performance_level
 echo high > /sys/class/drm/card2/device/power_dpm_force_performance_level
