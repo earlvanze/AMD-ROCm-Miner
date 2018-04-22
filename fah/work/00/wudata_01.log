@@ -667,3 +667,33 @@ Grid: 11 x 11 x 11 cells
 Writing checkpoint, step 23217410 at Sat Apr 21 22:41:56 2018
 
 
+           Step           Time         Lambda
+       23217410    46434.82000        0.00000
+
+Grid: 11 x 11 x 11 cells
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
+    2.06550e+03    5.61341e+03    7.02588e+03    3.13784e+02    2.41620e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    2.43079e+04    5.31084e+04   -4.08585e+05   -1.02270e+05   -4.16004e+05
+    Kinetic En.   Total Energy    Temperature Pressure (bar)   Constr. rmsd
+    8.01074e+04   -3.35896e+05    3.01535e+02   -8.26270e+01    0.00000e+00
+  Constr.2 rmsd
+    0.00000e+00
+
+Writing checkpoint, step 23244970 at Mon Apr 23 03:13:50 2018
+
+
+           Step           Time         Lambda
+       23250000    46500.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
+    2.05188e+03    5.70775e+03    6.97868e+03    3.55775e+02    2.25551e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    2.46848e+04    5.40526e+04   -4.09619e+05   -1.02363e+05   -4.15896e+05
+    Kinetic En.   Total Energy    Temperature Pressure (bar)   Constr. rmsd
+    7.95542e+04   -3.36341e+05    2.99453e+02   -8.64876e+01    3.02976e-06
+  Constr.2 rmsd
+    3.10552e-06
+
