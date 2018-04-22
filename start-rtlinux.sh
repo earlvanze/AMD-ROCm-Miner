@@ -5,10 +5,10 @@ echo 0 > /proc/sys/kernel/hung_task_timeout_secs
 cat /sys/devices/system/cpu/cpufreq/policy1/scaling_max_freq  >> /sys/devices/system/cpu/cpufreq/policy1/scaling_min_freq
 cat /sys/devices/system/cpu/cpufreq/policy1/scaling_max_freq  >> /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
 echo 0 > /dev/cpu_dma_latency
-echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
-echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq
-echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy7/scaling_max_freq
-echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy7/scaling_min_freq
+echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
+echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy1/scaling_max_freq
+echo 2900000  >> /sys/devices/system/cpu/cpufreq/policy1/scaling_min_freq
 printf %x $((2**4-2)) | egrep -v 122 | egrep -v 123|egrep -v 124|egrep -v 125|egrep -v 126|egrep -v 127|egrep -v 128|egrep -v 129|egrep -v 130|egrep -v 131|egrep -v 132|egrep -v 134|egrep -v 134|egrep -v 135|egrep -v 136|egrep -v 137|  sudo tee /proc/irq/*/smp_affinity
 echo 1 > /proc/irq/120/smp_affinity_list
 echo 1 > /proc/irq/121/smp_affinity_list 
