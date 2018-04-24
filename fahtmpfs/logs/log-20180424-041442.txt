@@ -1,0 +1,121 @@
+*********************** Log Started 2018-04-24T04:09:39Z ***********************
+04:09:39:************************* Folding@home Client *************************
+04:09:39:        Website: http://folding.stanford.edu/
+04:09:39:      Copyright: (c) 2009-2016 Stanford University
+04:09:39:         Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+04:09:39:           Args: 
+04:09:39:         Config: /root/fahtmpfs/config.xml
+04:09:39:******************************** Build ********************************
+04:09:39:        Version: 7.4.16
+04:09:39:           Date: Jan 6 2017
+04:09:39:           Time: 08:08:33
+04:09:39:     Repository: Git
+04:09:39:       Revision: e12187cbb0bd6937c067b9749af011374563b7b9
+04:09:39:         Branch: master
+04:09:39:       Compiler: GNU 4.9.2
+04:09:39:        Options: -std=gnu++98 -O3 -funroll-loops -ffast-math -mfpmath=sse
+04:09:39:                 -fno-unsafe-math-optimizations -msse2
+04:09:39:       Platform: linux2 4.8.0-2-amd64
+04:09:39:           Bits: 64
+04:09:39:           Mode: Release
+04:09:39:******************************* System ********************************
+04:09:39:            CPU: Intel(R) Celeron(R) CPU G3930 @ 2.90GHz
+04:09:39:         CPU ID: GenuineIntel Family 6 Model 158 Stepping 9
+04:09:39:           CPUs: 2
+04:09:39:         Memory: 7.65GiB
+04:09:39:    Free Memory: 5.91GiB
+04:09:39:        Threads: POSIX_THREADS
+04:09:39:     OS Version: 4.13
+04:09:39:    Has Battery: false
+04:09:39:     On Battery: false
+04:09:39:     UTC Offset: 2
+04:09:39:            PID: 2228
+04:09:39:            CWD: /root/fahtmpfs
+04:09:39:             OS: Linux 4.13.0-32-lowlatency x86_64
+04:09:39:        OS Arch: AMD64
+04:09:39:           GPUs: 5
+04:09:39:          GPU 0: Bus:2 Slot:0 Func:0 ATI:5 Ellesmere XT [Radeon RX
+04:09:39:                 470/480/570/580]
+04:09:39:          GPU 1: Bus:4 Slot:0 Func:0 ATI:5 Ellesmere XT [Radeon RX
+04:09:39:                 470/480/570/580]
+04:09:39:          GPU 2: Bus:5 Slot:0 Func:0 ATI:5 Ellesmere XT [Radeon RX
+04:09:39:                 470/480/570/580]
+04:09:39:          GPU 3: Bus:6 Slot:0 Func:0 ATI:5 Ellesmere XT [Radeon RX
+04:09:39:                 470/480/570/580]
+04:09:39:          GPU 4: Bus:8 Slot:0 Func:0 ATI:5 Ellesmere XT [Radeon RX
+04:09:39:                 470/480/570/580]
+04:09:39:           CUDA: Not detected: Failed to open dynamic library 'libcuda.so':
+04:09:39:                 libcuda.so: cannot open shared object file: No such file or
+04:09:39:                 directory
+04:09:39:OpenCL Device 0: Platform:0 Device:0 Bus:2 Slot:0 Compute:1.2 Driver:2527.3
+04:09:39:OpenCL Device 1: Platform:0 Device:1 Bus:4 Slot:0 Compute:1.2 Driver:2527.3
+04:09:39:OpenCL Device 2: Platform:0 Device:2 Bus:5 Slot:0 Compute:1.2 Driver:2527.3
+04:09:39:OpenCL Device 3: Platform:0 Device:3 Bus:6 Slot:0 Compute:1.2 Driver:2527.3
+04:09:39:OpenCL Device 4: Platform:0 Device:4 Bus:8 Slot:0 Compute:1.2 Driver:2527.3
+04:09:39:***********************************************************************
+04:09:39:<config>
+04:09:39:  <!-- Folding Core -->
+04:09:39:  <checkpoint v='30'/>
+04:09:39:
+04:09:39:  <!-- Folding Slot Configuration -->
+04:09:39:  <cause v='CANCER'/>
+04:09:39:  <client-type v='advanced'/>
+04:09:39:
+04:09:39:  <!-- HTTP Server -->
+04:09:39:  <allow v='127.0.0.1 192.168.8.101'/>
+04:09:39:
+04:09:39:  <!-- Network -->
+04:09:39:  <proxy v=':8080'/>
+04:09:39:
+04:09:39:  <!-- Remote Command Server -->
+04:09:39:  <password v='****'/>
+04:09:39:
+04:09:39:  <!-- User Information -->
+04:09:39:  <passkey v='********************************'/>
+04:09:39:  <team v='224497'/>
+04:09:39:  <user v='THEQ'/>
+04:09:39:
+04:09:39:  <!-- Web Server -->
+04:09:39:  <web-allow v='127.0.0.1 192.168.8.100'/>
+04:09:39:
+04:09:39:  <!-- Folding Slots -->
+04:09:39:  <slot id='0' type='CPU'/>
+04:09:39:</config>
+04:09:39:Trying to access database...
+04:09:39:Successfully acquired database lock
+04:09:39:Enabled folding slot 00: READY cpu:1
+04:09:39:WU00:FS00:Starting
+04:09:39:WU00:FS00:Running FahCore: /root/fahtmpfs/FAHCoreWrapper /root/fahtmpfs/cores/fahwebx.stanford.edu/cores/Linux/AMD64/Core_a4.fah/FahCore_a4 -dir 00 -suffix 01 -version 704 -lifeline 2228 -checkpoint 30 -np 1
+04:09:39:WU00:FS00:Started FahCore on PID 2290
+04:09:39:WU00:FS00:Core PID:2294
+04:09:39:WU00:FS00:FahCore 0xa4 started
+04:09:39:WU00:FS00:0xa4:
+04:09:39:WU00:FS00:0xa4:*------------------------------*
+04:09:39:WU00:FS00:0xa4:Folding@Home Gromacs GB Core
+04:09:39:WU00:FS00:0xa4:Version 2.27 (Dec. 15, 2010)
+04:09:39:WU00:FS00:0xa4:
+04:09:39:WU00:FS00:0xa4:Preparing to commence simulation
+04:09:39:WU00:FS00:0xa4:- Ensuring status. Please wait.
+04:09:48:WU00:FS00:0xa4:- Looking at optimizations...
+04:09:48:WU00:FS00:0xa4:- Working with standard loops on this execution.
+04:09:48:WU00:FS00:0xa4:- Previous termination of core was improper.
+04:09:48:WU00:FS00:0xa4:- Going to use standard loops.
+04:09:48:WU00:FS00:0xa4:- Files status OK
+04:09:49:WU00:FS00:0xa4:- Expanded 738619 -> 1926016 (decompressed 260.7 percent)
+04:09:49:WU00:FS00:0xa4:Called DecompressByteArray: compressed_data_size=738619 data_size=1926016, decompressed_data_size=1926016 diff=0
+04:09:49:WU00:FS00:0xa4:- Digital signature verified
+04:09:49:WU00:FS00:0xa4:
+04:09:49:WU00:FS00:0xa4:Project: 8621 (Run 0, Clone 984, Gen 9)
+04:09:49:WU00:FS00:0xa4:
+04:09:49:WU00:FS00:0xa4:Entering M.D.
+04:09:55:WU00:FS00:0xa4:Using Gromacs checkpoints
+04:09:55:WU00:FS00:0xa4:Resuming from checkpoint
+04:09:55:WU00:FS00:0xa4:Verified 00/wudata_01.log
+04:09:55:WU00:FS00:0xa4:Verified 00/wudata_01.trr
+04:09:55:WU00:FS00:0xa4:Verified 00/wudata_01.xtc
+04:09:55:WU00:FS00:0xa4:Verified 00/wudata_01.edr
+04:09:55:WU00:FS00:0xa4:Completed 744970 out of 2500000 steps  (29%)
+04:14:41:Caught signal SIGTERM(15) on PID 2228
+04:14:41:Exiting, please wait. . .
+04:14:41:Caught signal SIGTERM(15) on PID 2228
+[93m04:14:41:WARNING:Next signal will force exit[0m

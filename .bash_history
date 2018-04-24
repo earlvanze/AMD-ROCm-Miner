@@ -125,3 +125,51 @@ ls
 nano refind.conf 
 cat /nohup.out 
 reboot
+cat /nohup.out 
+nano /root/start-oc.sh
+nano /root/start-rtlinux.sh 
+cat /proc/interrupts
+cat /nohup.out 
+nano /root/start-rtlinux.sh 
+echo 1 > /proc/irq/12/smp_affinity_list
+echo 1 > /proc/irq/0/smp_affinity_list
+cat in
+cat interrupts.txt 
+ls
+cat /proc/interrupts
+ls /proc/irq/12
+cat /proc/irq/12/smp_affinity_list 
+nano /boot/efi/EFI/BOOT/refind.conf 
+cd /boot/efi/EFI/BOOT
+ls
+nano BOOT.CSV 
+cd ..
+ls
+cd ubuntu/
+ls
+nano grub.cfg 
+nano /root/start-rtlinux.sh 
+cat /proc/interrupts 
+cd 
+git add -A
+git commit -m "disabled cpu_affinity_list modifications because only have 2 cores"
+git push
+reboot
+cat /nohup.out 
+cat /proc/interrupts 
+cat /nohup.out 
+shutdown -h now
+cat /nohup.out 
+cat /proc/interrupts 
+cat /nohup.out 
+cat /proc/interrupts 
+cat /nohup.out 
+shutdown
+shutdown --help
+shutdown -h now
+cat /proc/interrupts 
+cat /nohup.out 
+reboot
+cat /proc/interrupts 
+cat /nohup.out 
+reboot
