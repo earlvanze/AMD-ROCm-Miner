@@ -1,0 +1,7 @@
+*.oclbin
+*.o
+keyconv
+oclvanitygen
+oclvanityminer
+vanitygen
+build

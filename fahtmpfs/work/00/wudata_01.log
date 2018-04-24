@@ -694,7 +694,7 @@ Grid: 11 x 11 x 11 cells
      Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
     2.44255e+04    5.53380e+04   -4.10380e+05   -1.02215e+05   -4.15667e+05
     Kinetic En.   Total Energy    Temperature Pressure (bar)   Constr. rmsd
-    7.98666e+04   -3.35801e+05    3.00629e+02    4.27881e+02    0.00000e+00
+    7.98666e+04   -3.35801e+05    3.00629e+02    4.27865e+02    0.00000e+00
   Constr.2 rmsd
     0.00000e+00
 
@@ -703,11 +703,11 @@ Grid: 11 x 11 x 11 cells
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
-    1.93932e+03    5.91789e+03    6.92654e+03    3.56834e+02    2.24470e+03
+    1.92867e+03    5.69593e+03    7.00324e+03    3.11398e+02    2.32982e+03
      Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
-    2.45049e+04    5.34972e+04   -4.08169e+05   -1.02232e+05   -4.15014e+05
+    2.45701e+04    5.37843e+04   -4.09435e+05   -1.02298e+05   -4.16110e+05
     Kinetic En.   Total Energy    Temperature Pressure (bar)   Constr. rmsd
-    7.99339e+04   -3.35080e+05    3.00882e+02   -9.44004e+01    2.91280e-06
+    7.96432e+04   -3.36467e+05    2.99788e+02   -2.45735e+01    2.86303e-06
   Constr.2 rmsd
-    2.90393e-06
+    2.84885e-06
 

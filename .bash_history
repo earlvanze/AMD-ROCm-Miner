@@ -173,3 +173,295 @@ reboot
 cat /proc/interrupts 
 cat /nohup.out 
 reboot
+cat /proc/interrupts 
+135:          2      16086   PCI-MSI 520192-edge      enp0s31f6
+136:         14      18862   PCI-MSI 1048576-edge      amdgpu
+137:         16      18579   PCI-MSI 2097152-edge      amdgpu
+138:         17      18465   PCI-MSI 2621440-edge      amdgpu
+139:          6      18659   PCI-MSI 3145728-edge      amdgpu
+140:          7      18209   PCI-MSI 4194304-edge      amdgpu
+nano /root/start-rtminer.sh 
+nano start.sh
+git pull
+nano start-rtlinux.sh 
+git stash
+git pull
+killall ethdcrminer64
+cat /proc/interrupts 
+cat /nohup.out 
+cd oclvanityminer/
+ls
+chmod +x Startwork 
+./Startwork 
+nano Startwork 
+chmod +x oclvanitygen 
+./Startwork 
+mv *.oclbin ..
+ls
+./Startwork 
+cat /nohup.out 
+nano nohup.out
+nano /nohup.out
+apt-get libssl-1.0-dev libpcre3-dev cmake libcurl3
+apt libssl-1.0-dev libpcre3-dev cmake libcurl3
+./Startwork 
+ubuntu
+lsb_release
+uname -a
+git pull
+tar -xvf CustomVegaVan.tgz 
+ls
+cd oclvanitygen
+ls
+ls -la
+cd build
+apt install libssl-1.0-dev libpcre3-dev cmake libcurl3
+apt install libssl-dev libpcre3-dev cmake libcurl3
+tar -xzf CustomVegaVan.tgz 
+ls
+cd vanitygen/
+ls
+cd build/
+cmake ..
+rm ../CMakeCache.txt
+cmake ..
+ls
+ls ..
+ls ../..
+make install
+ls
+which vanitygen
+make uninstall
+xargs rm < install_manifest.txt
+which vanitygen
+which keyconv
+make clean
+ls
+cmake ..
+ls
+ls ..
+nano Makefile 
+cmake ..
+ls ..
+ls
+nano cmake_install.cmake 
+make install
+ls
+which vanitygen
+mkdir ../bin
+ls
+mv keyconv ../bin/
+mv oclvanitygen ../bin
+mv oclvanityminer ../bin
+mv vanitygen ../bin/
+ls
+cd ../bin/
+ls
+rm /usr/local/share/vanitygen/scripts/calc_addrs.cl
+rm which oclvanityminer 
+which oclvanityminer 
+cd ..
+ls
+cd ..
+ls
+rm oclvanitygen
+ls
+cp vanitygen/bin/oclvanitygen .
+ls
+./Startwork 
+ls
+ls ..
+ls /
+mv 151711a79a9812df9c0ddd96099fd364.oclbin ..
+mv ../8585896a4acd13c0633f6bdfaa825ae8.oclbin .
+ls
+mv ../8585896a4acd13c0633f6bdfaa825ae8.oclbin ./151711a79a9812df9c0ddd96099fd364.oclbin
+mv 8585896a4acd13c0633f6bdfaa825ae8.oclbin 151711a79a9812df9c0ddd96099fd364.oclbin
+l;s
+ls
+./Startwork 
+cat 151711a79a9812df9c0ddd96099fd364.oclbin 
+mvroot@AMD-rocm-rippa:~/oclvanityminer# ./Startwork 8585896a4acd13c0633f6bdfaa825ae8.oclbin
+Difficulty: 2938077882634386
+clCreateKernel(0): CL_INVALID_KERNEL_NAME
+Device: Ellesmere
+Vendor: Advanced Micro Devices, Inc. (1002)
+Driver: 2527.3
+Profile: FULL_PROFILE
+Version: OpenCL 1.2 AMD-APP (2527.3)
+Max compute units: 36
+Max workgroup size: 256
+Global memory: 8559431680
+Max allocation: 4244635648
+Could not open device '0:0', ignoring
+clCreateKernel(0): CL_INVALID_KERNEL_NAME
+Device: Ellesmere
+Vendor: Advanced Micro Devices, Inc. (1002)
+Driver: 2527.3
+Profile: FULL_PROFILE
+Version: OpenCL 1.2 AMD-APP (2527.3)
+Max compute units: 36
+Max workgroup size: 256
+Global memory: 8559431680
+Max allocation: 4244635648
+Could not open device '0:1', ignoring
+clCreateKernel(0): CL_INVALID_KERNEL_NAME
+Device: Ellesmere
+Vendor: Advanced Micro Devices, Inc. (1002)
+Driver: 2527.3
+Profile: FULL_PROFILE
+ls
+rm 151711a79a9812df9c0ddd96099fd364.oclbin 
+mv ../151711a79a9812df9c0ddd96099fd364.oclbin .
+ls
+./Startwork 
+reboot
+ls
+cat /nohup.out 
+cat /proc/interrupts 
+cat /nohup.out 
+cat /root/oclvanityminer/
+cat /root/oclvanityminer/WIN
+cat /proc/interrupts 
+cat /root/oclvanityminer/WIN
+cat /nohup.out 
+ls /root/oclvanityminer/
+cat /root/oclvanityminer/Startwork 
+cat /nohup.out 
+cd /root/oclvanityminer/
+ls
+cd vanitygen/
+ls
+nano oclvanitygen.c
+nano oclvanityminer.c 
+nano oclvanitygen.c
+nano keyconv.c 
+nano oclvanitygen.c
+nano oclvanityminer.c 
+nano oclvanitygen.c
+ls
+cat /nohup.out 
+nano /root/start-rtlinux.sh 
+nano /root/start.sh 
+nano /root/start-rtlinux.sh 
+nano /root/start.sh 
+at /etc/modprobe.d/blacklist.conf | grep blacklist | sed s/blacklist//g  | xargs rmmod
+cat /etc/modprobe.d/blacklist.conf | grep blacklist | sed s/blacklist//g  | xargs rmmod
+cat /etc/modprobe.d/blacklist.conf | grep blacklist | sed s/blacklist//g
+cat /etc/modprobe.d/blacklist.conf | grep blacklist
+cat /etc/modprobe.d/blacklist.conf
+nano /root/start.sh 
+cd ~
+ls
+wget https://cs.uwaterloo.ca/~brecht/servers/apic/SMP-affinity.txt
+ls
+nano SMP-affinity.txt 
+ls -la /proc/irq/
+cat /proc/irq/default_smp_affinity 
+nano start-rtlinux.sh 
+cat /proc/interrupts 
+nano start-rtlinux.sh 
+ls -la /proc/irq/*
+nano start-rtlinux.sh 
+ls -la /proc/irq/2/smp_affinity
+ls -la /proc/irq/2/smp_affinity_list
+ls -la /proc/irq/141/smp_affinity_list
+ls -la /proc/irq/141/smp_affinity
+cat /proc/irq/141/smp_affinity
+cat /proc/irq/141/smp_affinity_list 
+nano start-rtminer.sh 
+nohup python /rootr/Claymore/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host us1.ethermine.org --remote-port 4444 --wallet-address 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0 &
+nano start-rtminer.sh 
+taskset -c 0 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dcoin sia -dpool stratum+tcp://us-east.siamining.com:7777 -dwal de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19.rig1 -dpsw x -asm 1 -dcri 17 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -cclock 1100 -mclock 2200 -cvddc 900 -mvddc 900
+cd /root/Claymore/
+taskset -c
+taskset -c 1
+nano ../start-rtminer.sh 
+taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dcoin sia -dpool stratum+tcp://us-east.siamining.com:7777 -dwal de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19.rig1 -dpsw x -asm 1 -dcri 17 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -cclock 1100 -mclock 2200 -cvddc 900 -mvddc 900
+nano ../start-rtminer.sh 
+../start-rtminer.sh 
+cd ..
+./start-rtminer.sh 
+ls
+ls /
+rm -rf https\:/
+nano .gitignore 
+ls -la
+nano .bashrc
+nano .gitignore 
+nano .profile
+nano .gnupg/
+cd .gnupg/
+ls
+nano gpg.conf 
+nano .nano
+cd ..
+nano .nano
+cd .nano/
+ls
+nano search_history 
+cd ..
+nano .gitignore 
+taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dcoin sia -dpool stratum+tcp://us-east.siamining.com:7777 -dwal de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19.rig1 -dpsw x -asm 1 -dcri 17 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -cclock 1100 -mclock 2200 -cvddc 900 -mvddc 900
+ls
+cat /proc/interrupts 
+nano start-rtminer.sh 
+taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dpsw x -asm 1 -dcri 17 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -cclock 1300 -mclock 2200 -cvddc 900 -mvddc 900
+nano start-rtminer.sh 
+taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dpsw x -asm 1 -dcri 48,14,18,20,26,16 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80  -mclock 2200 -mvddc 900
+taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dcoin sia -dpool stratum+tcp://us-east.siamining.com:7777 -dwal de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19.rig1 -dpsw x -asm 1 -dcri 1 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -mclock 2200 -mvddc 900
+taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dcoin sia -dpool stratum+tcp://us-east.siamining.com:7777 -dwal de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19.rig1 -dpsw x -asm 1 -dcri 48,14,18,20,26,16 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -mclock 2200 -mvddc 900
+taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig1 -epsw x -dcoin sia -dpool stratum+tcp://us-east.siamining.com:7777 -dwal de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19.rig1 -dpsw x -asm 1 -dcri 17 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -mclock 2200 -mvddc 900
+cat /nohup.out 
+cat /proc/interrupts
+top
+killall FahCore_a4
+top
+kill 2824
+ls
+top
+nano start-rtminer.sh 
+killall FAHClient
+nano start-rtminer.sh 
+top
+cat /nohup.out 
+ls
+ls oclvanityminer/
+rocm-smi
+which rocm-smi
+nano start.sh
+nano start-rtlinux.sh 
+nano start-rtminer.sh 
+nano start-oc.sh 
+/opt/rocm/bin/rocm-smi
+cat /nohup.out 
+rm /nohup.out 
+cd Claymore/
+ls
+cat nohup.out 
+rm nohup.out 
+cd ..
+ls
+cat no
+cat nohup.out 
+rm nohup.out 
+cat /nohup.out
+nano start.sh
+cat /nohup.out
+/opt/rocm/bin/rocm-smi
+cat /proc/interrupts 
+/opt/rocm/bin/rocm-smi
+cat /proc/interrupts 
+inotifywait
+nano start.sh 
+nano start-rtminer.sh 
+git add -A
+git status
+git status ethminer
+cd ethminer
+git status .
+cd ..
+ls
+apt install inotify-tools
+nano start-oc.sh
+nano start.sh

@@ -1,0 +1,3139 @@
+From root@earlvanze@gmail.com Tue Apr 24 17:57:16 2018
+Date: Tue, 24 Apr 2018 17:57:16 +0200
+From: root <root@earlvanze@gmail.com>
+To: earlvanze@gmail.com
+Subject: WIN!
+Message-ID: <20180424155716.GA3315@earlvanze@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="gKMricLos+KVdGMg"
+Content-Disposition: inline
+User-Agent: Mutt/1.5.24 (2015-08-30)
+Status: RO
+Content-Length: 57443
+Lines: 1116
+
+
+--gKMricLos+KVdGMg
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+
+
+--gKMricLos+KVdGMg
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: attachment; filename="nohup.out"
+Content-Transfer-Encoding: quoted-printable
+
+229 (process ID) old priority -15, new priority -20
+230 (process ID) old priority -15, new priority -20
+245 (process ID) old priority -15, new priority -20
+246 (process ID) old priority -15, new priority -20
+261 (process ID) old priority -15, new priority -20
+262 (process ID) old priority -15, new priority -20
+277 (process ID) old priority -15, new priority -20
+278 (process ID) old priority -15, new priority -20
+293 (process ID) old priority -15, new priority -20
+294 (process ID) old priority -15, new priority -20
+309 (process ID) old priority -15, new priority -20
+310 (process ID) old priority -15, new priority -20
+e
+tee: /proc/irq/0/smp_affinity: Input/output error
+tee: /proc/irq/1/smp_affinity: Value too large for defined data type
+tee: /proc/irq/10/smp_affinity: Value too large for defined data type
+tee: /proc/irq/11/smp_affinity: Value too large for defined data type
+tee: /proc/irq/12/smp_affinity: Value too large for defined data type
+tee: /proc/irq/120/smp_affinity: Value too large for defined data type
+tee: /proc/irq/121/smp_affinity: Value too large for defined data type
+tee: /proc/irq/122/smp_affinity: Value too large for defined data type
+tee: /proc/irq/123/smp_affinity: Value too large for defined data type
+tee: /proc/irq/124/smp_affinity: Value too large for defined data type
+tee: /proc/irq/125/smp_affinity: Value too large for defined data type
+tee: /proc/irq/126/smp_affinity: Value too large for defined data type
+tee: /proc/irq/127/smp_affinity: Value too large for defined data type
+tee: /proc/irq/128/smp_affinity: Value too large for defined data type
+tee: /proc/irq/129/smp_affinity: Value too large for defined data type
+tee: /proc/irq/13/smp_affinity: Value too large for defined data type
+tee: /proc/irq/130/smp_affinity: Value too large for defined data type
+tee: /proc/irq/131/smp_affinity: Value too large for defined data type
+tee: /proc/irq/132/smp_affinity: Value too large for defined data type
+tee: /proc/irq/133/smp_affinity: Value too large for defined data type
+tee: /proc/irq/134/smp_affinity: Value too large for defined data type
+tee: /proc/irq/136/smp_affinity: Value too large for defined data type
+tee: /proc/irq/137/smp_affinity: Value too large for defined data type
+tee: /proc/irq/138/smp_affinity: Value too large for defined data type
+tee: /proc/irq/139/smp_affinity: Value too large for defined data type
+tee: /proc/irq/14/smp_affinity: Value too large for defined data type
+tee: /proc/irq/140/smp_affinity: Value too large for defined data type
+tee: /proc/irq/141/smp_affinity: Value too large for defined data type
+tee: /proc/irq/15/smp_affinity: Value too large for defined data type
+tee: /proc/irq/2/smp_affinity: Input/output error
+tee: /proc/irq/3/smp_affinity: Value too large for defined data type
+tee: /proc/irq/4/smp_affinity: Value too large for defined data type
+tee: /proc/irq/5/smp_affinity: Value too large for defined data type
+tee: /proc/irq/6/smp_affinity: Value too large for defined data type
+tee: /proc/irq/7/smp_affinity: Value too large for defined data type
+tee: /proc/irq/8/smp_affinity: Value too large for defined data type
+tee: /proc/irq/9/smp_affinity: Value too large for defined data type
+/root/start-rtlinux.sh: line 28: /proc/irq/135/smp_affinity_list: No such f=
+ile or directory
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D    ROCm System=
+ Management Interface    =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+GPU[5] 		: Successfully set fan speed to Level 130
+GPU[3] 		: Successfully set fan speed to Level 130
+GPU[1] 		: Successfully set fan speed to Level 130
+GPU[4] 		: Successfully set fan speed to Level 130
+GPU[2] 		: Successfully set fan speed to Level 130
+GPU[0] 		: Successfully set fan speed to Level 130
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D           End =
+of ROCm SMI Log          =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+python: no process found
+ethdcrminer64: no process found
+FAHClient: no process found
+FAHClient: no process found
+FAHClient: no process found
+rm: cannot remove '/var/log/': Is a directory
+rm: cannot remove '/var/log/dist-upgrade': Is a directory
+rm: cannot remove '/var/log/apt': Is a directory
+rm: cannot remove '/var/log/fsck': Is a directory
+rm: cannot remove '/var/log/upstart': Is a directory
+rm: cannot remove '/var/log/sysstat': Is a directory
+rm: cannot remove '/var/log/wicd': Is a directory
+rm: cannot remove '/var/log/installer': Is a directory
+rm: cannot remove '/var/log/installer/cdebconf': Is a directory
+rm: cannot remove '/var/log/unattended-upgrades': Is a directory
+rm: cannot remove '/var/log/news': Is a directory
+Difficulty: 2938077882634386
+start: Job is already running: ssh
+/root/start-rtminer.sh: line 20: echo: Read-only file system
+219 (process ID) old priority -15, new priority -20
+235 (process ID) old priority -15, new priority -20
+251 (process ID) old priority -15, new priority -20
+267 (process ID) old priority -15, new priority -20
+283 (process ID) old priority -15, new priority -20
+299 (process ID) old priority -15, new priority -20
+2275 (process ID) old priority 0, new priority -20
+2276 (process ID) old priority 0, new priority -20
+8 (process ID) old priority -15, new priority -20
+9 (process ID) old priority -15, new priority -20
+10 (process ID) old priority -15, new priority -20
+=0D[42.98 Mkey/s][total 9437184][Prob 0.0%][50% in 1.5y]                   =
+       =0D[79.54 Mkey/s][total 18874368][Prob 0.0%][50% in 296.4d]         =
+              =0D[114.86 Mkey/s][total 28311552][Prob 0.0%][50% in 205.2d] =
+                     =0D[148.48 Mkey/s][total 37748736][Prob 0.0%][50% in 1=
+58.8d]                      =0D[178.79 Mkey/s][total 47185920][Prob 0.0%][5=
+0% in 131.8d]                      /etc/resolvconf/update.d/libc: Warning: =
+/etc/resolv.conf is not a symbolic link to /run/resolvconf/resolv.conf
+=0D[199.40 Mkey/s][total 56623104][Prob 0.0%][50% in 118.2d]               =
+       =0D[346.46 Mkey/s][total 283115520][Prob 0.0%][50% in 68.0d]        =
+              =0D[338.43 Mkey/s][total 386924544][Prob 0.0%][50% in 69.6d] =
+                     =0D[285.01 Mkey/s][total 849346560][Prob 0.0%][50% in =
+82.7d]                      =0D[291.40 Mkey/s][total 1104150528][Prob 0.0%]=
+[50% in 80.9d]                     =0D[289.97 Mkey/s][total 1415577600][Pro=
+b 0.0%][50% in 81.3d]                    =20
+=C9=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=BB
+=BA                Claymore's Dual GPU Miner - v11.5               =BA
+=BA              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             =BA
+=C8=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=BC
+
+=1B[0;31mno address specified - ignore
+=1B[0mETH: 1 pool is specified
+Main Ethereum pool is local.ethermine.org:8008
+SC: 1 pool is specified
+Main Siacoin pool is us-east.siamining.com:7777
+At least 16 GB of Virtual Memory is required for multi-GPU systems
+Make sure you defined GPU_MAX_ALLOC_PERCENT 100
+Be careful with overclocking, use default clocks for first tests
+Press "s" for current statistics, "0".."9" to turn on/off cards, "r" to rel=
+oad pools, "e" or "d" to select current pool, "x" to select GPU, "z" to fin=
+d best -dcri values
+OpenCL initializing...
+
+AMD Cards available: 6=20
+=1B[1;32mGPU #0: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 2:0:0)
+=1B[0mGPU #0 recognized as Radeon RX 480/580
+=1B[1;32mGPU #1: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 4:0:0)
+=1B[0mGPU #1 recognized as Radeon RX 480/580
+=1B[1;32mGPU #2: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 5:0:0)
+=1B[0mGPU #2 recognized as Radeon RX 480/580
+=1B[1;32mGPU #3: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 6:0:0)
+=1B[0mGPU #3 recognized as Radeon RX 480/580
+=1B[1;32mGPU #4: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 8:0:0)
+=1B[0mGPU #4 recognized as Radeon RX 480/580
+=1B[1;32mGPU #5: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 9:0:0)
+=1B[0mGPU #5 recognized as Radeon RX 480/580
+POOL/SOLO version
+GPU #0: algorithm ASM 1
+GPU #1: algorithm ASM 1
+GPU #2: algorithm ASM 1
+GPU #3: algorithm ASM 1
+GPU #4: algorithm ASM 1
+GPU #5: algorithm ASM 1
+No NVIDIA CUDA GPUs detected.
+=1B[1;32mTotal cards: 6=20
+=1B[0mAMD ADL library not found.
+ETH: Stratum - connecting to 'local.ethermine.org' <1.2.3.4> port 8008 (uns=
+ecure)
+=1B[1;32mETH: Stratum - Connected (local.ethermine.org:8008) (unsecure)
+=1B[0m=1B[0;36mDUAL MINING MODE ENABLED: ETHEREUM+SIACOIN=0D
+=1B[0mETH: eth-proxy stratum mode
+Watchdog disabled
+Remote management (READ-ONLY MODE) is enabled on port 3333
+=0D
+=0D[285.52 Mkey/s][total 1613758464][Prob 0.0%][50% in 82.6d]              =
+       =0D[269.10 Mkey/s][total 1934622720][Prob 0.0%][50% in 87.6d]       =
+               SC: Stratum - connecting to 'us-east.siamining.com' <45.79.1=
+88.191> port 7777 (unsecure)
+=1B[1;32m SC: Stratum - Connected (us-east.siamining.com:7777) (unsecure)
+=1B[0m=1B[1;32m SC: Authorized
+=1B[0m=1B[1;32mETH: Authorized
+=1B[0mSetting DAG epoch #183...
+=0D[284.22 Mkey/s][total 2179989504][Prob 0.0%][50% in 82.9d]              =
+       =0D[267.22 Mkey/s][total 2481979392][Prob 0.0%][50% in 88.2d]       =
+              Setting DAG epoch #183 for GPU5
+Create GPU buffer for GPU5
+=0D[270.99 Mkey/s][total 2774532096][Prob 0.0%][50% in 87.0d]              =
+       Setting DAG epoch #183 for GPU4
+Create GPU buffer for GPU4
+Setting DAG epoch #183 for GPU3
+Create GPU buffer for GPU3
+Setting DAG epoch #183 for GPU2
+Create GPU buffer for GPU2
+Setting DAG epoch #183 for GPU1
+Create GPU buffer for GPU1
+Setting DAG epoch #183 for GPU0
+Create GPU buffer for GPU0
+ETH: 04/24/18-17:46:03 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time:=
+ 00:00
+=1B[0m=1B[0;36mETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+=1B[0m=1B[1;33m SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0mGPU3 DAG creation time - 5067 ms
+Setting DAG epoch #183 for GPU3 done
+GPU0 DAG creation time - 5444 ms
+Setting DAG epoch #183 for GPU0 done
+ETH: 04/24/18-17:46:07 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 30.502 Mh/s, Total Shares: 0, Rejected: 0, Time=
+: 00:00
+=1B[0m=1B[0;36mETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 30.502 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 518.539 Mh/s, Total Shares: 0, Rejected: 0
+=1B[0m=1B[1;33m SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 518.539 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0mGPU5 DAG creation time - 6389 ms
+Setting DAG epoch #183 for GPU5 done
+GPU1 DAG creation time - 6700 ms
+Setting DAG epoch #183 for GPU1 done
+GPU4 DAG creation time - 6751 ms
+Setting DAG epoch #183 for GPU4 done
+GPU2 DAG creation time - 6759 ms
+Setting DAG epoch #183 for GPU2 done
+ SC: 04/24/18-17:46:13 - New job from us-east.siamining.com:7777
+=1B[1;32mETH: 04/24/18-17:46:18 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32mETH: Share accepted (28 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:46:20 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D51C fan=3D47%, GPU1 t=3D54C fan=3D47%, GPU2 t=3D66C=
+ fan=3D80%, GPU3 t=3D52C fan=3D47%, GPU4 t=3D58C fan=3D49%, GPU5 t=3D52C fa=
+n=3D47%
+=1B[0m=0D[230.56 Mkey/s][total 3067084800][Prob 0.0%][50% in 102.2d]       =
+             =1B[1;32m SC: 04/24/18-17:46:48 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:46:49 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.703 Mh/s, Total Shares: 2, Rejected: 0, Tim=
+e: 00:00
+=1B[0m=1B[0;36mETH: GPU0 28.566 Mh/s, GPU1 27.484 Mh/s, GPU2 27.250 Mh/s, G=
+PU3 30.456 Mh/s, GPU4 26.056 Mh/s, GPU5 28.891 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2867.951 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 485.618 Mh/s, GPU1 467.222 Mh/s, GPU2 463.249 Mh/s=
+, GPU3 517.758 Mh/s, GPU4 442.958 Mh/s, GPU5 491.146 Mh/s
+=1B[0m=1B[1;32mETH: 04/24/18-17:46:50 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-17:46:51 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.866 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:00
+=1B[0m=1B[0;36mETH: GPU0 28.754 Mh/s, GPU1 26.376 Mh/s, GPU2 27.278 Mh/s, G=
+PU3 30.491 Mh/s, GPU4 26.034 Mh/s, GPU5 28.934 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2853.725 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 488.810 Mh/s, GPU1 448.389 Mh/s, GPU2 463.728 Mh/s=
+, GPU3 518.343 Mh/s, GPU4 442.573 Mh/s, GPU5 491.882 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D57C fan=3D47%, GPU1 t=3D60C fan=3D60%, GPU2 t=3D71C=
+ fan=3D80%, GPU3 t=3D59C fan=3D51%, GPU4 t=3D64C fan=3D80%, GPU5 t=3D59C fa=
+n=3D50%
+=1B[0mETH: 04/24/18-17:47:01 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.693 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.327 Mh/s, GPU1 27.489 Mh/s, GPU2 27.438 Mh/s, G=
+PU3 30.438 Mh/s, GPU4 26.015 Mh/s, GPU5 28.986 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2867.781 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 481.552 Mh/s, GPU1 467.317 Mh/s, GPU2 466.445 Mh/s=
+, GPU3 517.448 Mh/s, GPU4 442.252 Mh/s, GPU5 492.767 Mh/s
+=1B[0mETH: 04/24/18-17:47:06 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.779 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.453 Mh/s, GPU1 27.469 Mh/s, GPU2 27.443 Mh/s, G=
+PU3 30.431 Mh/s, GPU4 26.040 Mh/s, GPU5 28.943 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2869.247 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 483.697 Mh/s, GPU1 466.979 Mh/s, GPU2 466.526 Mh/s=
+, GPU3 517.335 Mh/s, GPU4 442.679 Mh/s, GPU5 492.031 Mh/s
+=1B[0mETH: 04/24/18-17:47:07 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.911 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.583 Mh/s, GPU1 27.469 Mh/s, GPU2 27.427 Mh/s, G=
+PU3 30.482 Mh/s, GPU4 26.046 Mh/s, GPU5 28.905 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2871.491 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 485.902 Mh/s, GPU1 466.969 Mh/s, GPU2 466.264 Mh/s=
+, GPU3 518.188 Mh/s, GPU4 442.783 Mh/s, GPU5 491.385 Mh/s
+=1B[0m SC: 04/24/18-17:47:07 - New job from us-east.siamining.com:7777
+=1B[1;32mETH: 04/24/18-17:47:09 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D61C fan=3D70%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D75C=
+ fan=3D80%, GPU3 t=3D61C fan=3D80%, GPU4 t=3D68C fan=3D80%, GPU5 t=3D61C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:47:28 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 169.037 Mh/s, Total Shares: 4, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.320 Mh/s, GPU1 27.305 Mh/s, GPU2 27.448 Mh/s, G=
+PU3 30.665 Mh/s, GPU4 26.184 Mh/s, GPU5 29.114 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2873.626 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 481.436 Mh/s, GPU1 464.186 Mh/s, GPU2 466.615 Mh/s=
+, GPU3 521.312 Mh/s, GPU4 445.134 Mh/s, GPU5 494.943 Mh/s
+=1B[0m=1B[1;32m SC: 04/24/18-17:47:37 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:47:39 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (29 ms)!=0D
+=1B[0mETH: 04/24/18-17:47:48 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.756 Mh/s, Total Shares: 5, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.087 Mh/s, GPU1 27.365 Mh/s, GPU2 27.326 Mh/s, G=
+PU3 30.671 Mh/s, GPU4 26.198 Mh/s, GPU5 29.109 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2868.841 Mh/s, Total Shares: 2, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 477.472 Mh/s, GPU1 465.199 Mh/s, GPU2 464.536 Mh/s=
+, GPU3 521.411 Mh/s, GPU4 445.363 Mh/s, GPU5 494.860 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D60C fan=3D80%, GPU1 t=3D58C fan=3D80%, GPU2 t=3D78C=
+ fan=3D80%, GPU3 t=3D62C fan=3D80%, GPU4 t=3D70C fan=3D80%, GPU5 t=3D62C fa=
+n=3D80%
+=1B[0m=1B[1;32mETH: 04/24/18-17:47:54 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-17:47:56 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.941 Mh/s, Total Shares: 6, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 27.671 Mh/s, GPU1 27.366 Mh/s, GPU2 27.258 Mh/s, G=
+PU3 30.498 Mh/s, GPU4 26.045 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2855.000 Mh/s, Total Shares: 2, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 470.412 Mh/s, GPU1 465.216 Mh/s, GPU2 463.386 Mh/s=
+, GPU3 518.462 Mh/s, GPU4 442.761 Mh/s, GPU5 494.763 Mh/s
+=1B[0m=1B[1;32m SC: 04/24/18-17:47:56 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:47:57 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.466 Mh/s, Total Shares: 6, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.383 Mh/s, GPU1 27.169 Mh/s, GPU2 27.310 Mh/s, G=
+PU3 30.486 Mh/s, GPU4 26.015 Mh/s, GPU5 29.103 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2846.926 Mh/s, Total Shares: 3, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 465.509 Mh/s, GPU1 461.877 Mh/s, GPU2 464.269 Mh/s=
+, GPU3 518.265 Mh/s, GPU4 442.256 Mh/s, GPU5 494.750 Mh/s
+=1B[0mETH: 04/24/18-17:47:57 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.332 Mh/s, Total Shares: 6, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.383 Mh/s, GPU1 27.169 Mh/s, GPU2 27.310 Mh/s, G=
+PU3 30.462 Mh/s, GPU4 26.015 Mh/s, GPU5 28.993 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2844.646 Mh/s, Total Shares: 3, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 465.509 Mh/s, GPU1 461.877 Mh/s, GPU2 464.269 Mh/s=
+, GPU3 517.847 Mh/s, GPU4 442.256 Mh/s, GPU5 492.888 Mh/s
+=1B[0m SC: 04/24/18-17:48:02 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:48:04 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=0D[184.47 Mkey/s][total 3133145088][Prob 0.0%][50% in 127.8d]       =
+             =0D[184.23 Mkey/s][total 3142582272][Prob 0.0%][50% in 127.9d]=
+                    =1B[1;32mETH: 04/24/18-17:48:15 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m SC: 04/24/18-17:48:20 - New job from us-east.siamining.com:7777
+ETH: 04/24/18-17:48:22 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.614 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.502 Mh/s, GPU1 27.453 Mh/s, GPU2 27.265 Mh/s, G=
+PU3 30.397 Mh/s, GPU4 26.069 Mh/s, GPU5 28.929 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2849.437 Mh/s, Total Shares: 4, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 467.527 Mh/s, GPU1 466.695 Mh/s, GPU2 463.511 Mh/s=
+, GPU3 516.747 Mh/s, GPU4 443.171 Mh/s, GPU5 491.786 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D61C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D80C=
+ fan=3D80%, GPU3 t=3D63C fan=3D80%, GPU4 t=3D72C fan=3D80%, GPU5 t=3D63C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:48:27 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:48:39 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:48:41 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.158 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.764 Mh/s, GPU1 27.315 Mh/s, GPU2 27.484 Mh/s, G=
+PU3 30.666 Mh/s, GPU4 26.045 Mh/s, GPU5 28.885 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2858.687 Mh/s, Total Shares: 6, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 471.984 Mh/s, GPU1 464.351 Mh/s, GPU2 467.219 Mh/s=
+, GPU3 521.316 Mh/s, GPU4 442.772 Mh/s, GPU5 491.045 Mh/s
+=1B[0mETH: 04/24/18-17:48:41 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.158 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.764 Mh/s, GPU1 27.315 Mh/s, GPU2 27.484 Mh/s, G=
+PU3 30.666 Mh/s, GPU4 26.045 Mh/s, GPU5 28.885 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2858.687 Mh/s, Total Shares: 6, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 471.984 Mh/s, GPU1 464.351 Mh/s, GPU2 467.219 Mh/s=
+, GPU3 521.316 Mh/s, GPU4 442.772 Mh/s, GPU5 491.045 Mh/s
+=1B[0m=1B[1;32m SC: 04/24/18-17:48:42 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:48:43 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.539 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.187 Mh/s, GPU1 27.259 Mh/s, GPU2 27.413 Mh/s, G=
+PU3 30.667 Mh/s, GPU4 26.059 Mh/s, GPU5 28.954 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2848.152 Mh/s, Total Shares: 7, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 462.174 Mh/s, GPU1 463.399 Mh/s, GPU2 466.027 Mh/s=
+, GPU3 521.338 Mh/s, GPU4 442.996 Mh/s, GPU5 492.218 Mh/s
+=1B[0mETH: 04/24/18-17:48:47 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.359 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.824 Mh/s, GPU1 27.316 Mh/s, GPU2 27.431 Mh/s, G=
+PU3 30.670 Mh/s, GPU4 26.200 Mh/s, GPU5 28.917 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2862.094 Mh/s, Total Shares: 7, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 473.006 Mh/s, GPU1 464.375 Mh/s, GPU2 466.327 Mh/s=
+, GPU3 521.388 Mh/s, GPU4 445.406 Mh/s, GPU5 491.592 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D62C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D82C=
+ fan=3D80%, GPU3 t=3D65C fan=3D80%, GPU4 t=3D74C fan=3D80%, GPU5 t=3D63C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:48:56 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 169.056 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 28.317 Mh/s, GPU1 27.290 Mh/s, GPU2 27.486 Mh/s, G=
+PU3 30.667 Mh/s, GPU4 26.187 Mh/s, GPU5 29.109 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2873.955 Mh/s, Total Shares: 7, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 481.380 Mh/s, GPU1 463.938 Mh/s, GPU2 467.264 Mh/s=
+, GPU3 521.338 Mh/s, GPU4 445.183 Mh/s, GPU5 494.852 Mh/s
+=1B[0m=1B[1;32mETH: 04/24/18-17:48:59 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:01 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:49:12 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.131 Mh/s, Total Shares: 8, Rejected: 0, Tim=
+e: 00:03
+=1B[0m=1B[0;36mETH: GPU0 27.644 Mh/s, GPU1 27.291 Mh/s, GPU2 27.250 Mh/s, G=
+PU3 30.667 Mh/s, GPU4 26.172 Mh/s, GPU5 29.108 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2858.222 Mh/s, Total Shares: 8, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 469.944 Mh/s, GPU1 463.952 Mh/s, GPU2 463.241 Mh/s=
+, GPU3 521.341 Mh/s, GPU4 444.916 Mh/s, GPU5 494.828 Mh/s
+=1B[0mETH: 04/24/18-17:49:13 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.329 Mh/s, Total Shares: 8, Rejected: 0, Tim=
+e: 00:03
+=1B[0m=1B[0;36mETH: GPU0 27.062 Mh/s, GPU1 27.289 Mh/s, GPU2 27.250 Mh/s, G=
+PU3 30.431 Mh/s, GPU4 26.191 Mh/s, GPU5 29.106 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2844.583 Mh/s, Total Shares: 8, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 460.057 Mh/s, GPU1 463.906 Mh/s, GPU2 463.252 Mh/s=
+, GPU3 517.321 Mh/s, GPU4 445.245 Mh/s, GPU5 494.802 Mh/s
+=1B[0m SC: 04/24/18-17:49:15 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:49:18 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:49:22 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.979 Mh/s, Total Shares: 8, Rejected: 0, Tim=
+e: 00:03
+=1B[0m=1B[0;36mETH: GPU0 27.658 Mh/s, GPU1 27.284 Mh/s, GPU2 27.233 Mh/s, G=
+PU3 30.479 Mh/s, GPU4 26.222 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2855.646 Mh/s, Total Shares: 9, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 470.178 Mh/s, GPU1 463.824 Mh/s, GPU2 462.958 Mh/s=
+, GPU3 518.143 Mh/s, GPU4 445.774 Mh/s, GPU5 494.769 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D62C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D84C=
+ fan=3D80%, GPU3 t=3D65C fan=3D80%, GPU4 t=3D75C fan=3D80%, GPU5 t=3D64C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:25 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;31mGPU #2 reached STOP temperature (85 >=3D 85), stop mining on=
+ this GPU.
+=1B[0m=1B[1;32mETH: 04/24/18-17:49:43 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:49:46 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:51 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D62C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D61C=
+ fan=3D80%, GPU3 t=3D66C fan=3D80%, GPU4 t=3D76C fan=3D80%, GPU5 t=3D64C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:52 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:57 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:49:57 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:57 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m SC: 04/24/18-17:50:02 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:50:05 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:05 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:50:05 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.044 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 27.252 Mh/s, GPU1 27.421 Mh/s, GPU2 stopped, GPU3 =
+30.418 Mh/s, GPU4 26.031 Mh/s, GPU5 28.921 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2380.750 Mh/s, Total Shares: 16, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 463.290 Mh/s, GPU1 466.152 Mh/s, GPU2 stopped, GPU=
+3 517.114 Mh/s, GPU4 442.531 Mh/s, GPU5 491.663 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=0D[262.00 Mkey/s][total 3218079744][Prob 0.0%][50% in 90.0d]        =
+             ETH: 04/24/18-17:50:12 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.422 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 28.535 Mh/s, GPU1 27.280 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.058 Mh/s, GPU5 28.882 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.174 Mh/s, Total Shares: 16, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.095 Mh/s, GPU1 463.760 Mh/s, GPU2 stopped, GPU=
+3 521.338 Mh/s, GPU4 442.983 Mh/s, GPU5 490.998 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:50:12 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.422 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 28.535 Mh/s, GPU1 27.280 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.058 Mh/s, GPU5 28.882 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.174 Mh/s, Total Shares: 16, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.095 Mh/s, GPU1 463.760 Mh/s, GPU2 stopped, GPU=
+3 521.338 Mh/s, GPU4 442.983 Mh/s, GPU5 490.998 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:17 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D63C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D55C=
+ fan=3D80%, GPU3 t=3D67C fan=3D80%, GPU4 t=3D77C fan=3D80%, GPU5 t=3D64C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:23 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:24 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:39 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:50 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D63C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D53C=
+ fan=3D80%, GPU3 t=3D67C fan=3D80%, GPU4 t=3D78C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:50:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.820 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 28.541 Mh/s, GPU1 27.332 Mh/s, GPU2 stopped, GPU3 =
+30.671 Mh/s, GPU4 26.171 Mh/s, GPU5 29.105 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2410.929 Mh/s, Total Shares: 21, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.193 Mh/s, GPU1 464.636 Mh/s, GPU2 stopped, GPU=
+3 521.404 Mh/s, GPU4 444.914 Mh/s, GPU5 494.782 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-17:50:57 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:50:58 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:51:06 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-17:51:08 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.056 Mh/s, Total Shares: 12, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.621 Mh/s, GPU1 27.487 Mh/s, GPU2 stopped, GPU3 =
+30.662 Mh/s, GPU4 26.175 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.947 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 469.551 Mh/s, GPU1 467.283 Mh/s, GPU2 stopped, GPU=
+3 521.255 Mh/s, GPU4 444.982 Mh/s, GPU5 494.876 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:51:09 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.182 Mh/s, Total Shares: 12, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.826 Mh/s, GPU1 27.462 Mh/s, GPU2 stopped, GPU3 =
+30.598 Mh/s, GPU4 26.192 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2400.086 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 473.040 Mh/s, GPU1 466.856 Mh/s, GPU2 stopped, GPU=
+3 520.161 Mh/s, GPU4 445.269 Mh/s, GPU5 494.760 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:51:12 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (29 ms)!=0D
+=1B[0mETH: 04/24/18-17:51:13 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.219 Mh/s, Total Shares: 13, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.199 Mh/s, GPU1 27.478 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 25.998 Mh/s, GPU5 28.876 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2383.717 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 462.390 Mh/s, GPU1 467.127 Mh/s, GPU2 stopped, GPU=
+3 521.343 Mh/s, GPU4 441.969 Mh/s, GPU5 490.888 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:51:16 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.817 Mh/s, Total Shares: 13, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.783 Mh/s, GPU1 27.472 Mh/s, GPU2 stopped, GPU3 =
+30.663 Mh/s, GPU4 26.025 Mh/s, GPU5 28.875 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2393.882 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.314 Mh/s, GPU1 467.016 Mh/s, GPU2 stopped, GPU=
+3 521.267 Mh/s, GPU4 442.418 Mh/s, GPU5 490.867 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D52C=
+ fan=3D76%, GPU3 t=3D68C fan=3D80%, GPU4 t=3D79C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:51:29 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.738 Mh/s, Total Shares: 13, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.630 Mh/s, GPU1 27.494 Mh/s, GPU2 stopped, GPU3 =
+30.670 Mh/s, GPU4 26.065 Mh/s, GPU5 28.878 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2392.535 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 469.717 Mh/s, GPU1 467.395 Mh/s, GPU2 stopped, GPU=
+3 521.389 Mh/s, GPU4 443.112 Mh/s, GPU5 490.922 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:51:33 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:45 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:51:46 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 139.484 Mh/s, Total Shares: 14, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 26.508 Mh/s, GPU1 27.323 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.063 Mh/s, GPU5 28.922 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2371.228 Mh/s, Total Shares: 23, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 450.642 Mh/s, GPU1 464.495 Mh/s, GPU2 stopped, GPU=
+3 521.333 Mh/s, GPU4 443.079 Mh/s, GPU5 491.679 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:51:47 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 139.356 Mh/s, Total Shares: 14, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 26.440 Mh/s, GPU1 27.321 Mh/s, GPU2 stopped, GPU3 =
+30.636 Mh/s, GPU4 26.039 Mh/s, GPU5 28.919 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2369.048 Mh/s, Total Shares: 23, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 449.482 Mh/s, GPU1 464.464 Mh/s, GPU2 stopped, GPU=
+3 520.814 Mh/s, GPU4 442.666 Mh/s, GPU5 491.622 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-17:51:52 - New job from us-east.siamining.com:7777
+=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D51C fan=
+=3D47%, GPU3 t=3D68C fan=3D80%, GPU4 t=3D79C fan=3D80%, GPU5 t=3D65C fan=3D=
+80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:54 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=0D[217.10 Mkey/s][total 3274702848][Prob 0.0%][50% in 108.6d]       =
+             ETH: 04/24/18-17:51:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.693 Mh/s, Total Shares: 14, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.795 Mh/s, GPU1 27.304 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.020 Mh/s, GPU5 28.907 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2391.776 Mh/s, Total Shares: 24, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.515 Mh/s, GPU1 464.170 Mh/s, GPU2 stopped, GPU=
+3 521.340 Mh/s, GPU4 442.338 Mh/s, GPU5 491.413 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:55 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:58 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:52:00 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:00 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:02 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;31mGPU #5 got incorrect share. If you see this warning often, m=
+ake sure you did not overclock it too much!
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:04 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:09 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:10 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:11 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:11 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:13 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:52:15 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (29 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:16 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:52:18 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.432 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 28.186 Mh/s, GPU1 27.291 Mh/s, GPU2 stopped, GPU3 =
+30.668 Mh/s, GPU4 26.185 Mh/s, GPU5 29.102 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.345 Mh/s, Total Shares: 35, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 479.157 Mh/s, GPU1 463.951 Mh/s, GPU2 stopped, GPU=
+3 521.360 Mh/s, GPU4 445.147 Mh/s, GPU5 494.730 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:20 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:20 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:22 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D64C=
+ fan=3D54%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D80C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:23 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:52:23 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.373 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 27.807 Mh/s, GPU1 26.817 Mh/s, GPU2 stopped, GPU3 =
+30.424 Mh/s, GPU4 26.222 Mh/s, GPU5 29.103 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2386.332 Mh/s, Total Shares: 39, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.712 Mh/s, GPU1 455.891 Mh/s, GPU2 stopped, GPU=
+3 517.214 Mh/s, GPU4 445.773 Mh/s, GPU5 494.742 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:24 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:24 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:24 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:26 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:27 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:27 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:28 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:31 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:35 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:38 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:40 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:40 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:40 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:43 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:52:43 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.381 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 28.172 Mh/s, GPU1 27.465 Mh/s, GPU2 stopped, GPU3 =
+30.420 Mh/s, GPU4 26.214 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2403.480 Mh/s, Total Shares: 53, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 478.921 Mh/s, GPU1 466.909 Mh/s, GPU2 stopped, GPU=
+3 517.143 Mh/s, GPU4 445.634 Mh/s, GPU5 494.873 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:43 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:43 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:44 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:44 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:44 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: Share accepted (13 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:47 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m SC: 04/24/18-17:52:47 - New job from us-east.siamining.com:7777
+=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C fan=
+=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D80C fan=3D80%, GPU5 t=3D66C fan=3D=
+80%
+=1B[0mETH: 04/24/18-17:52:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.713 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 27.832 Mh/s, GPU1 27.481 Mh/s, GPU2 stopped, GPU3 =
+30.464 Mh/s, GPU4 25.985 Mh/s, GPU5 28.951 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2392.120 Mh/s, Total Shares: 59, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 473.152 Mh/s, GPU1 467.173 Mh/s, GPU2 stopped, GPU=
+3 517.887 Mh/s, GPU4 441.742 Mh/s, GPU5 492.166 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:04 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:11 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:53:14 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 139.712 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:07
+=1B[0m=1B[0;36mETH: GPU0 26.688 Mh/s, GPU1 27.347 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.075 Mh/s, GPU5 28.938 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2375.111 Mh/s, Total Shares: 61, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 453.691 Mh/s, GPU1 464.895 Mh/s, GPU2 stopped, GPU=
+3 521.298 Mh/s, GPU4 443.276 Mh/s, GPU5 491.951 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=0D[47.08 Mkey/s][total 3510632448][Prob 0.0%][50% in 1.4y]          =
+             =1B[1;32m SC: 04/24/18-17:53:21 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:22 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:53:30 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.946 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:07
+=1B[0m=1B[0;36mETH: GPU0 28.068 Mh/s, GPU1 27.282 Mh/s, GPU2 stopped, GPU3 =
+30.668 Mh/s, GPU4 26.022 Mh/s, GPU5 28.907 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2396.081 Mh/s, Total Shares: 63, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 477.149 Mh/s, GPU1 463.788 Mh/s, GPU2 stopped, GPU=
+3 521.361 Mh/s, GPU4 442.373 Mh/s, GPU5 491.410 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:30 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:53:35 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (33 ms)!=0D
+=1B[0m SC: 04/24/18-17:53:42 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:53:43 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:50 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:53:51 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=0D[2.68 Mkey/s][total 3586129920][Prob 0.0%][50% in 24.1y]          =
+             =1B[1;32mETH: 04/24/18-17:53:53 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:58 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:00 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.804 Mh/s, Total Shares: 19, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.545 Mh/s, GPU1 27.479 Mh/s, GPU2 stopped, GPU3 =
+30.460 Mh/s, GPU4 26.215 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2410.669 Mh/s, Total Shares: 67, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.273 Mh/s, GPU1 467.146 Mh/s, GPU2 stopped, GPU=
+3 517.825 Mh/s, GPU4 445.652 Mh/s, GPU5 494.773 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:54:05 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:09 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:10 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.061 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.804 Mh/s, GPU1 27.482 Mh/s, GPU2 stopped, GPU3 =
+30.449 Mh/s, GPU4 26.223 Mh/s, GPU5 29.102 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2415.028 Mh/s, Total Shares: 68, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 489.665 Mh/s, GPU1 467.193 Mh/s, GPU2 stopped, GPU=
+3 517.634 Mh/s, GPU4 445.797 Mh/s, GPU5 494.739 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:19 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:19 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.152 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 27.977 Mh/s, GPU1 27.431 Mh/s, GPU2 stopped, GPU3 =
+30.458 Mh/s, GPU4 26.170 Mh/s, GPU5 29.115 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2399.578 Mh/s, Total Shares: 69, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 475.613 Mh/s, GPU1 466.330 Mh/s, GPU2 stopped, GPU=
+3 517.789 Mh/s, GPU4 444.887 Mh/s, GPU5 494.959 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:54:20 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.498 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.561 Mh/s, GPU1 27.473 Mh/s, GPU2 stopped, GPU3 =
+30.437 Mh/s, GPU4 26.084 Mh/s, GPU5 28.944 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.467 Mh/s, Total Shares: 69, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.535 Mh/s, GPU1 467.041 Mh/s, GPU2 stopped, GPU=
+3 517.426 Mh/s, GPU4 443.423 Mh/s, GPU5 492.042 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:31 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m SC: 04/24/18-17:54:37 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:54:40 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:44 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:46 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.509 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.569 Mh/s, GPU1 27.305 Mh/s, GPU2 stopped, GPU3 =
+30.669 Mh/s, GPU4 26.053 Mh/s, GPU5 28.913 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.648 Mh/s, Total Shares: 72, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.669 Mh/s, GPU1 464.193 Mh/s, GPU2 stopped, GPU=
+3 521.366 Mh/s, GPU4 442.900 Mh/s, GPU5 491.520 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:50 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:55:01 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.833 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 28.931 Mh/s, GPU1 27.349 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.002 Mh/s, GPU5 28.885 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2411.152 Mh/s, Total Shares: 73, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 491.830 Mh/s, GPU1 464.932 Mh/s, GPU2 stopped, GPU=
+3 521.319 Mh/s, GPU4 442.030 Mh/s, GPU5 491.041 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:55:04 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 136.266 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 23.319 Mh/s, GPU1 27.295 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.063 Mh/s, GPU5 28.922 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2316.516 Mh/s, Total Shares: 73, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 396.417 Mh/s, GPU1 464.017 Mh/s, GPU2 stopped, GPU=
+3 521.330 Mh/s, GPU4 443.078 Mh/s, GPU5 491.674 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:04 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:13 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:55:14 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.954 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 28.034 Mh/s, GPU1 27.302 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.077 Mh/s, GPU5 28.875 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2396.211 Mh/s, Total Shares: 75, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 476.578 Mh/s, GPU1 464.129 Mh/s, GPU2 stopped, GPU=
+3 521.319 Mh/s, GPU4 443.311 Mh/s, GPU5 490.874 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:18 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:55:25 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.025 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 27.925 Mh/s, GPU1 27.301 Mh/s, GPU2 stopped, GPU3 =
+30.481 Mh/s, GPU4 26.202 Mh/s, GPU5 29.116 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.427 Mh/s, Total Shares: 76, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 474.721 Mh/s, GPU1 464.119 Mh/s, GPU2 stopped, GPU=
+3 518.176 Mh/s, GPU4 445.434 Mh/s, GPU5 494.977 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:31 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m SC: 04/24/18-17:55:32 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:55:38 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:55:48 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.696 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 28.492 Mh/s, GPU1 27.469 Mh/s, GPU2 stopped, GPU3 =
+30.441 Mh/s, GPU4 26.202 Mh/s, GPU5 29.092 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2408.838 Mh/s, Total Shares: 78, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 484.358 Mh/s, GPU1 466.978 Mh/s, GPU2 stopped, GPU=
+3 517.497 Mh/s, GPU4 445.438 Mh/s, GPU5 494.567 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m/root/QuantumRNG/pollinate: 26: /root/QuantumRNG/pollinate: qrandom: =
+not found
+client successfully seeded [/dev/urandom] from ANU Quantum Server
+system was previously seeded at [2018-03-24 09:59:29.143486025 +0100]
+=1B[1;32mETH: 04/24/18-17:55:49 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:58 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:56:07 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.840 Mh/s, Total Shares: 21, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 28.551 Mh/s, GPU1 27.484 Mh/s, GPU2 stopped, GPU3 =
+30.501 Mh/s, GPU4 26.201 Mh/s, GPU5 29.103 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2411.276 Mh/s, Total Shares: 79, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.368 Mh/s, GPU1 467.230 Mh/s, GPU2 stopped, GPU=
+3 518.509 Mh/s, GPU4 445.414 Mh/s, GPU5 494.755 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:12 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:56:12 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:15 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:15 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:56:15 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.065 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 28.786 Mh/s, GPU1 27.480 Mh/s, GPU2 stopped, GPU3 =
+30.493 Mh/s, GPU4 26.198 Mh/s, GPU5 29.107 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2415.097 Mh/s, Total Shares: 82, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 489.367 Mh/s, GPU1 467.160 Mh/s, GPU2 stopped, GPU=
+3 518.384 Mh/s, GPU4 445.362 Mh/s, GPU5 494.824 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:16 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:18 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:56:23 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.817 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 27.684 Mh/s, GPU1 27.262 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.093 Mh/s, GPU5 29.112 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2393.891 Mh/s, Total Shares: 84, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 470.628 Mh/s, GPU1 463.458 Mh/s, GPU2 stopped, GPU=
+3 521.311 Mh/s, GPU4 443.583 Mh/s, GPU5 494.911 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:25 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m SC: 04/24/18-17:56:27 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:56:49 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:56:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.868 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 27.807 Mh/s, GPU1 27.254 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.032 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2394.750 Mh/s, Total Shares: 86, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.719 Mh/s, GPU1 463.309 Mh/s, GPU2 stopped, GPU=
+3 521.303 Mh/s, GPU4 442.548 Mh/s, GPU5 494.871 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:59 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:04 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:57:04 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.610 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:11
+=1B[0m=1B[0;36mETH: GPU0 28.688 Mh/s, GPU1 27.293 Mh/s, GPU2 stopped, GPU3 =
+30.455 Mh/s, GPU4 26.064 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2407.361 Mh/s, Total Shares: 88, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 487.697 Mh/s, GPU1 463.974 Mh/s, GPU2 stopped, GPU=
+3 517.734 Mh/s, GPU4 443.084 Mh/s, GPU5 494.872 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m
+--gKMricLos+KVdGMg--
+
+From earlvanze@gmail.com Tue Apr 24 18:06:44 2018
+Date: Tue, 24 Apr 2018 18:06:44 +0200
+From: Miner Rig <earlvanze@gmail.com>
+To: earlvanze@gmail.com
+Subject: test from mutt
+Message-ID: <20180424160644.GA3444@earlvanze@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Mutt/1.5.24 (2015-08-30)
+Status: RO
+Content-Length: 101649
+Lines: 1992
+
+229 (process ID) old priority -15, new priority -20
+230 (process ID) old priority -15, new priority -20
+245 (process ID) old priority -15, new priority -20
+246 (process ID) old priority -15, new priority -20
+261 (process ID) old priority -15, new priority -20
+262 (process ID) old priority -15, new priority -20
+277 (process ID) old priority -15, new priority -20
+278 (process ID) old priority -15, new priority -20
+293 (process ID) old priority -15, new priority -20
+294 (process ID) old priority -15, new priority -20
+309 (process ID) old priority -15, new priority -20
+310 (process ID) old priority -15, new priority -20
+e
+tee: /proc/irq/0/smp_affinity: Input/output error
+tee: /proc/irq/1/smp_affinity: Value too large for defined data type
+tee: /proc/irq/10/smp_affinity: Value too large for defined data type
+tee: /proc/irq/11/smp_affinity: Value too large for defined data type
+tee: /proc/irq/12/smp_affinity: Value too large for defined data type
+tee: /proc/irq/120/smp_affinity: Value too large for defined data type
+tee: /proc/irq/121/smp_affinity: Value too large for defined data type
+tee: /proc/irq/122/smp_affinity: Value too large for defined data type
+tee: /proc/irq/123/smp_affinity: Value too large for defined data type
+tee: /proc/irq/124/smp_affinity: Value too large for defined data type
+tee: /proc/irq/125/smp_affinity: Value too large for defined data type
+tee: /proc/irq/126/smp_affinity: Value too large for defined data type
+tee: /proc/irq/127/smp_affinity: Value too large for defined data type
+tee: /proc/irq/128/smp_affinity: Value too large for defined data type
+tee: /proc/irq/129/smp_affinity: Value too large for defined data type
+tee: /proc/irq/13/smp_affinity: Value too large for defined data type
+tee: /proc/irq/130/smp_affinity: Value too large for defined data type
+tee: /proc/irq/131/smp_affinity: Value too large for defined data type
+tee: /proc/irq/132/smp_affinity: Value too large for defined data type
+tee: /proc/irq/133/smp_affinity: Value too large for defined data type
+tee: /proc/irq/134/smp_affinity: Value too large for defined data type
+tee: /proc/irq/136/smp_affinity: Value too large for defined data type
+tee: /proc/irq/137/smp_affinity: Value too large for defined data type
+tee: /proc/irq/138/smp_affinity: Value too large for defined data type
+tee: /proc/irq/139/smp_affinity: Value too large for defined data type
+tee: /proc/irq/14/smp_affinity: Value too large for defined data type
+tee: /proc/irq/140/smp_affinity: Value too large for defined data type
+tee: /proc/irq/141/smp_affinity: Value too large for defined data type
+tee: /proc/irq/15/smp_affinity: Value too large for defined data type
+tee: /proc/irq/2/smp_affinity: Input/output error
+tee: /proc/irq/3/smp_affinity: Value too large for defined data type
+tee: /proc/irq/4/smp_affinity: Value too large for defined data type
+tee: /proc/irq/5/smp_affinity: Value too large for defined data type
+tee: /proc/irq/6/smp_affinity: Value too large for defined data type
+tee: /proc/irq/7/smp_affinity: Value too large for defined data type
+tee: /proc/irq/8/smp_affinity: Value too large for defined data type
+tee: /proc/irq/9/smp_affinity: Value too large for defined data type
+/root/start-rtlinux.sh: line 28: /proc/irq/135/smp_affinity_list: No such f=
+ile or directory
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D    ROCm System=
+ Management Interface    =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+GPU[5] 		: Successfully set fan speed to Level 130
+GPU[3] 		: Successfully set fan speed to Level 130
+GPU[1] 		: Successfully set fan speed to Level 130
+GPU[4] 		: Successfully set fan speed to Level 130
+GPU[2] 		: Successfully set fan speed to Level 130
+GPU[0] 		: Successfully set fan speed to Level 130
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D           End =
+of ROCm SMI Log          =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D
+
+python: no process found
+ethdcrminer64: no process found
+FAHClient: no process found
+FAHClient: no process found
+FAHClient: no process found
+rm: cannot remove '/var/log/': Is a directory
+rm: cannot remove '/var/log/dist-upgrade': Is a directory
+rm: cannot remove '/var/log/apt': Is a directory
+rm: cannot remove '/var/log/fsck': Is a directory
+rm: cannot remove '/var/log/upstart': Is a directory
+rm: cannot remove '/var/log/sysstat': Is a directory
+rm: cannot remove '/var/log/wicd': Is a directory
+rm: cannot remove '/var/log/installer': Is a directory
+rm: cannot remove '/var/log/installer/cdebconf': Is a directory
+rm: cannot remove '/var/log/unattended-upgrades': Is a directory
+rm: cannot remove '/var/log/news': Is a directory
+Difficulty: 2938077882634386
+start: Job is already running: ssh
+/root/start-rtminer.sh: line 20: echo: Read-only file system
+219 (process ID) old priority -15, new priority -20
+235 (process ID) old priority -15, new priority -20
+251 (process ID) old priority -15, new priority -20
+267 (process ID) old priority -15, new priority -20
+283 (process ID) old priority -15, new priority -20
+299 (process ID) old priority -15, new priority -20
+2275 (process ID) old priority 0, new priority -20
+2276 (process ID) old priority 0, new priority -20
+8 (process ID) old priority -15, new priority -20
+9 (process ID) old priority -15, new priority -20
+10 (process ID) old priority -15, new priority -20
+=0D[42.98 Mkey/s][total 9437184][Prob 0.0%][50% in 1.5y]                   =
+       =0D[79.54 Mkey/s][total 18874368][Prob 0.0%][50% in 296.4d]         =
+              =0D[114.86 Mkey/s][total 28311552][Prob 0.0%][50% in 205.2d] =
+                     =0D[148.48 Mkey/s][total 37748736][Prob 0.0%][50% in 1=
+58.8d]                      =0D[178.79 Mkey/s][total 47185920][Prob 0.0%][5=
+0% in 131.8d]                      /etc/resolvconf/update.d/libc: Warning: =
+/etc/resolv.conf is not a symbolic link to /run/resolvconf/resolv.conf
+=0D[199.40 Mkey/s][total 56623104][Prob 0.0%][50% in 118.2d]               =
+       =0D[346.46 Mkey/s][total 283115520][Prob 0.0%][50% in 68.0d]        =
+              =0D[338.43 Mkey/s][total 386924544][Prob 0.0%][50% in 69.6d] =
+                     =0D[285.01 Mkey/s][total 849346560][Prob 0.0%][50% in =
+82.7d]                      =0D[291.40 Mkey/s][total 1104150528][Prob 0.0%]=
+[50% in 80.9d]                     =0D[289.97 Mkey/s][total 1415577600][Pro=
+b 0.0%][50% in 81.3d]                    =20
+=C9=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=BB
+=BA                Claymore's Dual GPU Miner - v11.5               =BA
+=BA              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             =BA
+=C8=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=
+=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=CD=BC
+
+=1B[0;31mno address specified - ignore
+=1B[0mETH: 1 pool is specified
+Main Ethereum pool is local.ethermine.org:8008
+SC: 1 pool is specified
+Main Siacoin pool is us-east.siamining.com:7777
+At least 16 GB of Virtual Memory is required for multi-GPU systems
+Make sure you defined GPU_MAX_ALLOC_PERCENT 100
+Be careful with overclocking, use default clocks for first tests
+Press "s" for current statistics, "0".."9" to turn on/off cards, "r" to rel=
+oad pools, "e" or "d" to select current pool, "x" to select GPU, "z" to fin=
+d best -dcri values
+OpenCL initializing...
+
+AMD Cards available: 6=20
+=1B[1;32mGPU #0: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 2:0:0)
+=1B[0mGPU #0 recognized as Radeon RX 480/580
+=1B[1;32mGPU #1: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 4:0:0)
+=1B[0mGPU #1 recognized as Radeon RX 480/580
+=1B[1;32mGPU #2: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 5:0:0)
+=1B[0mGPU #2 recognized as Radeon RX 480/580
+=1B[1;32mGPU #3: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 6:0:0)
+=1B[0mGPU #3 recognized as Radeon RX 480/580
+=1B[1;32mGPU #4: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 8:0:0)
+=1B[0mGPU #4 recognized as Radeon RX 480/580
+=1B[1;32mGPU #5: Ellesmere (Radeon RX 580 Series), 6936 MB available, 36 co=
+mpute units (pci bus 9:0:0)
+=1B[0mGPU #5 recognized as Radeon RX 480/580
+POOL/SOLO version
+GPU #0: algorithm ASM 1
+GPU #1: algorithm ASM 1
+GPU #2: algorithm ASM 1
+GPU #3: algorithm ASM 1
+GPU #4: algorithm ASM 1
+GPU #5: algorithm ASM 1
+No NVIDIA CUDA GPUs detected.
+=1B[1;32mTotal cards: 6=20
+=1B[0mAMD ADL library not found.
+ETH: Stratum - connecting to 'local.ethermine.org' <1.2.3.4> port 8008 (uns=
+ecure)
+=1B[1;32mETH: Stratum - Connected (local.ethermine.org:8008) (unsecure)
+=1B[0m=1B[0;36mDUAL MINING MODE ENABLED: ETHEREUM+SIACOIN=0D
+=1B[0mETH: eth-proxy stratum mode
+Watchdog disabled
+Remote management (READ-ONLY MODE) is enabled on port 3333
+=0D
+=0D[285.52 Mkey/s][total 1613758464][Prob 0.0%][50% in 82.6d]              =
+       =0D[269.10 Mkey/s][total 1934622720][Prob 0.0%][50% in 87.6d]       =
+               SC: Stratum - connecting to 'us-east.siamining.com' <45.79.1=
+88.191> port 7777 (unsecure)
+=1B[1;32m SC: Stratum - Connected (us-east.siamining.com:7777) (unsecure)
+=1B[0m=1B[1;32m SC: Authorized
+=1B[0m=1B[1;32mETH: Authorized
+=1B[0mSetting DAG epoch #183...
+=0D[284.22 Mkey/s][total 2179989504][Prob 0.0%][50% in 82.9d]              =
+       =0D[267.22 Mkey/s][total 2481979392][Prob 0.0%][50% in 88.2d]       =
+              Setting DAG epoch #183 for GPU5
+Create GPU buffer for GPU5
+=0D[270.99 Mkey/s][total 2774532096][Prob 0.0%][50% in 87.0d]              =
+       Setting DAG epoch #183 for GPU4
+Create GPU buffer for GPU4
+Setting DAG epoch #183 for GPU3
+Create GPU buffer for GPU3
+Setting DAG epoch #183 for GPU2
+Create GPU buffer for GPU2
+Setting DAG epoch #183 for GPU1
+Create GPU buffer for GPU1
+Setting DAG epoch #183 for GPU0
+Create GPU buffer for GPU0
+ETH: 04/24/18-17:46:03 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time:=
+ 00:00
+=1B[0m=1B[0;36mETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+=1B[0m=1B[1;33m SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0mGPU3 DAG creation time - 5067 ms
+Setting DAG epoch #183 for GPU3 done
+GPU0 DAG creation time - 5444 ms
+Setting DAG epoch #183 for GPU0 done
+ETH: 04/24/18-17:46:07 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 30.502 Mh/s, Total Shares: 0, Rejected: 0, Time=
+: 00:00
+=1B[0m=1B[0;36mETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 30.502 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 518.539 Mh/s, Total Shares: 0, Rejected: 0
+=1B[0m=1B[1;33m SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3=
+ 518.539 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+=1B[0mGPU5 DAG creation time - 6389 ms
+Setting DAG epoch #183 for GPU5 done
+GPU1 DAG creation time - 6700 ms
+Setting DAG epoch #183 for GPU1 done
+GPU4 DAG creation time - 6751 ms
+Setting DAG epoch #183 for GPU4 done
+GPU2 DAG creation time - 6759 ms
+Setting DAG epoch #183 for GPU2 done
+ SC: 04/24/18-17:46:13 - New job from us-east.siamining.com:7777
+=1B[1;32mETH: 04/24/18-17:46:18 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32mETH: Share accepted (28 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:46:20 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D51C fan=3D47%, GPU1 t=3D54C fan=3D47%, GPU2 t=3D66C=
+ fan=3D80%, GPU3 t=3D52C fan=3D47%, GPU4 t=3D58C fan=3D49%, GPU5 t=3D52C fa=
+n=3D47%
+=1B[0m=0D[230.56 Mkey/s][total 3067084800][Prob 0.0%][50% in 102.2d]       =
+             =1B[1;32m SC: 04/24/18-17:46:48 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:46:49 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.703 Mh/s, Total Shares: 2, Rejected: 0, Tim=
+e: 00:00
+=1B[0m=1B[0;36mETH: GPU0 28.566 Mh/s, GPU1 27.484 Mh/s, GPU2 27.250 Mh/s, G=
+PU3 30.456 Mh/s, GPU4 26.056 Mh/s, GPU5 28.891 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2867.951 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 485.618 Mh/s, GPU1 467.222 Mh/s, GPU2 463.249 Mh/s=
+, GPU3 517.758 Mh/s, GPU4 442.958 Mh/s, GPU5 491.146 Mh/s
+=1B[0m=1B[1;32mETH: 04/24/18-17:46:50 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-17:46:51 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.866 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:00
+=1B[0m=1B[0;36mETH: GPU0 28.754 Mh/s, GPU1 26.376 Mh/s, GPU2 27.278 Mh/s, G=
+PU3 30.491 Mh/s, GPU4 26.034 Mh/s, GPU5 28.934 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2853.725 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 488.810 Mh/s, GPU1 448.389 Mh/s, GPU2 463.728 Mh/s=
+, GPU3 518.343 Mh/s, GPU4 442.573 Mh/s, GPU5 491.882 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D57C fan=3D47%, GPU1 t=3D60C fan=3D60%, GPU2 t=3D71C=
+ fan=3D80%, GPU3 t=3D59C fan=3D51%, GPU4 t=3D64C fan=3D80%, GPU5 t=3D59C fa=
+n=3D50%
+=1B[0mETH: 04/24/18-17:47:01 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.693 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.327 Mh/s, GPU1 27.489 Mh/s, GPU2 27.438 Mh/s, G=
+PU3 30.438 Mh/s, GPU4 26.015 Mh/s, GPU5 28.986 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2867.781 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 481.552 Mh/s, GPU1 467.317 Mh/s, GPU2 466.445 Mh/s=
+, GPU3 517.448 Mh/s, GPU4 442.252 Mh/s, GPU5 492.767 Mh/s
+=1B[0mETH: 04/24/18-17:47:06 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.779 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.453 Mh/s, GPU1 27.469 Mh/s, GPU2 27.443 Mh/s, G=
+PU3 30.431 Mh/s, GPU4 26.040 Mh/s, GPU5 28.943 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2869.247 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 483.697 Mh/s, GPU1 466.979 Mh/s, GPU2 466.526 Mh/s=
+, GPU3 517.335 Mh/s, GPU4 442.679 Mh/s, GPU5 492.031 Mh/s
+=1B[0mETH: 04/24/18-17:47:07 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.911 Mh/s, Total Shares: 3, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.583 Mh/s, GPU1 27.469 Mh/s, GPU2 27.427 Mh/s, G=
+PU3 30.482 Mh/s, GPU4 26.046 Mh/s, GPU5 28.905 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2871.491 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 485.902 Mh/s, GPU1 466.969 Mh/s, GPU2 466.264 Mh/s=
+, GPU3 518.188 Mh/s, GPU4 442.783 Mh/s, GPU5 491.385 Mh/s
+=1B[0m SC: 04/24/18-17:47:07 - New job from us-east.siamining.com:7777
+=1B[1;32mETH: 04/24/18-17:47:09 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D61C fan=3D70%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D75C=
+ fan=3D80%, GPU3 t=3D61C fan=3D80%, GPU4 t=3D68C fan=3D80%, GPU5 t=3D61C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:47:28 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 169.037 Mh/s, Total Shares: 4, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.320 Mh/s, GPU1 27.305 Mh/s, GPU2 27.448 Mh/s, G=
+PU3 30.665 Mh/s, GPU4 26.184 Mh/s, GPU5 29.114 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2873.626 Mh/s, Total Shares: 1, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 481.436 Mh/s, GPU1 464.186 Mh/s, GPU2 466.615 Mh/s=
+, GPU3 521.312 Mh/s, GPU4 445.134 Mh/s, GPU5 494.943 Mh/s
+=1B[0m=1B[1;32m SC: 04/24/18-17:47:37 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:47:39 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (29 ms)!=0D
+=1B[0mETH: 04/24/18-17:47:48 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.756 Mh/s, Total Shares: 5, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 28.087 Mh/s, GPU1 27.365 Mh/s, GPU2 27.326 Mh/s, G=
+PU3 30.671 Mh/s, GPU4 26.198 Mh/s, GPU5 29.109 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2868.841 Mh/s, Total Shares: 2, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 477.472 Mh/s, GPU1 465.199 Mh/s, GPU2 464.536 Mh/s=
+, GPU3 521.411 Mh/s, GPU4 445.363 Mh/s, GPU5 494.860 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D60C fan=3D80%, GPU1 t=3D58C fan=3D80%, GPU2 t=3D78C=
+ fan=3D80%, GPU3 t=3D62C fan=3D80%, GPU4 t=3D70C fan=3D80%, GPU5 t=3D62C fa=
+n=3D80%
+=1B[0m=1B[1;32mETH: 04/24/18-17:47:54 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-17:47:56 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.941 Mh/s, Total Shares: 6, Rejected: 0, Tim=
+e: 00:01
+=1B[0m=1B[0;36mETH: GPU0 27.671 Mh/s, GPU1 27.366 Mh/s, GPU2 27.258 Mh/s, G=
+PU3 30.498 Mh/s, GPU4 26.045 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2855.000 Mh/s, Total Shares: 2, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 470.412 Mh/s, GPU1 465.216 Mh/s, GPU2 463.386 Mh/s=
+, GPU3 518.462 Mh/s, GPU4 442.761 Mh/s, GPU5 494.763 Mh/s
+=1B[0m=1B[1;32m SC: 04/24/18-17:47:56 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:47:57 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.466 Mh/s, Total Shares: 6, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.383 Mh/s, GPU1 27.169 Mh/s, GPU2 27.310 Mh/s, G=
+PU3 30.486 Mh/s, GPU4 26.015 Mh/s, GPU5 29.103 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2846.926 Mh/s, Total Shares: 3, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 465.509 Mh/s, GPU1 461.877 Mh/s, GPU2 464.269 Mh/s=
+, GPU3 518.265 Mh/s, GPU4 442.256 Mh/s, GPU5 494.750 Mh/s
+=1B[0mETH: 04/24/18-17:47:57 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.332 Mh/s, Total Shares: 6, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.383 Mh/s, GPU1 27.169 Mh/s, GPU2 27.310 Mh/s, G=
+PU3 30.462 Mh/s, GPU4 26.015 Mh/s, GPU5 28.993 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2844.646 Mh/s, Total Shares: 3, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 465.509 Mh/s, GPU1 461.877 Mh/s, GPU2 464.269 Mh/s=
+, GPU3 517.847 Mh/s, GPU4 442.256 Mh/s, GPU5 492.888 Mh/s
+=1B[0m SC: 04/24/18-17:48:02 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:48:04 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=0D[184.47 Mkey/s][total 3133145088][Prob 0.0%][50% in 127.8d]       =
+             =0D[184.23 Mkey/s][total 3142582272][Prob 0.0%][50% in 127.9d]=
+                    =1B[1;32mETH: 04/24/18-17:48:15 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m SC: 04/24/18-17:48:20 - New job from us-east.siamining.com:7777
+ETH: 04/24/18-17:48:22 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.614 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.502 Mh/s, GPU1 27.453 Mh/s, GPU2 27.265 Mh/s, G=
+PU3 30.397 Mh/s, GPU4 26.069 Mh/s, GPU5 28.929 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2849.437 Mh/s, Total Shares: 4, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 467.527 Mh/s, GPU1 466.695 Mh/s, GPU2 463.511 Mh/s=
+, GPU3 516.747 Mh/s, GPU4 443.171 Mh/s, GPU5 491.786 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D61C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D80C=
+ fan=3D80%, GPU3 t=3D63C fan=3D80%, GPU4 t=3D72C fan=3D80%, GPU5 t=3D63C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:48:27 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:48:39 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:48:41 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.158 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.764 Mh/s, GPU1 27.315 Mh/s, GPU2 27.484 Mh/s, G=
+PU3 30.666 Mh/s, GPU4 26.045 Mh/s, GPU5 28.885 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2858.687 Mh/s, Total Shares: 6, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 471.984 Mh/s, GPU1 464.351 Mh/s, GPU2 467.219 Mh/s=
+, GPU3 521.316 Mh/s, GPU4 442.772 Mh/s, GPU5 491.045 Mh/s
+=1B[0mETH: 04/24/18-17:48:41 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.158 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.764 Mh/s, GPU1 27.315 Mh/s, GPU2 27.484 Mh/s, G=
+PU3 30.666 Mh/s, GPU4 26.045 Mh/s, GPU5 28.885 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2858.687 Mh/s, Total Shares: 6, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 471.984 Mh/s, GPU1 464.351 Mh/s, GPU2 467.219 Mh/s=
+, GPU3 521.316 Mh/s, GPU4 442.772 Mh/s, GPU5 491.045 Mh/s
+=1B[0m=1B[1;32m SC: 04/24/18-17:48:42 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:48:43 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.539 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.187 Mh/s, GPU1 27.259 Mh/s, GPU2 27.413 Mh/s, G=
+PU3 30.667 Mh/s, GPU4 26.059 Mh/s, GPU5 28.954 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2848.152 Mh/s, Total Shares: 7, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 462.174 Mh/s, GPU1 463.399 Mh/s, GPU2 466.027 Mh/s=
+, GPU3 521.338 Mh/s, GPU4 442.996 Mh/s, GPU5 492.218 Mh/s
+=1B[0mETH: 04/24/18-17:48:47 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.359 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 27.824 Mh/s, GPU1 27.316 Mh/s, GPU2 27.431 Mh/s, G=
+PU3 30.670 Mh/s, GPU4 26.200 Mh/s, GPU5 28.917 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2862.094 Mh/s, Total Shares: 7, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 473.006 Mh/s, GPU1 464.375 Mh/s, GPU2 466.327 Mh/s=
+, GPU3 521.388 Mh/s, GPU4 445.406 Mh/s, GPU5 491.592 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D62C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D82C=
+ fan=3D80%, GPU3 t=3D65C fan=3D80%, GPU4 t=3D74C fan=3D80%, GPU5 t=3D63C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:48:56 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 169.056 Mh/s, Total Shares: 7, Rejected: 0, Tim=
+e: 00:02
+=1B[0m=1B[0;36mETH: GPU0 28.317 Mh/s, GPU1 27.290 Mh/s, GPU2 27.486 Mh/s, G=
+PU3 30.667 Mh/s, GPU4 26.187 Mh/s, GPU5 29.109 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2873.955 Mh/s, Total Shares: 7, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 481.380 Mh/s, GPU1 463.938 Mh/s, GPU2 467.264 Mh/s=
+, GPU3 521.338 Mh/s, GPU4 445.183 Mh/s, GPU5 494.852 Mh/s
+=1B[0m=1B[1;32mETH: 04/24/18-17:48:59 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:01 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:49:12 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 168.131 Mh/s, Total Shares: 8, Rejected: 0, Tim=
+e: 00:03
+=1B[0m=1B[0;36mETH: GPU0 27.644 Mh/s, GPU1 27.291 Mh/s, GPU2 27.250 Mh/s, G=
+PU3 30.667 Mh/s, GPU4 26.172 Mh/s, GPU5 29.108 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2858.222 Mh/s, Total Shares: 8, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 469.944 Mh/s, GPU1 463.952 Mh/s, GPU2 463.241 Mh/s=
+, GPU3 521.341 Mh/s, GPU4 444.916 Mh/s, GPU5 494.828 Mh/s
+=1B[0mETH: 04/24/18-17:49:13 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.329 Mh/s, Total Shares: 8, Rejected: 0, Tim=
+e: 00:03
+=1B[0m=1B[0;36mETH: GPU0 27.062 Mh/s, GPU1 27.289 Mh/s, GPU2 27.250 Mh/s, G=
+PU3 30.431 Mh/s, GPU4 26.191 Mh/s, GPU5 29.106 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2844.583 Mh/s, Total Shares: 8, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 460.057 Mh/s, GPU1 463.906 Mh/s, GPU2 463.252 Mh/s=
+, GPU3 517.321 Mh/s, GPU4 445.245 Mh/s, GPU5 494.802 Mh/s
+=1B[0m SC: 04/24/18-17:49:15 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:49:18 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:49:22 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 167.979 Mh/s, Total Shares: 8, Rejected: 0, Tim=
+e: 00:03
+=1B[0m=1B[0;36mETH: GPU0 27.658 Mh/s, GPU1 27.284 Mh/s, GPU2 27.233 Mh/s, G=
+PU3 30.479 Mh/s, GPU4 26.222 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2855.646 Mh/s, Total Shares: 9, Rejected:=
+ 0
+=1B[0m=1B[1;33m SC: GPU0 470.178 Mh/s, GPU1 463.824 Mh/s, GPU2 462.958 Mh/s=
+, GPU3 518.143 Mh/s, GPU4 445.774 Mh/s, GPU5 494.769 Mh/s
+=1B[0m=1B[0;35mGPU0 t=3D62C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D84C=
+ fan=3D80%, GPU3 t=3D65C fan=3D80%, GPU4 t=3D75C fan=3D80%, GPU5 t=3D64C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:25 - SHARE FOUND - (GPU 2)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;31mGPU #2 reached STOP temperature (85 >=3D 85), stop mining on=
+ this GPU.
+=1B[0m=1B[1;32mETH: 04/24/18-17:49:43 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:49:46 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:51 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D62C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D61C=
+ fan=3D80%, GPU3 t=3D66C fan=3D80%, GPU4 t=3D76C fan=3D80%, GPU5 t=3D64C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:52 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:57 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:49:57 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:49:57 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m SC: 04/24/18-17:50:02 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:50:05 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:05 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:50:05 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.044 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 27.252 Mh/s, GPU1 27.421 Mh/s, GPU2 stopped, GPU3 =
+30.418 Mh/s, GPU4 26.031 Mh/s, GPU5 28.921 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2380.750 Mh/s, Total Shares: 16, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 463.290 Mh/s, GPU1 466.152 Mh/s, GPU2 stopped, GPU=
+3 517.114 Mh/s, GPU4 442.531 Mh/s, GPU5 491.663 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=0D[262.00 Mkey/s][total 3218079744][Prob 0.0%][50% in 90.0d]        =
+             ETH: 04/24/18-17:50:12 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.422 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 28.535 Mh/s, GPU1 27.280 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.058 Mh/s, GPU5 28.882 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.174 Mh/s, Total Shares: 16, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.095 Mh/s, GPU1 463.760 Mh/s, GPU2 stopped, GPU=
+3 521.338 Mh/s, GPU4 442.983 Mh/s, GPU5 490.998 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:50:12 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.422 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 28.535 Mh/s, GPU1 27.280 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.058 Mh/s, GPU5 28.882 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.174 Mh/s, Total Shares: 16, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.095 Mh/s, GPU1 463.760 Mh/s, GPU2 stopped, GPU=
+3 521.338 Mh/s, GPU4 442.983 Mh/s, GPU5 490.998 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:17 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D63C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D55C=
+ fan=3D80%, GPU3 t=3D67C fan=3D80%, GPU4 t=3D77C fan=3D80%, GPU5 t=3D64C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:23 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:24 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:39 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:50:50 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D63C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D53C=
+ fan=3D80%, GPU3 t=3D67C fan=3D80%, GPU4 t=3D78C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:50:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.820 Mh/s, Total Shares: 11, Rejected: 0, Ti=
+me: 00:04
+=1B[0m=1B[0;36mETH: GPU0 28.541 Mh/s, GPU1 27.332 Mh/s, GPU2 stopped, GPU3 =
+30.671 Mh/s, GPU4 26.171 Mh/s, GPU5 29.105 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2410.929 Mh/s, Total Shares: 21, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.193 Mh/s, GPU1 464.636 Mh/s, GPU2 stopped, GPU=
+3 521.404 Mh/s, GPU4 444.914 Mh/s, GPU5 494.782 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-17:50:57 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:50:58 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:51:06 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-17:51:08 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.056 Mh/s, Total Shares: 12, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.621 Mh/s, GPU1 27.487 Mh/s, GPU2 stopped, GPU3 =
+30.662 Mh/s, GPU4 26.175 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.947 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 469.551 Mh/s, GPU1 467.283 Mh/s, GPU2 stopped, GPU=
+3 521.255 Mh/s, GPU4 444.982 Mh/s, GPU5 494.876 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:51:09 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.182 Mh/s, Total Shares: 12, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.826 Mh/s, GPU1 27.462 Mh/s, GPU2 stopped, GPU3 =
+30.598 Mh/s, GPU4 26.192 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2400.086 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 473.040 Mh/s, GPU1 466.856 Mh/s, GPU2 stopped, GPU=
+3 520.161 Mh/s, GPU4 445.269 Mh/s, GPU5 494.760 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:51:12 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (29 ms)!=0D
+=1B[0mETH: 04/24/18-17:51:13 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.219 Mh/s, Total Shares: 13, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.199 Mh/s, GPU1 27.478 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 25.998 Mh/s, GPU5 28.876 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2383.717 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 462.390 Mh/s, GPU1 467.127 Mh/s, GPU2 stopped, GPU=
+3 521.343 Mh/s, GPU4 441.969 Mh/s, GPU5 490.888 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:51:16 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.817 Mh/s, Total Shares: 13, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.783 Mh/s, GPU1 27.472 Mh/s, GPU2 stopped, GPU3 =
+30.663 Mh/s, GPU4 26.025 Mh/s, GPU5 28.875 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2393.882 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.314 Mh/s, GPU1 467.016 Mh/s, GPU2 stopped, GPU=
+3 521.267 Mh/s, GPU4 442.418 Mh/s, GPU5 490.867 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D52C=
+ fan=3D76%, GPU3 t=3D68C fan=3D80%, GPU4 t=3D79C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:51:29 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.738 Mh/s, Total Shares: 13, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.630 Mh/s, GPU1 27.494 Mh/s, GPU2 stopped, GPU3 =
+30.670 Mh/s, GPU4 26.065 Mh/s, GPU5 28.878 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2392.535 Mh/s, Total Shares: 22, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 469.717 Mh/s, GPU1 467.395 Mh/s, GPU2 stopped, GPU=
+3 521.389 Mh/s, GPU4 443.112 Mh/s, GPU5 490.922 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:51:33 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:45 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:51:46 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 139.484 Mh/s, Total Shares: 14, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 26.508 Mh/s, GPU1 27.323 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.063 Mh/s, GPU5 28.922 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2371.228 Mh/s, Total Shares: 23, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 450.642 Mh/s, GPU1 464.495 Mh/s, GPU2 stopped, GPU=
+3 521.333 Mh/s, GPU4 443.079 Mh/s, GPU5 491.679 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:51:47 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 139.356 Mh/s, Total Shares: 14, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 26.440 Mh/s, GPU1 27.321 Mh/s, GPU2 stopped, GPU3 =
+30.636 Mh/s, GPU4 26.039 Mh/s, GPU5 28.919 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2369.048 Mh/s, Total Shares: 23, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 449.482 Mh/s, GPU1 464.464 Mh/s, GPU2 stopped, GPU=
+3 520.814 Mh/s, GPU4 442.666 Mh/s, GPU5 491.622 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-17:51:52 - New job from us-east.siamining.com:7777
+=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D51C fan=
+=3D47%, GPU3 t=3D68C fan=3D80%, GPU4 t=3D79C fan=3D80%, GPU5 t=3D65C fan=3D=
+80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:54 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=0D[217.10 Mkey/s][total 3274702848][Prob 0.0%][50% in 108.6d]       =
+             ETH: 04/24/18-17:51:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.693 Mh/s, Total Shares: 14, Rejected: 0, Ti=
+me: 00:05
+=1B[0m=1B[0;36mETH: GPU0 27.795 Mh/s, GPU1 27.304 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.020 Mh/s, GPU5 28.907 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2391.776 Mh/s, Total Shares: 24, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.515 Mh/s, GPU1 464.170 Mh/s, GPU2 stopped, GPU=
+3 521.340 Mh/s, GPU4 442.338 Mh/s, GPU5 491.413 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:55 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:51:58 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:52:00 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:00 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:02 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;31mGPU #5 got incorrect share. If you see this warning often, m=
+ake sure you did not overclock it too much!
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:04 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:09 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:10 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:11 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:11 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:13 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:52:15 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (29 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:16 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:52:18 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.432 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 28.186 Mh/s, GPU1 27.291 Mh/s, GPU2 stopped, GPU3 =
+30.668 Mh/s, GPU4 26.185 Mh/s, GPU5 29.102 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.345 Mh/s, Total Shares: 35, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 479.157 Mh/s, GPU1 463.951 Mh/s, GPU2 stopped, GPU=
+3 521.360 Mh/s, GPU4 445.147 Mh/s, GPU5 494.730 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:20 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:20 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:22 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D64C=
+ fan=3D54%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D80C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:23 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:52:23 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.373 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 27.807 Mh/s, GPU1 26.817 Mh/s, GPU2 stopped, GPU3 =
+30.424 Mh/s, GPU4 26.222 Mh/s, GPU5 29.103 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2386.332 Mh/s, Total Shares: 39, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.712 Mh/s, GPU1 455.891 Mh/s, GPU2 stopped, GPU=
+3 517.214 Mh/s, GPU4 445.773 Mh/s, GPU5 494.742 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:24 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:24 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:24 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:26 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:27 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:27 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:28 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:31 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:35 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:38 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:40 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:40 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:40 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:43 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:52:43 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.381 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 28.172 Mh/s, GPU1 27.465 Mh/s, GPU2 stopped, GPU3 =
+30.420 Mh/s, GPU4 26.214 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2403.480 Mh/s, Total Shares: 53, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 478.921 Mh/s, GPU1 466.909 Mh/s, GPU2 stopped, GPU=
+3 517.143 Mh/s, GPU4 445.634 Mh/s, GPU5 494.873 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:43 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:43 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:44 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:44 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:44 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: Share accepted (13 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:52:47 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m SC: 04/24/18-17:52:47 - New job from us-east.siamining.com:7777
+=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C fan=
+=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D80C fan=3D80%, GPU5 t=3D66C fan=3D=
+80%
+=1B[0mETH: 04/24/18-17:52:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.713 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:06
+=1B[0m=1B[0;36mETH: GPU0 27.832 Mh/s, GPU1 27.481 Mh/s, GPU2 stopped, GPU3 =
+30.464 Mh/s, GPU4 25.985 Mh/s, GPU5 28.951 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2392.120 Mh/s, Total Shares: 59, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 473.152 Mh/s, GPU1 467.173 Mh/s, GPU2 stopped, GPU=
+3 517.887 Mh/s, GPU4 441.742 Mh/s, GPU5 492.166 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:04 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:11 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:53:14 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 139.712 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:07
+=1B[0m=1B[0;36mETH: GPU0 26.688 Mh/s, GPU1 27.347 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.075 Mh/s, GPU5 28.938 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2375.111 Mh/s, Total Shares: 61, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 453.691 Mh/s, GPU1 464.895 Mh/s, GPU2 stopped, GPU=
+3 521.298 Mh/s, GPU4 443.276 Mh/s, GPU5 491.951 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=0D[47.08 Mkey/s][total 3510632448][Prob 0.0%][50% in 1.4y]          =
+             =1B[1;32m SC: 04/24/18-17:53:21 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:22 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:53:30 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.946 Mh/s, Total Shares: 16, Rejected: 0, Ti=
+me: 00:07
+=1B[0m=1B[0;36mETH: GPU0 28.068 Mh/s, GPU1 27.282 Mh/s, GPU2 stopped, GPU3 =
+30.668 Mh/s, GPU4 26.022 Mh/s, GPU5 28.907 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2396.081 Mh/s, Total Shares: 63, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 477.149 Mh/s, GPU1 463.788 Mh/s, GPU2 stopped, GPU=
+3 521.361 Mh/s, GPU4 442.373 Mh/s, GPU5 491.410 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:30 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:53:35 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (33 ms)!=0D
+=1B[0m SC: 04/24/18-17:53:42 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:53:43 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:50 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:53:51 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=0D[2.68 Mkey/s][total 3586129920][Prob 0.0%][50% in 24.1y]          =
+             =1B[1;32mETH: 04/24/18-17:53:53 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:53:58 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:00 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.804 Mh/s, Total Shares: 19, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.545 Mh/s, GPU1 27.479 Mh/s, GPU2 stopped, GPU3 =
+30.460 Mh/s, GPU4 26.215 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2410.669 Mh/s, Total Shares: 67, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.273 Mh/s, GPU1 467.146 Mh/s, GPU2 stopped, GPU=
+3 517.825 Mh/s, GPU4 445.652 Mh/s, GPU5 494.773 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:54:05 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:09 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:10 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.061 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.804 Mh/s, GPU1 27.482 Mh/s, GPU2 stopped, GPU3 =
+30.449 Mh/s, GPU4 26.223 Mh/s, GPU5 29.102 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2415.028 Mh/s, Total Shares: 68, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 489.665 Mh/s, GPU1 467.193 Mh/s, GPU2 stopped, GPU=
+3 517.634 Mh/s, GPU4 445.797 Mh/s, GPU5 494.739 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:19 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:19 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.152 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 27.977 Mh/s, GPU1 27.431 Mh/s, GPU2 stopped, GPU3 =
+30.458 Mh/s, GPU4 26.170 Mh/s, GPU5 29.115 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2399.578 Mh/s, Total Shares: 69, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 475.613 Mh/s, GPU1 466.330 Mh/s, GPU2 stopped, GPU=
+3 517.789 Mh/s, GPU4 444.887 Mh/s, GPU5 494.959 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:54:20 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.498 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.561 Mh/s, GPU1 27.473 Mh/s, GPU2 stopped, GPU3 =
+30.437 Mh/s, GPU4 26.084 Mh/s, GPU5 28.944 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.467 Mh/s, Total Shares: 69, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.535 Mh/s, GPU1 467.041 Mh/s, GPU2 stopped, GPU=
+3 517.426 Mh/s, GPU4 443.423 Mh/s, GPU5 492.042 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:31 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m SC: 04/24/18-17:54:37 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:54:40 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:44 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:54:46 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.509 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:08
+=1B[0m=1B[0;36mETH: GPU0 28.569 Mh/s, GPU1 27.305 Mh/s, GPU2 stopped, GPU3 =
+30.669 Mh/s, GPU4 26.053 Mh/s, GPU5 28.913 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.648 Mh/s, Total Shares: 72, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.669 Mh/s, GPU1 464.193 Mh/s, GPU2 stopped, GPU=
+3 521.366 Mh/s, GPU4 442.900 Mh/s, GPU5 491.520 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:54:50 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:55:01 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.833 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 28.931 Mh/s, GPU1 27.349 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.002 Mh/s, GPU5 28.885 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2411.152 Mh/s, Total Shares: 73, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 491.830 Mh/s, GPU1 464.932 Mh/s, GPU2 stopped, GPU=
+3 521.319 Mh/s, GPU4 442.030 Mh/s, GPU5 491.041 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-17:55:04 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 136.266 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 23.319 Mh/s, GPU1 27.295 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.063 Mh/s, GPU5 28.922 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2316.516 Mh/s, Total Shares: 73, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 396.417 Mh/s, GPU1 464.017 Mh/s, GPU2 stopped, GPU=
+3 521.330 Mh/s, GPU4 443.078 Mh/s, GPU5 491.674 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:04 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:13 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:55:14 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.954 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 28.034 Mh/s, GPU1 27.302 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.077 Mh/s, GPU5 28.875 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2396.211 Mh/s, Total Shares: 75, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 476.578 Mh/s, GPU1 464.129 Mh/s, GPU2 stopped, GPU=
+3 521.319 Mh/s, GPU4 443.311 Mh/s, GPU5 490.874 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:18 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:55:25 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.025 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 27.925 Mh/s, GPU1 27.301 Mh/s, GPU2 stopped, GPU3 =
+30.481 Mh/s, GPU4 26.202 Mh/s, GPU5 29.116 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.427 Mh/s, Total Shares: 76, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 474.721 Mh/s, GPU1 464.119 Mh/s, GPU2 stopped, GPU=
+3 518.176 Mh/s, GPU4 445.434 Mh/s, GPU5 494.977 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:31 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m SC: 04/24/18-17:55:32 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:55:38 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:55:48 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.696 Mh/s, Total Shares: 20, Rejected: 0, Ti=
+me: 00:09
+=1B[0m=1B[0;36mETH: GPU0 28.492 Mh/s, GPU1 27.469 Mh/s, GPU2 stopped, GPU3 =
+30.441 Mh/s, GPU4 26.202 Mh/s, GPU5 29.092 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2408.838 Mh/s, Total Shares: 78, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 484.358 Mh/s, GPU1 466.978 Mh/s, GPU2 stopped, GPU=
+3 517.497 Mh/s, GPU4 445.438 Mh/s, GPU5 494.567 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m/root/QuantumRNG/pollinate: 26: /root/QuantumRNG/pollinate: qrandom: =
+not found
+client successfully seeded [/dev/urandom] from ANU Quantum Server
+system was previously seeded at [2018-03-24 09:59:29.143486025 +0100]
+=1B[1;32mETH: 04/24/18-17:55:49 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:55:58 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:56:07 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.840 Mh/s, Total Shares: 21, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 28.551 Mh/s, GPU1 27.484 Mh/s, GPU2 stopped, GPU3 =
+30.501 Mh/s, GPU4 26.201 Mh/s, GPU5 29.103 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2411.276 Mh/s, Total Shares: 79, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 485.368 Mh/s, GPU1 467.230 Mh/s, GPU2 stopped, GPU=
+3 518.509 Mh/s, GPU4 445.414 Mh/s, GPU5 494.755 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:12 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:56:12 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:15 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:15 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:56:15 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.065 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 28.786 Mh/s, GPU1 27.480 Mh/s, GPU2 stopped, GPU3 =
+30.493 Mh/s, GPU4 26.198 Mh/s, GPU5 29.107 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2415.097 Mh/s, Total Shares: 82, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 489.367 Mh/s, GPU1 467.160 Mh/s, GPU2 stopped, GPU=
+3 518.384 Mh/s, GPU4 445.362 Mh/s, GPU5 494.824 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:16 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:18 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:56:23 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.817 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 27.684 Mh/s, GPU1 27.262 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.093 Mh/s, GPU5 29.112 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2393.891 Mh/s, Total Shares: 84, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 470.628 Mh/s, GPU1 463.458 Mh/s, GPU2 stopped, GPU=
+3 521.311 Mh/s, GPU4 443.583 Mh/s, GPU5 494.911 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:25 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m SC: 04/24/18-17:56:27 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:56:49 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:56:55 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.868 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:10
+=1B[0m=1B[0;36mETH: GPU0 27.807 Mh/s, GPU1 27.254 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.032 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2394.750 Mh/s, Total Shares: 86, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 472.719 Mh/s, GPU1 463.309 Mh/s, GPU2 stopped, GPU=
+3 521.303 Mh/s, GPU4 442.548 Mh/s, GPU5 494.871 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:56:59 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:04 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:57:04 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.610 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:11
+=1B[0m=1B[0;36mETH: GPU0 28.688 Mh/s, GPU1 27.293 Mh/s, GPU2 stopped, GPU3 =
+30.455 Mh/s, GPU4 26.064 Mh/s, GPU5 29.110 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2407.361 Mh/s, Total Shares: 88, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 487.697 Mh/s, GPU1 463.974 Mh/s, GPU2 stopped, GPU=
+3 517.734 Mh/s, GPU4 443.084 Mh/s, GPU5 494.872 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:18 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m SC: 04/24/18-17:57:22 - New job from us-east.siamining.com:7777
+=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C fan=
+=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D65C fan=3D=
+80%
+=1B[0mETH: 04/24/18-17:57:25 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.736 Mh/s, Total Shares: 22, Rejected: 0, Ti=
+me: 00:11
+=1B[0m=1B[0;36mETH: GPU0 27.492 Mh/s, GPU1 27.466 Mh/s, GPU2 stopped, GPU3 =
+30.477 Mh/s, GPU4 26.187 Mh/s, GPU5 29.113 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2392.513 Mh/s, Total Shares: 89, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 467.372 Mh/s, GPU1 466.928 Mh/s, GPU2 stopped, GPU=
+3 518.107 Mh/s, GPU4 445.179 Mh/s, GPU5 494.927 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:27 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:30 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:57:36 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-17:57:40 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.152 Mh/s, Total Shares: 23, Rejected: 0, Ti=
+me: 00:11
+=1B[0m=1B[0;36mETH: GPU0 27.900 Mh/s, GPU1 27.491 Mh/s, GPU2 stopped, GPU3 =
+30.464 Mh/s, GPU4 26.182 Mh/s, GPU5 29.116 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2399.588 Mh/s, Total Shares: 91, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 474.298 Mh/s, GPU1 467.339 Mh/s, GPU2 stopped, GPU=
+3 517.887 Mh/s, GPU4 445.100 Mh/s, GPU5 494.964 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:41 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:57:47 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.225 Mh/s, Total Shares: 23, Rejected: 0, Ti=
+me: 00:11
+=1B[0m=1B[0;36mETH: GPU0 27.944 Mh/s, GPU1 27.493 Mh/s, GPU2 stopped, GPU3 =
+30.471 Mh/s, GPU4 26.208 Mh/s, GPU5 29.109 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2400.826 Mh/s, Total Shares: 92, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 475.041 Mh/s, GPU1 467.387 Mh/s, GPU2 stopped, GPU=
+3 518.010 Mh/s, GPU4 445.535 Mh/s, GPU5 494.853 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:57:50 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:54 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:57:59 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:00 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:03 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:05 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:58:06 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.312 Mh/s, Total Shares: 24, Rejected: 0, Ti=
+me: 00:12
+=1B[0m=1B[0;36mETH: GPU0 27.837 Mh/s, GPU1 27.478 Mh/s, GPU2 stopped, GPU3 =
+30.663 Mh/s, GPU4 26.230 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2402.299 Mh/s, Total Shares: 97, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 473.221 Mh/s, GPU1 467.129 Mh/s, GPU2 stopped, GPU=
+3 521.277 Mh/s, GPU4 445.903 Mh/s, GPU5 494.769 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:06 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:06 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:58:11 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=0D[1.03 Mkey/s][total 3689938944][Prob 0.0%][50% in 62.5y]          =
+             =1B[1;32mETH: 04/24/18-17:58:14 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0mETH: 04/24/18-17:58:16 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.662 Mh/s, Total Shares: 26, Rejected: 0, Ti=
+me: 00:12
+=1B[0m=1B[0;36mETH: GPU0 28.629 Mh/s, GPU1 27.295 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.216 Mh/s, GPU5 28.855 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2408.249 Mh/s, Total Shares: 99, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 486.685 Mh/s, GPU1 464.007 Mh/s, GPU2 stopped, GPU=
+3 521.343 Mh/s, GPU4 445.680 Mh/s, GPU5 490.534 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-17:58:17 - New job from us-east.siamining.com:7777
+ETH: 04/24/18-17:58:19 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.876 Mh/s, Total Shares: 26, Rejected: 0, Ti=
+me: 00:12
+=1B[0m=1B[0;36mETH: GPU0 28.832 Mh/s, GPU1 27.283 Mh/s, GPU2 stopped, GPU3 =
+30.663 Mh/s, GPU4 26.179 Mh/s, GPU5 28.919 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2411.887 Mh/s, Total Shares: 99, Rejected=
+: 0
+=1B[0m=1B[1;33m SC: GPU0 490.148 Mh/s, GPU1 463.814 Mh/s, GPU2 stopped, GPU=
+3 521.271 Mh/s, GPU4 445.039 Mh/s, GPU5 491.615 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D64C fan=3D80%, GPU1 t=3D59C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D81C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:25 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:58:31 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.334 Mh/s, Total Shares: 26, Rejected: 0, Ti=
+me: 00:12
+=1B[0m=1B[0;36mETH: GPU0 28.397 Mh/s, GPU1 27.316 Mh/s, GPU2 stopped, GPU3 =
+30.454 Mh/s, GPU4 26.180 Mh/s, GPU5 28.987 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2402.678 Mh/s, Total Shares: 100, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 482.755 Mh/s, GPU1 464.370 Mh/s, GPU2 stopped, GPU=
+3 517.714 Mh/s, GPU4 445.066 Mh/s, GPU5 492.773 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:34 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:58:43 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.247 Mh/s, Total Shares: 26, Rejected: 0, Ti=
+me: 00:12
+=1B[0m=1B[0;36mETH: GPU0 28.287 Mh/s, GPU1 27.314 Mh/s, GPU2 stopped, GPU3 =
+30.485 Mh/s, GPU4 26.203 Mh/s, GPU5 28.958 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2401.192 Mh/s, Total Shares: 101, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 480.886 Mh/s, GPU1 464.335 Mh/s, GPU2 stopped, GPU=
+3 518.237 Mh/s, GPU4 445.444 Mh/s, GPU5 492.290 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:58:56 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:59:02 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.489 Mh/s, Total Shares: 26, Rejected: 0, Ti=
+me: 00:13
+=1B[0m=1B[0;36mETH: GPU0 28.604 Mh/s, GPU1 27.326 Mh/s, GPU2 stopped, GPU3 =
+30.430 Mh/s, GPU4 26.208 Mh/s, GPU5 28.922 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.315 Mh/s, Total Shares: 102, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 486.269 Mh/s, GPU1 464.543 Mh/s, GPU2 stopped, GPU=
+3 517.308 Mh/s, GPU4 445.529 Mh/s, GPU5 491.666 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-17:59:05 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:07 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-17:59:08 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.946 Mh/s, Total Shares: 27, Rejected: 0, Ti=
+me: 00:13
+=1B[0m=1B[0;36mETH: GPU0 28.408 Mh/s, GPU1 26.809 Mh/s, GPU2 stopped, GPU3 =
+30.418 Mh/s, GPU4 26.203 Mh/s, GPU5 29.108 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2396.077 Mh/s, Total Shares: 103, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 482.933 Mh/s, GPU1 455.749 Mh/s, GPU2 stopped, GPU=
+3 517.105 Mh/s, GPU4 445.459 Mh/s, GPU5 494.831 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-17:59:12 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-17:59:14 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:29 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-17:59:34 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.312 Mh/s, Total Shares: 27, Rejected: 0, Ti=
+me: 00:13
+=1B[0m=1B[0;36mETH: GPU0 28.909 Mh/s, GPU1 27.488 Mh/s, GPU2 stopped, GPU3 =
+30.638 Mh/s, GPU4 26.163 Mh/s, GPU5 29.115 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2419.303 Mh/s, Total Shares: 105, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 491.447 Mh/s, GPU1 467.290 Mh/s, GPU2 stopped, GPU=
+3 520.839 Mh/s, GPU4 444.771 Mh/s, GPU5 494.956 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:34 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-17:59:41 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:44 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:45 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:47 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-17:59:49 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.656 Mh/s, Total Shares: 28, Rejected: 0, Ti=
+me: 00:13
+=1B[0m=1B[0;36mETH: GPU0 28.349 Mh/s, GPU1 27.488 Mh/s, GPU2 stopped, GPU3 =
+30.670 Mh/s, GPU4 26.231 Mh/s, GPU5 28.919 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2408.151 Mh/s, Total Shares: 109, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 481.925 Mh/s, GPU1 467.294 Mh/s, GPU2 stopped, GPU=
+3 521.385 Mh/s, GPU4 445.928 Mh/s, GPU5 491.619 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:49 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-17:59:51 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-17:59:53 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.726 Mh/s, Total Shares: 28, Rejected: 0, Ti=
+me: 00:13
+=1B[0m=1B[0;36mETH: GPU0 28.489 Mh/s, GPU1 27.477 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.200 Mh/s, GPU5 28.893 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2409.340 Mh/s, Total Shares: 111, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 484.310 Mh/s, GPU1 467.116 Mh/s, GPU2 stopped, GPU=
+3 521.333 Mh/s, GPU4 445.402 Mh/s, GPU5 491.179 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:00:00 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.166 Mh/s, Total Shares: 28, Rejected: 0, Ti=
+me: 00:14
+=1B[0m=1B[0;36mETH: GPU0 28.883 Mh/s, GPU1 27.488 Mh/s, GPU2 stopped, GPU3 =
+30.659 Mh/s, GPU4 26.154 Mh/s, GPU5 28.982 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2416.822 Mh/s, Total Shares: 111, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 491.010 Mh/s, GPU1 467.304 Mh/s, GPU2 stopped, GPU=
+3 521.202 Mh/s, GPU4 444.614 Mh/s, GPU5 492.692 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:00:03 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:00:05 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m SC: 04/24/18-18:00:07 - New job from us-east.siamining.com:7777
+ETH: 04/24/18-18:00:13 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.075 Mh/s, Total Shares: 28, Rejected: 0, Ti=
+me: 00:14
+=1B[0m=1B[0;36mETH: GPU0 27.749 Mh/s, GPU1 27.462 Mh/s, GPU2 stopped, GPU3 =
+30.664 Mh/s, GPU4 26.203 Mh/s, GPU5 28.998 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2398.279 Mh/s, Total Shares: 113, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 471.736 Mh/s, GPU1 466.854 Mh/s, GPU2 stopped, GPU=
+3 521.281 Mh/s, GPU4 445.447 Mh/s, GPU5 492.961 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:00:23 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-18:00:33 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.742 Mh/s, Total Shares: 28, Rejected: 0, Ti=
+me: 00:14
+=1B[0m=1B[0;36mETH: GPU0 28.481 Mh/s, GPU1 27.481 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.212 Mh/s, GPU5 28.901 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2409.611 Mh/s, Total Shares: 114, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 484.179 Mh/s, GPU1 467.179 Mh/s, GPU2 stopped, GPU=
+3 521.329 Mh/s, GPU4 445.600 Mh/s, GPU5 491.324 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:00:35 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:00:40 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:00:47 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:00:59 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-18:01:00 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0mETH: 04/24/18-18:01:01 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.041 Mh/s, Total Shares: 29, Rejected: 0, Ti=
+me: 00:15
+=1B[0m=1B[0;36mETH: GPU0 28.124 Mh/s, GPU1 27.309 Mh/s, GPU2 stopped, GPU3 =
+30.410 Mh/s, GPU4 26.089 Mh/s, GPU5 29.108 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.698 Mh/s, Total Shares: 118, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 478.114 Mh/s, GPU1 464.248 Mh/s, GPU2 stopped, GPU=
+3 516.973 Mh/s, GPU4 443.520 Mh/s, GPU5 494.843 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:01:02 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.041 Mh/s, Total Shares: 29, Rejected: 0, Ti=
+me: 00:15
+=1B[0m=1B[0;36mETH: GPU0 28.124 Mh/s, GPU1 27.309 Mh/s, GPU2 stopped, GPU3 =
+30.410 Mh/s, GPU4 26.089 Mh/s, GPU5 29.108 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.698 Mh/s, Total Shares: 118, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 478.114 Mh/s, GPU1 464.248 Mh/s, GPU2 stopped, GPU=
+3 516.973 Mh/s, GPU4 443.520 Mh/s, GPU5 494.843 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-18:01:02 - New job from us-east.siamining.com:7777
+ETH: 04/24/18-18:01:17 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.361 Mh/s, Total Shares: 29, Rejected: 0, Ti=
+me: 00:15
+=1B[0m=1B[0;36mETH: GPU0 27.476 Mh/s, GPU1 27.332 Mh/s, GPU2 stopped, GPU3 =
+30.423 Mh/s, GPU4 26.019 Mh/s, GPU5 29.112 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2386.141 Mh/s, Total Shares: 118, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 467.094 Mh/s, GPU1 464.639 Mh/s, GPU2 stopped, GPU=
+3 517.184 Mh/s, GPU4 442.325 Mh/s, GPU5 494.899 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:01:19 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:01:25 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:01:28 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=0D[91.13 Mkey/s][total 3840933888][Prob 0.0%][50% in 258.7d]        =
+             =1B[1;32m SC: 04/24/18-18:01:30 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:01:35 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:01:37 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.076 Mh/s, Total Shares: 29, Rejected: 0, Ti=
+me: 00:15
+=1B[0m=1B[0;36mETH: GPU0 28.818 Mh/s, GPU1 27.485 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.194 Mh/s, GPU5 28.913 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2415.292 Mh/s, Total Shares: 123, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 489.904 Mh/s, GPU1 467.251 Mh/s, GPU2 stopped, GPU=
+3 521.316 Mh/s, GPU4 445.303 Mh/s, GPU5 491.518 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m SC: 04/24/18-18:01:57 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-18:01:58 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0mETH: 04/24/18-18:01:58 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.502 Mh/s, Total Shares: 29, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 28.237 Mh/s, GPU1 27.478 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.214 Mh/s, GPU5 28.907 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.524 Mh/s, Total Shares: 124, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 480.027 Mh/s, GPU1 467.125 Mh/s, GPU2 stopped, GPU=
+3 521.312 Mh/s, GPU4 445.638 Mh/s, GPU5 491.422 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:02:05 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.469 Mh/s, Total Shares: 29, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 28.164 Mh/s, GPU1 27.474 Mh/s, GPU2 stopped, GPU3 =
+30.663 Mh/s, GPU4 26.182 Mh/s, GPU5 28.986 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.976 Mh/s, Total Shares: 124, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 478.785 Mh/s, GPU1 467.058 Mh/s, GPU2 stopped, GPU=
+3 521.271 Mh/s, GPU4 445.102 Mh/s, GPU5 492.760 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-18:02:07 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (29 ms)!=0D
+=1B[0mETH: 04/24/18-18:02:07 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.803 Mh/s, Total Shares: 30, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 28.496 Mh/s, GPU1 27.504 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.202 Mh/s, GPU5 28.934 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2410.646 Mh/s, Total Shares: 124, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 484.435 Mh/s, GPU1 467.576 Mh/s, GPU2 stopped, GPU=
+3 521.324 Mh/s, GPU4 445.438 Mh/s, GPU5 491.873 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:02:11 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.763 Mh/s, Total Shares: 30, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 28.443 Mh/s, GPU1 27.486 Mh/s, GPU2 stopped, GPU3 =
+30.665 Mh/s, GPU4 26.208 Mh/s, GPU5 28.962 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2409.976 Mh/s, Total Shares: 124, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 483.529 Mh/s, GPU1 467.256 Mh/s, GPU2 stopped, GPU=
+3 521.304 Mh/s, GPU4 445.536 Mh/s, GPU5 492.351 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:02:17 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.549 Mh/s, Total Shares: 30, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 27.599 Mh/s, GPU1 27.305 Mh/s, GPU2 stopped, GPU3 =
+30.455 Mh/s, GPU4 26.086 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2389.330 Mh/s, Total Shares: 124, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 469.186 Mh/s, GPU1 464.187 Mh/s, GPU2 stopped, GPU=
+3 517.742 Mh/s, GPU4 443.455 Mh/s, GPU5 494.760 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:02:22 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:02:22 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D83C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-18:02:25 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.576 Mh/s, Total Shares: 30, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 27.632 Mh/s, GPU1 27.339 Mh/s, GPU2 stopped, GPU3 =
+30.479 Mh/s, GPU4 26.021 Mh/s, GPU5 29.106 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2389.790 Mh/s, Total Shares: 126, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 469.751 Mh/s, GPU1 464.754 Mh/s, GPU2 stopped, GPU=
+3 518.142 Mh/s, GPU4 442.348 Mh/s, GPU5 494.795 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mDevFee: ETH: Stratum - connecting to 'local.ethermine.org' <1.2.3.4> =
+port 8008 (unsecure)
+=1B[1;32mDevFee: ETH: Stratum - Connected (local.ethermine.org:8008) (unsec=
+ure)
+=1B[0m=1B[1;32mETH: Authorized
+=1B[0mDevFee: start mining
+=1B[1;32mDevFee: ETH: 04/24/18-18:02:29 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (32 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:02:31 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:02:37 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:02:40 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.271 Mh/s, Total Shares: 30, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 27.353 Mh/s, GPU1 27.342 Mh/s, GPU2 stopped, GPU3 =
+30.437 Mh/s, GPU4 26.038 Mh/s, GPU5 29.102 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2384.608 Mh/s, Total Shares: 128, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 464.993 Mh/s, GPU1 464.816 Mh/s, GPU2 stopped, GPU=
+3 517.422 Mh/s, GPU4 442.645 Mh/s, GPU5 494.732 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mDevFee: ETH: 04/24/18-18:02:40 - New job from local.ethermine.org:8008
+DevFee: ETH: 04/24/18-18:02:48 - New job from local.ethermine.org:8008
+ETH: 04/24/18-18:02:48 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.726 Mh/s, Total Shares: 30, Rejected: 0, Ti=
+me: 00:16
+=1B[0m=1B[0;36mETH: GPU0 27.861 Mh/s, GPU1 27.324 Mh/s, GPU2 stopped, GPU3 =
+30.441 Mh/s, GPU4 25.991 Mh/s, GPU5 29.109 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2392.337 Mh/s, Total Shares: 128, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 473.633 Mh/s, GPU1 464.500 Mh/s, GPU2 stopped, GPU=
+3 517.502 Mh/s, GPU4 441.846 Mh/s, GPU5 494.856 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:02:49 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:02:51 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m SC: 04/24/18-18:02:52 - New job from us-east.siamining.com:7777
+=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D61C fan=3D80%, GPU2 t=3D51C fan=
+=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D66C fan=3D=
+80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:02:53 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=0D[1.75 Mkey/s][total 3973054464][Prob 0.0%][50% in 36.8y]          =
+             =1B[1;32m SC: 04/24/18-18:03:13 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:15 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:18 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:18 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mDevFee: stop mining and disconnect
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D83C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:24 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:25 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:27 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-18:03:30 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.494 Mh/s, Total Shares: 30, Rejected: 0, Ti=
+me: 00:17
+=1B[0m=1B[0;36mETH: GPU0 28.218 Mh/s, GPU1 27.465 Mh/s, GPU2 stopped, GPU3 =
+30.662 Mh/s, GPU4 26.227 Mh/s, GPU5 28.921 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.387 Mh/s, Total Shares: 138, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 479.708 Mh/s, GPU1 466.905 Mh/s, GPU2 stopped, GPU=
+3 521.255 Mh/s, GPU4 445.857 Mh/s, GPU5 491.662 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-18:03:30 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:31 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-18:03:33 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-18:03:38 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.728 Mh/s, Total Shares: 32, Rejected: 0, Ti=
+me: 00:17
+=1B[0m=1B[0;36mETH: GPU0 28.432 Mh/s, GPU1 27.472 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.211 Mh/s, GPU5 28.948 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2409.379 Mh/s, Total Shares: 139, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 483.337 Mh/s, GPU1 467.020 Mh/s, GPU2 stopped, GPU=
+3 521.332 Mh/s, GPU4 445.578 Mh/s, GPU5 492.112 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:38 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:03:42 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.618 Mh/s, Total Shares: 32, Rejected: 0, Ti=
+me: 00:17
+=1B[0m=1B[0;36mETH: GPU0 28.361 Mh/s, GPU1 27.499 Mh/s, GPU2 stopped, GPU3 =
+30.664 Mh/s, GPU4 26.190 Mh/s, GPU5 28.904 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2407.505 Mh/s, Total Shares: 140, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 482.137 Mh/s, GPU1 467.479 Mh/s, GPU2 stopped, GPU=
+3 521.288 Mh/s, GPU4 445.230 Mh/s, GPU5 491.371 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-18:03:47 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-18:03:51 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D83C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:03:54 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:05 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:04:05 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.132 Mh/s, Total Shares: 32, Rejected: 0, Ti=
+me: 00:18
+=1B[0m=1B[0;36mETH: GPU0 28.778 Mh/s, GPU1 27.479 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.093 Mh/s, GPU5 29.115 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2416.244 Mh/s, Total Shares: 143, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 489.222 Mh/s, GPU1 467.149 Mh/s, GPU2 stopped, GPU=
+3 521.345 Mh/s, GPU4 443.580 Mh/s, GPU5 494.948 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-18:04:08 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32mETH: Share accepted (30 ms)!=0D
+=1B[0mETH: 04/24/18-18:04:22 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.813 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:18
+=1B[0m=1B[0;36mETH: GPU0 28.491 Mh/s, GPU1 27.474 Mh/s, GPU2 stopped, GPU3 =
+30.668 Mh/s, GPU4 26.062 Mh/s, GPU5 29.118 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2410.818 Mh/s, Total Shares: 143, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 484.351 Mh/s, GPU1 467.054 Mh/s, GPU2 stopped, GPU=
+3 521.363 Mh/s, GPU4 443.052 Mh/s, GPU5 494.998 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D83C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:23 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:28 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:31 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:04:37 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.468 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:18
+=1B[0m=1B[0;36mETH: GPU0 28.194 Mh/s, GPU1 27.457 Mh/s, GPU2 stopped, GPU3 =
+30.659 Mh/s, GPU4 26.058 Mh/s, GPU5 29.099 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2404.948 Mh/s, Total Shares: 146, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 479.302 Mh/s, GPU1 466.765 Mh/s, GPU2 stopped, GPU=
+3 521.206 Mh/s, GPU4 442.985 Mh/s, GPU5 494.690 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-18:04:42 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-18:04:42 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:43 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:44 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:04:45 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.878 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:18
+=1B[0m=1B[0;36mETH: GPU0 28.202 Mh/s, GPU1 27.467 Mh/s, GPU2 stopped, GPU3 =
+30.460 Mh/s, GPU4 25.808 Mh/s, GPU5 28.941 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2394.929 Mh/s, Total Shares: 149, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 479.437 Mh/s, GPU1 466.946 Mh/s, GPU2 stopped, GPU=
+3 517.827 Mh/s, GPU4 438.731 Mh/s, GPU5 491.988 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:04:46 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.876 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:18
+=1B[0m=1B[0;36mETH: GPU0 28.114 Mh/s, GPU1 27.547 Mh/s, GPU2 stopped, GPU3 =
+30.482 Mh/s, GPU4 25.808 Mh/s, GPU5 28.925 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2394.885 Mh/s, Total Shares: 149, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 477.931 Mh/s, GPU1 468.300 Mh/s, GPU2 stopped, GPU=
+3 518.198 Mh/s, GPU4 438.731 Mh/s, GPU5 491.725 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:49 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-18:04:51 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.033 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:18
+=1B[0m=1B[0;36mETH: GPU0 27.991 Mh/s, GPU1 27.483 Mh/s, GPU2 stopped, GPU3 =
+30.396 Mh/s, GPU4 26.209 Mh/s, GPU5 28.954 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.558 Mh/s, Total Shares: 150, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 475.848 Mh/s, GPU1 467.218 Mh/s, GPU2 stopped, GPU=
+3 516.734 Mh/s, GPU4 445.546 Mh/s, GPU5 492.212 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:58 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:04:59 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:05:00 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.376 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:19
+=1B[0m=1B[0;36mETH: GPU0 27.377 Mh/s, GPU1 27.460 Mh/s, GPU2 stopped, GPU3 =
+30.436 Mh/s, GPU4 26.192 Mh/s, GPU5 28.912 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2386.384 Mh/s, Total Shares: 152, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 465.415 Mh/s, GPU1 466.815 Mh/s, GPU2 stopped, GPU=
+3 517.403 Mh/s, GPU4 445.256 Mh/s, GPU5 491.495 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:05:00 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.376 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:19
+=1B[0m=1B[0;36mETH: GPU0 27.377 Mh/s, GPU1 27.460 Mh/s, GPU2 stopped, GPU3 =
+30.436 Mh/s, GPU4 26.192 Mh/s, GPU5 28.912 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2386.384 Mh/s, Total Shares: 152, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 465.415 Mh/s, GPU1 466.815 Mh/s, GPU2 stopped, GPU=
+3 517.403 Mh/s, GPU4 445.256 Mh/s, GPU5 491.495 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:05:10 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.105 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:19
+=1B[0m=1B[0;36mETH: GPU0 28.125 Mh/s, GPU1 27.460 Mh/s, GPU2 stopped, GPU3 =
+30.422 Mh/s, GPU4 26.175 Mh/s, GPU5 28.924 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2398.787 Mh/s, Total Shares: 152, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 478.129 Mh/s, GPU1 466.816 Mh/s, GPU2 stopped, GPU=
+3 517.168 Mh/s, GPU4 444.967 Mh/s, GPU5 491.707 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:05:13 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:05:15 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D65C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-18:05:28 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.486 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:19
+=1B[0m=1B[0;36mETH: GPU0 28.379 Mh/s, GPU1 27.473 Mh/s, GPU2 stopped, GPU3 =
+29.637 Mh/s, GPU4 26.090 Mh/s, GPU5 28.907 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2388.254 Mh/s, Total Shares: 154, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 482.436 Mh/s, GPU1 467.034 Mh/s, GPU2 stopped, GPU=
+3 503.824 Mh/s, GPU4 443.535 Mh/s, GPU5 491.425 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:05:31 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (6 ms)!=0D
+=1B[0m=0D[910.90 Kkey/s][total 4039114752][Prob 0.0%][50% in 70.9y]        =
+             =1B[1;32m SC: 04/24/18-18:05:37 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (9 ms)!=0D
+=1B[0m SC: 04/24/18-18:05:37 - New job from us-east.siamining.com:7777
+ETH: 04/24/18-18:05:44 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.255 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:19
+=1B[0m=1B[0;36mETH: GPU0 28.981 Mh/s, GPU1 27.475 Mh/s, GPU2 stopped, GPU3 =
+30.664 Mh/s, GPU4 26.020 Mh/s, GPU5 29.115 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2418.334 Mh/s, Total Shares: 156, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 492.672 Mh/s, GPU1 467.081 Mh/s, GPU2 stopped, GPU=
+3 521.291 Mh/s, GPU4 442.343 Mh/s, GPU5 494.947 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m/root/QuantumRNG/pollinate: 26: /root/QuantumRNG/pollinate: qrandom: =
+not found
+client successfully seeded [/dev/urandom] from ANU Quantum Server
+system was previously seeded at [2018-03-24 09:59:29.143486025 +0100]
+ETH: 04/24/18-18:05:50 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 142.059 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:19
+=1B[0m=1B[0;36mETH: GPU0 28.727 Mh/s, GPU1 27.499 Mh/s, GPU2 stopped, GPU3 =
+30.664 Mh/s, GPU4 26.062 Mh/s, GPU5 29.107 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2414.997 Mh/s, Total Shares: 156, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 488.362 Mh/s, GPU1 467.474 Mh/s, GPU2 stopped, GPU=
+3 521.291 Mh/s, GPU4 443.046 Mh/s, GPU5 494.824 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D50C=
+ fan=3D47%, GPU3 t=3D70C fan=3D80%, GPU4 t=3D82C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0m=1B[1;32m SC: 04/24/18-18:05:58 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:05:59 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:00 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:01 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:02 - SHARE FOUND - (GPU 1)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0mETH: 04/24/18-18:06:03 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.490 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 28.179 Mh/s, GPU1 27.478 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.062 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.328 Mh/s, Total Shares: 161, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 479.036 Mh/s, GPU1 467.126 Mh/s, GPU2 stopped, GPU=
+3 521.338 Mh/s, GPU4 443.052 Mh/s, GPU5 494.776 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:03 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:06:03 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.490 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 28.179 Mh/s, GPU1 27.478 Mh/s, GPU2 stopped, GPU3 =
+30.667 Mh/s, GPU4 26.062 Mh/s, GPU5 29.104 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2405.328 Mh/s, Total Shares: 162, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 479.036 Mh/s, GPU1 467.126 Mh/s, GPU2 stopped, GPU=
+3 521.338 Mh/s, GPU4 443.052 Mh/s, GPU5 494.776 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:06:04 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.594 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 28.279 Mh/s, GPU1 27.502 Mh/s, GPU2 stopped, GPU3 =
+30.666 Mh/s, GPU4 26.038 Mh/s, GPU5 29.108 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2407.088 Mh/s, Total Shares: 162, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 480.740 Mh/s, GPU1 467.531 Mh/s, GPU2 stopped, GPU=
+3 521.329 Mh/s, GPU4 442.651 Mh/s, GPU5 494.837 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:06:05 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 139.556 Mh/s, Total Shares: 33, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 27.008 Mh/s, GPU1 27.439 Mh/s, GPU2 stopped, GPU3 =
+30.538 Mh/s, GPU4 25.622 Mh/s, GPU5 28.949 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2372.447 Mh/s, Total Shares: 162, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 459.133 Mh/s, GPU1 466.463 Mh/s, GPU2 stopped, GPU=
+3 519.149 Mh/s, GPU4 435.567 Mh/s, GPU5 492.135 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32mETH: 04/24/18-18:06:05 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32mETH: Share accepted (33 ms)!=0D
+=1B[0m=1B[1;32mETH: 04/24/18-18:06:08 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32mETH: Share accepted (31 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:14 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:16 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:18 - SHARE FOUND - (GPU 4)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:06:20 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.611 Mh/s, Total Shares: 35, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 27.680 Mh/s, GPU1 27.332 Mh/s, GPU2 stopped, GPU3 =
+30.467 Mh/s, GPU4 26.176 Mh/s, GPU5 28.955 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2390.380 Mh/s, Total Shares: 165, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 470.567 Mh/s, GPU1 464.646 Mh/s, GPU2 stopped, GPU=
+3 517.933 Mh/s, GPU4 444.997 Mh/s, GPU5 492.237 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0mETH: 04/24/18-18:06:21 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 140.611 Mh/s, Total Shares: 35, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 27.680 Mh/s, GPU1 27.332 Mh/s, GPU2 stopped, GPU3 =
+30.467 Mh/s, GPU4 26.176 Mh/s, GPU5 28.955 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2390.380 Mh/s, Total Shares: 165, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 470.567 Mh/s, GPU1 464.646 Mh/s, GPU2 stopped, GPU=
+3 517.933 Mh/s, GPU4 444.997 Mh/s, GPU5 492.237 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:21 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[0;35mGPU0 t=3D65C fan=3D80%, GPU1 t=3D60C fan=3D80%, GPU2 t=3D51C=
+ fan=3D47%, GPU3 t=3D69C fan=3D80%, GPU4 t=3D83C fan=3D80%, GPU5 t=3D66C fa=
+n=3D80%
+=1B[0mETH: 04/24/18-18:06:27 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.050 Mh/s, Total Shares: 35, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 28.145 Mh/s, GPU1 27.348 Mh/s, GPU2 stopped, GPU3 =
+30.425 Mh/s, GPU4 26.212 Mh/s, GPU5 28.920 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2397.842 Mh/s, Total Shares: 166, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 478.456 Mh/s, GPU1 464.916 Mh/s, GPU2 stopped, GPU=
+3 517.221 Mh/s, GPU4 445.609 Mh/s, GPU5 491.640 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:28 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0mETH: 04/24/18-18:06:31 - New job from local.ethermine.org:8008
+=1B[0;36mETH - Total Speed: 141.157 Mh/s, Total Shares: 35, Rejected: 0, Ti=
+me: 00:20
+=1B[0m=1B[0;36mETH: GPU0 28.221 Mh/s, GPU1 27.283 Mh/s, GPU2 stopped, GPU3 =
+30.444 Mh/s, GPU4 26.207 Mh/s, GPU5 29.002 Mh/s
+=1B[0m=1B[1;33m SC - Total Speed: 2399.659 Mh/s, Total Shares: 167, Rejecte=
+d: 0
+=1B[0m=1B[1;33m SC: GPU0 479.753 Mh/s, GPU1 463.816 Mh/s, GPU2 stopped, GPU=
+3 517.543 Mh/s, GPU4 445.514 Mh/s, GPU5 493.033 Mh/s
+=1B[0m=1B[0;31mGPU 2 mining is stopped because -tstop temperature was reach=
+ed.
+
+=1B[0m SC: 04/24/18-18:06:32 - New job from us-east.siamining.com:7777
+=1B[1;32m SC: 04/24/18-18:06:37 - SHARE FOUND - (GPU 0)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:38 - SHARE FOUND - (GPU 5)
+=1B[0m=1B[1;32m SC: Share accepted (8 ms)!=0D
+=1B[0m=1B[1;32m SC: 04/24/18-18:06:42 - SHARE FOUND - (GPU 3)
+=1B[0m=1B[1;32m SC: Share accepted (7 ms)!=0D
+=1B[0m
+

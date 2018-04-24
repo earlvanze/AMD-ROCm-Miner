@@ -2,3 +2,7 @@
 /.ssh
 /fahtmpfs
 .bash_history
+.bashrc
+/.nano
+.muttrc
+/.mutt
