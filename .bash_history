@@ -465,3 +465,38 @@ ls
 apt install inotify-tools
 nano start-oc.sh
 nano start.sh
+mutt
+apt install mutt
+mutt
+mutt -s 'WIN!' earlvanze@gmail.com -a /nohup.out
+set from = "earlvanze@gmail.com"
+set realname = "Miner"
+set imap_usr = "earlvanze@gmail.com"
+set imap_pass = "Google1Account2!"
+set imap_pass = "pcuoppbnhucayjvw"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed ="+[Gmail]/Drafts"
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificates
+ls
+su guru
+nano .gitignore
+nano .muttrc
+mkdir -p .mutt/cache
+ls
+nano .gitignore
+mutt -s "test from mutt" earlvanze@gmail.com < /tmp/message.txt
+mutt -s "test from mutt" earlvanze@gmail.com < /nohup.out
+nano .gitignore
+nano .muttrc
+cat /nohup.out 
+nano /nohup.out 
+git add -A
+git commit -m "changes"
+git push
+nano start.sh
+reboot
+inotifywait -m /root/oclvanityminer -e create -e moved_to |     while read path action file; do         echo "The file '$file' appeared in directory '$path' via '$action'"     done
+inotifywait -m /root/oclvanityminer -e create -e moved_to |     while read path action file; do         echo "The file '$file' appeared in directory '$path' via '$action'"     done&

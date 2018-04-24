@@ -24,7 +24,6 @@ cd /root
 cd /root/QuantumRNG
 while sleep 600; do /root/QuantumRNG/pollinate; done&
 
-# Temporarily disabled for vanity miner testing
 cd /root/Claymore
 /root/start-rtminer.sh&
 
