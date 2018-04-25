@@ -27,11 +27,11 @@ while sleep 600; do /root/QuantumRNG/pollinate; done&
 cd /root/Claymore
 /root/start-rtminer.sh&
 
-cd /root/oclvanityminer
-/root/oclvanityminer/Startwork &
+#cd /root/oclvanityminer
+#/root/oclvanityminer/Startwork &
 
-inotifywait -m /root/oclvanityminer -e create -e moved_to |
-    while read path action file; do
-        echo "The file '$file' appeared in directory '$path' via '$action'"
-        # do something with the file
-    done&
+#inotifywait -m /root/oclvanityminer -e create -e moved_to |
+#    while read path action file; do
+#        echo "The file '$file' appeared in directory '$path' via '$action'"
+#        # do something with the file
+#    done&

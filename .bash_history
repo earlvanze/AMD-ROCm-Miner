@@ -500,3 +500,40 @@ nano start.sh
 reboot
 inotifywait -m /root/oclvanityminer -e create -e moved_to |     while read path action file; do         echo "The file '$file' appeared in directory '$path' via '$action'"     done
 inotifywait -m /root/oclvanityminer -e create -e moved_to |     while read path action file; do         echo "The file '$file' appeared in directory '$path' via '$action'"     done&
+ping -c 1 192.168.42.140
+cat /nohup.out 
+cat /proc/interrupts 
+git pull
+ping github.com
+git remote -v origin
+git remote git
+git remote set-url origin https://github.com/earlvanze/AMD-ROCm-Miner.git
+git status
+git fetch
+ping github.comc
+ping github.com
+git config --global --unset http.proxy 
+git config --global --unset https.proxy
+cat /nohup.out 
+route
+ping google.com
+nano start-net.sh 
+/etc/init.d/wicd stop
+export eth0=`dmesg | grep eth0 | grep rename | sed s/\:\ rename.*//g | sed s/.*:.*:.....//g`
+ifconfig $eth0 192.168.42.140 netmask 255.255.255.0 up
+route add default gw 192.168.42.1
+ping -c 1 192.168.42.1
+ping google.com
+git pull
+nano start-rtlinux.sh 
+git stash
+git pull
+nano .gitignore
+nano start.sh
+nano start-rtminer.sh 
+nano start-net.sh 
+cat /nohup.out 
+rocm-smi
+/opt/rocm/bin/rocm-smi
+nano start-rtminer.sh
+exit
