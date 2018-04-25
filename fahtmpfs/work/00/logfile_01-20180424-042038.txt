@@ -23,3 +23,6 @@ Verified 00/wudata_01.xtc
 Verified 00/wudata_01.edr
 Completed 744970 out of 2500000 steps  (29%)
 Completed 750000 out of 2500000 steps  (30%)
+Client no longer detected. Shutting down core.
+
+Folding@home Core Shutdown: CLIENT_DIED
