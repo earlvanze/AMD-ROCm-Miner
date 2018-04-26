@@ -1,8 +1,8 @@
 /amdgpu-pro
 /.ssh
 /fahtmpfs
-.bash_history
-.bashrc
+/.bash_history
+/.bashrc
 /.nano
-.muttrc
+/.muttrc
 /.mutt

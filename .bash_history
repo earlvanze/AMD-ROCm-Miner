@@ -500,3 +500,21 @@ nano start.sh
 reboot
 inotifywait -m /root/oclvanityminer -e create -e moved_to |     while read path action file; do         echo "The file '$file' appeared in directory '$path' via '$action'"     done
 inotifywait -m /root/oclvanityminer -e create -e moved_to |     while read path action file; do         echo "The file '$file' appeared in directory '$path' via '$action'"     done&
+hostname
+domainname
+nano /etc/hosts
+nano /etc/hostname
+nano /etc/hosts
+cat /nohup.out 
+nano start-rtminer.sh 
+cat /nohup.out 
+cat /proc/interrupts
+mutt -s "test from mutt" earlvanze@gmail.com < /nohup.out
+apt install exim4
+dpkg-reconfigure exim4-config
+mutt -s "test from mutt" earlvanze@gmail.com < /nohup.out
+ls
+nano start.sh
+git add -A
+git commit -m "disabled SC mining, enabled vanity address mining"
+git push
