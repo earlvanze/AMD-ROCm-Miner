@@ -518,3 +518,86 @@ nano start.sh
 git add -A
 git commit -m "disabled SC mining, enabled vanity address mining"
 git push
+ls
+/opt/rocm/bin/rocm-smi 
+cat /nohup.out 
+ls
+nano oclvanityminer/Startwork 
+cat /nohup.out 
+nano start.sh
+nano start-rtminer.sh 
+git add -A
+git status
+nano .gitignore
+git add -A
+git status
+git commit -m "disabled oclvanityminer for now"
+git push
+git remote set-url origin https://github.com/earlvanze/AMD-ROCm-Miner.git
+git push
+git remote
+git remote --help
+git remote set-url origin https://github.com/earlvanze/AMD-ROCm-rippa.git
+git push
+nano start.sh
+reboot
+cat /proc/interrupts 
+nano start-rtminer.sh 
+cat /nohup.out 
+exit
+nano /etc/ssh/sshd_config 
+reboot
+ls
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+exit
+/opt/rocm/bin/rocm-smi
+ifconfig
+netstat -ntl
+netstat
+ifconfig
+ifconfig /all
+ifconfig -a
+curl ipinfo.io/ip
+curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'  
+ls
+rm start.sh.save
+
+dig +short myip.opendns.com @resolver1.opendns.com
+ping 100.111.46.82
+sudo apt install autossh
+useradd -s /usr/sbin/nologin -m sshtunnel
+su sshtunnel -s /bin/bash
+scp -r -i /root/.ssh/sorty.pem /root/.ssh/tunnel_key_a.pub ubuntu@api.sortymcsortface.com:~
+scp -r -i /root/.ssh/sorty.pem /home/sshtunnel/.ssh/tunnel_key_a.pub ubuntu@api.sortymcsortface.com:~
+ssh-keyscan -H -t rsa api.sortymcsortface.com | sudo su -s /bin/sh sshtunnel -c "tee >> ~/.ssh/known_hosts"
+su -s /bin/sh sshtunnel -c "autossh -v -i ~/.ssh/tunnel_key_a api.sortymcsortface.com -N -R api.sortymcsortface.com:2202:localhost:2202
+"
+su -s /bin/sh sshtunnel -c "autossh -v -i ~/.ssh/tunnel_key_a api.sortymcsortface.com -N -R api.sortymcsortface.com:2202:localhost:2202"
+ls /etc/systemd/system
+cd /etc/systemd/system
+mv sshtunnel\ \(1\).service sshtunnel.service
+nano sshtunnel.service 
+ls /home/sshtunnel
+ls
+reboot
+ifconfig
+systemctl enable sshtunnel.service
+nano start-net.sh
+nano start.sh
+nano start-net.sh
+cat /home/sshtunnel/autossh.sh 
+nano start-net.sh
+./start-net.sh 
+nano start-net.sh
+./start-net.sh 
+nano /etc/ssh/sshd_config 
+service ssh restart
+./start-net.sh 
+ls
+ls /home
+./start-net.sh 
+nano start-net.sh 
+./start-net.sh 
+nano start-net.sh
+./start-net.sh 
