@@ -21,15 +21,15 @@ echo 0 > /proc/irq/127/smp_affinity_list
 echo 0 > /proc/irq/128/smp_affinity_list
 echo 0 > /proc/irq/129/smp_affinity_list
 echo 0 > /proc/irq/130/smp_affinity_list
-echo 0 > /proc/irq/132/smp_affinity_list
 
 #amdgpu(s)
 echo 1 > /proc/irq/131/smp_affinity_list
+echo 1 > /proc/irq/132/smp_affinity_list
 echo 1 > /proc/irq/133/smp_affinity_list
 echo 1 > /proc/irq/134/smp_affinity_list
 echo 1 > /proc/irq/135/smp_affinity_list
-echo 1 > /proc/irq/136/smp_affinity_list
 
+#echo 1 > /proc/irq/136/smp_affinity_list
 #echo 1 > /proc/irq/137/smp_affinity_list
 #echo 1 > /proc/irq/138/smp_affinity_list
 #echo 1 > /proc/irq/139/smp_affinity_list
