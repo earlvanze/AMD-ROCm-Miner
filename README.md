@@ -2,7 +2,7 @@
 Dev userland for usb flash drive with full amd rocm and blockchain support plug and rock.
 
 Kudos to Tekcomm for creating this image. I forked it to archive my modifications in /root.
-Deleted the amdgpu-pro driver installation files to save 1.1 GB of space so it would fit on 8 GB drives. Used space is 7.6 GB.
+Delete the amdgpu-pro driver installation files to save 1.1 GB of space to fit on 8 GB drives.
 (https://github.com/tekcomm/AMD-rocm-rippa)
 
 This is alpha software you agree to the user license by clicking on the video
@@ -14,9 +14,12 @@ https://github.com/RadeonOpenCompute/ROCm/issues/345
 Version 2 is here
 https://github.com/RadeonOpenCompute/ROCm/issues/361
 
-Download the 8 GB image and dd to an 8 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug.
+Download the 16 GB image and dd to a 16 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug. 8.1 out of 15.5 GB space used.
+```Username: guru
+Password: cryptominer
+```
 (https://drive.google.com/file/d/1iel3XKQtI0Z-HPDELonKDxF4gaEYYWDb/view?usp=sharing)
-Resize2fs or gparted will expand your partition to fill up a drive larger than 8 GB.
+gparted can expand your partition to fill up a drive larger than 16 GB.
 This link works better than the one on MEGA because MEGA has a 5 GB free transfer limit. It took me 12 hours to get the whole image.
 Or you could just email tekcommnv@gmail.com and he could send it to you.
 
