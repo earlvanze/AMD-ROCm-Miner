@@ -7,7 +7,6 @@ ifconfig dummy0 1.2.3.4 netmask 255.255.255.255 up
 #ifconfig $eth0 192.168.2.2 netmask 255.255.255.0 up
 #route add default gw 192.168.2.1 
 #ping -c 1 192.168.2.1
-modprobe cdc_ether
+#modprobe cdc_ether
 dhclient&
 # $eth0&
-su -s /bin/sh sshtunnel -c "autossh -v -i ~/.ssh/tunnel_key_a api.sortymcsortface.com -N -R 2201:localhost:22" &

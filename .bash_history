@@ -601,3 +601,68 @@ nano start-net.sh
 ./start-net.sh 
 nano start-net.sh
 ./start-net.sh 
+tail -f /var/log/auth.log
+nano /.ssh/authorized_keys
+nano .ssh/authorized_keys
+nano .ssh/known_hosts 
+cat /nohup.out 
+service ssh restart
+top
+./start-net.sh >> /logssh.txt &
+nano start-net.sh 
+./start-net.sh >> /logssh.txt &
+nano /logssh.txt 
+cat /logssh.txt 
+git add -A
+git commit -m "autossh persistent reverse ssh tunnel working"
+git push
+exit
+ifconfig
+exit
+nano start-net.sh 
+exit
+sudo nano /etc/default/grub
+sudo update-grub
+ls
+dpkg -i linux-headers-4.16.3+_18.04.23.AMDGPU.UBUNTU_amd64.deb 
+dpkg -i linux-image-4.16.3+_18.04.23.AMDGPU.UBUNTU_amd64.deb 
+sudo nano /etc/default/grub
+sudo nano start-net.sh 
+su -s /bin/sh sshtunnel -c "autossh -v -i ~/.ssh/tunnel_key_a api.sortymcsortface.com -N -R 2203:localhost:22" &
+sudo reboot
+cat /nohup.out
+dmesg > dmesg.txt
+cat dmesg.txt 
+rocm-smi
+/opt/rocm/bin/rocm-
+/opt/rocm/bin/rocm-smi 
+cat dmesg.txt 
+netstat -ntl
+nano start.sh
+cat /nohup.out 
+nano /etc/rc.local
+nano start.sh
+nano start-net.sh
+cat /nohup.out 
+reboot
+cat /nohup.out 
+df -h
+sudo nano /etc/network/ifup.d
+sudo nano /etc/network/if-up.d/
+ls /etc/network/if-up.d/
+ls /etc/network/if-up.d/wpasupplicant 
+nano /etc/network/if-up.d/wpasupplicant 
+nano /etc/network/if-up.d/000resolvconf 
+nano /etc/network/if-up.d/upstart 
+upstart
+nano /etc/network/if-up.d/sshtunnel
+chmod +x /etc/network/if-up.d/sshtunnel
+nano start.sh
+nano start-net.sh
+ln -s /etc/network/if-up.d/sshtunnel ./sshtunnel
+ls -la
+nano .gitignore
+ls amdgpu-pro/
+ls amdgpu-pro/amdgpu-pro-17.50-511655/
+cat /nohup.out 
+reboot
