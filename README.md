@@ -15,7 +15,8 @@ Version 2 is here
 https://github.com/RadeonOpenCompute/ROCm/issues/361
 
 Download the 16 GB image and dd to a 16 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug. 8.1 out of 15.5 GB space used.
-```Username: guru
+```
+Username: guru
 Password: cryptominer
 ```
 (https://drive.google.com/file/d/1iel3XKQtI0Z-HPDELonKDxF4gaEYYWDb/view?usp=sharing)
