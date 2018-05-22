@@ -1,6 +1,6 @@
-root@AMD-rocm-rippa:~# cat /nohup.out 	# outputs log from scripts
-root@AMD-rocm-rippa:~# dmesg		# outputs log from system hardware
-root@AMD-rocm-rippa:~# cat /proc/interrupts		# outputs interrupts list
+root@AMD-rocm-rippa:~# cat /nohup.out   # outputs log from scripts
+root@AMD-rocm-rippa:~# dmesg            # outputs log from system hardware
+root@AMD-rocm-rippa:~# cat /proc/interrupts             # outputs interrupts list
            CPU0       CPU1
   0:          8          0   IO-APIC   2-edge      timer
   8:          1          0   IO-APIC   8-edge      rtc0
@@ -43,6 +43,7 @@ MIS:          0
 PIN:          0          0   Posted-interrupt notification event
 NPI:          0          0   Nested posted-interrupt event
 PIW:          0          0   Posted-interrupt wakeup event
+
 root@AMD-rocm-rippa:~# /opt/rocm/bin/rocm-smi		# outputs GPU hardware stats
 
 
