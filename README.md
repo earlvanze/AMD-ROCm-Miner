@@ -1,17 +1,17 @@
 # AMD-rocm-rippa Version 2 Fork
-Dev userland for usb flash drive with full amd rocm and blockchain support plug and rock.
+Dev userland for usb flash drive with full amd rocm and blockchain support.
 
 Kudos to Tekcomm for creating this image. I forked it to archive my modifications in /root.
 Delete the amdgpu-pro driver installation files to save 1.1 GB of space to fit on 8 GB drives.
 (https://github.com/tekcomm/AMD-rocm-rippa)
 
-This is alpha software you agree to the user license by clicking on the video
+This is alpha software. You agree to the user license by clicking on the video:
 https://www.youtube.com/watch?v=_3Cl43FZvZc&feature=youtu.be
 
-Beta Version is here
+Beta Version is here:
 https://github.com/RadeonOpenCompute/ROCm/issues/345
 
-Version 2 is here
+Version 2 is here:
 https://github.com/RadeonOpenCompute/ROCm/issues/361
 
 Download the 16 GB image and dd to a 16 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug. 8.1 out of 15.5 GB space used.

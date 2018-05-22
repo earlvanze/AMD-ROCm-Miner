@@ -6,3 +6,11 @@
 /.nano
 /.muttrc
 /.mutt
+.gitconfig
+.gnupg
+.profile
+.rnd
+/.vim
+.wget-hsts
+nohup.out
+/fah
