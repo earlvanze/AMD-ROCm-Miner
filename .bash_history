@@ -666,3 +666,48 @@ ls amdgpu-pro/
 ls amdgpu-pro/amdgpu-pro-17.50-511655/
 cat /nohup.out 
 reboot
+netstat -ntl
+cat /nohup.out 
+dmesg > dmesg.txt
+cat dmesg.txt 
+nano /etc/network/if-up.d/sshtunnel
+nano start.net
+nano start.sh
+nano start-net.sh 
+nano start-rtminer.sh 
+nano /etc/network/if-up.d/sshtunnel
+git add -A
+git status
+nano .gitignore 
+git commit -m "working rig3"
+git push
+git checkout -b "rig3"
+git push
+cat /nohup.out 
+reboot
+cat /proc/interrupts 
+cat /nohup.out
+dmesg
+cat /nohup.out 
+nano start-rtminer.sh 
+nano /etc/rc.local
+reboot
+cat /no
+cat /nohup.out
+rocm-smi
+/opt/rocm/bin/rocm-smi
+dmesg
+ssh root@192.168.1.18
+ssh root@192.168.1.10
+ssh root@192.168.1.18
+ssh root@192.168.1.15
+ssh root@192.168.1.16
+ssh root@192.168.1.2
+cat /proc/interrupts
+ls /
+reboot
+cat /nohup.out 
+nano start-rtminer.sh 
+service
+ssh root@192.168.1.18
+ssh guru@192.168.1.18

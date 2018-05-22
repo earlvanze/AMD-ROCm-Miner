@@ -1,3 +1,5 @@
 [user]
 	email = earlvanze@gmail.com
 	name = Earl Co
+[push]
+	default = simple
