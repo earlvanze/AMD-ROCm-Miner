@@ -34,15 +34,19 @@ If you're using risers, you will not be able to take advantage of PCIe Atomics. 
 
 In Linux, plug in USB or mount image:
 ```
-mount -t ext4 -o loop,offset=[(block # of /dev/sdb3) * 512 (block size in bytes)] cryptominer-16gb.img /mountpoint
+mount -t ext4 -o loop,offset=316669952 /path/to/image [/media/root or whatever your mount point is]
+```
+To <a href="https://www.linuxquestions.org/questions/linux-general-1/how-to-mount-img-file-882386/">determine the offset for your image or drive</a>, run:
+```
+fdisk -l /path/to/image
 ```
 Also mount other folders:
 ```
-for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mountpoint$i; done
+for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /media/root$i; done
 ```
 Then cd into root folder of img and chroot:
 ```
-cd /mountpoint
+cd /media/root
 sudo chroot .
 ```
 Then you can update files, passwd, etc.
