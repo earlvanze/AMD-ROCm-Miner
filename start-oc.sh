@@ -4,14 +4,14 @@
 /opt/rocm/bin/rocm-smi --setfan 130
 
 #set GPU core clock frequencies and power profiles
-/opt/rocm/bin/rocm-smi -d 0 --setsclk 3
-/opt/rocm/bin/rocm-smi -d 1 --setsclk 3
-/opt/rocm/bin/rocm-smi -d 2 --setsclk 3
-/opt/rocm/bin/rocm-smi -d 3 --setsclk 3
-/opt/rocm/bin/rocm-smi -d 4 --setsclk 3
-/opt/rocm/bin/rocm-smi -d 5 --setsclk 3
-/opt/rocm/bin/rocm-smi -d 6 --setsclk 3
-/opt/rocm/bin/rocm-smi -d 7 --setsclk 3
+/opt/rocm/bin/rocm-smi -d 0 --setsclk 5
+/opt/rocm/bin/rocm-smi -d 1 --setsclk 5
+/opt/rocm/bin/rocm-smi -d 2 --setsclk 5
+/opt/rocm/bin/rocm-smi -d 3 --setsclk 5
+/opt/rocm/bin/rocm-smi -d 4 --setsclk 5
+/opt/rocm/bin/rocm-smi -d 5 --setsclk 5
+/opt/rocm/bin/rocm-smi -d 6 --setsclk 5
+/opt/rocm/bin/rocm-smi -d 7 --setsclk 5
 /opt/rocm/bin/rocm-smi -d 8 --setsclk 3
 /opt/rocm/bin/rocm-smi -d 9 --setsclk 3
 /opt/rocm/bin/rocm-smi -d 10 --setsclk 3

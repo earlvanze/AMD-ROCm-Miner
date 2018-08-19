@@ -1,0 +1,78 @@
+Full Install instructions
+======================================
+    
+    echo 'net.ipv6.conf.all.disable_ipv6 = 1' >> /etc/sysctl.conf
+    echo 'net.ipv6.conf.default.disable_ipv6 = 1' >> /etc/sysctl.conf
+    echo 'net.ipv6.conf.lo.disable_ipv6 = 1' >> /etc/sysctl.conf
+    echo 'net.ipv4.ip_nonlocal_bind=1' >> /etc/sysctl.conf
+    echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf
+    sysctl -p
+
+    echo '* soft memlock 262144' >> /etc/security/limits.conf
+    echo '* hard memlock 262144' >> /etc/security/limits.conf
+
+    apt-get update -y && apt-get upgrade -y && apt-get install -y libcurl4-openssl-dev build-essential libjansson-dev libmicrohttpd-dev libssl-dev cmake libhwloc-dev htop libuv1-dev libmicrohttpd-dev git wget flex bison libelf-dev libpci-dev
+
+VEGA USERS ONLY
+=======================================
+
+    
+    git clone https://github.com/M-Bab/linux-kernel-amdgpu-binaries.git 
+    cd linux-kernel-amdgpu-binaries
+    dpkg -i linux-image-4.18.0-rc5_18.07.22.amdgpu.ubuntu_amd64.deb  firmware-radeon-ucode_2.10_all.deb linux-headers-4.18.0-rc5_18.07.22.amdgpu.ubuntu_amd64.deb
+    cd /usr/src
+    git clone --depth 1 https://github.com/RadeonOpenCompute/ROCT-Thunk-Interface -b fxkamd/drm-next-wip
+    cd ROCT-Thunk-Interface
+    mkdir -p build
+    cd build
+    cmake ..
+    make
+    cd .. 
+    sudo cp libhsakmt.so* /opt/amdgpu-pro/lib/x86_64-linux-gnu/
+
+
+Update bootloader
+=======================================
+    vi /etc/default/grub
+    GRUB_CMDLINE_LINUX_DEFAULT="quiet splash amdgpu.ppfeaturemask=0xffffffff amdgpu.dc=1 amdgpu.hw_i2c=1 amdgpu.vm_fragment_size=9 amdgpu.dpm=1 amdgpu.audio=1 amdgpu.ngg=1 selinux=0 security=off audit=0 spectre_v2=off nopti pti=off toram"
+    sudo update-grub
+    sudo update-initramfs -u 
+
+
+
+Update amdgpu-pro driver
+=======================================
+    cd /usr/src/ 
+    wget --referer=http://support.amd.com https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.50-511655.tar.xz
+    tar -Jxvf amdgpu-pro-*.tar.xz
+    cd /usr/src/amdgpu-pro-*
+    ./amdgpu-install --headless --opencl=legacy
+    apt-get -f install
+    reboot
+
+
+Install ROC-smi to control GPU Fans
+=======================================
+    sudo -i
+    cd /usr/src/
+    git clone https://github.com/RadeonOpenCompute/ROC-smi.git
+    ln -s /usr/src/ROC-smi/rocm-smi /usr/sbin/rocm-smi
+
+Download and Install tdxminer
+=================================
+    cd /opt
+    git clone git@github.com:tekcomm/tdxminer.git
+    cd /opt/tdxminer
+    ./go
+
+Vega power control and undervolt
+***
+echo "manual" > /sys/class/drm/card1/device/power_dpm_force_performance_level
+echo "s 0 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
+echo "s 1 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
+echo "s 2 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
+echo "s 3 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
+echo "s 4 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
+echo "s 5 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
+echo "s 6 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
+echo "s 7 1663 985" > /sys/class/drm/card*/device/pp_od_clk_voltage
