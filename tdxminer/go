@@ -5,5 +5,7 @@ export GPU_USE_SYNC_OBJECTS=1
 export GPU_MAX_ALLOC_PERCENT=100
 export GPU_SINGLE_ALLOC_PERCENT=100
 export HSA_ENABLE_SDMA=0
-/root/tdxminer/tdxminer --algo=lyra2z --url=stratum+tcp://lyra2z.usa.nicehash.com:3365 --user=3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ --pass=x&
-/root/tdxminer/tdxminer.560 --algo=lyra2z --url=stratum+tcp://lyra2z.usa.nicehash.com:3365 --user=3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ --pass=x -d& 
+killall tdxminer
+cd /rootr/tdxminer
+nohup taskset -c 1 /rootr/tdxminer/tdxminer --algo=lyra2z --url=stratum+tcp://lyra2z.usa.nicehash.com:3365 --user=3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ --pass=x&
+nohup taskset -c 1 /rootr/tdxminer/tdxminer.560 --algo=lyra2z --url=stratum+tcp://lyra2z.usa.nicehash.com:3365 --user=3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ --pass=x -d& 
