@@ -3,7 +3,7 @@ Dev userland for usb flash drive with full amd rocm and blockchain support.
 
 Kudos to Tekcomm for creating the original image. I forked it to archive my modifications, mostly in /root but also with the kernel update to solve the kernel panics in the original 4.13 image.
 Deleted the amdgpu-pro driver installation files to save 1.1 GB of space but since upgrading kernel to 4.18.0 I can no longer fit it on an 8 GB drive without deleting other things that I may not need anyway. Feel free to slim it down further yourself.
-7.6 GB out of 9.5GB used, 6GB linux-swap partition filling up the remaining space. Adjust in gparted as needed.
+7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Adjust in gparted as needed.
 (https://github.com/tekcomm/AMD-rocm-rippa)
 
 This is alpha software. You agree to the user license by clicking on the video:

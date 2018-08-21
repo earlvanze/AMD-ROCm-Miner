@@ -71,7 +71,7 @@ You can find the latest releases and precompiled binaries on GitHub under [Relea
 
 ## Default Developer Donation
 
-By default the miner will donate 2% of the hashpower (2 minute in 100 minutes) to my pool. If you want to change that, edit [donate-level.hpp](xmrstak/donate-level.hpp) before you build the binaries.
+By default the miner will donate 2% of the hashpower (2 minute in 100 minutes) to my pool. If you want to change that, edit [donate-level.hpp](xmrstak/donate-level.hpp) before you build the binaries. (Done)
 
 If you want to donate directly to support further development, here is my wallet
 
