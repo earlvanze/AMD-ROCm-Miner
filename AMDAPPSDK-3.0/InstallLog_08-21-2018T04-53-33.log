@@ -1,0 +1,1734 @@
+[08-21-2018T04:53:33][1069]Starting installation of AMD APP SDK v3.0
+[08-21-2018T04:53:33][1070]Retrieving Operating System details...
+[08-21-2018T04:53:33][79]Detected OS Architecture: 64
+[08-21-2018T04:53:33][86]Detected OS Distribution: Ubuntu
+[08-21-2018T04:53:33][93]Detected OS Version: 16.04
+[08-21-2018T04:53:33][113]Logged in user: root
+[08-21-2018T04:53:33][136]---------------------------------------------------------------------------------
+[08-21-2018T04:53:53][138]---------------------------------------------------------------------------------
+[08-21-2018T04:53:57][1095]EULA accepted, proceeding with console mode installation
+[08-21-2018T04:53:57][1108]AMD APP SDK v3.0 will be installed for all users.
+[08-21-2018T04:53:57][1129]USERMODE_INSTALL: 0. (0: root user; 1: non-root user 
+[08-21-2018T04:53:57][1134]Prompting user for selecting the Installation Directory. Default is /opt
+[08-21-2018T04:54:06][225,]You have chosen to install AMD APP SDK v3.0 in directory: /opt/AMDAPPSDK-3.0
+[08-21-2018T04:54:06][170]Installing to /opt/AMDAPPSDK-3.0.
+[08-21-2018T04:54:06][183]Payload copied to /opt/AMDAPPSDK-3.0
+mode of '/opt/AMDAPPSDK-3.0/bin/x86/clinfo' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/bin/x86_64/clinfo' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/bin' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/bin/x86' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/bin/x86/clinfo' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/bin/x86_64' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/bin/x86_64/clinfo' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86/libglut.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86/libamdocl12cl32.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86/libhsail.a' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86/libamdocl32.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86/libGLEW.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86/libOpenCL.so.1' retained as 0755 (rwxr-xr-x)
+neither symbolic link '/opt/AMDAPPSDK-3.0/lib/x86/libOpenCL.so' nor referent has been changed
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libglut.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libamdhsasc64.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+neither symbolic link '/opt/AMDAPPSDK-3.0/lib/x86_64/libatiuki.so.1' nor referent has been changed
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libamdhsasc64.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libaticalcl.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libamdocl64.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libaticaldd.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libOpenCL.so.1' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libatiuki.so.1.0' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libaticalrt.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+neither symbolic link '/opt/AMDAPPSDK-3.0/lib/x86_64/sdk/libOpenCL.so' nor referent has been changed
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libaticalcl.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libamdocl64.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libGLEW.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libaticaldd.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libOpenCL.so.1' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libatiuki.so.1.0' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libamdocl12cl64.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/lib/x86_64/libaticalrt.so' changed from 0744 (rwxr--r--) to 0755 (rwxr-xr-x)
+neither symbolic link '/opt/AMDAPPSDK-3.0/lib/x86_64/libOpenCL.so' nor referent has been changed
+mode of '/opt/AMDAPPSDK-3.0/include' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/GL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/GL/glext.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/GL/glxew.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/GL/glut.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/GL/wglew.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/GL/glew.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/SDKFile.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/SDKThread.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/BoltCLUtil.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/SDKBitMap.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/OpenCVUtil.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/SDKUtil.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/BoltAMPUtil.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/SDKUtil/CLUtil.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL/cl_gl.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL/cl_platform.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL/cl_ext.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL/cl.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL/cl_gl_ext.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL/cl.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/include/CL/opencl.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltSort' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltSort/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltSort/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltSort/docs/BoltSort.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltSort/BoltSort.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltSort/BoltSort.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BlackScholesBolt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BlackScholesBolt/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BlackScholesBolt/BlackScholes.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BlackScholesBolt/BlackScholes.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BlackScholesBolt/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BlackScholesBolt/docs/Black-Scholes_Bolt.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI/gui.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI/docs/BoltMonteCarloPI.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI/MonteCarloPI.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI/MonteCarloPI.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/MonteCarloPI/gui.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/StocksDataAnalysis' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/StocksDataAnalysis/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/StocksDataAnalysis/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/StocksDataAnalysis/docs/BOLTStocksDataAnalysis.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/StocksDataAnalysis/StocksDataAnalysis.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/StocksDataAnalysis/stocks.csv' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/StocksDataAnalysis/StocksDataAnalysis.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/RgbToYuv' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/RgbToYuv/RgbToYuv.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/RgbToYuv/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/RgbToYuv/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/RgbToYuv/docs/RGB_to_YUV_Bolt.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/RgbToYuv/RgbToYuv.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoltSort' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/RgbToYuv_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BlackScholesBolt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoxFilterSAT_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/MonteCarloPI' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/StocksDataAnalysis' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/RgbToYuv' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoltIntro_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoxFilterSAT' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BlackScholesBolt_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoltSort_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/stocks.csv' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoxFilter_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/MonteCarloPI_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/StocksDataAnalysis_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoltIntro' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/PerlinNoise_TBB' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/BoxFilterSAT_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/bin/x86_64/PerlinNoise' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT/BoxFilterSAT.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT/docs/BOLTBox_Blur-Filter.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT/BoxFilterSAT.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT/BoxFilter_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoxFilterSAT/BoxFilterSAT_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltIntro' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltIntro/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltIntro/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltIntro/docs/Bolt_Introduction.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/BoltIntro/BoltIntro.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/PerlinNoise' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/PerlinNoise/PerlinNoise.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/PerlinNoise/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/PerlinNoise/PerlinNoise.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/PerlinNoise/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/bolt/PerlinNoise/docs/PerlinNoise.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/EigenValue' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/EigenValue/EigenValue_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/EigenValue/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/EigenValue/EigenValue.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/EigenValue/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/EigenValue/docs/EigenValue.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/EigenValue/EigenValue.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/TransferOverlapCPP.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/Log.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/docs/TransferOverlapCPP.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/TransferOverlapCPP.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/Timer.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/TransferOverlapCPP_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/Log.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/TransferOverlapCPP/Timer.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MersenneTwister' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MersenneTwister/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MersenneTwister/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MersenneTwister/docs/Mersenne_Twister.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MersenneTwister/MersenneTwister_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MersenneTwister/MersenneTwister.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MersenneTwister/MersenneTwister.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/IntroStaticCPPKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/IntroStaticCPPKernel/IntroStaticCPPKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/IntroStaticCPPKernel/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/IntroStaticCPPKernel/IntroStaticCPPKernel.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/IntroStaticCPPKernel/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/IntroStaticCPPKernel/docs/IntroStaticCPPKernel.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/IntroStaticCPPKernel/IntroStaticCPPKernel.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/FFT' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/FFT/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/FFT/FFT.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/FFT/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/FFT/docs/FFT.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/FFT/FFT_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/FFT/FFT.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/AsyncDataTransfer' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/AsyncDataTransfer/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/AsyncDataTransfer/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/AsyncDataTransfer/docs/AsyncDataTransfer.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/AsyncDataTransfer/AsyncDataTransfer.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/AsyncDataTransfer/AsyncDataTransfer_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/AsyncDataTransfer/AsyncDataTransfer.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL/URNGNoiseGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL/URNGNoiseGL.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL/docs/URNGNoiseGL.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL/URNGNoiseGL.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/URNGNoiseGL/URNGNoiseGL_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/DwtHaar1DCPPKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/DwtHaar1DCPPKernel/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/DwtHaar1DCPPKernel/DwtHaar1DCPPKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/DwtHaar1DCPPKernel/DwtHaar1DCPPKernel.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/DwtHaar1DCPPKernel/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/DwtHaar1DCPPKernel/docs/DwtHaar1DCPPKernel.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/DwtHaar1DCPPKernel/DwtHaar1DCPPKernel.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMulDouble' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMulDouble/MatrixMulDouble.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMulDouble/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMulDouble/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMulDouble/docs/MatrixMulDouble.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMulDouble/MatrixMulDouble.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMulDouble/MatrixMulDouble_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask/UnsharpMask.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask/docs/UnsharpMaskFilter.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask/UnsharpMask.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask/UnsharpMask_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/UnsharpMask/UnsharpMask_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage/SobelFilterImage_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage/SobelFilterImage.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage/docs/Sobel_Edge_Detection_Filter_Image.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage/SobelFilterImage.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SobelFilterImage/SobelFilterImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/HDRToneMapping_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/HDRToneMapping.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/input.hdr' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/docs/HDR_ToneMapping.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/output.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/HDRToneMapping.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/HDRToneMapping/reference_output.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/CplusplusWrapper' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/CplusplusWrapper/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/CplusplusWrapper/CplusplusWrapper.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/CplusplusWrapper/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/CplusplusWrapper/docs/CplusplusWrapper.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/CplusplusWrapper/CplusplusWrapper_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMultiplicationCPPKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMultiplicationCPPKernel/MatrixMultiplicationCPPKernel.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMultiplicationCPPKernel/MatrixMultiplicationCPPKernel.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMultiplicationCPPKernel/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMultiplicationCPPKernel/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMultiplicationCPPKernel/docs/Matrix_MultiplicationCPPKernel.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/MatrixMultiplicationCPPKernel/MatrixMultiplicationCPPKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/ConcurrentKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/ConcurrentKernel/ConcurrentKernel.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/ConcurrentKernel/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/ConcurrentKernel/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/ConcurrentKernel/docs/ConcurrentKernels.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/ConcurrentKernel/ConcurrentKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/ConcurrentKernel/ConcurrentKernel.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SoAversusAoS' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SoAversusAoS/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SoAversusAoS/SoAversusAoS.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SoAversusAoS/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SoAversusAoS/docs/SoAversusAoS.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SoAversusAoS/SoAversusAoS_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/SoAversusAoS/SoAversusAoS.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise/GaussianNoise_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise/docs/Gaussian_Noise.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise/GaussianNoise.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise/GaussianNoise.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cpp_cl/1.x/GaussianNoise/GaussianNoise_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GaussianNoise_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SVMBinaryTreeSearch_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ScanLargeArrays' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ExtractPrimes_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/QuasiRandomSequence' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BasicDebug_Kernel2.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/URNGNoiseGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BinomialOptionMultiGPU' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/PipeProducerConsumerKernels_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SVMAtomicsBinaryTreeInsert' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/libVectorAddition.so' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BufferImageInterop_kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BitonicSort_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GaussianNoiseGL_Kernels2.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BufferImageInterop' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleDepthImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RadixSort' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SobelFilterImage_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DwtHaar1D' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Histogram_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GaussianNoiseGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RadixSort_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/EigenValue' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/TransferOverlapCPP' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BoxFilterGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BinarySearchDeviceSideEnqueue_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HDRToneMapping_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MersenneTwister' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RecursiveGaussian_ProgramScope_oclflag.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Reduction_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/IntroStaticCPPKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FluidSimulation2D_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageBinarization' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GlobalMemoryBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SobelFilter_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FFT' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BinomialOption_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/AtomicCounters' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/LDSBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMulImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/AtomicCounters_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FineGrainSVM' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/LUDecomposition' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BlackScholes' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/TransferOverlap_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HistogramAtomics_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/EigenValue_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DCT' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/IntroStaticCPPKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/LUDecomposition_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RegionGrowingSegmentation_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BitonicSort' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GaussianNoiseGL_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/VectorAddition_Kernel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DeviceFission11Ext_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DwtHaar1DCPPKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RecursiveGaussian_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MemoryModel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HelloWorld' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleGenericAddressSpace_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DeviceFission' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ParksMillerPRNGConst.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FloydWarshall' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BlackScholesDP' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RecursiveGaussian_ProgramScope_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Mandelbrot' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/StringSearch_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HistogramAtomics' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Template' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/AsyncDataTransfer' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMultiplication' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/URNGNoiseGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MonteCarloAsian_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/URNG_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MonteCarloAsianMultiGPU_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/AdvancedConvolution' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleGenericAddressSpace' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/QuasiRandomSequence_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMultiplication_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Template_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DwtHaar1DCPPKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HeatPDE' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Histogram' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RangeMinimumQuery_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleSPIR' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HelloWorld_Kernel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MemoryOptimizations_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SVMAtomicsBinaryTreeInsert_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/URNG' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleImage_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleConvolution' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleGL.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FineGrainSVM_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/input.hdr' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FineGrainSVMCAS' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimplePipe_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageBinarization_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BuiltInScan' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DynamicOpenCLDetection' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMulDouble' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RegionGrowingConst.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ScanLargeArrays_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FloydWarshall_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/CalcPie' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BinomialOptionMultiGPU_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/URNG_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixTranspose' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageOverlap_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BlackScholes_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GaussianNoiseGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FineGrainSVMCAS_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FineGrainSVM_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BlackScholesDP_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/UnsharpMask' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SobelFilterImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MonteCarloAsian' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RecursiveGaussian_ProgramScope' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleGenericAddressSpace_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ExtractPrimes' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SobelFilter' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MonteCarloAsianDP_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleDepthImage_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageBinarization_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RecursiveGaussian' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/StringSearch' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FFT_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FastWalshTransform_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/AdvancedConvolution_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RangeMinimumQuery' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageOverlap_verify_map.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimplePipe' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BoxFilter' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DeviceEnqueueBFS_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BasicDebug_Kernel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MersenneTwister_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BinarySearchDeviceSideEnqueue_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/CalcPie_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/KmeansAutoclustering' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMulImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HDRToneMapping' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BinarySearchDeviceSideEnqueue' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/PipeProducerConsumerKernels_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/KmeansAutoclustering_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DCT_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DwtHaar1D_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BinomialOption' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BoxFilter_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixTranspose_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Reduction' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FastWalshTransform' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/HeatPDE_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/CplusplusWrapper' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMultiplicationCPPKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DeviceEnqueueBFS' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixTranspose_SPIR.fe.bc' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BufferBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MonteCarloAsianDP' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FineGrainSVMCAS_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageOverlap' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BoxFilter_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BuiltInScan_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleDepthImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/LDSBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ConcurrentKernel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ConstantBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/AsyncDataTransfer_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMultiplicationCPPKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleMultiDevice' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BufferImageInterop_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BasicDebug' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RegionGrowingSegmentation' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/NBody' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/NBody_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SoAversusAoS_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/TransferOverlapCPP_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DeviceFission11Ext' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/Mandelbrot_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleMultiDevice_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MonteCarloAsianMultiGPU' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/TransferOverlap' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/DeviceFission_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RecursiveGaussian_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/CplusplusWrapper_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ConstantBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SoAversusAoS' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ExtractPrimes_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RegionGrowing_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/PrefixSum_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BoxFilterGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GlobalMemoryBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SVMBinaryNode.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RecursiveGaussian_ProgramScope_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BuiltInScan_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ConcurrentKernel_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleConvolution_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/KernelLaunch' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/CalcPie_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/UnsharpMask_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/PrefixSum' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/URNGNoiseGL_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/ImageOverlap_map.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/KernelLaunch_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleSPIR_SPIRflag.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MemoryModel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GaussianNoise' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/RegionGrowing_seeds.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/AdvancedConvolution_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/StringSearch_Input.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MemoryOptimizations' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SimpleGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SVMBinaryTreeSearch' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/FluidSimulation2D' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/MatrixMulDouble_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SobelFilterImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SVMAtomicsBinaryTreeInsert_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/PipeProducerConsumerKernels' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BufferBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SobelFilter_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/GaussianNoise_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/SVMBinaryTreeSearch_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/UnsharpMask_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/bin/x86_64/BoxFilterGL_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ScanLargeArrays' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ScanLargeArrays/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ScanLargeArrays/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ScanLargeArrays/docs/Scan_Large_Arrays.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ScanLargeArrays/ScanLargeArrays_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ScanLargeArrays/ScanLargeArrays.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ScanLargeArrays/ScanLargeArrays.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/SobolPrimitives.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/QuasiRandomSequence_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/QuasiRandomSequence.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/docs/Sobol_Quasi_Random_Sequence.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/QuasiRandomSequence.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/QuasiRandomSequence/SobolPrimitives.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOptionMultiGPU' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOptionMultiGPU/BinomialOptionMultiGPU.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOptionMultiGPU/BinomialOptionMultiGPU.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOptionMultiGPU/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOptionMultiGPU/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOptionMultiGPU/docs/Binomial_Option_MultiGPU_Pricing.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOptionMultiGPU/BinomialOptionMultiGPU_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RadixSort' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RadixSort/RadixSort_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RadixSort/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RadixSort/RadixSort.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RadixSort/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RadixSort/docs/Radix_Sort.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RadixSort/RadixSort.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DwtHaar1D' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DwtHaar1D/DwtHaar1D.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DwtHaar1D/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DwtHaar1D/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DwtHaar1D/docs/1D_Haar_Wavelet_Transform.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DwtHaar1D/DwtHaar1D_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DwtHaar1D/DwtHaar1D.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/GaussianNoiseGL_Kernels2.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/GaussianNoiseGL_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/docs/Gaussian_NoiseGL.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/GaussianNoiseGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/GaussianNoiseGL.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/GaussianNoiseGL/GaussianNoiseGL.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/BoxFilterGLSAT.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/BoxFilterGLSAT.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/docs/BoxFilterGL.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/CommonDeclare.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/BoxFilterGLSeparable.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/BoxFilterGL.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/BoxFilterGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/BoxFilterGLSeparable.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilterGL/BoxFilterGL_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AtomicCounters' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AtomicCounters/AtomicCounters.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AtomicCounters/AtomicCounters_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AtomicCounters/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AtomicCounters/AtomicCounters.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AtomicCounters/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AtomicCounters/docs/AtomicCounters.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/LUDecomposition' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/LUDecomposition/LUDecomposition.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/LUDecomposition/LUDecomposition.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/LUDecomposition/LUDecomposition_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/LUDecomposition/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/LUDecomposition/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/LUDecomposition/docs/LUDecomposition.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholes' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholes/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholes/BlackScholes.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholes/BlackScholes.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholes/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholes/docs/Black-Scholes_OpenCL.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholes/BlackScholes_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DCT' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DCT/DCT.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DCT/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DCT/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DCT/docs/DCT.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DCT/DCT_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DCT/DCT.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BitonicSort' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BitonicSort/BitonicSort_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BitonicSort/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BitonicSort/BitonicSort.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BitonicSort/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BitonicSort/docs/Bitonic_Sort.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BitonicSort/BitonicSort.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HelloWorld' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HelloWorld/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HelloWorld/HelloWorld_Kernel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HelloWorld/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HelloWorld/docs/Hello_World.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HelloWorld/HelloWorld.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission/DeviceFission.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission/docs/DeviceFission.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission/DeviceFission.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission/DeviceFission_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FloydWarshall' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FloydWarshall/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FloydWarshall/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FloydWarshall/docs/Floyd_Warshall.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FloydWarshall/FloydWarshall_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FloydWarshall/FloydWarshall.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FloydWarshall/FloydWarshall.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholesDP' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholesDP/BlackScholesDP.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholesDP/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholesDP/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholesDP/docs/Black-ScholesDP.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholesDP/BlackScholesDP_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BlackScholesDP/BlackScholesDP.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/Mandelbrot.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/MandelbrotDisplay.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/docs/Mandelbrot.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/MandelbrotDisplay.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/Mandelbrot.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Mandelbrot/Mandelbrot_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HistogramAtomics' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HistogramAtomics/HistogramAtomics.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HistogramAtomics/HistogramAtomics_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HistogramAtomics/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HistogramAtomics/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HistogramAtomics/docs/HistogramAtomics.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/HistogramAtomics/HistogramAtomics.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Template' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Template/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Template/Template.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Template/Template_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Template/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Template/docs/Template.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Template/Template.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMultiplication' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMultiplication/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMultiplication/MatrixMultiplication.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMultiplication/MatrixMultiplication_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMultiplication/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMultiplication/docs/Matrix_Multiplication.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMultiplication/MatrixMultiplication.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/FilterCoeff.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/docs/AdvancedConvolution.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/AdvancedConvolution_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/AdvancedConvolution_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/AdvancedConvolution.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/AdvancedConvolution/AdvancedConvolution.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Histogram' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Histogram/Histogram_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Histogram/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Histogram/Histogram.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Histogram/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Histogram/docs/Histogram.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Histogram/Histogram.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR/docs/SimpleSPIR.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR/MatrixTranspose_SPIR.fe.bc' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR/SimpleSPIR.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR/SimpleSPIR.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleSPIR/SimpleSPIR_SPIRflag.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG/URNG.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG/URNG_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG/docs/Uniform_Random_Noise_Generator.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG/URNG_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/URNG/URNG.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution/FilterCoeff.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution/docs/Simple_Convolution.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution/SimpleConvolution.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution/SimpleConvolution_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleConvolution/SimpleConvolution.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection/VectorAddition' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection/VectorAddition/VectorAddition_Kernel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection/VectorAddition/VectorAddition.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection/docs/DynamicOpenCLDetection.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DynamicOpenCLDetection/DynamicOpenCLDetection.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixTranspose' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixTranspose/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixTranspose/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixTranspose/docs/Matrix_Transpose.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixTranspose/MatrixTranspose.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixTranspose/MatrixTranspose_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixTranspose/MatrixTranspose.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsian' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsian/MonteCarloAsian.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsian/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsian/MonteCarloAsian_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsian/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsian/docs/Monte-Carlo_Asian.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsian/MonteCarloAsian.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter/SobelFilter_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter/docs/Sobel_Edge_Detection_Filter.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter/SobelFilter.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter/SobelFilter.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SobelFilter/SobelFilter_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian/RecursiveGaussian_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian/RecursiveGaussian.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian/docs/Recursive_Gaussian.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian/RecursiveGaussian.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/RecursiveGaussian/RecursiveGaussian_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch/StringSearch_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch/docs/StringSearch.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch/StringSearch.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch/StringSearch.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/StringSearch/StringSearch_Input.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Shared.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Host.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/ImageBandwidth.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Host.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Log.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/docs/ImageBandwidth.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/ImageBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Timer.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Log.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Shared.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageBandwidth/Timer.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/BoxFilterSAT.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/docs/Box_Blur-Filter.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/BoxFilterSAT.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/BoxFilter.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/BoxFilter_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/BoxFilter_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/BoxFilterSeparable.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BoxFilter/BoxFilterSeparable.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KmeansAutoclustering' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KmeansAutoclustering/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KmeansAutoclustering/KmeansAutoclustering.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KmeansAutoclustering/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KmeansAutoclustering/docs/KmeansAutoclustering.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KmeansAutoclustering/KmeansAutoclustering_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KmeansAutoclustering/KmeansAutoclustering.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMulImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMulImage/MatrixMulImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMulImage/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMulImage/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMulImage/docs/MatrixMul_Image.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMulImage/MatrixMulImage.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MatrixMulImage/MatrixMulImage.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOption' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOption/BinomialOption_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOption/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOption/BinomialOption.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOption/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOption/docs/Binomial_Option_Pricing.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BinomialOption/BinomialOption.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Reduction' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Reduction/Reduction_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Reduction/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Reduction/Reduction.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Reduction/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Reduction/docs/Reduction.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/Reduction/Reduction.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FastWalshTransform' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FastWalshTransform/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FastWalshTransform/FastWalshTransform.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FastWalshTransform/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FastWalshTransform/docs/Fast_Walsh_Transform.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FastWalshTransform/FastWalshTransform_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FastWalshTransform/FastWalshTransform.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianDP' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianDP/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianDP/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianDP/docs/Monte-Carlo_AsianDP.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianDP/MonteCarloAsianDP_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianDP/MonteCarloAsianDP.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianDP/MonteCarloAsianDP.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/docs/ImageOverlap.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/ImageOverlap.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/ImageOverlap_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/ImageOverlap_verify_map.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/ImageOverlap.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/ImageOverlap/ImageOverlap_map.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleMultiDevice' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleMultiDevice/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleMultiDevice/SimpleMultiDevice.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleMultiDevice/SimpleMultiDevice.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleMultiDevice/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleMultiDevice/docs/Simple_Multi_Device.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleMultiDevice/SimpleMultiDevice_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BasicDebug' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BasicDebug/BasicDebug_Kernel2.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BasicDebug/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BasicDebug/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BasicDebug/docs/BasicDebug.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BasicDebug/BasicDebug_Kernel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/BasicDebug/BasicDebug.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/NBody' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/NBody/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/NBody/NBody.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/NBody/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/NBody/docs/NBody.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/NBody/NBody.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/NBody/NBody_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission11Ext' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission11Ext/DeviceFission11Ext.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission11Ext/DeviceFission11Ext.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission11Ext/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission11Ext/DeviceFission11Ext_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission11Ext/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/DeviceFission11Ext/docs/DeviceFission11Ext.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianMultiGPU' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianMultiGPU/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianMultiGPU/MonteCarloAsianMultiGPU.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianMultiGPU/MonteCarloAsianMultiGPU_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianMultiGPU/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianMultiGPU/docs/Monte_Carlo_Asian_MultiGPU.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MonteCarloAsianMultiGPU/MonteCarloAsianMultiGPU.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/TransferOverlap_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/TransferOverlap.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/Log.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/docs/TransferOverlap.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/TransferOverlap.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/Timer.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/Log.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/TransferOverlap/Timer.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/Shared.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/KernelLaunch.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/Log.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/docs/KernelLaunch.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/Timer.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/Log.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/Shared.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/Timer.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/KernelLaunch/KernelLaunch_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage/SimpleImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage/SimpleImage.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage/SimpleImage_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage/docs/SimpleImage.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleImage/SimpleImage.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/PrefixSum' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/PrefixSum/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/PrefixSum/PrefixSum.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/PrefixSum/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/PrefixSum/docs/PrefixSum.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/PrefixSum/PrefixSum.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/PrefixSum/PrefixSum_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MemoryModel' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MemoryModel/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MemoryModel/MemoryModel.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MemoryModel/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MemoryModel/docs/Memory_Model.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MemoryModel/MemoryModel.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/MemoryModel/MemoryModel.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL/SimpleGL.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL/SimpleGL.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL/docs/SimpleGL.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL/SimpleGL.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/SimpleGL/SimpleGL_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/FluidSimulation2D_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/FluidSimulation2D.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/FluidSimulation2D.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/docs/Fluid_Simulation2D.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/ColorScale.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/1.x/FluidSimulation2D/ColorScale.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/SVMAtomicsBinaryTreeInsert.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/SVMAtomicsBinaryTreeInsert_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/docs/SVMAtomicsBinaryTreeInsert.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/SVMAtomicsBinaryTreeInsert_Host.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/SVMAtomicsBinaryTreeInsert_Host.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/SVMAtomicsBinaryTreeInsert.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/SVMBinaryNode.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMAtomicsBinaryTreeInsert/SVMAtomicsBinaryTreeInsert_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop/BufferImageInterop_kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop/BufferImageInterop.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop/docs/BufferImageInterop.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop/BufferImageInterop.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BufferImageInterop/BufferImageInterop_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization/docs/ImageBinarization.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization/ImageBinarization_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization/ImageBinarization.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization/ImageBinarization.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ImageBinarization/ImageBinarization_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM/FineGrainSVM.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM/FineGrainSVM_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM/docs/FineGrainSVM.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM/FineGrainSVM_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVM/FineGrainSVM.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/SimpleGenericAddressSpace.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/SimpleGenericAddressSpace.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/SimpleGenericAddressSpace_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/docs/GenericAddressSpace.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/CommonRoutines.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/SimpleGenericAddressSpace_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleGenericAddressSpace/OpenCLBuildOption.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE/HeatPDE.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE/docs/HeatPDE.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE/HeatPDE_GL.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE/HeatPDE.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/HeatPDE/HeatPDE_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS/FineGrainSVMCAS.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS/docs/FineGrainSVMCAS.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS/FineGrainSVMCAS_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS/FineGrainSVMCAS_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/FineGrainSVMCAS/FineGrainSVMCAS.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan/docs/BuiltInScan.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan/BuiltInScan.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan/BuiltInScan_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan/BuiltInScan.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BuiltInScan/BuiltInScan_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie/CalcPie.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie/docs/CalcPie.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie/CalcPie.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie/CalcPie_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/CalcPie/CalcPie_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/RecursiveGaussian_ProgramScope_oclflag.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/RecursiveGaussian_ProgramScope_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/docs/Recursive_Gaussian_ProgramScope.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/RecursiveGaussian_ProgramScope.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/RecursiveGaussian_ProgramScope.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RecursiveGaussian_ProgramScope/RecursiveGaussian_ProgramScope_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes/ExtractPrimes_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes/ExtractPrimes.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes/docs/ExtractPrimes.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes/ExtractPrimes.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/ExtractPrimes/ExtractPrimes_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RangeMinimumQuery' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RangeMinimumQuery/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RangeMinimumQuery/RangeMinimumQuery_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RangeMinimumQuery/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RangeMinimumQuery/docs/RangeMinimumQuery.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RangeMinimumQuery/RangeMinimumQuery.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RangeMinimumQuery/RangeMinimumQuery.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimplePipe' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimplePipe/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimplePipe/SimplePipe.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimplePipe/SimplePipe_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimplePipe/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimplePipe/docs/SimplePipe.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimplePipe/SimplePipe.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue/BinarySearchDeviceSideEnqueue_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue/BinarySearchDeviceSideEnqueue.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue/docs/BinarySearch_DeviceSideEnqueue.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue/BinarySearchDeviceSideEnqueue_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/BinarySearchDeviceSideEnqueue/BinarySearchDeviceSideEnqueue.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/DeviceEnqueueBFS' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/DeviceEnqueueBFS/DeviceEnqueueBFS.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/DeviceEnqueueBFS/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/DeviceEnqueueBFS/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/DeviceEnqueueBFS/docs/DeviceEnqueueBFS.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/DeviceEnqueueBFS/DeviceEnqueueBFS_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/DeviceEnqueueBFS/DeviceEnqueueBFS.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage/SimpleDepthImage_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage/SimpleDepthImage.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage/docs/SimpleDepthImage.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage/SimpleDepthImage_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SimpleDepthImage/SimpleDepthImage.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowingSegmentation_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images/seeds_3.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images/input_2.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images/seeds_2.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images/input_3.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images/ImageCredits.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images/seeds_1.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/images/input_1.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowingSegmentation.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowingCPU.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowingSegmentation.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/docs/RegionGrowingSegmentation.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowingConst.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowingLL.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowing_Input.bmp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/RegionGrowingSegmentation/RegionGrowing_seeds.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/SVMBinaryTreeSearch_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/SVMBinaryTreeSearch.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/docs/SVMBinaryTreeSearch.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/SVMBinaryTreeSearch.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/SVMBinaryNode.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/SVMBinaryTreeSearch/SVMBinaryTreeSearch_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/PipeProducerConsumerKernels_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/ParksMillerPRNGConst.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/PipeProducerConsumerKernels.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/ParksMillerPRNG.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/docs/PipeProducerConsumerKernels.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/PipeProducerConsumerKernels.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/PipeProducerConsumerKernels_OclFlags.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/cl/2.0/PipeProducerConsumerKernels/PipeProducerConsumerKernels.vcxproj.filters' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/GlobalMemoryBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/GlobalMemoryBandwidth/GlobalMemoryBandwidth.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/GlobalMemoryBandwidth/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/GlobalMemoryBandwidth/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/GlobalMemoryBandwidth/docs/Global_Memory_Bandwidth.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/GlobalMemoryBandwidth/GlobalMemoryBandwidth.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/GlobalMemoryBandwidth/GlobalMemoryBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/LDSBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/LDSBandwidth/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/LDSBandwidth/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/LDSBandwidth/docs/LDS_Bandwidth.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/LDSBandwidth/LDSBandwidth.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/LDSBandwidth/LDSBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/LDSBandwidth/LDSBandwidth.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Shared.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Host.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/BufferBandwidth.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Host.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Log.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/docs/BufferBandwidth.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Timer.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Log.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/BufferBandwidth.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Shared.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/Timer.h' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/BufferBandwidth/BufferBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/ConstantBandwidth' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/ConstantBandwidth/ConstantBandwidth.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/ConstantBandwidth/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/ConstantBandwidth/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/ConstantBandwidth/docs/Constant_Bandwidth.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/ConstantBandwidth/ConstantBandwidth_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/ConstantBandwidth/ConstantBandwidth.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/MemoryOptimizations' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/MemoryOptimizations/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/MemoryOptimizations/MemoryOptimizations.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/MemoryOptimizations/MemoryOptimizations_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/MemoryOptimizations/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/MemoryOptimizations/docs/Memory_Optimizations.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencl/benchmark/MemoryOptimizations/MemoryOptimizations.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/bin' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/bin/x86_64' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/bin/x86_64/OpenCV-CLIntro_Input.jpg' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/bin/x86_64/CartoonFilter_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/bin/x86_64/OpenCV-CLIntro' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/bin/x86_64/CartoonFilter' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/bin/x86_64/CartoonFilter_Input.jpg' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/GestureRecognition' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/GestureRecognition/wave.oni' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/GestureRecognition/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/OpenCV-CLIntro' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/OpenCV-CLIntro/OpenCV-CLIntro.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/OpenCV-CLIntro/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/OpenCV-CLIntro/OpenCV-CLIntro_Input.jpg' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/OpenCV-CLIntro/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/OpenCV-CLIntro/docs/OpenCV-CLIntro.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter/CartoonFilter.hpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter/CMakeLists.txt' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter/docs' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter/docs/OpenCV_Interop_CartoonFilter.pdf' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter/CartoonFilter_Kernels.cl' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter/CartoonFilter_Input.jpg' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/samples/opencv/CartoonFilter/CartoonFilter.cpp' retained as 0755 (rwxr-xr-x)
+mode of '/opt/AMDAPPSDK-3.0/docs' retained as 0755 (rwxr-xr-x)
+/opt/AMDAPPSDK-3.0/docs /tmp/selfgz2525
+mode of 'AMD_APP_SDK_FAQ.pdf' retained as 0644 (rw-r--r--)
+mode of 'AMD_APP_SDK_GettingStartedGuide.pdf' retained as 0644 (rw-r--r--)
+mode of 'AMD_APP_SDK_InstallationNotes.pdf' retained as 0644 (rw-r--r--)
+mode of 'AMD_OpenCL_Programming_Optimization_Guide.pdf' retained as 0644 (rw-r--r--)
+mode of 'AMD_OpenCL_Programming_User_Guide.pdf' retained as 0644 (rw-r--r--)
+/tmp/selfgz2525
+[08-21-2018T04:54:06][249]/etc/OpenCL/vendors for root already exists.
+[08-21-2018T04:54:06][301]echo libamdocl64.so > "$AMDOCL64"
+[08-21-2018T04:54:07][393]Exporting AMDAPPSDKROOT=/opt/AMDAPPSDK-3.0 to /etc/profile.d/AMDAPPSDK.sh,
+[08-21-2018T04:54:07][330]Checking for the presence of AMDAPPSDKROOT in the file: /etc/profile.d/AMDAPPSDK.sh using grep
+export AMDAPPSDKROOT="/opt/AMDAPPSDK-3.0"
+[08-21-2018T04:54:07][336]Found an entry for AMDAPPSDKROOT in file: /etc/profile.d/AMDAPPSDK.sh. Deleted it.
+[08-21-2018T04:54:07][343]Entry for AMDAPPSDKROOT removed.
+[08-21-2018T04:54:07][346]echo export "AMDAPPSDKROOT="/opt/AMDAPPSDK-3.0"" >> "/etc/profile.d/AMDAPPSDK.sh"
+export AMDAPPSDKROOT="/opt/AMDAPPSDK-3.0"
+[08-21-2018T04:54:07][368]Exported AMDAPPSDKROOT=/opt/AMDAPPSDK-3.0 via /etc/profile.d/AMDAPPSDK.sh.
+[08-21-2018T04:54:07][396]Exporting AMDAPPSDKROOT=/opt/AMDAPPSDK-3.0 to /etc/profile.d/AMDAPPSDK.sh,
+[08-21-2018T04:54:07][330]Checking for the presence of AMDAPPSDKROOT in the file: /etc/profile.d/AMDAPPSDK.sh using grep
+export AMDAPPSDKROOT="/opt/AMDAPPSDK-3.0"
+[08-21-2018T04:54:07][336]Found an entry for AMDAPPSDKROOT in file: /etc/profile.d/AMDAPPSDK.sh. Deleted it.
+[08-21-2018T04:54:10][343]Entry for AMDAPPSDKROOT removed.
+[08-21-2018T04:54:10][346]echo export "AMDAPPSDKROOT="/opt/AMDAPPSDK-3.0"" >> "/etc/profile.d/AMDAPPSDK.sh"
+export AMDAPPSDKROOT="/opt/AMDAPPSDK-3.0"
+[08-21-2018T04:54:10][368]Exported AMDAPPSDKROOT=/opt/AMDAPPSDK-3.0 via /etc/profile.d/AMDAPPSDK.sh.
+mode of '/etc/profile.d/AMDAPPSDK.sh' retained as 0644 (rw-r--r--)
+[08-21-2018T04:54:10][400]Rebuilding linker cache...
+/sbin/ldconfig.real: Path `/opt/amdgpu-pro/lib/i386-linux-gnu' given more than once
+/sbin/ldconfig.real: Path `/opt/amdgpu-pro/lib/x86_64-linux-gnu' given more than once
+/sbin/ldconfig.real: Path `/opt/rocm/hsa/lib' given more than once
+/sbin/ldconfig.real: Can't stat /lib/i686-linux-gnu: No such file or directory
+/sbin/ldconfig.real: Can't stat /usr/lib/i686-linux-gnu: No such file or directory
+/sbin/ldconfig.real: Path `/opt/rocm/lib' given more than once
+/sbin/ldconfig.real: Path `/opt/rocm/lib' given more than once
+/sbin/ldconfig.real: Path `/opt/rocm/lib' given more than once
+/sbin/ldconfig.real: Path `/opt/rocm/lib' given more than once
+/sbin/ldconfig.real: Path `/opt/rocm/lib' given more than once
+/sbin/ldconfig.real: Can't stat /lib32: No such file or directory
+/sbin/ldconfig.real: Can't stat /usr/lib32: No such file or directory
+/sbin/ldconfig.real: Can't stat /libx32: No such file or directory
+/sbin/ldconfig.real: Can't stat /usr/libx32: No such file or directory
+/sbin/ldconfig.real: Path `/lib/x86_64-linux-gnu' given more than once
+/sbin/ldconfig.real: Path `/usr/lib/x86_64-linux-gnu' given more than once
+/opt/amdgpu-pro/lib/x86_64-linux-gnu:
+	libaticalrt.so -> libaticalrt.so
+	libamdocl12cl64.so -> libamdocl12cl64.so
+	libOpenCL.so.1 -> libOpenCL.so.1
+	libcltrace.so -> libcltrace.so
+	libaticaldd.so -> libaticaldd.so
+	libamdocl64.so -> libamdocl64.so
+	libgbm.so.1 -> libgbm.so.1.0.0
+	libGL.so.1 -> libGL.so.1.2
+	libaticalcl.so -> libaticalcl.so
+	libGLESv2.so.2 -> libGLESv2.so.2
+	libEGL.so.1 -> libEGL.so.1
+	libatiuki.so.1 -> libatiuki.so.1.0
+	libhsakmt.so.1 -> libhsakmt.so.1.0.0
+	libhsa-runtime64.so.1 -> libhsa-runtime64.so.1.0.0
+	libamdhsasc64.so -> libamdhsasc64.so
+/opt/amdgpu-pro/lib/i386-linux-gnu:
+	libgbm.so.1 -> libgbm.so.1.0.0
+	libGL.so.1 -> libGL.so.1.2
+	libGLESv2.so.2 -> libGLESv2.so.2
+	libEGL.so.1 -> libEGL.so.1
+/opt/amdgpu/lib/x86_64-linux-gnu:
+	libxatracker.so.2 -> libxatracker.so.2.3.0
+	libOSMesa.so.8 -> libOSMesa.so.8.0.0
+	libgbm.so.1 -> libgbm.so.1.0.0
+	libGL.so.1 -> libGL.so.1.2.0
+	libdrm_amdgpu.so.1 -> libdrm_amdgpu.so.1.0.0
+	libdrm.so.2 -> libdrm.so.2.4.0
+	libglapi.so.0 -> libglapi.so.0.0.0
+	libGLESv2.so.2 -> libGLESv2.so.2.0.0
+	libEGL.so.1 -> libEGL.so.1.0.0
+	libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1.0
+	libkms.so.1 -> libkms.so.1.0.0
+	libwayland-server.so.0 -> libwayland-server.so.0.1.0
+	libwayland-egl.so.1 -> libwayland-egl.so.1.0.0
+	libLTO.so.5 -> libLTO.so.5.0.1
+	libwayland-client.so.0 -> libwayland-client.so.0.3.0
+/opt/amdgpu/lib/i386-linux-gnu:
+	libxatracker.so.2 -> libxatracker.so.2.3.0
+	libOSMesa.so.8 -> libOSMesa.so.8.0.0
+	libgbm.so.1 -> libgbm.so.1.0.0
+	libGL.so.1 -> libGL.so.1.2.0
+	libdrm_amdgpu.so.1 -> libdrm_amdgpu.so.1.0.0
+	libdrm.so.2 -> libdrm.so.2.4.0
+	libglapi.so.0 -> libglapi.so.0.0.0
+	libGLESv2.so.2 -> libGLESv2.so.2.0.0
+	libEGL.so.1 -> libEGL.so.1.0.0
+	libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1.0
+	libkms.so.1 -> libkms.so.1.0.0
+	libwayland-server.so.0 -> libwayland-server.so.0.1.0
+	libwayland-egl.so.1 -> libwayland-egl.so.1.0.0
+	libLTO.so.5 -> libLTO.so.5.0.1
+	libwayland-client.so.0 -> libwayland-client.so.0.3.0
+/usr/local/cuda-9.1/targets/x86_64-linux/lib:
+	libOpenCL.so.1 -> libOpenCL.so.1.0.0
+	libnvToolsExt.so.1 -> libnvToolsExt.so.1.0.0
+	libcudart.so.9.1 -> libcudart.so.9.1.85
+/usr/lib/x86_64-linux-gnu/libfakeroot:
+	libfakeroot-0.so -> libfakeroot-tcp.so
+/opt/rocm/lib:
+	librocblas.so.0 -> librocblas.so.0.12.0.0
+	libhipblas.so.0 -> libhipblas.so.0.10.1.1
+	librocfft.so.0 -> librocfft.so.0.8.1.7
+	librocfft-device.so.0 -> librocfft-device.so.0.8.1.7
+/opt/rocm/hiprand/lib:
+	libhiprand.so.1 -> libhiprand.so.1.7.1
+/opt/rocm/hsa/lib:
+	libhsa-ext-image64.so.1 -> libhsa-ext-image64.so.1.1.7
+	libhsa-runtime64.so.1 -> libhsa-runtime64.so.1.1.7
+	libhsa-ext-finalize64.so.1 -> libhsa-ext-finalize64.so.1.1.7
+	libhsa-runtime-tools64.so.1 -> libhsa-runtime-tools64.so.1.1.7
+/lib/i386-linux-gnu:
+	libudev.so.1 -> libudev.so.1.6.4
+	libanl.so.1 -> libanl-2.23.so
+	libbsd.so.0 -> libbsd.so.0.8.2
+	libSegFault.so -> libSegFault.so
+	libexpat.so.1 -> libexpat.so.1.6.0
+	libselinux.so.1 -> libselinux.so.1
+	libdl.so.2 -> libdl-2.23.so
+	libnss_nisplus.so.2 -> libnss_nisplus-2.23.so
+	libnsl.so.1 -> libnsl-2.23.so
+	libpcre.so.3 -> libpcre.so.3.13.2
+	libthread_db.so.1 -> libthread_db-1.0.so
+	libgcc_s.so.1 -> libgcc_s.so.1
+	libm.so.6 -> libm-2.23.so
+	libnss_dns.so.2 -> libnss_dns-2.23.so
+	libnss_nis.so.2 -> libnss_nis-2.23.so
+	libcrypt.so.1 -> libcrypt-2.23.so
+	libpthread.so.0 -> libpthread-2.23.so
+	libnss_compat.so.2 -> libnss_compat-2.23.so
+	libz.so.1 -> libz.so.1.2.8
+	libcidn.so.1 -> libcidn-2.23.so
+/sbin/ldconfig.real: /lib/i386-linux-gnu/ld-2.23.so is the dynamic linker, ignoring
+
+	ld-linux.so.2 -> ld-2.23.so
+	librt.so.1 -> librt-2.23.so
+	libc.so.6 -> libc-2.23.so
+	libtinfo.so.5 -> libtinfo.so.5.9
+	libmemusage.so -> libmemusage.so
+	libresolv.so.2 -> libresolv-2.23.so
+	libutil.so.1 -> libutil-2.23.so
+	libBrokenLocale.so.1 -> libBrokenLocale-2.23.so
+	libnss_files.so.2 -> libnss_files-2.23.so
+	libnss_hesiod.so.2 -> libnss_hesiod-2.23.so
+	libpcprofile.so -> libpcprofile.so
+/usr/lib/i386-linux-gnu:
+	libLLVM-5.0.so.1 -> libLLVM-5.0.so.1
+	libxshmfence.so.1 -> libxshmfence.so.1.0.0
+	libexpatw.so.1 -> libexpatw.so.1.6.0
+	libXext.so.6 -> libXext.so.6.4.0
+	libXdmcp.so.6 -> libXdmcp.so.6.0.0
+	libstdc++.so.6 -> libstdc++.so.6.0.21
+	libffi.so.6 -> libffi.so.6.0.4
+	libxcb-glx.so.0 -> libxcb-glx.so.0.0.0
+	libXfixes.so.3 -> libXfixes.so.3.1.0
+	libxcb-dri2.so.0 -> libxcb-dri2.so.0.0.0
+	libvdpau.so.1 -> libvdpau.so.1.0.0
+	libedit.so.2 -> libedit.so.2.0.53
+	libdrm_amdgpu.so.1 -> libdrm_amdgpu.so.1.0.0
+	libxcb-sync.so.1 -> libxcb-sync.so.1.0.0
+	libXau.so.6 -> libXau.so.6.0.0
+	libdrm.so.2 -> libdrm.so.2.4.0
+	libXdamage.so.1 -> libXdamage.so.1.1.0
+	libsensors.so.4 -> libsensors.so.4.4.0
+	libtic.so.5 -> libtic.so.5.9
+	libXxf86vm.so.1 -> libXxf86vm.so.1.0.0
+	libxcb-xfixes.so.0 -> libxcb-xfixes.so.0.0.0
+	libelf.so.1 -> libelf-0.165.so
+	libdrm_nouveau.so.2 -> libdrm_nouveau.so.2.0.0
+	libxcb.so.1 -> libxcb.so.1.1.0
+	libtxc_dxtn_s2tc.so.0 -> libtxc_dxtn_s2tc.so.0.0.0
+	libpcreposix.so.3 -> libpcreposix.so.3.13.2
+	libdrm_radeon.so.1 -> libdrm_radeon.so.1.0.1
+	libxcb-dri3.so.0 -> libxcb-dri3.so.0.0.0
+	libX11.so.6 -> libX11.so.6.3.0
+	libX11-xcb.so.1 -> libX11-xcb.so.1.0.0
+	libxcb-present.so.0 -> libxcb-present.so.0.0.0
+/usr/local/lib:
+/opt/rocm/hsa-amd-aqlprofile/lib:
+	libhsa-amd-aqlprofile64.so.1 -> libhsa-amd-aqlprofile64.so.1.0.0
+/opt/rocm/rocrand/lib:
+	librocrand.so.1 -> librocrand.so.1.7.1
+/opt/rocm/libhsakmt/lib:
+	libhsakmt.so.1 -> libhsakmt.so.1.0.7
+/lib/x86_64-linux-gnu:
+	libfuse.so.2 -> libfuse.so.2.9.4
+	libudev.so.1 -> libudev.so.1.6.4
+	libanl.so.1 -> libanl-2.23.so
+	liblvm2cmd.so.2.02 -> liblvm2cmd.so.2.02
+	libbsd.so.0 -> libbsd.so.0.8.2
+	libply-splash-graphics.so.4 -> libply-splash-graphics.so.4.0.0
+	libncursesw.so.5 -> libncursesw.so.5.9
+	libdns-export.so.162 -> libdns-export.so.162.1.3
+	libSegFault.so -> libSegFault.so
+	libiw.so.30 -> libiw.so.30
+	libexpat.so.1 -> libexpat.so.1.6.0
+	libpcsclite.so.1 -> libpcsclite.so.1.0.0
+	libselinux.so.1 -> libselinux.so.1
+	libnewt.so.0.52 -> libnewt.so.0.52.18
+	libaudit.so.1 -> libaudit.so.1.0.0
+	libcryptsetup.so.4 -> libcryptsetup.so.4.6.0
+	libssl.so.1.0.0 -> libssl.so.1.0.0
+	libgcrypt.so.20 -> libgcrypt.so.20.0.5
+	libnl-genl-3.so.200 -> libnl-genl-3.so.200.22.0
+	libdl.so.2 -> libdl-2.23.so
+	libip4tc.so.0 -> libip4tc.so.0.1.0
+	libglib-2.0.so.0 -> libglib-2.0.so.0.4800.2
+	libsystemd.so.0 -> libsystemd.so.0.14.0
+	libip6tc.so.0 -> libip6tc.so.0.1.0
+	libply.so.4 -> libply.so.4.0.0
+	libe2p.so.2 -> libe2p.so.2.3
+	libcrypto.so.1.0.0 -> libcrypto.so.1.0.0
+	libnss_nisplus.so.2 -> libnss_nisplus-2.23.so
+	libkeyutils.so.1 -> libkeyutils.so.1.5
+	libreadline.so.6 -> libreadline.so.6.3
+	liblvm2app.so.2.2 -> liblvm2app.so.2.2
+	libnsl.so.1 -> libnsl-2.23.so
+	libpcre.so.3 -> libpcre.so.3.13.2
+	libmount.so.1 -> libmount.so.1.1.0
+	libthread_db.so.1 -> libthread_db-1.0.so
+	libncurses.so.5 -> libncurses.so.5.9
+	libgcc_s.so.1 -> libgcc_s.so.1
+	libnl-3.so.200 -> libnl-3.so.200.22.0
+	libnih-dbus.so.1 -> libnih-dbus.so.1.0.0
+	libpamc.so.0 -> libpamc.so.0.82.1
+	libprocps.so.4 -> libprocps.so.4.0.0
+	libm.so.6 -> libm-2.23.so
+	libhistory.so.6 -> libhistory.so.6.3
+	libslang.so.2 -> libslang.so.2.3.0
+	libbz2.so.1.0 -> libbz2.so.1.0.4
+	libblkid.so.1 -> libblkid.so.1.1.0
+	libusb-1.0.so.0 -> libusb-1.0.so.0.1.0
+	libjson-c.so.2 -> libjson-c.so.2.0.0
+	libdevmapper.so.1.02.1 -> libdevmapper.so.1.02.1
+	libnss_dns.so.2 -> libnss_dns-2.23.so
+	libisc-export.so.160 -> libisc-export.so.160.0.0
+	libatm.so.1 -> libatm.so.1.0.0
+	libdevmapper-event.so.1.02.1 -> libdevmapper-event.so.1.02.1
+	libnss_nis.so.2 -> libnss_nis-2.23.so
+	libcrypt.so.1 -> libcrypt-2.23.so
+	libacl.so.1 -> libacl.so.1.1.0
+	libgpg-error.so.0 -> libgpg-error.so.0.17.0
+	libpthread.so.0 -> libpthread-2.23.so
+	libnss_compat.so.2 -> libnss_compat-2.23.so
+	libext2fs.so.2 -> libext2fs.so.2.4
+	libz.so.1 -> libz.so.1.2.8
+	libcidn.so.1 -> libcidn-2.23.so
+	libiptc.so.0 -> libiptc.so.0.0.0
+	libseccomp.so.2 -> libseccomp.so.2.3.1
+	libply-boot-client.so.4 -> libply-boot-client.so.4.0.0
+	libreadline.so.5 -> libreadline.so.5.2
+	librt.so.1 -> librt-2.23.so
+	libfdisk.so.1 -> libfdisk.so.1.1.0
+	libc.so.6 -> libc-2.23.so
+	libsepol.so.1 -> libsepol.so.1
+	libss.so.2 -> libss.so.2.0
+	libpopt.so.0 -> libpopt.so.0.0.0
+/sbin/ldconfig.real: /lib/x86_64-linux-gnu/ld-2.23.so is the dynamic linker, ignoring
+
+	ld-linux-x86-64.so.2 -> ld-2.23.so
+	libtinfo.so.5 -> libtinfo.so.5.9
+	libpam.so.0 -> libpam.so.0.83.1
+	libmemusage.so -> libmemusage.so
+	libapparmor.so.1 -> libapparmor.so.1.4.0
+	libpam_misc.so.0 -> libpam_misc.so.0.82.0
+	libresolv.so.2 -> libresolv-2.23.so
+	libutil.so.1 -> libutil-2.23.so
+	libBrokenLocale.so.1 -> libBrokenLocale-2.23.so
+	liblzma.so.5 -> liblzma.so.5.0.0
+	libpng12.so.0 -> libpng12.so.0.54.0
+	libulockmgr.so.1 -> libulockmgr.so.1.0.1
+	liblzo2.so.2 -> liblzo2.so.2.0.0
+	libuuid.so.1 -> libuuid.so.1.3.0
+	libnss_files.so.2 -> libnss_files-2.23.so
+	libnss_hesiod.so.2 -> libnss_hesiod-2.23.so
+	libdevmapper-event-lvm2.so.2.02 -> libdevmapper-event-lvm2.so.2.02
+	libattr.so.1 -> libattr.so.1.1.0
+	libmnl.so.0 -> libmnl.so.0.1.0
+	libnih.so.1 -> libnih.so.1.0.0
+	libwrap.so.0 -> libwrap.so.0.7.6
+	libcap.so.2 -> libcap.so.2.24
+	libmvec.so.1 -> libmvec-2.23.so
+	libply-splash-core.so.4 -> libply-splash-core.so.4.0.0
+	libdbus-1.so.3 -> libdbus-1.so.3.14.6
+	libsmartcols.so.1 -> libsmartcols.so.1.1.0
+	libpcprofile.so -> libpcprofile.so
+	libpci.so.3 -> libpci.so.3.3.1
+	libhistory.so.5 -> libhistory.so.5.2
+	libcom_err.so.2 -> libcom_err.so.2.1
+	libkmod.so.2 -> libkmod.so.2.3.0
+	libusb-0.1.so.4 -> libusb-0.1.so.4.4.4
+	libcgmanager.so.0 -> libcgmanager.so.0.0.0
+	libxtables.so.11 -> libxtables.so.11.0.0
+/usr/lib/x86_64-linux-gnu:
+	libaticalrt.so -> libaticalrt.so
+	libamdocl12cl64.so -> libamdocl12cl64.so
+	libsemanage.so.1 -> libsemanage.so.1
+	libLLVM-5.0.so.1 -> libLLVM-5.0.so.1
+	libgstbase-1.0.so.0 -> libgstbase-1.0.so.0.803.0
+	libnetfilter_conntrack.so.3 -> libnetfilter_conntrack.so.3.5.0
+	libxshmfence.so.1 -> libxshmfence.so.1.0.0
+	libdns.so.162 -> libdns.so.162.1.3
+	libgstapp-1.0.so.0 -> libgstapp-1.0.so.0.803.0
+	libexpatw.so.1 -> libexpatw.so.1.6.0
+	libOpenCL.so.1 -> libOpenCL.so.1.0.0
+	libgomp.so.1 -> libgomp.so.1.0.0
+	libogg.so.0 -> libogg.so.0.8.2
+	libxcb-render.so.0 -> libxcb-render.so.0.0.0
+	libapt-inst.so.2.0 -> libapt-inst.so.2.0.0
+	libdebconfclient.so.0 -> libdebconfclient.so.0.0.0
+	libisccc.so.140 -> libisccc.so.140.0.4
+	libunistring.so.0 -> libunistring.so.0.1.2
+	libgstrtsp-1.0.so.0 -> libgstrtsp-1.0.so.0.803.0
+	libcdda_interface.so.0 -> libcdda_interface.so.0.10.2
+	libgettextlib-0.19.7.so -> libgettextlib.so
+	libisc-pkcs11.so.160 -> libisc-pkcs11.so.160.0.0
+	libaticaldd.so -> libaticaldd.so
+	libxml2.so.2 -> libxml2.so.2.9.3
+	libdbus-glib-1.so.2 -> libdbus-glib-1.so.2.3.3
+	libquadmath.so.0 -> libquadmath.so.0.0.0
+	libXext.so.6 -> libXext.so.6.4.0
+	libicuio.so.55 -> libicuio.so.55.1
+	libGLEW.so -> libGLEW.so
+	libk5crypto.so.3 -> libk5crypto.so.3.1
+	libgstfft-1.0.so.0 -> libgstfft-1.0.so.0.803.0
+	libunwind.so.8 -> libunwind.so.8.0.1
+	liborc-test-0.4.so.0 -> liborc-test-0.4.so.0.25.0
+	libunwind-coredump.so.0 -> libunwind-coredump.so.0.0.0
+	libgobject-2.0.so.0 -> libgobject-2.0.so.0.4800.2
+	libgstrtp-1.0.so.0 -> libgstrtp-1.0.so.0.803.0
+	libXmuu.so.1 -> libXmuu.so.1.0.0
+	libustr-1.0.so.1 -> libustr-1.0.so.1.0.4
+	liblber-2.4.so.2 -> liblber-2.4.so.2.10.5
+	libgstnet-1.0.so.0 -> libgstnet-1.0.so.0.803.0
+	libmenuw.so.5 -> libmenuw.so.5.9
+	libXdmcp.so.6 -> libXdmcp.so.6.0.0
+	libstdc++.so.6 -> libstdc++.so.6.0.21
+	libffi.so.6 -> libffi.so.6.0.4
+	libkrb5.so.26 -> libkrb5.so.26.0.0
+	libbfd-2.26.1-system.so -> libbfd-2.26.1-system.so
+	libdns-pkcs11.so.162 -> libdns-pkcs11.so.162.1.3
+	libamdocl64.so -> libamdocl64.so
+	libisl.so.15 -> libisl.so.15.1.1
+	libmpc.so.3 -> libmpc.so.3.0.0
+	libicuuc.so.55 -> libicuuc.so.55.1
+	libsasl2.so.2 -> libsasl2.so.2.0.25
+	libgirepository-1.0.so.1 -> libgirepository-1.0.so.1.0.0
+	libroken.so.18 -> libroken.so.18.1.0
+	libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2
+	libdumbnet.so.1 -> libdumbnet.so.1.0.1
+	librtmp.so.1 -> librtmp.so.1
+	libgstsdp-1.0.so.0 -> libgstsdp-1.0.so.0.803.0
+	libxcb-glx.so.0 -> libxcb-glx.so.0.0.0
+	libmspack.so.0 -> libmspack.so.0.1.0
+	libXfixes.so.3 -> libXfixes.so.3.1.0
+	libldap_r-2.4.so.2 -> libldap_r-2.4.so.2.10.5
+	libxcb-dri2.so.0 -> libxcb-dri2.so.0.0.0
+	libkrb5support.so.0 -> libkrb5support.so.0.1
+	libicule.so.55 -> libicule.so.55.1
+	libgstpbutils-1.0.so.0 -> libgstpbutils-1.0.so.0.803.0
+	libicutu.so.55 -> libicutu.so.55.1
+	libvdpau.so.1 -> libvdpau.so.1.0.0
+	libtsan.so.0 -> libtsan.so.0.0.0
+	libedit.so.2 -> libedit.so.2.0.53
+	libopus.so.0 -> libopus.so.0.5.2
+	libdrm_amdgpu.so.1 -> libdrm_amdgpu.so.1.0.0
+	libxcb-sync.so.1 -> libxcb-sync.so.1.0.0
+	libhcrypto.so.4 -> libhcrypto.so.4.1.0
+	libgstriff-1.0.so.0 -> libgstriff-1.0.so.0.803.0
+	libform.so.5 -> libform.so.5.9
+	libXau.so.6 -> libXau.so.6.0.0
+	libpython2.7.so.1.0 -> libpython2.7.so.1.0
+	libformw.so.5 -> libformw.so.5.9
+	libcurl.so.4 -> libcurl.so.4.4.0
+	libicudata.so.55 -> libicudata.so.55.1
+	libkrb5.so.3 -> libkrb5.so.3.3
+	libunwind-x86_64.so.8 -> libunwind-x86_64.so.8.0.1
+	libdrm.so.2 -> libdrm.so.2.4.0
+	libdrm_intel.so.1 -> libdrm_intel.so.1.0.0
+	libglapi.so.0 -> libglapi.so.0.0.0
+	libgio-2.0.so.0 -> libgio-2.0.so.0.4800.2
+	libXdamage.so.1 -> libXdamage.so.1.1.0
+	libxcb-shape.so.0 -> libxcb-shape.so.0.0.0
+	libaticalcl.so -> libaticalcl.so
+	liblsan.so.0 -> liblsan.so.0.0.0
+	libheimbase.so.1 -> libheimbase.so.1.0.0
+	libtasn1.so.6 -> libtasn1.so.6.5.1
+	libcap-ng.so.0 -> libcap-ng.so.0.0.0
+	libgstcheck-1.0.so.0 -> libgstcheck-1.0.so.0.803.0
+	libpython3.5m.so.1.0 -> libpython3.5m.so.1.0
+	libtheora.so.0 -> libtheora.so.0.3.10
+	libgstreamer-1.0.so.0 -> libgstreamer-1.0.so.0.803.0
+	libmenu.so.5 -> libmenu.so.5.9
+	libgmp.so.10 -> libgmp.so.10.3.0
+	libapt-pkg.so.5.0 -> libapt-pkg.so.5.0.0
+	libcurl-gnutls.so.4 -> libcurl-gnutls.so.4.4.0
+	libtheoradec.so.1 -> libtheoradec.so.1.1.4
+	libsensors.so.4 -> libsensors.so.4.4.0
+	libfreetype.so.6 -> libfreetype.so.6.12.1
+	liblz4.so.1 -> liblz4.so.1.7.1
+	liblwres.so.141 -> liblwres.so.141.0.3
+	libhogweed.so.4 -> libhogweed.so.4.2
+	libmagic.so.1 -> libmagic.so.1.0.0
+	libcroco-0.6.so.3 -> libcroco-0.6.so.3.0.1
+	libtic.so.5 -> libtic.so.5.9
+	libgdbm_compat.so.3 -> libgdbm_compat.so.3.0.0
+	libXxf86vm.so.1 -> libXxf86vm.so.1.0.0
+	libxcb-xfixes.so.0 -> libxcb-xfixes.so.0.0.0
+	libhx509.so.5 -> libhx509.so.5.0.0
+	libvisual-0.4.so.0 -> libvisual-0.4.so.0.0.0
+	libcc1.so.0 -> libcc1.so.0.0.0
+	libdb-5.3.so -> libdb-5.3.so
+	libelf.so.1 -> libelf-0.165.so
+	libdrm_nouveau.so.2 -> libdrm_nouveau.so.2.0.0
+	libpciaccess.so.0 -> libpciaccess.so.0.11.1
+	libheimntlm.so.0 -> libheimntlm.so.0.1.0
+	libmpxwrappers.so.0 -> libmpxwrappers.so.0.0.0
+	libiculx.so.55 -> libiculx.so.55.1
+	libefivar.so.0 -> libefivar.so.0.23
+	libgsttag-1.0.so.0 -> libgsttag-1.0.so.0.803.0
+	libxcb.so.1 -> libxcb.so.1.1.0
+	libgstcontroller-1.0.so.0 -> libgstcontroller-1.0.so.0.803.0
+	libmpfr.so.4 -> libmpfr.so.4.1.4
+	libGeoIP.so.1 -> libGeoIP.so.1.6.9
+	libvorbis.so.0 -> libvorbis.so.0.4.8
+	libarchive.so.13 -> libarchive.so.13.1.2
+	libsqlite3.so.0 -> libsqlite3.so.0.8.6
+	libbtrfs.so.0 -> libbtrfs.so.0.1
+	libgssapi.so.3 -> libgssapi.so.3.0.0
+	libjsoncpp.so.1 -> libjsoncpp.so.1.7.2
+	libapt-private.so.0.0 -> libapt-private.so.0.0.0
+	libtxc_dxtn_s2tc.so.0 -> libtxc_dxtn_s2tc.so.0.0.0
+	libgstvideo-1.0.so.0 -> libgstvideo-1.0.so.0.803.0
+	libpanelw.so.5 -> libpanelw.so.5.9
+	libnettle.so.6 -> libnettle.so.6.2
+	libgnutls-openssl.so.27 -> libgnutls-openssl.so.27.0.2
+	libasn1.so.8 -> libasn1.so.8.0.0
+	libatiuki.so.1 -> libatiuki.so.1.0
+	libcilkrts.so.5 -> libcilkrts.so.5.0.0
+	libicui18n.so.55 -> libicui18n.so.55.1
+	libgdbm.so.3 -> libgdbm.so.3.0.0
+	libgnutlsxx.so.28 -> libgnutlsxx.so.28.1.0
+	libmpx.so.0 -> libmpx.so.0.0.0
+	libutempter.so.0 -> libutempter.so.1.1.6
+	libisccfg.so.140 -> libisccfg.so.140.3.0
+	libgnutls.so.30 -> libgnutls.so.30.6.2
+	libpcreposix.so.3 -> libpcreposix.so.3.13.2
+	libtheoraenc.so.1 -> libtheoraenc.so.1.1.2
+	libpanel.so.5 -> libpanel.so.5.9
+	libdrm_radeon.so.1 -> libdrm_radeon.so.1.0.1
+	libubsan.so.0 -> libubsan.so.0.0.0
+	libxcb-dri3.so.0 -> libxcb-dri3.so.0.0.0
+	libasprintf.so.0 -> libasprintf.so.0.0.0
+	libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.4800.2
+	libisc.so.160 -> libisc.so.160.0.0
+	libpipeline.so.1 -> libpipeline.so.1.4.1
+	libhavege.so.1 -> libhavege.so.1.1.0
+	libitm.so.1 -> libitm.so.1.0.0
+	libperl.so.5.22 -> libperl.so.5.22.1
+	libgstaudio-1.0.so.0 -> libgstaudio-1.0.so.0.803.0
+	libjansson.so.4 -> libjansson.so.4.7.0
+	libicutest.so.55 -> libicutest.so.55.1
+	libgpm.so.2 -> libgpm.so.2
+	libwind.so.0 -> libwind.so.0.0.0
+	libmicrohttpd.so.10 -> libmicrohttpd.so.10.34.0
+	libgmpxx.so.4 -> libgmpxx.so.4.5.0
+	libidn.so.11 -> libidn.so.11.6.15
+	libbind9.so.140 -> libbind9.so.140.0.10
+	libnfnetlink.so.0 -> libnfnetlink.so.0.2.0
+	libX11.so.6 -> libX11.so.6.3.0
+	libX11-xcb.so.1 -> libX11-xcb.so.1.0.0
+	libltdl.so.7 -> libltdl.so.7.3.1
+	libamdhsasc64.so -> libamdhsasc64.so
+	libunwind-ptrace.so.0 -> libunwind-ptrace.so.0.0.0
+	libgettextsrc-0.19.7.so -> libgettextsrc.so
+	libcdda_paranoia.so.0 -> libcdda_paranoia.so.0.10.2
+	libsigsegv.so.2 -> libsigsegv.so.2.0.3
+	libatomic.so.1 -> libatomic.so.1.1.0
+	libestr.so.0 -> libestr.so.0.0.0
+	liborc-0.4.so.0 -> liborc-0.4.so.0.25.0
+	libxcb-present.so.0 -> libxcb-present.so.0.0.0
+	libfribidi.so.0 -> libfribidi.so.0.3.6
+	libp11-kit.so.0 -> libp11-kit.so.0.1.0
+	libgstallocators-1.0.so.0 -> libgstallocators-1.0.so.0.803.0
+	libgthread-2.0.so.0 -> libgthread-2.0.so.0.4800.2
+	libglut.so -> libglut.so
+	libevent-2.0.so.5 -> libevent-2.0.so.5.1.9
+	libvorbisenc.so.2 -> libvorbisenc.so.2.0.11
+	libasan.so.2 -> libasan.so.2.0.0
+	libpyglib-2.0-python2.7.so.0 -> libpyglib-2.0-python2.7.so.0.0.0
+	libepoxy.so.0 -> libepoxy.so.0.0.0
+	libopcodes-2.26.1-system.so -> libopcodes-2.26.1-system.so
+	libefiboot.so.0 -> libefiboot.so.0.23
+	libnuma.so.1 -> libnuma.so.1.0.0
+	libpcap.so.0.8 -> libpcap.so.1.7.4
+	libmpdec.so.2 -> libmpdec.so.2.4.2
+	libxcb-randr.so.0 -> libxcb-randr.so.0.1.0
+/usr/lib/x86_64-linux-gnu/mesa:
+	libGL.so.1 -> libGL.so.1.2.0
+/opt/rocm/opencl/lib/x86_64:
+	libaticalrt.so -> libaticalrt.so
+	libOpenCL.so.1 -> libOpenCL.so.1
+	libcltrace.so -> libcltrace.so
+	libaticaldd.so -> libaticaldd.so
+	libamdocl64.so -> libamdocl64.so
+	libaticalcl.so -> libaticalcl.so
+	libatiuki.so.1 -> libatiuki.so.1.0
+	libamdhsasc64.so -> libamdhsasc64.so
+/lib:
+	libhandle.so.1 -> libhandle.so.1.0.3
+/usr/lib:
+	libomxil-bellagio.so.0 -> libomxil-bellagio.so.0.0.0
+[08-21-2018T04:54:20][431]LD_LIBRARY_PATH does not exists.
+[08-21-2018T04:54:20][438]LD_LIBRARY_PATH32: /opt/AMDAPPSDK-3.0/lib/x86/
+[08-21-2018T04:54:20][439]LD_LIBRARY_PATH64: /opt/AMDAPPSDK-3.0/lib/x86_64/
+[08-21-2018T04:54:20][450]Root mode, no need to create the OPENCL_VENDOR_PATH environment variable, skipping it.
+[08-21-2018T04:54:20][490]Done updating Environment variables for root
+[08-21-2018T04:54:20][562]/usr/bin/clinfo already exists.
+[08-21-2018T04:54:21][507]/usr/bin/clinfo is a soft-link to /opt/AMDAPPSDK-3.0/bin/x86_64/clinfo
+[08-21-2018T04:54:21][512]Re-creating soft-link to the appropriate /opt/AMDAPPSDK-3.0/bin/*/clinfo in /usr/bin
+[08-21-2018T04:54:21][524]Installation is done in root mode and /bin folder already exists in /usr/bin , so skipping the creation of directory.
+'/usr/bin/clinfo' -> '/opt/AMDAPPSDK-3.0/bin/x86_64/clinfo'
+[08-21-2018T04:54:21][952]Found Ubuntu OS system
+[08-21-2018T04:54:21][999]Catalyst is not present, so doing nothing
+[08-21-2018T04:54:21][626]Checking Internet connectivity. Please wait...
+[08-21-2018T04:54:21][640]PING Command: /bin/ping
+PING amd.com.122.2o7.net (172.82.206.21) 56(84) bytes of data.
+64 bytes from 172.82.206.21: icmp_seq=1 ttl=56 time=11.2 ms
+64 bytes from 172.82.206.21: icmp_seq=2 ttl=56 time=11.4 ms
+64 bytes from 172.82.206.21: icmp_seq=3 ttl=56 time=11.3 ms
+64 bytes from 172.82.206.21: icmp_seq=4 ttl=56 time=11.4 ms
+
+--- amd.com.122.2o7.net ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 11.263/11.374/11.448/0.148 ms
+[08-21-2018T04:54:24][605]Reporting to metrics.amd.com
+--2018-08-21 04:54:29--  http://metrics.amd.com/b/ss/amdvdev/1/H.23.3/s84357590374752?AQB=1&ndh=1&t=23%2F7%2F2013%2012%3A00%3A01%203%20240&ce=UTF-8&ns=amd&pageName=%2Fdeveloper.amd.com%2Fsdk&g=http%3A%2F%2Fdeveloper.amd.com%2Fsdk%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&cc=USD&ch=%2Fdeveloper.amd.com%2Fsdk%2F&server=developer.amd.com&events=event8%2Cevent62&c1=developer.amd.com&c2=developer.amd.com%2Fsdk&c3=developer.amd.com%2Fsdk&c4=developer.amd.com%2Fsdk&v8=http%3A%2F%2Fdeveloper.amd.com%2Fsdk%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&c13=SDK%7Cinstalled%7CFull_L3.0-GA-L&c15=SDK%20Downloader&c17=index.aspx%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&c25=amdvdev&c51=SDK%7Cinstalled%7CFull_L3.0-GA-L&s=1280x1024&c=32&j=1.5&v=Y&k=Y&bw=1280&bh=1024&ct=lan&hp=N&AQE=1
+Resolving metrics.amd.com (metrics.amd.com)... 172.82.206.21
+Connecting to metrics.amd.com (metrics.amd.com)|172.82.206.21|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://metrics.amd.com/b/ss/amdvdev/1/H.23.3/s84357590374752?AQB=1&pccr=true&vidn=2DBDDB930507ABEE-600001148000B383&&ndh=1&t=23%2F7%2F2013%2012%3A00%3A01%203%20240&ce=UTF-8&ns=amd&pageName=%2Fdeveloper.amd.com%2Fsdk&g=http%3A%2F%2Fdeveloper.amd.com%2Fsdk%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&cc=USD&ch=%2Fdeveloper.amd.com%2Fsdk%2F&server=developer.amd.com&events=event8%2Cevent62&c1=developer.amd.com&c2=developer.amd.com%2Fsdk&c3=developer.amd.com%2Fsdk&c4=developer.amd.com%2Fsdk&v8=http%3A%2F%2Fdeveloper.amd.com%2Fsdk%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&c13=SDK%7Cinstalled%7CFull_L3.0-GA-L&c15=SDK%20Downloader&c17=index.aspx%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&c25=amdvdev&c51=SDK%7Cinstalled%7CFull_L3.0-GA-L&s=1280x1024&c=32&j=1.5&v=Y&k=Y&bw=1280&bh=1024&ct=lan&hp=N&AQE=1 [following]
+--2018-08-21 04:54:29--  http://metrics.amd.com/b/ss/amdvdev/1/H.23.3/s84357590374752?AQB=1&pccr=true&vidn=2DBDDB930507ABEE-600001148000B383&&ndh=1&t=23%2F7%2F2013%2012%3A00%3A01%203%20240&ce=UTF-8&ns=amd&pageName=%2Fdeveloper.amd.com%2Fsdk&g=http%3A%2F%2Fdeveloper.amd.com%2Fsdk%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&cc=USD&ch=%2Fdeveloper.amd.com%2Fsdk%2F&server=developer.amd.com&events=event8%2Cevent62&c1=developer.amd.com&c2=developer.amd.com%2Fsdk&c3=developer.amd.com%2Fsdk&c4=developer.amd.com%2Fsdk&v8=http%3A%2F%2Fdeveloper.amd.com%2Fsdk%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&c13=SDK%7Cinstalled%7CFull_L3.0-GA-L&c15=SDK%20Downloader&c17=index.aspx%3Faction%3Dinstalled%26file%3DFull_L3.0-GA-L&c25=amdvdev&c51=SDK%7Cinstalled%7CFull_L3.0-GA-L&s=1280x1024&c=32&j=1.5&v=Y&k=Y&bw=1280&bh=1024&ct=lan&hp=N&AQE=1
+Reusing existing connection to metrics.amd.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: ‘/root/AMDAPPSDK-3.0/Linux_fullInstall_root.gif’
+
+     0K                                                       100% 2.28M=0s
+
+2018-08-21 04:54:29 (2.28 MB/s) - ‘/root/AMDAPPSDK-3.0/Linux_fullInstall_root.gif’ saved [43/43]
+
+[08-21-2018T04:54:29][693.]The /etc/AMD/APPSDK-3.0.ini pre-exists
+[08-21-2018T04:54:29][1193]Installation Log file: /root/AMDAPPSDK-3.0/InstallLog_08-21-2018T04-53-33.log
+[08-21-2018T04:54:29][1194]You will need to log back in/open another terminal for the environment variable updates to take effect.
