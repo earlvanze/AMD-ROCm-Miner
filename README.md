@@ -1,9 +1,9 @@
 # AMD-rocm-rippa Version 2 Fork
 Dev userland for usb flash drive with full amd rocm and blockchain support.
 
-Kudos to Tekcomm for creating the original image. I forked it to archive my modifications, mostly in /root but also with the kernel update to solve the kernel panics in the original 4.13 image.
+This reposity is used to archive my modifications, mostly in /root but also with the kernel update to solve the kernel panics in the original 4.13 image.
 Deleted the amdgpu-pro driver installation files to save 1.1 GB of space but since upgrading kernel to 4.18.0 I can no longer fit it on an 8 GB drive without deleting other things that I may not need anyway. Feel free to slim it down further yourself.
-7.6 GB out of 9.5GB used, 6GB linux-swap partition filling up the remaining space. Adjust in gparted as needed.
+7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Adjust in gparted as needed.
 (https://github.com/tekcomm/AMD-rocm-rippa)
 
 This is alpha software. You agree to the user license by clicking on the video:
@@ -16,7 +16,7 @@ Version 2 is here:
 https://github.com/RadeonOpenCompute/ROCm/issues/361
 
 I uploaded a <a href="https://drive.google.com/open?id=1iel3XKQtI0Z-HPDELonKDxF4gaEYYWDb">working image with 4.18.0 kernel</a> and password reset to "cryptominer" (for both guru and root users). If you can't log in still, chroot into the image and type passwd to change the root password.
-Download the 16 GB image and dd to a 16 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug.
+Download the 15.52 GB image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug.
 ```
 Username: guru
 Password: cryptominer
