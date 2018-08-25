@@ -1,19 +1,23 @@
-# AMD-rocm-rippa Version 2 Fork
-Dev userland for usb flash drive with full amd rocm and blockchain support.
+# AMD GPU Blockchain Miner Linux Image
+Dev userland for usb flash drive with full AMD ROCm and blockchain support.
 
 This reposity is used to archive my modifications, mostly in /root but also with the kernel update to solve the kernel panics in the original 4.13 image.
 Deleted the amdgpu-pro driver installation files to save 1.1 GB of space but since upgrading kernel to 4.18.0 I can no longer fit it on an 8 GB drive without deleting other things that I may not need anyway. Feel free to slim it down further yourself.
 7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Adjust in gparted as needed.
-(https://github.com/tekcomm/AMD-rocm-rippa)
 
-This is alpha software. You agree to the user license by clicking on the video:
-https://www.youtube.com/watch?v=_3Cl43FZvZc&feature=youtu.be
 
-Beta Version is here:
-https://github.com/RadeonOpenCompute/ROCm/issues/345
+# MIT License and Disclaimer
+This is developer software in continuous development. While I use it in production, I do not take any responsibility for any damage that may occur to your hardware, software, or infrastructure. There are other developers involved in creating this bootable Linux disk image and they cannot be held responsible either. By using this software, you agree to the following MIT License:
 
-Version 2 is here:
-https://github.com/RadeonOpenCompute/ROCm/issues/361
+Copyright 2018 Earl Co
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+#How to Use
 
 I uploaded a <a href="https://drive.google.com/open?id=1iel3XKQtI0Z-HPDELonKDxF4gaEYYWDb">working image with 4.18.0 kernel</a> and password reset to "cryptominer" (for both guru and root users). If you can't log in still, chroot into the image and type passwd to change the root password.
 Download the 15.52 GB image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug.
@@ -22,10 +26,8 @@ Username: guru
 Password: cryptominer
 ```
 gparted can expand your partitions to fill up a drive larger than 16 GB.
-This link works better than the one on MEGA because MEGA has a 5 GB free transfer limit. It took me 12 hours to get the whole image.
-Or you could just email tekcommnv@gmail.com and he could send it to you.
 
-Don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. Or don't, I'll take the extra hashrate :)
+If you're using Claymore Ethereum miner, don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes :)
 
 start-oc.sh was modified to work with my actual GPUs. Follow the instructions and use pattern recognition to figure it out.
 
@@ -51,6 +53,9 @@ cd /media/root
 sudo chroot .
 ```
 Then you can update files, passwd, etc.
+
+Graphical development versions are linked here:
+https://github.com/RadeonOpenCompute/ROCm/issues/361
 
 ## Support for Radeon Open Compute
 https://github.com/RadeonOpenCompute/ROCm
@@ -107,3 +112,23 @@ associated with correct CRAT table support - please inquire with the OEM about
 the latter.
 * AMD Merlin/Falcon Embedded System is also not currently supported by the public Repo. 
 * AMD Raven Ridge APU are currently not supported 
+
+
+## Donate
+
+If you like this program, please donate using any of the methods below!
+
+
+Square Cash	http://cash.me/$digitalkid<br>
+Venmo	https://venmo.com/earlco<br>
+PayPal	http://paypal.me/earlco<br>
+Zelle	earlvanze@gmail.com<br>
+BTC	12icq2NfvXDYExaH3a4FVnWJwerb1oj31Z<br>
+ETH	0x234AD7D3225dC28f2B292cCBE05CdD321C4aCC5B<br>
+ZEC	t1duLU96HyXQ7dGwdesZB6C4iCPe5HZw5ar<br>
+LTC	LQymEUqGK9dBeugi2bNNtt4LEGpm6bMYjJ<br>
+NEO/GAS	ALfeqEsmEexzk5RFGUZinedMAtjnfUz4f7<br>
+SC	de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19
+
+
+If you want me to build a version for YOUR region, please reach out by email: earlvanze@gmail.com
