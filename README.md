@@ -28,7 +28,7 @@ Password: cryptominer
 ```
 gparted can expand your partitions to fill up a drive larger than 16 GB.
 
-At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the script that determines which miner will be used. tdxminer for Lyra2z, xmr-stak for Cryptonightv7 and other algorithms, and Claymore dual miner for Ethereum, Ethereum Classic, SiaCoin, Decred, Pascal, and others are provided. sgminer is also available. Feel free to install whatever mining software you want to use.
+At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the script that determines which miner will be used. tdxminer for Lyra2z, xmr-stak for Cryptonight v7 and other algorithms (0% dev fee), and Claymore dual miner for Ethereum, Ethereum Classic, SiaCoin, Decred, Pascal, and others are provided. sgminer is also available. Feel free to install whatever mining software you want to use.
 
 If you're using Claymore Ethereum miner, don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes :)
 
