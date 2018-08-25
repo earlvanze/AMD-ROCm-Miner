@@ -20,12 +20,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # How to Use
 
 I uploaded a <a href="https://drive.google.com/open?id=1iel3XKQtI0Z-HPDELonKDxF4gaEYYWDb">working image with 4.18.0 kernel</a> and password reset to "cryptominer" (for both guru and root users). If you can't log in still, chroot into the image and type passwd to change the root password.
-Download the 15.52 GB image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug.
+Download the 15.52 GB image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug. Note that this real-time operating system is modified to disable keyboard interrupts, so you cannot use your keyboard once it starts booting. The display output only shows ```dmesg``` logs. The CLI is accessible via SSH.
 ```
 Username: guru
 Password: cryptominer
 ```
 gparted can expand your partitions to fill up a drive larger than 16 GB.
+
+At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the script that determines which miner will be used. tdxminer for Lyra2z, xmr-stak for Cryptonightv7 and other algorithms, and Claymore dual miner for Ethereum, Ethereum Classic, SiaCoin, Decred, Pascal, and others are provided. sgminer is also available. Feel free to install whatever mining software you want to use.
 
 If you're using Claymore Ethereum miner, don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes :)
 
@@ -54,7 +56,7 @@ sudo chroot .
 ```
 Then you can update files, passwd, etc.
 
-Graphical development versions are linked here:
+Other graphical development versions such as <a href="https://drive.google.com/file/d/1Ru-3-OVeqPZ54TVk3mn9HtWlQ2VWmxyE/view">V5</a> are provided and linked here:
 https://github.com/RadeonOpenCompute/ROCm/issues/361
 
 ## Support for Radeon Open Compute
