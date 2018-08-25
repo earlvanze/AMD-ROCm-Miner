@@ -1,9 +1,9 @@
 # AMD GPU Blockchain Miner Linux Image
 Dev userland for usb flash drive with full AMD ROCm and blockchain support.
 
-This reposity is used to archive my modifications, mostly in /root but also with the kernel update to solve the kernel panics in the original 4.13 image.
-Deleted the amdgpu-pro driver installation files to save 1.1 GB of space but since upgrading kernel to 4.18.0 I can no longer fit it on an 8 GB drive without deleting other things that I may not need anyway. Feel free to slim it down further yourself.
-7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Adjust in gparted as needed.
+This reposity is used to archive my modifications in /root. The kernel is updated to <a href="https://github.com/M-Bab/linux-kernel-amdgpu-binaries">4.18.0 with M-Bab kernels</a>.
+
+7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Feel free to slim it down further yourself and adjust in gparted as needed.
 
 
 # MIT License and Disclaimer
@@ -16,6 +16,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 # How to Use
 
