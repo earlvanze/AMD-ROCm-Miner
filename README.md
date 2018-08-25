@@ -1,7 +1,7 @@
 # AMD GPU Blockchain Miner Linux Image
-Dev userland for usb flash drive with full AMD ROCm and blockchain support.
+Ubuntu 16.04 developer userland for usb flash drives with full AMD ROCm and blockchain support.
 
-This reposity is used to archive my modifications in /root. The kernel is updated to <a href="https://github.com/M-Bab/linux-kernel-amdgpu-binaries">4.18.0 with M-Bab kernels</a>.
+This repository is used to archive my modifications in /root. The kernel is updated to <a href="https://github.com/M-Bab/linux-kernel-amdgpu-binaries">4.18.0 with M-Bab amdgpu kernels</a>.
 
 7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Feel free to slim it down further yourself and adjust in gparted as needed.
 
@@ -32,7 +32,7 @@ At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the 
 
 If you're using Claymore Ethereum miner, don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes :)
 
-start-oc.sh was modified to work with my actual GPUs. Follow the instructions and use pattern recognition to figure it out.
+start-oc.sh was modified to work with my actual GPUs. Overclocking and underclocking at boot is done here. Follow the instructions and use pattern recognition to figure it out.
 
 start-rtlinux.sh was modified from the original image to work on Intel Celeron dual-core CPUs.
 Note that PCIe Gen3 does not work on Celeron or Pentium CPUs. Your motherboard must be set to PCIe Gen1 or Gen2.
