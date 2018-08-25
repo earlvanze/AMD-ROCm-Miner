@@ -6,7 +6,7 @@ This repository is used to archive my modifications in /root. The kernel is upda
 7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Feel free to slim it down further yourself and adjust in gparted as needed.
 
 
-# MIT License and Disclaimer
+## MIT License and Disclaimer
 This is developer software in continuous development. While I use it in production, I do not take any responsibility for any damage that may occur to your hardware, software, or infrastructure. There are other developers involved in creating this bootable Linux disk image and they cannot be held responsible either. By using this software, you agree to the following MIT License:
 
 Copyright 2018 Earl Co
@@ -18,7 +18,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-# How to Use
+## How to Use
 
 I uploaded a <a href="https://drive.google.com/open?id=1iel3XKQtI0Z-HPDELonKDxF4gaEYYWDb">working image with 4.18.0 kernel</a> and password reset to "cryptominer" (for both guru and root users). If you can't log in still, chroot into the image and type passwd to change the root password.
 Download the 15.52 GB image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug. Note that this real-time operating system is modified to disable keyboard interrupts, so you cannot use your keyboard once it starts booting. The display output only shows ```dmesg``` logs. The CLI is accessible via SSH.
@@ -57,14 +57,28 @@ sudo chroot .
 ```
 Then you can update files, passwd, etc.
 
-Other graphical development versions such as <a href="https://drive.google.com/file/d/1Ru-3-OVeqPZ54TVk3mn9HtWlQ2VWmxyE/view">V5</a> are provided and linked here:
-https://github.com/RadeonOpenCompute/ROCm/issues/361
+
+## Community Thread
+
+Other graphical development versions such as <a href="https://drive.google.com/file/d/1Ru-3-OVeqPZ54TVk3mn9HtWlQ2VWmxyE/view">v5</a> are provided and linked here:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361)
+
+<a href="https://drive.google.com/open?id=1u4Yka0YjRBtyyeHBfkpFpKSCcBCFq8RS">Download link for v3 (Mesa Only Stable)</a>, and how to add rocm:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361#issuecomment-401518390)
+
+How to install xmr-stak:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361#issuecomment-401594080)
+
+How-to Installer for nicehashminer, tdd miner, claymore, etc.:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361#issuecomment-401614183)
+
 
 ## Support for Radeon Open Compute
 https://github.com/RadeonOpenCompute/ROCm
 
 The ROCm Platform brings a rich foundation to advanced computing by seamlessly
  integrating the CPU and GPU with the goal of solving real-world problems.
+
 
 #### Supported CPUs
 The ROCm Platform leverages PCIe Atomics (Fetch ADD, Compare and SWAP, 
@@ -96,6 +110,7 @@ Upcoming CPUs which will support PCIe Gen3 + PCIe Atomics are:
 Experimental support for our GFX7 GPUs Radeon R9 290, R9 390, AMD FirePro S9150, S9170 note they do not support or
 take advantage of PCIe Atomics. However, we still recommend that you use a CPU
 from the list provided above. 
+
 
 #### Not supported or very limited support under ROCm 
 * We do not support ROCm with PCIe Gen 2 enabled CPUs such as the AMD Opteron,
