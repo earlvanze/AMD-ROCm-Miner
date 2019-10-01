@@ -149,4 +149,4 @@ NEO/GAS	ALfeqEsmEexzk5RFGUZinedMAtjnfUz4f7<br>
 SC	de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19
 
 
-If you want me to build a version for YOUR region, please reach out by email: earlvanze@gmail.com
+If you have any questions, please reach out by email: earlvanze@gmail.com
