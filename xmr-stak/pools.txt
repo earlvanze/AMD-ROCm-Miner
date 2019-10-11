@@ -15,7 +15,7 @@
 
 "pool_list" :
 [
-	{"pool_address" : "cryptonightv7.usa.nicehash.com:3363", "wallet_address" : "3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ", "rig_id" : "", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "cryptonightv7.eu.nicehash.com:3363", "wallet_address" : "3MtUmhZMGxavJfBRmWuVWiiRiJZigYPazQ", "rig_id" : "2", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*

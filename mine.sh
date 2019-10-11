@@ -1,8 +1,9 @@
 killall ethdcrminer64
 nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig2 -epsw x \
--asm 1 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 \
--ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 \
+-asm 1 -ethi 16 -wd 0 -logsmaxsize 0 \
+-ftime 10 -tstop 85 -tstart 55 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
 -mport -3002 &
+
 #-cclock 1100 -cvddc 900 \
 #-mclock 2200 -mvddc 900 \
 # Removed dual mining SC because SC is now mined with ASICs - low throughput and causes higher electricity and temperature

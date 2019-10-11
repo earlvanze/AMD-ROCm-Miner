@@ -11,4 +11,3 @@ ifconfig dummy0 1.2.3.4 netmask 255.255.255.255 up
 #modprobe cdc_ether
 dhclient&
 # $eth0&
-su -s /bin/sh sshtunnel -c "autossh -v -i ~/.ssh/tunnel_key_a api.sortymcsortface.com -N -R 2201:localhost:22" &
