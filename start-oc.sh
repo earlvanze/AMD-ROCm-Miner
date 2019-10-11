@@ -53,3 +53,18 @@ echo manual > /sys/devices/pci0000:00/0000:00:1c.6/0000:06:00.0/power_dpm_force_
 #echo 17 > /sys/devices/pci0000:00/0000:00:1c.1/0000:06:00.0/pp_mclk_od
 #echo 17 > /sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/pp_mclk_od
 #echo 17 > /sys/devices/pci0000:00/0000:00:1c.7/0000:09:00.0/pp_mclk_od
+
+#/sys/devices/pci0000:00/0000:00:1b.0/0000:01:00.0/pp_sclk_od
+#/sys/devices/pci0000:00/0000:00:1b.0/0000:01:00.0/pp_mclk_od
+#/sys/devices/pci0000:00/0000:00:1b.4/0000:02:00.0/pp_sclk_od
+#/sys/devices/pci0000:00/0000:00:1b.4/0000:02:00.0/pp_mclk_od
+#/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/pp_sclk_od
+#/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/pp_mclk_od
+#/sys/devices/pci0000:00/0000:00:1c.1/0000:04:00.0/pp_sclk_od
+#/sys/devices/pci0000:00/0000:00:1c.1/0000:04:00.0/pp_mclk_od
+#/sys/devices/pci0000:00/0000:00:1c.6/0000:06:00.0/pp_sclk_od
+#/sys/devices/pci0000:00/0000:00:1c.6/0000:06:00.0/pp_mclk_od
+#/sys/devices/pci0000:00/0000:00:1c.7/0000:07:00.0/pp_sclk_od
+#/sys/devices/pci0000:00/0000:00:1c.7/0000:07:00.0/pp_mclk_od
+#/sys/devices/pci0000:00/0000:00:1d.0/0000:08:00.0/pp_sclk_od
+#/sys/devices/pci0000:00/0000:00:1d.0/0000:08:00.0/pp_mclk_od
