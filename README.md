@@ -1,33 +1,38 @@
-# AMD-rocm-rippa Version 2 Fork
-Dev userland for usb flash drive with full amd rocm and blockchain support.
+# AMD GPU Blockchain Miner Linux Image
+Ubuntu 16.04 developer userland for usb flash drives with full AMD ROCm and blockchain support.
 
-This reposity is used to archive my modifications, mostly in /root but also with the kernel update to solve the kernel panics in the original 4.13 image.
-Deleted the amdgpu-pro driver installation files to save 1.1 GB of space but since upgrading kernel to 4.18.0 I can no longer fit it on an 8 GB drive without deleting other things that I may not need anyway. Feel free to slim it down further yourself.
-7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Adjust in gparted as needed.
-(https://github.com/tekcomm/AMD-rocm-rippa)
+This repository is used to archive my modifications in /root. The kernel is updated to <a href="https://github.com/M-Bab/linux-kernel-amdgpu-binaries">4.18.0 with M-Bab amdgpu kernels</a>.
 
-This is alpha software. You agree to the user license by clicking on the video:
-https://www.youtube.com/watch?v=_3Cl43FZvZc&feature=youtu.be
+7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Feel free to slim it down further yourself and adjust in gparted as needed.
 
-Beta Version is here:
-https://github.com/RadeonOpenCompute/ROCm/issues/345
 
-Version 2 is here:
-https://github.com/RadeonOpenCompute/ROCm/issues/361
+## MIT License and Disclaimer
+This is developer software in continuous development. While I use it in production, I do not take any responsibility for any damage that may occur to your hardware, software, or infrastructure. There are other developers involved in creating this bootable Linux disk image and they cannot be held responsible either. By using this software, you agree to the following MIT License:
+
+Copyright 2018 Earl Co
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+## How to Use
 
 I uploaded a <a href="https://drive.google.com/open?id=1iel3XKQtI0Z-HPDELonKDxF4gaEYYWDb">working image with 4.18.0 kernel</a> and password reset to "cryptominer" (for both guru and root users). If you can't log in still, chroot into the image and type passwd to change the root password.
-Download the 15.52 GB image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug.
+Download the 15.52 GB image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug. Note that this real-time operating system is modified to disable keyboard interrupts, so you cannot use your keyboard once it starts booting. The display output only shows ```dmesg``` logs. The CLI is accessible via SSH.
 ```
 Username: guru
 Password: cryptominer
 ```
 gparted can expand your partitions to fill up a drive larger than 16 GB.
-This link works better than the one on MEGA because MEGA has a 5 GB free transfer limit. It took me 12 hours to get the whole image.
-Or you could just email tekcommnv@gmail.com and he could send it to you.
 
-Don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. Or don't, I'll take the extra hashrate :)
+At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the script that determines which miner will be used. tdxminer for Lyra2z, xmr-stak for Cryptonight v7 and other algorithms (0% dev fee), and Claymore dual miner for Ethereum, Ethereum Classic, SiaCoin, Decred, Pascal, and others are provided. sgminer is also available. Feel free to install whatever mining software you want to use.
 
-start-oc.sh was modified to work with my actual GPUs. Follow the instructions and use pattern recognition to figure it out.
+If you're using Claymore Ethereum miner, don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes :)
+
+start-oc.sh was modified to work with my actual GPUs. Overclocking and underclocking at boot is done here. Follow the instructions and use pattern recognition to figure it out.
 
 start-rtlinux.sh was modified from the original image to work on Intel Celeron dual-core CPUs.
 Note that PCIe Gen3 does not work on Celeron or Pentium CPUs. Your motherboard must be set to PCIe Gen1 or Gen2.
@@ -52,11 +57,28 @@ sudo chroot .
 ```
 Then you can update files, passwd, etc.
 
+
+## Community Thread
+
+Other graphical development versions such as <a href="https://drive.google.com/file/d/1Ru-3-OVeqPZ54TVk3mn9HtWlQ2VWmxyE/view">v5</a> are provided and linked here:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361)
+
+<a href="https://drive.google.com/open?id=1u4Yka0YjRBtyyeHBfkpFpKSCcBCFq8RS">Download link for v3 (Mesa Only Stable)</a>, and how to add rocm:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361#issuecomment-401518390)
+
+How to install xmr-stak:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361#issuecomment-401594080)
+
+How-to Installer for nicehashminer, tdd miner, claymore, etc.:
+(https://github.com/RadeonOpenCompute/ROCm/issues/361#issuecomment-401614183)
+
+
 ## Support for Radeon Open Compute
 https://github.com/RadeonOpenCompute/ROCm
 
 The ROCm Platform brings a rich foundation to advanced computing by seamlessly
  integrating the CPU and GPU with the goal of solving real-world problems.
+
 
 #### Supported CPUs
 The ROCm Platform leverages PCIe Atomics (Fetch ADD, Compare and SWAP, 
@@ -89,6 +111,7 @@ Experimental support for our GFX7 GPUs Radeon R9 290, R9 390, AMD FirePro S9150,
 take advantage of PCIe Atomics. However, we still recommend that you use a CPU
 from the list provided above. 
 
+
 #### Not supported or very limited support under ROCm 
 * We do not support ROCm with PCIe Gen 2 enabled CPUs such as the AMD Opteron,
 Phenom, Phenom II, Athlon, Athlon X2, Athlon II and Older Intel Xeon and Intel
@@ -107,3 +130,23 @@ associated with correct CRAT table support - please inquire with the OEM about
 the latter.
 * AMD Merlin/Falcon Embedded System is also not currently supported by the public Repo. 
 * AMD Raven Ridge APU are currently not supported 
+
+
+## Donate
+
+If you like this program, please donate using any of the methods below!
+
+
+Square Cash	http://cash.me/$digitalkid<br>
+Venmo	https://venmo.com/earlco<br>
+PayPal	http://paypal.me/earlco<br>
+Zelle	earlvanze@gmail.com<br>
+BTC	12icq2NfvXDYExaH3a4FVnWJwerb1oj31Z<br>
+ETH	0x234AD7D3225dC28f2B292cCBE05CdD321C4aCC5B<br>
+ZEC	t1duLU96HyXQ7dGwdesZB6C4iCPe5HZw5ar<br>
+LTC	LQymEUqGK9dBeugi2bNNtt4LEGpm6bMYjJ<br>
+NEO/GAS	ALfeqEsmEexzk5RFGUZinedMAtjnfUz4f7<br>
+SC	de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19
+
+
+If you have any questions, please reach out by email: earlvanze@gmail.com
