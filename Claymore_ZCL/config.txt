@@ -1,0 +1,13 @@
+-zpool equihash192.mine.zergpool.com:2144
+-zwal t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY.denizen
+-zpsw x
+#-ttli 75
+#-i 8
+#-powlim 50
+#-a 2
+#-asm 1
+#-allpools 1
+
+-asm 1 -i 8 -wd 0 -r 60
+-ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85
+-mport -3002

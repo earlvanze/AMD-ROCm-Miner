@@ -1,7 +1,13 @@
-killall ethdcrminer64
-nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig2 -epsw x \
--asm 1 -ethi 8 -wd 0 -r 60 -logsmaxsize 0 \
--ftime 10 -tstop 85 -tstart 55 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
+#killall ethdcrminer64
+#nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig2 -epsw x \
+#-asm 1 -ethi 8 -wd 0 -r 60 -logsmaxsize 0 \
+#-ftime 10 -tstop 85 -tstart 55 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
+#-mport -3002 &
+
+killall zecminer64
+nohup taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool equihash192.mine.zergpool.com:2144 -zwal t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY.denizen -zpsw x \
+-asm 1 -i 8 -wd 0 -r 60 \
+-ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
 -mport -3002 &
 
 #-cclock 1100 -cvddc 900 \
