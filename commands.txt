@@ -1,0 +1,59 @@
+root@AMD-rocm-rippa:~# cat /nohup.out   # outputs log from scripts
+root@AMD-rocm-rippa:~# dmesg            # outputs log from system hardware
+root@AMD-rocm-rippa:~# cat /proc/interrupts             # outputs interrupts list
+           CPU0       CPU1
+  0:          8          0   IO-APIC   2-edge      timer
+  8:          1          0   IO-APIC   8-edge      rtc0
+  9:          0          0   IO-APIC   9-fasteoi   acpi
+120:          0          0   PCI-MSI 450560-edge      aerdrv
+121:          0          0   PCI-MSI 458752-edge      aerdrv
+122:          0          0   PCI-MSI 460800-edge      aerdrv
+123:          0          0   PCI-MSI 466944-edge      aerdrv
+124:          0          0   PCI-MSI 471040-edge      aerdrv
+125:          0          0   PCI-MSI 473088-edge      aerdrv
+126:          0          0   PCI-MSI 327680-edge      xhci_hcd
+127:      31208      13304   PCI-MSI 2621440-edge      xhci_hcd
+128:          0          0   PCI-MSI 2621441-edge      xhci_hcd
+129:          0          0   PCI-MSI 2621442-edge      xhci_hcd
+130:          0          0   PCI-MSI 376832-edge      ahci[0000:00:17.0]
+131:     605332          0   PCI-MSI 1048576-edge      amdgpu
+132:          0     162882   PCI-MSI 520192-edge      enp0s31f6
+133:         20    1290086   PCI-MSI 1572864-edge      amdgpu
+134:          0    1259430   PCI-MSI 2097152-edge      amdgpu
+135:         19    1216308   PCI-MSI 3145728-edge      amdgpu
+136:          0    1255373   PCI-MSI 3670016-edge      amdgpu
+NMI:          0          0   Non-maskable interrupts
+LOC:   21773627   88652306   Local timer interrupts
+SPU:          0          0   Spurious interrupts
+PMI:          0          0   Performance monitoring interrupts
+IWI:          0          0   IRQ work interrupts
+RTR:          0          0   APIC ICR read retries
+RES:    7311383     306771   Rescheduling interrupts
+CAL:       8466      21557   Function call interrupts
+TLB:          1          2   TLB shootdowns
+TRM:          0          0   Thermal event interrupts
+THR:          0          0   Threshold APIC interrupts
+DFR:          0          0   Deferred Error APIC interrupts
+MCE:          0          0   Machine check exceptions
+MCP:        250        251   Machine check polls
+HYP:          0          0   Hypervisor callback interrupts
+HRE:          0          0   Hyper-V reenlightenment interrupts
+ERR:          0
+MIS:          0
+PIN:          0          0   Posted-interrupt notification event
+NPI:          0          0   Nested posted-interrupt event
+PIW:          0          0   Posted-interrupt wakeup event
+
+root@AMD-rocm-rippa:~# /opt/rocm/bin/rocm-smi		# outputs GPU hardware stats
+
+
+====================    ROCm System Management Interface    ====================
+================================================================================
+ GPU  Temp    AvgPwr   SCLK     MCLK     Fan      Perf    SCLK OD
+  3   69.0c   119.59W  1179Mhz  2000Mhz  80.0%    high      0%
+  1   74.0c   174.131W 1411Mhz  2050Mhz  80.0%    high      0%
+  4   69.0c   113.82W  1150Mhz  2100Mhz  80.0%    high      0%
+  2   73.0c   171.213W 1425Mhz  2000Mhz  80.0%    high      0%
+  0   78.0c   145.112W 1350Mhz  2000Mhz  80.0%    high      0%
+================================================================================
+====================           End of ROCm SMI Log          ====================

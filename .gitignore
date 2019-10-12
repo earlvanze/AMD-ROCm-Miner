@@ -1,6 +1,23 @@
+.DS_Store
+.bashrc
+.cache
+.git
+.gitconfig
+.gnupg
+.mutt
+.muttrc
+.nano
+.profile
+.rnd
+.selected_editor
+.ssh
+.vim
+.viminfo
+.wget-hsts
 /amdgpu-pro
-/.ssh
+/fah
 /fahtmpfs
+<<<<<<< HEAD
 .bash_history
 .bashrc
 .nano
@@ -14,3 +31,6 @@
 .wget-hsts
 nohup.out
 /fah
+=======
+nohup.out
+>>>>>>> origin
