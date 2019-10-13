@@ -1,8 +1,16 @@
-killall zecminer64
-nohup taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool equihash192.mine.zergpool.com:2144 -zwal t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY.denizen -zpsw x \
--asm 1 -i 8 -wd 0 -r 60 \
--ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
--mport -3002 &
+killall miner
+nohup taskset -c 1 /rootr/gminer/miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 \
+--user digitalkid23.denizen --pass x \
+--api 3002 --electricity_cost 0.136 -w 0 -t 80 &
+
+#killall lolMiner
+#nohup taskset -c 1 /rootr/lolMiner/lolMiner --coin AUTO192_7 --pool us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen &
+
+#killall zecminer64
+#nohup taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal digitalkid23.denizen -zpsw x \
+#-asm 1 -i 8 -wd 0 -r 60 -allpools 1 \
+#-ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
+#-mport -3002 &
 
 #killall ethdcrminer64
 #nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig2 -epsw x \
