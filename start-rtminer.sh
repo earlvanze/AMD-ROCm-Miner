@@ -10,8 +10,8 @@ cd /root/fahtmpfs
 mount -o bind,ro /root /rootr
 nohup taskset -c 0 /root/fahtmpfs/FAHClient &	# temporarily disable to test oclvanityminer
 cd /rootr
-nohup python /rootr/Claymore_ZCL/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host equihash192.mine.zergpool.com --remote-port 2144 --wallet-address t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY.denizen & 
-(while :; cd /rootr/Claymore_ZCL; do /rootr/mine.sh; sleep 3611; done) &
+nohup python /rootr/gminer/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host us-east.equihash-hub.miningpoolhub.com --remote-port 25074 --wallet-address digitalkid23.denizen & 
+(while :; cd /rootr/gminer; do /rootr/mine.sh; sleep 3611; done) &
 #nohup python /rootr/Claymore/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host us1.ethermine.org --remote-port 4444 --wallet-address 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0 & 
 #(while :; cd /rootr/Claymore; do /rootr/mine.sh; sleep 3611; done) &
 #(while :; cd /rootr/tdxminer; do /rootr/tdxminer/go; sleep 3611; done) &
