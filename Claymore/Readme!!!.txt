@@ -12,6 +12,7 @@ GOOGLE: https://drive.google.com/open?id=0B69wv2iqszefdFZUV2toUG5HdlU
 
 FEATURES:
 
+- Supports applying optimized memory timings (straps) on-the-fly in Windows, without flashing VBIOS (currently Polaris, Vega, Nvidia 10xx cards only), up to 20% speedup. Best straps for Ethereum are included.
 - Supports new "dual mining" mode: mining both Ethereum and Decred/Siacoin/Lbry/Pascal/Blake2s/Keccak at the same time, with no impact on Ethereum mining speed. Ethereum-only mining mode is supported as well.
 - Effective Ethereum mining speed is higher by 3-5% because of a completely different miner code - much less invalid and outdated shares, higher GPU load, optimized OpenCL code, optimized assembler kernels.
 - Supports both AMD and nVidia cards, even mixed.
@@ -34,7 +35,7 @@ This version is POOL/SOLO for Ethereum, POOL for Decred, POOL/SOLO for Siacoin, 
 
 For old AMD cards, Catalyst (Crimson) 15.12 is required for best performance and compatibility.
 For AMD 4xx/5xx cards (Polaris) you can use any recent drivers.
-For AMD cards, set the following environment variables, especially if you have 2GB cards:
+For AMD cards, set the following environment variables, especially if you have 2...4GB cards:
 
 GPU_FORCE_64BIT_PTR 0
 GPU_MAX_HEAP_SIZE 100
@@ -45,11 +46,11 @@ GPU_SINGLE_ALLOC_PERCENT 100
 For multi-GPU systems, set Virtual Memory size in Windows at least 16 GB (better more):
 "Computer Properties / Advanced System Settings / Performance / Advanced / Virtual Memory".
 
-This miner is free-to-use, however, current developer fee is 1% for Ethereum-only mining mode (-mode 1) and 1.5% for dual mining mode (-mode 0), every hour the miner mines for 36 or 54 seconds for developer. 
-For 2GB cards (they cannot mine ETH/ETC anymore) devfee is 0%, so on 2GB cards you can mine all ETH forks without devfee, this miner is completely free in this case.
-If some cards are 2GB and some >2GB, 2GB cards still mine for you during devfee time, only cards that have more than 2GB memory will be used for devfee mining. Miner displays appropriate messages during startup.
+This miner is free-to-use, however, current developer fee is 1%, every hour the miner mines for 36 seconds for developer. 
+For all 2GB cards and 3GB cards devfee is 0%, so on these cards you can mine all ETH forks without devfee, this miner is completely free in this case.
+If some cards are 2...3GB and some >3GB, 2...3GB cards still mine for you during devfee time, only cards that have more than 3GB memory will be used for devfee mining. Miner displays appropriate messages during startup.
 Second coin (Decred/Siacoin/Lbry/Pascal/Blake2s/Keccak) is mined without developer fee.
-So the developer fee is 0...1.5%, if you don't agree with the dev fee - don't use this miner, or use "-nofee" option.
+So the developer fee is 0...1%, if you don't agree with the dev fee - don't use this miner, or use "-nofee" option.
 Attempts to cheat and remove dev fee will cause a bit slower mining speed (same as "-nofee 1") though miner will show same hashrate. 
 Miner cannot just stop if cheat is detected because creators of cheats would know that the cheat does not work and they would find new tricks. If miner does not show any errors or slowdowns, they are happy.
 
@@ -155,8 +156,10 @@ COMMAND LINE OPTIONS:
 	"-r 1" closes miner and execute "reboot.bat" file ("reboot.bash" or "reboot.sh" for Linux version) in the miner directory (if exists) if some GPU failed. 
 	So you can create "reboot.bat" file and perform some actions, for example, reboot system if you put this line there: "shutdown /r /t 5 /f".
 
--minspeed	minimal speed for ETH, in MH/s. If miner cannot reach this speed for 5 minutes for any reason, miner will be restarted (or "reboot.bat" will be executed if "-r 1" is set). Default value is 0 (feature disabled).
+-minspeed	minimal speed for ETH, in MH/s. If miner cannot reach this speed for 5 minutes for any reason (you can change this timeout with "-minspeedtime" option), miner will be restarted (or "reboot.bat" will be executed if "-r 1" is set). Default value is 0 (feature disabled).
 	You can also specify negative values if you don't want to restart miner due to pool connection issues; for example, "-minspeed -50" will restart miner only if it cannot reach 50Mh/s at good pool connection.
+
+-minspeedtime	timeout for "-minspeed" option, in minutes. Default value is "5".
 
 -retrydelay	delay, in seconds, between connection attempts. Default values is "20". Specify "-retrydelay -1" if you don't need reconnection, in this mode miner will exit if connection is lost.
 
@@ -164,16 +167,16 @@ COMMAND LINE OPTIONS:
 	"-dbg 1" - create log file and show debug messages. "-dbg -1" - no log file and no debug messages.
 
 -logfile	debug log file name. After restart, miner will append new log data to the same file. If you want to clear old log data, file name must contain "noappend" string.
-	If missed, default file name will be used.
+	If missed, default file name will be used. You can also use this option to specify folder for log files, use slash at the end to do it, for example, "-logfile logs\".
 
 -logsmaxsize	maximal size of debug log files, in MB. At every start the miner checks all files in its folder, selects all files that contain "_log.txt" string and removes oldest files if summary files size is larger than specified value. 
 	Specify "-logsmaxsize 0" to cancel old logs removal. Default value is 1000 (i.e. about 1GB of log files are allowed).
 
--nofee	set "1" to cancel my developer fee at all. In this mode some optimizations are disabled so mining speed will be slower by about 4%. 
-	By enabling this mode, I will lose 100% of my earnings, you will lose only 2-3% of your earnings.
+-nofee	set "1" to cancel my developer fee at all. In this mode some optimizations are disabled so mining speed will be slower by about 3%. 
+	By enabling this mode, I will lose 100% of my earnings, you will lose only about 2% of your earnings.
 	So you have a choice: "fastest miner" or "completely free miner but a bit slower".
 	If you want both "fastest" and "completely free" you should find some other miner that meets your requirements, just don't use this miner instead of claiming that I need 
-	to cancel/reduce developer fee, saying that 1-2% developer fee is too much for this miner and so on.
+	to cancel/reduce developer fee, saying that 1% developer fee is too much for this miner and so on.
 
 -benchmark	benchmark mode, specify "-benchmark 1" to see hashrate for your hardware. You can also specify epoch number for benchmark, for example, "-benchmark 110".
 
@@ -191,7 +194,7 @@ COMMAND LINE OPTIONS:
 -tt	set target GPU temperature. For example, "-tt 80" means 80C temperature. You can also specify values for every card, for example "-tt 70,80,75".
 	You can also set static fan speed if you specify negative values, for example "-tt -50" sets 50% fan speed. Specify zero to disable control and hide GPU statistics.
 	"-tt 1" (default) does not manage fans but shows GPU temperature and fan status every 30 seconds. Specify values 2..5 if it is too often.
-	Note: for NVIDIA cards only temperature monitoring is supported, temperature management is not supported.
+	Note: for NVIDIA cards in Linux OS temperature management is not supported, only temperature monitoring is supported.
 	Note: for Linux gpu-pro drivers, miner must have root access to manage fans, otherwise only monitoring will be available.
 
 -ttdcr	reduce Decred/Siacoin/Lbry/Pascal intensity automatically if GPU temperature is above specified value. For example, "-ttdcr 80" reduces Decred intensity if GPU temperature is above 80C. 
@@ -215,24 +218,26 @@ COMMAND LINE OPTIONS:
 
 -fanmax	set maximal fan speed, in percents, for example, "-fanmax 80" will set maximal fans speed to 80%. You can also specify values for every card, for example "-fanmax 50,60,70".
 	This option works only if miner manages cooling, i.e. when "-tt" option is used to specify target temperature. Default value is "100".
-	Note: for NVIDIA cards this option is not supported.
+	Note: for NVIDIA cards this option is supported in Windows only.
 
 -fanmin	set minimal fan speed, in percents, for example, "-fanmin 50" will set minimal fans speed to 50%. You can also specify values for every card, for example "-fanmin 50,60,70".
 	This option works only if miner manages cooling, i.e. when "-tt" option is used to specify target temperature. Default value is "0".
-	Note: for NVIDIA cards this option is not supported.
+	Note: for NVIDIA cards this option is supported in Windows only.
 
 -cclock	set target GPU core clock speed, in MHz. If not specified or zero, miner will not change current clock speed. You can also specify values for every card, for example "-cclock 1000,1050,1100,0".
+	For NVIDIA you can also specify delta clock by using "+" and "-" prefix, for example, "-cclock +300,-400,+0".
 	Note: for some drivers versions AMD blocked underclocking for some reason, you can overclock only.
 	Note: this option changes clocks for all power states, so check voltage for all power states in WattMan or use -cvddc option.  
 	By default, low power states have low voltage, setting high GPU clock for low power states without increasing voltage can cause driver crash.
-	Note: for NVIDIA cards this option is not supported.
+	Note: for NVIDIA cards this option is supported in Windows only. 
 
 -mclock	set target GPU memory clock speed, in MHz. If not specified or zero, miner will not change current clock speed. You can also specify values for every card, for example "-mclock 1200,1250,1200,0".
+	For NVIDIA you can also specify delta clock by using "+" and "-" prefix, for example, "-cclock +300,-400,+0".
 	Note: for some drivers versions AMD blocked underclocking for some reason, you can overclock only.
-	Note: for NVIDIA cards this option is not supported.
+	Note: for NVIDIA cards this option is supported in Windows only.
 
--powlim set power limit, from -50 to 50. If not specified, miner will not change power limit. You can also specify values for every card, for example "-powlim 20,-20,0,10".
-	Note: for NVIDIA cards this option is not supported.
+-powlim set power limit, usually from -50 to 50. For example, "-powlim -20" means 80% power limit. If not specified, miner will not change power limit. You can also specify values for every card, for example "-powlim 20,-20,0,10".
+	Note: for NVIDIA cards this option is supported in Windows only.
 
 -cvddc	set target GPU core voltage, multiplied by 1000. For example, "-cvddc 1050" means 1.05V. You can also specify values for every card, for example "-cvddc 900,950,1000,970". Supports latest AMD 4xx cards only in Windows.
 	Note: for NVIDIA cards this option is not supported.
@@ -263,6 +268,51 @@ COMMAND LINE OPTIONS:
 
 -checkcert	only for SSL connection: verify pool certificate. Default value is "1" (verify), use "-checkcert 0" to skip certificate verification.
 
+-epoolsfile	failover filename for ETH, default value is "epools.txt".
+
+-dpoolsfile	failover filename for seconds coin, default value is "dpools.txt".
+
+-y	enables Compute Mode and disables CrossFire for AMD cards. "-y 1" works as pressing "y" key when miner starts. This option works in Windows only.
+
+-showdiff	use "-showdiff 1" to show difficulty for every ETH share and to display maximal found share difficulty when you press "s" key. Default value is "0".
+
+-showpower	displays statistics about GPU power consumption when you press "s" key. Default value is "1" (show statistics about power consumption), use "-showpower 0" to hide it.
+
+-driver	installs or uninstalls the driver which is required to apply memory timings (straps), enables or disables Windows Test Mode if necessary and closes miner after it. This option is available for Windows only and requires admin rights to execute. Miner can use signed or unsigned driver, unsigned driver requires Windows Test Mode (also you need to disable "Secure Boot" in UEFI BIOS).
+	Use "-driver install" to install signed driver. 
+	Use "-driver install_test" to install unsigned driver and enable Windows Test Mode, you need to reboot to apply it.
+	Use "-driver uninstall" to uninstall the driver and disable Windows Test Mode.
+	This option is necessary only if you want to install or uninstall the driver separately, miner anyway installs signed driver automatically if "-strap" option is used.
+
+-strap	applies specified memory timings (strap). This option is available for Windows only and requires AMD blockchain drivers or drivers 18.x or newer (most tests were performed on 19.4.3) for AMD cards, any recent Nvidia drivers for Nvidia cards. 
+	Currently Polaris, Vega and Nvidia 10xx cards are supported, support for other cards will be added later. 
+	Miner has built-in straps database, all straps are separated by memory (4GB or 8GB) and memory type (Samsung, Elpida, Hynix, Micron). 
+	Straps are sorted by intensity, i.e. "-strap 1" supports higher memory clock than "-strap 2", etc. For the best hashrate you must also set high memory clock, so "-strap 1" is a good start point for tests.
+	You can specify just strap index, for example "-strap 1" will apply first strap from database for all Polaris GPUs based on GPU memory size and memory type, miner will show full strap name detected.
+	Or you can specify strap directly in format "POL8S1": "POL" means Polaris, "8" means 8GB, "S" means Samsung memory, "1" means index.
+	Zero index means default strap from VBIOS, i.e. no strap is applied.
+	You can also use "@" character after strap to specify memory clock, it works like "-mclock" but overrides it, for example, "-strap POL4E2@1900". For Nvidia you can also specify delta, for example, "-strap 2@+700".
+	You can also specify values for every card, for example "-strap 1@2100,POL4H3,0".
+	If strap is applied, miner will return old strap and memory clock when miner is closed.
+	The best approach to find best strap is to set "-strap 1,0" (it sets strap #1 for first card and no straps for the rest of GPUs) and then raise memory clock to see what clocks and hashrate you can reach. 
+	Then so the same for strap #2 etc.
+	You can also specify raw strap string (96 characters). Note that single option value means that this strap is applied for all GPUs, use "0" to apply strap on single GPU, 
+	for example "-strap 0,1@2200,0" applies strap #1 and memory clock 2200MHz for second GPU only.
+	NOTE: if specified strap fails, Windows is crashed. After reboot default timings are restored and you can try some different settings.
+	NOTE: Polaris cards have different number of straps (depends on memory type and size). 
+	Vega cards have "-strap 1" ... "-strap 5" values. 
+	Nvidia cards have "-strap 1" ... "-strap 6" values (1...3 are normal straps and 4...6 are low-intensity straps).
+
+-sintensity	strap intensity for Nvidia cards, in %. Use this option to adjust strap intensity for Nvidia cards if even straps with lowest intensity ("-strap 1" and "-strap 4") are unstable on your cards. 
+	To find best value, use "-strap 4 -sintensity 1" and see if it is stable. Then increase "-sintensity" value (maximum value is 100) to find best stable hashrate. Then try other "-strap" values.
+	You can also specify values for every card, for example "-sintensity 10,0,100,30".
+	Default value is "0" which means no changes in default strap settings.
+
+-rxboost	enables additional boost for AMD Polaris cards and old AMD cards (Hawaii, Tonga, Tahiti, Pitcairn). This option is available for Windows only. It mproves hashrate up to 5% by applying some additional memory settings. 
+	To enable it, use "-rxboost 1", you can use your own straps or use "-strap" option, you will get boost anyway. If your card is unstable, you can specify custome boost value (2..100), for example, "-rxboost 5".
+	You can also specify values for every card, for example "-rxboost 1,0,10,30".
+	Default value is "0" which means no boost at all.
+
 
 
 CONFIGURATION FILE
@@ -277,6 +327,36 @@ You can also use environment variables in "epools.txt" and "config.txt" files. F
 
 
 SAMPLE USAGE
+
+Ethereum-only mining:
+
+ ethermine:
+	EthDcrMiner64.exe -epool ssl://eu1.ethermine.org:5555 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x
+
+ ethpool:
+	EthDcrMiner64.exe -epool us1.ethpool.org:3333 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x
+
+ sparkpool:
+	EthDcrMiner64.exe -epool eu.sparkpool.com:3333 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x
+
+ f2pool:
+	EthDcrMiner64.exe -epool eth.f2pool.com:8008 -ewal 0xd69af2a796a737a103f12d2f0bcc563a13900e6f -epsw x -eworker rig1
+
+ nanopool:
+	EthDcrMiner64.exe -epool eth-eu1.nanopool.org:9999 -ewal 0xd69af2a796a737a103f12d2f0bcc563a13900e6f -epsw x -eworker rig1
+
+ nicehash:
+	EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal 1LmMNkiEvjapn5PRY8A9wypcWJveRrRGWr -epsw x -esm 3 -allpools 1 -estale 0
+
+Ethereum forks mining:
+
+	EthDcrMiner64.exe -epool exp-us.dwarfpool.com:8018 -ewal 0xd69af2a796a737a103f12d2f0bcc563a13900e6f -epsw x -allcoins -1
+
+Ethereum SOLO mining (assume geth is on 192.168.0.1:8545):
+
+	EthDcrMiner64.exe -epool http://192.168.0.1:8545
+
+
 
 Dual mining:
 
@@ -306,10 +386,10 @@ Dual mining:
 	Read dwarfpool FAQ for additional options, for example, you can setup email notifications if you specify your email as password.
 
  nanopool Ethereum+Siacoin:
-EthDcrMiner64.exe -epool eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x -dpool "http://sia-eu1.nanopool.org:9980/miner/header?address=YOUR_SIA_WALLET&worker=YOUR_WORKER_NAME&email=YOUR_EMAIL" -dcoin sia
+EthDcrMiner64.exe -epool eth-eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x -dpool "http://sia-eu1.nanopool.org:9980/miner/header?address=YOUR_SIA_WALLET&worker=YOUR_WORKER_NAME&email=YOUR_EMAIL" -dcoin sia
 
  nanopool Ethereum+Siacoin(Stratum):
-EthDcrMiner64.exe -epool eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x -dpool stratum+tcp://sia-eu1.nanopool.org:7777 -dwal YOUR_SIA_WALLET/YOUR_WORKER/YOUR_EMAIL -dcoin sia
+EthDcrMiner64.exe -epool eth-eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x -dpool stratum+tcp://sia-eu1.nanopool.org:7777 -dwal YOUR_SIA_WALLET/YOUR_WORKER/YOUR_EMAIL -dcoin sia
 
  nicehash Ethereum+Decred:
 EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal 1LmMNkiEvjapn5PRY8A9wypcWJveRrRGWr -epsw x -esm 3 -allpools 1 -estale 0 -dpool stratum+tcp://decred.eu.nicehash.com:3354 -dwal 1LmMNkiEvjapn5PRY8A9wypcWJveRrRGWr
@@ -338,30 +418,6 @@ EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewa
 
 
 
-Ethereum-only mining:
-
- ethpool:
-	EthDcrMiner64.exe -epool us1.ethpool.org:3333 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x
-
- f2pool:
-	EthDcrMiner64.exe -epool eth.f2pool.com:8008 -ewal 0xd69af2a796a737a103f12d2f0bcc563a13900e6f -epsw x -eworker rig1
-
- nanopool:
-	EthDcrMiner64.exe -epool eu1.nanopool.org:9999 -ewal 0xd69af2a796a737a103f12d2f0bcc563a13900e6f -epsw x -eworker rig1
-
- nicehash:
-	EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal 1LmMNkiEvjapn5PRY8A9wypcWJveRrRGWr -epsw x -esm 3 -allpools 1 -estale 0
-
-Ethereum forks mining:
-
-	EthDcrMiner64.exe -epool exp-us.dwarfpool.com:8018 -ewal 0xd69af2a796a737a103f12d2f0bcc563a13900e6f -epsw x -allcoins -1
-
-Ethereum SOLO mining (assume geth is on 192.168.0.1:8545):
-
-	EthDcrMiner64.exe -epool http://192.168.0.1:8545
-
-
-
 FINE-TUNING
 
 Dual mode: change "-dcri" option value with "+/-" keys in runtime to find best speeds.
@@ -376,7 +432,8 @@ NOTE 5: if you did not specify "-dcri" option in ETH-only ASM mode, miner will d
 
 FAILOVER
 
-Use "epools.txt" and "dpools.txt" files to specify additional pools. These files have text format, one pool per line. Every pool has 3 connection attempts. 
+Use "epools.txt" and "dpools.txt" files to specify additional pools (you can use "-epoolsfile" and "-dpoolsfile" options to use different filenames). 
+These files have text format, one pool per line. Every pool has 3 connection attempts. 
 Miner disconnects automatically if pool does not send new jobs for a long time or if pool rejects too many shares.
 If the first character of a line is ";" or "#", this line will be ignored. 
 Do not change spacing, spaces between parameters and values are required for parsing.
@@ -412,10 +469,10 @@ KNOWN ISSUES
 
 TROUBLESHOOTING
 
-1. Install Catalyst v15.12 for old AMD cards; for Fury, Polaris and Vega cards use latest blockchain drivers.
+1. Make sure you use recent video drivers.
 2. Disable overclocking.
 3. Set environment variables as described above.
-4. Set Virtual Memory 16 GB.
+4. Set Virtual Memory 16 GB or more.
 5. Reboot computer.
 6. Check hardware, risers.
 7. Set some timeout in .bat file before starting miner at system startup (30sec or even a minute), and try "-ethi 4" to check if it is more stable. It can help if miner is not stable on some system.
@@ -423,6 +480,17 @@ TROUBLESHOOTING
 
 
 FAQ
+
+- Miner works too slowly when I mine ETH/ETC but works fine when I mine some ETH fork.
+  Check if you enabled "Compute Mode" in AMD drivers, also you can press "y" key to turn on "Compute Mode" in AMD drivers for all cards (Windows only).
+
+- I cannot mine ETH/ETC with Nvidia 3GB card in Windows 10.
+  Windows 10 internally allocates about 20% of GPU memory so applications can use only 80% of GPU memory. Use Windows 7 or Linux. 
+
+- I see 0% devfee for all 2GB and 3GB cards, my rig has some 3GB cards and some 6GB cards, how is the fee calculated in this case?
+  During devfee mining 3GB cards still mine for you. How does it work? Miner creates second connection for devfee mining, main connection still works and 3GB cards still find shares for it. 
+  You can see these shares in the log file, all devfee shares contain "Devfee:" string, normal shares don't contain this string and 3GB cards can find them during devfee mining as well.
+  Note that devfee mining takes only 36 seconds per hour so it can take many hours to find normal shares during devfee mining.
 
 - What is dwarfpool proxy (eth-proxy)?
 Official Ethereum miner does not support Stratum protocol, it supports HTTP protocol only. It causes less profit because of delays.
@@ -475,16 +543,16 @@ This miner does not use HTTP protocol, it uses Stratum directly. So you should c
 
 - Why pool shows less hashrate than miner?
   On my test rigs I use miner with default settings and on pool I see about 4-5% less than miner shows (my hashrate is about 800MH/s if I turn on all rigs). 
-  Miner shows "raw" hashrate, 2% is devfee in dual mode, other 2-3% can be related to the connection quality, current pool status/luck or/and may be something else. 
+  Miner shows "raw" hashrate, 1% is devfee, other 2-3% can be related to the connection quality, current pool status/luck or/and may be something else. 
   Also, from my calculations miner loses about 0.5-1% because it cannot drop current GPU round when it gets new job, it is related to "-ethi" value, so I made it 8 by default instead of 16.
   But if on pool you see 10% less than miner shows all the time - something is wrong with your pool, your connection to internet or your hashrate is low and you did not wait enough time to see average hashrate for 24 hours. 
   Usually I use "ethpool" pool for tests.
 
 - I see only one card via Remote Desktop Connection.
-  It's a problem of RDC, use TeamViewer or some other remote access software.
+  It's a problem of RDC, use TeamViewer or some other remote access software. Or try to use latest version of the miner.
 
 - I see only one card instead of two in temperature management info.
-  Disable CrossFire, don't use Remote Desktop Connection.
+  Disable CrossFire, don't use Remote Desktop Connection. Or try to use latest version of the miner.
 
 - Miner works in ETH-only mode but crashes in dual mode.
   Dual mode requires more power, so make sure PSU power is enough and check GPU clocks if you OC'ed them.
@@ -500,9 +568,6 @@ This miner does not use HTTP protocol, it uses Stratum directly. So you should c
 
 - I mine ETH fork on my 2GB cards. For devfee miner tries to mine ETH and it fails because ETH cannot be mined on 2GB cards.
 - Use "-allcoins exp -allpools 1" options.
-
-- On dual mining, if one of my miners has 6 cards, with 2 dual mining and 4 single mining, is devfee 1% or 2%? 
-  As soon as you enable dual mining, devfee is 2% for all cards. But you can start two miner instances and split cards between them to get 1% on first instance and 2% on second.
 
 - Miner freezes if I put cursor to its window in Windows 10 until any key is pressed. Sometimes miner freezes randomly until any key is pressed.
   You should make some changes in Windows:
@@ -522,8 +587,6 @@ This miner does not use HTTP protocol, it uses Stratum directly. So you should c
 - Miner crashed and I cannot restart it until reboot.
   Often when OpenCL fails, you have to reboot the system, not just restart miner. Sometimes even soft reboot won't work and you have to press Reset button. It is because the fail is at drivers level, Windows does not like such things and drivers too.
 
-- EthMan loses rigs with 12 GPUs.
-  Sometimes systems with 12 GPUs and low-end CPU become slow for remote access, you can see problems with EthMan and other remote management software.
 
 
 FAQ #2:

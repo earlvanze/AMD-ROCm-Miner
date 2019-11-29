@@ -1,124 +1,3 @@
-exit
-cat .ssh/authorized_keys 
-cat .ssh/known_hosts
-ls .ssh
-cd /root/.ssh
-ls
-cat known_hosts 
-nano authorized_keys
-service ssh restart
-exit
-cd
-cat comm
-ls
-nano start-rtlinux.sh 
-cat /proc/interrupts 
-ls
-cat /proc/interrupts 
-rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi -s
-/opt/rocm/bin/rocm-smi -a
-/opt/rocm/bin/rocm-smi
-git add -A
-ls
-git commit -m "Added Claymore ZCL miner"
-git push
-git --seturl
-git --set_url
-git -h
-git --help
-git merge origin master
-git rm .bash_history 
-git stash .bash_history 
-git checkout master
-git stash -u
-git checkout rig2
-git merge origin master
-git status
-git stash
-ls
-git status
-git add -A
-git status
-nano mine.sh
-git stash
-ls
-nano mine.sh 
-git status
-nano start-net.sh
-nano start-rtlinux.sh 
-nano start-rtminer.sh 
-nano tdxminer/go
-nano xmr-stak/pools.txt 
-git status
-git commit -a -m "updated with master"
-git status
-git push
-git status
-cat mine.sh 
-git checkout master
-git fetch -p origin
-git merge origin/master
-git checkout rig2
-git merge master
-git status
-git stash
-ls
-cat mine.sh 
-nano mine.sh 
-git status
-git commit -m "
-updated"
-git add -A
-git commit -m "update"
-git push
-git status
-git fetch origin/master
-git fetch -p origin
-git merge origin/rig2
-git checkout master
-git merge rig2
-git add -A
-git commit -m "merged master with rig2"
-git push
-git checkout rig2
-cat mine.sh 
-nano start-rtminer.sh 
-scp vanze@192.168.0.18:/Users/vanze/Downloads/Claymore\'s\ ZCash\ AMD\ GPU\ Miner\ v12.6\ -\ LINUX.tar.gz .
-scp vanze@192.168.0.18
-ssh vanze@192.168.0.18
-ls
-tar -xzvf Claymore\'s\ ZCash\ AMD\ GPU\ Miner\ v12.6\ -\ LINUX.tar.gz 
-ls
-rm Claymore\'s\ ZCash\ AMD\ GPU\ Miner\ v12.6\ -\ LINUX.tar.gz 
-cd Claymore\'s\ ZCash\ AMD\ GPU\ Miner\ v12.6\ -\ LINUX/
-ls
-cd ..
-ls
-mv Claymore\'s\ ZCash\ AMD\ GPU\ Miner\ v12.6\ -\ LINUX/ Claymore_ZCL
-ls
-mv Claymore_ZCL/ /
-ls
-cd ..
-ls
-cd ..
-ls
-mv Claymore_ZCL/ /root
-ls
-cd root
-ls
-cd Claymore
-cd ../Claymore_ZCL/
-ls
-nano start.bash
-nano config.txt 
-cat Readme\!\!\!.txt 
-ls
-cat epools.txt 
-killall ethdcrminer64
-nano /root/mine.sh 
-nano config.txt 
 cd ..
 ls
 nano mine.sh
@@ -278,3 +157,344 @@ ls
 nano Claymore_ZCL/stratum_proxy.py 
 nano start-rtminer.sh 
 sudo reboot
+cat /nohup.out 
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+top
+clear
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -a
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+cd /root/lolMiner/
+ls
+nano /root/mine.sh 
+cd ..
+ls
+wget https://github.com/develsoftware/GMinerRelease/releases/download/1.68/gminer_1_68_linux64.tar.xz
+tar -xzvf gminer_1_68_linux64.tar.xz 
+tar -xvf gminer_1_68_linux64.tar.xz
+ls
+rm mine_aeternity.sh
+mine_aion.sh
+mine_beam.sh
+mine_bitgrin29.sh
+mine_btcz.sh
+mine_btg.sh
+mine_grimm.sh
+mine_grin29.sh
+mine_grin31.sh
+mine_mnx.sh
+miner
+mine_swap.sh
+mine_vds.sh
+mine_ycash.sh
+mine_zelcash.sh
+mine_zero.sh
+readme.txt
+rm mine_aion.sh 
+rm readme.txt 
+rm sample_config.txt 
+mv mine.sh run.sh
+ls
+rm mine_*
+rm mine_*
+mv mine.sh run.sh
+ls
+rm miner 
+mv run.sh mine.sh
+mkdir gminer
+ls
+tar -xvf gminer_1_68_linux64.tar.xz gminer
+mv gminer_1_68_linux64.tar.xz gminer
+ls
+cd gminer/
+tar -xvf gminer_1_68_linux64.tar.xz
+ls
+rm gminer_1_68_linux64.tar.xz 
+nano sample_config.txt 
+nano mine_zero.sh 
+nano mine_zero.sh 
+cat mine_zero.sh 
+killall lolMiner
+cd ..
+ls
+nano mine.sh 
+./miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen --pass x
+taskset -c 1 ./miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen --pass x
+taskset -c 1 /rootr/gminer/miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen --pass x
+nano mine.sh 
+./mine.sh 
+nano mine.sh 
+nano mine.sh 
+./mine.sh 
+nano mine.sh 
+./mine.sh 
+cat /nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi --setsclk 4
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+/opt/rocm/bin/rocm-smi --setsclk 2
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+/opt/rocm/bin/rocm-smi --setsclk 5
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+/opt/rocm/bin/rocm-smi --setsclk 3
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+nano start-rtminer.sh 
+cp Claymore_ZCL/stratum_proxy.py gminer
+ls
+ls gminer/
+cat /proc/interrupts 
+nano start-rtlinux.sh 
+rm /nohup.out 
+echo 1 > /nohup.out
+cat /nohup.out 
+git add -A
+git commit -m "Switched to gminer ZCL"
+git push
+git push
+cat mine.sh 
+taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal digitalkid23.denizen -zpsw x -asm 1 -i 8 -wd 0 -r 60 -allpools 1 -ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002
+killall miner
+taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal digitalkid23.denizen -zpsw x -asm 1 -i 8 -wd 0 -r 60 -allpools 1 -ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002
+taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal digitalkid23.denizen -zpsw x -asm 1 -i 8 -wd 0 -r 60 -allpools 1 -ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002 -allpools 1
+./mine.sh 
+cat /nohup.out 
+rm /nohup.out 
+nano start-rtminer.sh 
+netstat -ntl
+nano gminer/stratum_proxy.py 
+nano start-rtminer.sh 
+./mine.sh
+/home/root/m
+/rootr/mine.sh
+cat /rootr/nohup.out 
+cat /rootr/nohup.out 
+cat /rootr/nohup.out 
+cat /nohup.out 
+sudo reboot
+cd ../root
+ls
+cd /root
+ls
+nano mine.sh 
+cat commands.txt 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -h
+/opt/rocm/bin/rocm-smi --setsclk 3
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi --setsclk 4
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+nano stratum_proxy.py 
+nano mi
+nano ../mine.sh 
+cd ..
+nano start-rtminer.sh 
+nano mine.sh 
+sudo reboot
+cd /root
+nano start-rtm
+nano start-rtminer.sh 
+netstat -ntl
+nano Claymore/stratum_proxy.py 
+nano mine.sh 
+sudo ./mine.sh 
+nano mine.sh 
+nano start-rtminer.sh 
+nano Claymore/stratum_proxy.py 
+nano mine.sh 
+sudo ./mine.sh 
+sudo ./start-rtminer.sh 
+sudo ./mine.sh 
+nano mine.sh 
+sudo ./mine.sh 
+netstat -ntlk
+netstat -ntl
+netstat -ntl
+netstat -ntl
+netstat -ntl
+netstat -ntl
+nano start-rtminer.sh 
+nano start-rtminer.sh 
+nano mine.sh 
+sudo ./mine.sh 
+nano mine.sh 
+sudo ./mine.sh 
+nano mine.sh 
+ls
+ls Claymore
+ls
+wget 'https://mega.nz/#F!O4YA2JgD?KsJ2ESCK'
+rm index.html 
+tar -xvf /home/guru/Claymore\'s\ Dual\ Ethereum\ AMD+NVIDIA\ GPU\ Miner\ v15.0\ -\ LINUX.tar.gz 
+ls
+ls Claymore
+ls
+mv Claymore\'s\ Dual\ Ethereum\ AMD+NVIDIA\ GPU\ Miner\ v15.0\ -\ LINUX/ Claymore15
+ls
+cd Claymore15
+ls
+nano config.txt 
+nano start.bash 
+nano start.bash 
+cp ethdcrminer64 ../Claymore
+killall ethdcrminer64 
+cp ethdcrminer64 ../Claymore
+sudo ../mine.sh 
+rm /home/guru/Claymore\'s\ Dual\ Ethereum\ AMD+NVIDIA\ GPU\ Miner\ v15.0\ -\ LINUX.tar.gz 
+cd ..
+ls Claymore
+nano Claymore/echo 
+cd Claymore
+ls
+ls ../Claymore15/
+cp echo ../Claymore15/
+cp stratum_proxy.py ../Claymore15/
+ls
+cd ../Claymore15/
+ls
+nano ../Claymore/History.txt 
+nano config.txt 
+nano ../Claymore/config.txt
+nano ../Claymore/epools
+nano ../Claymore/epools.txt 
+nano epools.txt 
+nano dpools.txt 
+nano dpools.txt 
+mv ../Claymore ../Claymore
+cd ..
+ls
+mv Claymore15 Claymore
+sudo reboot
+cd /root
+nano mine.sh 
+./mine.sh 

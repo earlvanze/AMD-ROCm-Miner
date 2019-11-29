@@ -1,6 +1,157 @@
 VERSION HISTORY
 
 
+v15.0
+---------------------------------------------------------------------
+
+- now miner supports up to #384 epoch (4GB DAG size). Note that previous versions support up to #299 epoch, you will not be able to use old versions after #299 epoch.
+- added support for Navi cards (ETH-only mode).
+- now miner sets environment variables automatically (required for 4GB AMD cards).
+
+
+
+v14.7
+---------------------------------------------------------------------
+
+- now the miner driver does not require switching Windows to Test Mode. If you want to turn Test Mode off, use "-driver uninstall" option (with admin rights) and reboot, 
+	then start miner with admin rights to install new driver automatically when necessary (or use "-driver install" option directly). 
+	If you have any problems with signed driver you can use "-driver install_test" option, it uses old approach: enables Test Mode (reboot is required) and installs unsigned driver.
+- added "-showpower" option for stats about GPU power consumption, press "s" to see it. Both AMD and Nvidia cards are supported, except Linux gpu-pro drivers and Radeon7 cards.
+- updated Remote Manager to show total power consumption.
+- fixed issue with "-logsmaxsize" option when "-logfile" option is used to specify directory for log files.
+- a few minor bug fixes and improvements.
+
+
+
+v14.6
+---------------------------------------------------------------------
+
+- now "-rxboost" option also supports old AMD cards (Hawaii, Tonga, Tahiti, Pitcairn), use "-rxboost 1" to improve hashrate up to 5% by applying some additional memory timings.
+- now "-rxboost" option supports all AMD drivers.
+- now "-strap" for AMD cards also supports AMD blockchain drivers.
+- some changes to further reduce stale shares a bit.
+- added "-minspeedtime" option.
+- added statistics for shares accepting time (min/max/average), press "s" to see it.
+- updated Remote Manager to show shares accepting time.
+- Linux version build with some performance improvements.
+- a few minor bug fixes and improvements.
+
+
+
+v14.5
+---------------------------------------------------------------------
+
+- added "-rxboost" option for AMD Polaris cards, use "-rxboost 1" to improve hashrate by about 5% by applying some additional memory timings. You can use your own straps or use "-strap" option, you will get boost anyway. 
+	See Readme for additional information.
+- fixed issue with overclock reset for Nvidia cards.
+
+
+
+v14.4
+---------------------------------------------------------------------
+
+- improved mining speed for Nvidia cards by about 1% (depends on card model). Note that dual mining for Nvidia cards suffers from this optimization, use old versions if you use dual mining on Nvidia cards.
+- a bit reduced intensity of all Nvidia straps.
+- added "-sintensity" option to adjust strap intensity for Nvidia cards, see Readme for details.
+
+
+
+v14.3
+---------------------------------------------------------------------
+
+- fixed BSOD issue with Vega cards.
+- improved handling memory timings for Nvidia.
+- "strap" option for Nvidia cards: added "-strap 4"..."-strap 6" options, they have less intensity than straps #1..3 so you can try to use them if you cannot use even "-strap 1" option.
+
+
+
+v14.2
+---------------------------------------------------------------------
+
+- "strap" option: added support for Nvidia 10xx cards, up to 10% speedup for 1050/1060/1070 cards, up to 50% speedup for 1080/1080Ti cards compared to stock BIOS. 
+	Use "-strap 1" ... "-strap 3" values and overclock memory to find the best hashrate.
+- a few minor bug fixes and improvements.
+
+
+
+v14.1
+---------------------------------------------------------------------
+
+- "strap" option: added support for Vega cards, up to 15% speedup compared to stock BIOS. Use "-strap 1" ... "-strap 5" values and overclock memory to find the best hashrate.
+- improved compatibility with AMD 18.x drivers.
+- now miner uses CUDA10 runtime library for Nvidia.
+- a few minor bug fixes and improvements.
+
+
+
+v14.0
+---------------------------------------------------------------------
+
+- Windows only: added ability to apply optimized memory timings (straps) on-the-fly, without flashing VBIOS, up to 25% speedup compared to stock BIOS. Currently only Polaris cards are supported, other cards will be added later. 
+	Drivers 18.x or newer are required. Best straps for Ethereum are included. Check "-strap" and "-driver" options for details.
+- Windows only: added temperature/fan/clocks management for Radeon VII.
+- a few minor bug fixes and improvements.
+- fixed fan control for latest Windows AMD drivers.
+
+
+
+v12.0
+---------------------------------------------------------------------
+
+- zero devfee for all 2GB and 3GB cards in all operating systems.
+- reduced devfee for dual mode, now it is 1%, same as for ETH-only mode.
+- a bit reduced required GPU memory (both AMD and NVIDIA) so you can mine ETH a bit longer on cards that don't have enough memory.
+- added version for CUDA 10.0, it is a bit faster for latest 20xx NVIDIA cards.
+- a few minor bug fixes and improvements.
+
+
+
+v11.9
+---------------------------------------------------------------------
+
+- fixed issue with incorrect shares for Keccak.
+
+
+
+v11.8
+---------------------------------------------------------------------
+
+- fixed issue with missed GPU temperatures when miner is started via Remote Desktop Connection (RDC).
+- Linux version: removed libcurl library dependency.
+- added "-showdiff" option.
+- a few minor bug fixes and improvements.
+
+
+
+v11.7
+---------------------------------------------------------------------
+
+- added temperature management and overclock support for recent Nvidia cards in Windows: "-tt", "-powlim", "-cclock", "-mclock", "-tt", "-fanmax", "-fanmin" options are supported for Nvidia too.
+- now "y" key also disables CrossFire.
+- added "-y" option.
+- fixed issue with miner restart that was required sometimes to apply overclock settings for AMD cards.
+- fixed issue with rejected shares when "-esm 3" option is used.
+- Linux version: fixed issue with remote management.
+- some changes in watchdog routines to improve ability to restart miner after various OpenCL fails.
+- a few minor bug fixes and improvements.
+
+
+
+v11.6
+---------------------------------------------------------------------
+
+- improved hashrate for weak Nvidia cards by about 1%.
+- zero devfee for 3GB cards in Windows 10, same as for all 2GB cards.
+- applied some tricks to increase available memory for 3GB cards in Windows 10 so you can mine ETH a bit longer.
+- now you can press "y" key to turn on "Compute Mode" in AMD drivers for all cards (Windows only).
+- Linux version: removed openssl library dependency.
+- improved "-logfile" option, now you can use it to specify a folder for log files, use slash at the end to do it, for example, "-logfile logs\".
+- added "-epoolsfile" and "-dpoolsfile" options.
+- remote management: now "miner_getstat2" command also returns PCI bus index for every GPU.
+- a few minor bug fixes and improvements.
+
+
+
 v11.5
 ---------------------------------------------------------------------
 

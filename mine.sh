@@ -1,7 +1,15 @@
-killall miner
-nohup taskset -c 1 /rootr/gminer/miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 \
---user digitalkid23.denizen --pass x \
---api 3002 --electricity_cost 0.136 -w 0 -t 80 &
+# NiceHash DaggerHashimoto (Ethash) Miner (configured in start-rtminer.sh)
+killall ethdcrminer64
+nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool 1.2.3.4:8008 -ewal 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Denizen -epsw x \
+-asm 1 -esm 3 -allpools 1 -estale 0 -wd 0 -r 60 -logsmaxsize 0 \
+-ftime 10 -tstop 75 -tstart 55 -tt 65 -ttli 70 -fanmin 50 -fanmax 85 \
+-mport -3002 &
+
+# MiningPoolHub ZCL Miner
+#killall miner
+#nohup taskset -c 1 /rootr/gminer/miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 \
+#--user digitalkid23.denizen --pass x \
+#--api 3002 --electricity_cost 0.136 -w 0 -t 80 &
 
 #killall lolMiner
 #nohup taskset -c 1 /rootr/lolMiner/lolMiner --coin AUTO192_7 --pool us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen &
@@ -12,13 +20,13 @@ nohup taskset -c 1 /rootr/gminer/miner --algo 192_7 --pers ZcashPoW --server us-
 #-ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
 #-mport -3002 &
 
+# Ethermine.org ETH Miner
 #killall ethdcrminer64
 #nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig2 -epsw x \
 #-asm 1 -ethi 8 -wd 0 -r 60 -logsmaxsize 0 \
 #-ftime 10 -tstop 85 -tstart 55 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
 #-mport -3002 &
 
-#-cclock 1100 -cvddc 900 \
-#-mclock 2200 -mvddc 900 \
+# Extra Claymore Flags
 # Removed dual mining SC because SC is now mined with ASICs - low throughput and causes higher electricity and temperature
 #-dcoin sia -dpool stratum+tcp://us-east.siamining.com:7777 -dwal de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19.rig2 -dpsw x \
