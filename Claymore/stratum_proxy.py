@@ -72,7 +72,7 @@ def request_handler(socket_buffer):
     if ('submitLogin' in socket_buffer) or ('eth_login' in socket_buffer):
         json_data = json.loads(socket_buffer, object_pairs_hook=OrderedDict)
         print('[+] Auth in progress with address: ' + json_data['params'][0])
-        #If the auth contain an other address than our
+        #If the auth contain an other address than ours
         if wallet not in json_data['params'][0]:
              print('[*] DevFee Detected - Replacing Address - ' + str(datetime.datetime.now()))
              print('[*] OLD: ' + json_data['params'][0])
