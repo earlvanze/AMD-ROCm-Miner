@@ -1,82 +1,3 @@
-cd ..
-ls
-nano mine.sh
-ls Claymore_ZCL/
-nano mine.sh
-./mine.sh 
-cat nohup.out 
-cat /nohup.out 
-rm /nohup.out 
-nano /mi
-nano mine.sh 
-nano rc.local
-ls
-nano start-rtminer.sh 
-cp Claymore/stratum_proxy.py Claymore_ZCL
-ls Claymore_ZCL/
-nano start-rtminer.sh 
-cd Claymore_z
-cd Claymore_ZCL/
-ls
-nano stratum_proxy.py 
-cd ..
-nano start-rtminer.sh 
-ls rootr
-ls /rootr
-nano mine.sh 
-ls
-rm nohup.out 
-ls
-cd ..
-ls
-ls -la
-ls root-old
-cd /home/guru
-ls
-cd
-ls
-taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY -zpsw x -i 8 -asm 1 -ethi 8 -wd 0 -r 60 -logsmaxsize 0 -ftime 10 -tstop 85 -tstart 55 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002 > /rootr/nohup.out 2>&1
-nano mine.sh 
-taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY -zpsw x -i 8 -asm 1 -ethi 8 -wd 0 -r 60 -logsmaxsize 0 -ftime 10 -tstop 85 -tstart 55 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002
-nano mine.sh 
-taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY -zpsw x -i 8 -asm 1 -ethi 8 -wd 0 -r 60 -logsmaxsize 0 -ftime 10 -tstop 85 -tstart 55 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 \
-nano mine.sh 
-taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal t1LC1jY44czk2EP8kbBfkLjK7dct3UiVYgY -zpsw x -i 8 -asm 1 -i 8 -wd 0 -r 60 -ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002
-taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal digitalkid23.denizen -zpsw x -i 8 -asm 1 -i 8 -wd 0 -r 60 -ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002
-nano Claymore_ZCL/stratum_proxy.py 
-nano start_rtminer.sh
-ls
-nano start-rtminer.sh 
-nano Claymore_ZCL/stratum_proxy.py 
-nano start-rtminer.sh 
-taskset -c 1 /rootr/Claymore_ZCL/zecminer64 -zpool us-east.equihash-hub.miningpoolhub.com:20574 -zwal digitalkid23.denizen -zpsw x -i 8 -asm 1 -i 8 -wd 0 -r 60 -ftime 10 -tstop 85 -tt 60 -ttli 75 -fanmin 50 -fanmax 85 -mport -3002
-nano /root/Claymore_ZCL/config.txt 
-cd /rootr/Claymore_ZCL/
-ls
-nano start.bash 
-./zecminer64 
-nano /root/Claymore_ZCL/config.txt 
-./zecminer64 
-nano /root/Claymore_ZCL/config.txt 
-./zecminer64 
-nano /root/Claymore_ZCL/config.txt 
-nano /root/mine.sh
-nano /root/start-rtminer.sh 
-killall ethdcrminer64
-killall zecminer64
-cd ..
-ls
-./mine.sh 
-nano /root/start-rtminer.sh 
-nano /root/mine.sh
-./mine.sh 
-reboot
-cd
-nano mine.sh
-nano mine.sh 
-./mine.sh 
-cat /proc/interrupts 
-nano start-rtlinux.sh 
 nano start-rtlinux.sh 
 nano start-rtlinux.sh 
 killall zecminer64
@@ -498,3 +419,82 @@ sudo reboot
 cd /root
 nano mine.sh 
 ./mine.sh 
+rm /root/Claymore/nohup.out 
+ls
+cat nohup.out 
+rm nohup.out 
+ls
+cd /root
+ls
+cat no
+cat noh
+cat nohup.out 
+rm nohup.out 
+cat /nohup.out
+rm /nohup.out 
+ls
+rm -R Claymore11
+ls Claymore
+nano start-rtminer.sh 
+rocm-smi
+/opt/rocm/bin/rocm-smi
+nano mine.sh 
+nano mine.sh 
+cd /root
+ls
+git fetch
+git status
+git add -A
+git status
+git commit -m "Switched from ZCL-MiningPoolHub to NiceHash-DaggerHashimoto and updated Claymore to v15.0 DAG epoch 300"
+git push
+git push
+git remote set-url origin git@github.com:earlvanze/AMD-ROCm-Miner.git
+git push
+cd /root
+git checkout .ssh
+git status
+cat .ssh/id_rsa
+cat .ssh/
+ls
+cd .ssh
+ls
+cat authorized_keys 
+nano authorized_keys 
+nano known_hosts 
+rm known_hosts 
+ssh-keygen
+cat id_rsa.pub 
+cd /root
+ls
+git pull
+git rm /root/.ssh
+git rm /root/.ssh -r
+git rm /root/.ssh -r --cached
+ls .ssh
+ls
+git status
+git commit -m "update"
+git push
+git rebase master
+git rebase -i master
+git checkout master
+git rebase -i rig2
+git checkout rig2
+git status
+ls
+ls AMDAPPSDK-3.0/
+ls AMDAPPSDK-3.0/InstallLog_08-21-2018T04-53-33.log 
+cat AMDAPPSDK-3.0/InstallLog_08-21-2018T04-53-33.log 
+ls
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -s
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -s
+/opt/rocm/bin/rocm-smi
+ls
+cd /root
+ls
+ls /
+cd /home/
+ls
