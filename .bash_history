@@ -1,9 +1,3 @@
-nano start-rtlinux.sh 
-nano start-rtlinux.sh 
-killall zecminer64
-nano /root/Claymore/stratum_proxy.py 
-nano start-rtminer.sh 
-nano /root/Claymore/stratum_proxy.py 
 ls
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/0.8.8/lolMiner_v088_Lin64.tar.gz
 tar -xzvf lolMiner_v088_Lin64.tar.gz 
@@ -498,3 +492,9 @@ ls
 ls /
 cd /home/
 ls
+cd /root
+git add -A
+git status
+git commit -m "added reboot if network down"
+git push
+exit
