@@ -1,5 +1,5 @@
 # AMD GPU Blockchain Miner Linux Image
-Ubuntu 16.04 developer userland for usb flash drives with full AMD ROCm and blockchain support.
+Ubuntu 18.04 LTS developer userland for usb flash drives with full AMD ROCm and blockchain support.
 
 This repository is used to archive my modifications in /root. The kernel is updated to <a href="https://github.com/M-Bab/linux-kernel-amdgpu-binaries">4.18.0 with M-Bab amdgpu kernels</a>.
 
