@@ -1,9 +1,3 @@
-ls
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/0.8.8/lolMiner_v088_Lin64.tar.gz
-tar -xzvf lolMiner_v088_Lin64.tar.gz 
-ls
-mv 0.8.8 lolMiner
-rm lolMiner_v088_Lin64.tar.gz 
 cd lolMiner/
 ls
 ./lolMiner PROP
@@ -496,5 +490,11 @@ cd /root
 git add -A
 git status
 git commit -m "added reboot if network down"
+git push
+exit
+cd /root
+git add -A
+git commit -m "added auto-restart if network down"
+git status
 git push
 exit

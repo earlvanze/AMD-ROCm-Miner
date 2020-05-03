@@ -1,9 +1,9 @@
 # NiceHash DaggerHashimoto (Ethash) Miner (configured in start-rtminer.sh)
 killall ethdcrminer64
-nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool 1.2.3.4:8008 -ewal 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Denizen -epsw x \
+nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool 1.2.3.4:8008 -ewal 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 -epsw x \
 -asm 1 -esm 3 -allpools 1 -estale 0 -wd 0 -r 60 -logsmaxsize 0 \
 -ftime 10 -tstop 75 -tstart 55 -tt 65 -ttli 70 -fanmin 50 -fanmax 85 \
--mport -3002 &
+-mport -3001 &
 
 # MiningPoolHub ZCL Miner
 #killall miner
