@@ -1,5 +1,5 @@
 # AMD GPU Blockchain Miner Linux Image
-Ubuntu 18.04 LTS developer userland for usb flash drives with full AMD ROCm and blockchain support.
+Ubuntu 16.04 LTS developer userland for usb flash drives with full AMD ROCm and blockchain support.
 
 This repository is used to archive my modifications in /root. The kernel is updated to <a href="https://github.com/M-Bab/linux-kernel-amdgpu-binaries">4.18.0 with M-Bab amdgpu kernels</a>.
 
@@ -21,15 +21,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## How to Use
 
-This is a <a href="https://drive.google.com/file/d/1gVW_ftJQ7zUGkoc7UXqrHEqVu0VlqMqf/view?usp=sharing">working image</a> and password reset to "cryptominer" (for both guru and root users). If you can't log in still, chroot into the image and type passwd to change the root password.
-Download the image and dd to a 15.52 GB or larger USB flash drive (download dd Utility on Mac or WinDD on Windows). Plug and chug. Note that this real-time operating system is modified to disable keyboard interrupts, so you cannot use your keyboard once it starts booting. The display output only shows ```dmesg``` logs. The CLI is accessible via SSH.
+Download <a href="https://drive.google.com/file/d/1j2H7II7AFZgMdpFmxyNieONtt61P9mDA/view?usp=sharing">this image</a> and dd to a 15.52 GB or larger USB flash drive (change `/dev/sda` accordingly on Linux, download dd Utility on Mac or WinDD on Windows). Plug and chug. Note that this real-time operating system is modified to disable keyboard interrupts, so you cannot use your keyboard once it starts booting. The display output only shows ```dmesg``` logs. The CLI is accessible via SSH port 22.
+```
+sudo dd if=rippaV2.img of=/dev/sda bs=1M status=progress
+```
+
 ```
 Username: guru
 Password: cryptominer
 ```
+If you can't log in, mount and chroot into the image and type passwd to change the root password.
 gparted can expand your partitions to fill up a drive larger than 16 GB.
 
-At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the script that determines which miner will be used. tdxminer for Lyra2z, xmr-stak for Cryptonight v7 and other algorithms (0% dev fee), and Claymore dual miner for Ethereum, Ethereum Classic, SiaCoin, Decred, Pascal, and others are provided. sgminer is also available. Feel free to install whatever mining software you want to use.
+At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the script that determines which miner will be used. tdxminer for Lyra2z, xmr-stak for Cryptonight v7 and other algorithms (0% dev fee), and Claymore dual miner for Ethereum, Ethereum Classic, SiaCoin, Decred, Pascal, NiceHash DaggerHashimoto (Ethash), and others are provided. sgminer is also available. Feel free to install whatever mining software you want to use.
 
 If you're using Claymore Ethereum miner, don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes :)
 
@@ -41,7 +45,8 @@ If you're using risers, you will not be able to take advantage of PCIe Atomics. 
 
 In Linux, plug in USB or mount image:
 ```
-mount -t ext4 -o loop,offset=316669952 /path/to/image [/media/root or whatever your mount point is]
+mkdir /media/root
+mount -t ext4 -o loop,offset=316669952 /path/to/image /media/root
 ```
 To <a href="https://www.linuxquestions.org/questions/linux-general-1/how-to-mount-img-file-882386/">determine the offset for your image or drive</a>, run:
 ```
@@ -56,7 +61,11 @@ Then cd into root folder of img and chroot:
 cd /media/root
 sudo chroot .
 ```
-Then you can update files, passwd, etc.
+Then you can update files, passwd, etc. To unmount, run: 
+```
+for i in /dev /dev/pts /proc /sys /run; do sudo umount /media/root$i; done
+sudo umount /media/root
+```
 
 
 ## Community Thread
@@ -130,7 +139,12 @@ option for enabling IOMMUv2. If this is the case, the final requirement is
 associated with correct CRAT table support - please inquire with the OEM about 
 the latter.
 * AMD Merlin/Falcon Embedded System is also not currently supported by the public Repo. 
-* AMD Raven Ridge APU are currently not supported 
+* AMD Raven Ridge APU are currently not supported
+
+
+## Creating the Image
+<a href="http://dustymabe.com/2012/11/15/create-a-disk-image-without-enough-free-space/">Create uncompressed sparse image file</a> from flash drive and save to file
+```sudo dd if=/dev/sda bs=1M status=progress | cp --sparse=always /dev/stdin rippaV2.img```
 
 
 ## Donate
@@ -146,4 +160,4 @@ ETH	0x234AD7D3225dC28f2B292cCBE05CdD321C4aCC5B<br>
 NEO/GAS	ALfeqEsmEexzk5RFGUZinedMAtjnfUz4f7<br>
 
 
-If you have any questions, please reach out by email: earlvanze@gmail.com
+If you have any questions, please reach out by email: earl@earlyrewirement.com
