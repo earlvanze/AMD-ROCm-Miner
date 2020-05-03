@@ -5,11 +5,12 @@ This repository is used to archive my modifications in /root. The kernel is upda
 
 7.6 GB out of 10GB used, 4GB linux-swap partition filling up the remaining space. Feel free to slim it down further yourself and adjust in gparted as needed.
 
+Original Source: <a href="https://bitcointalk.org/index.php?topic=3023012.msg31099514#msg31099514">Full linux amd gpu mining rig flashed based headless platform</a>
 
 ## MIT License and Disclaimer
 This is developer software in continuous development. While I use it in production, I do not take any responsibility for any damage that may occur to your hardware, software, or infrastructure. There are other developers involved in creating this bootable Linux disk image and they cannot be held responsible either. By using this software, you agree to the following MIT License:
 
-Copyright 2018 Earl Co
+Copyright 2020 Earl Co
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -140,13 +141,9 @@ If you like this program, please donate using any of the methods below!
 Square Cash	http://cash.me/$digitalkid<br>
 Venmo	https://venmo.com/earlco<br>
 PayPal	http://paypal.me/earlco<br>
-Zelle	earlvanze@gmail.com<br>
 BTC	12icq2NfvXDYExaH3a4FVnWJwerb1oj31Z<br>
 ETH	0x234AD7D3225dC28f2B292cCBE05CdD321C4aCC5B<br>
-ZEC	t1duLU96HyXQ7dGwdesZB6C4iCPe5HZw5ar<br>
-LTC	LQymEUqGK9dBeugi2bNNtt4LEGpm6bMYjJ<br>
 NEO/GAS	ALfeqEsmEexzk5RFGUZinedMAtjnfUz4f7<br>
-SC	de1caac41616a762428a2c2baca667bde5fb27ff6b0717bb0d2c1b3493a3f972933524ef9d19
 
 
 If you have any questions, please reach out by email: earlvanze@gmail.com
