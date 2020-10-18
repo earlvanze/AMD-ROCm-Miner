@@ -1,65 +1,3 @@
-cd lolMiner/
-ls
-./lolMiner PROP
-nano user_config.json 
-./lolMiner --coin AUTO192_7 --pool us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen
-cd 
-ls
-nano mine.sh 
-nano mine.sh 
-./mine.sh 
-cat /nohup.out 
-rm /nohup.out 
-ls
-cat no
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi --setmclk 2
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-./mine.sh 
-nano mine.sh 
-./mine.sh 
-/opt/rocm/bin/rocm-smi
-cat nohup.out 
-sudo shutdown -h now
-cat nohup.out 
-cat /nohup.out 
-cd
-cd lolMiner/
-ls
-nano user_config.json 
-cat lolMiner_manual.pdf 
-clear
-cat /nohup.out 
-cd
-ls
-./mine.sh 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-cat nohup.out 
-/opt/rocm/bin/rocm-smi
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi
-top
-cat /proc/interrupts 
-/opt/rocm/bin/rocm-smi
-cat nohup.out 
-cat /nohup.out 
-cat mine.sh 
-cat /nohup.out 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi --setsclk 4
-/opt/rocm/bin/rocm-smi
-cat /nohup.out 
 rm nohup.out 
 cat /nohup.out 
 ls
@@ -498,3 +436,65 @@ git commit -m "added auto-restart if network down"
 git status
 git push
 exit
+cd /root
+git status
+git fetch
+git git add -A
+cd /root
+ls
+git add -A
+git status
+git commit -m
+git commit -m "Changed rig names and monitoring port"
+git push
+git checkout master
+git fetch
+git rebase origin/rig2
+git status
+git checkout
+git fetch
+git rebase origin/master
+git push
+git status
+git checkout rig1
+git 
+git rebase origin/master
+git checkout rig1
+git checkout master
+git stash
+git checkout master
+git rebase --abort
+git checkout master
+git pull
+nano README.md 
+git checkout master
+git status
+ls
+nano mine.sh 
+git branch -D rig1
+git branch -D rig2
+git branch -D rig3
+git branch -D rig4
+git status
+reboot
+./mine.sh 
+watch -n 1 tail -n 55 nohup.out 
+ls -laA
+sudo chown root PhoenixMiner/
+./mine.sh 
+]
+watch -n 1 tail -n 55 nohup.out 
+ls -la
+cd PhoenixMiner/
+ls -la
+sudo chown guru PhoenixMiner 
+sudo chgrp guru PhoenixMiner 
+ls -la
+./mine.sh 
+../mine.sh 
+watch -n 1 tail -n 55 ../nohup.out 
+watch -n 1 tail -n 55 nohup.out 
+rm nohup.out 
+cd ..
+rm nohup.out 
+sudo reboot

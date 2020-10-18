@@ -1,0 +1,215 @@
+2020.10.18:02:15:20.613: main Phoenix Miner 5.1c Linux/gcc - Release build
+2020.10.18:02:15:20.613: main Cmd line: 
+2020.10.18:02:15:20.615: main No CUDA driver found
+2020.10.18:02:15:20.828: main OpenCL driver version: 17.50-511655
+2020.10.18:02:15:20.830: main Available GPUs for mining:
+2020.10.18:02:15:20.830: main GPU1: Radeon RX 580 Series (pcie 1), OpenCL 1.2, 8 GB VRAM, 36 CUs
+2020.10.18:02:15:20.830: main GPU2: Radeon RX 580 Series (pcie 3), OpenCL 1.2, 8 GB VRAM, 36 CUs
+2020.10.18:02:15:20.830: main GPU3: Radeon RX 580 Series (pcie 4), OpenCL 1.2, 8 GB VRAM, 36 CUs
+2020.10.18:02:15:20.830: main GPU4: Radeon RX 580 Series (pcie 6), OpenCL 1.2, 8 GB VRAM, 36 CUs
+2020.10.18:02:15:20.831: main GPU5: Radeon RX 580 Series (pcie 7), OpenCL 1.2, 8 GB VRAM, 36 CUs
+2020.10.18:02:15:20.831: main GPU6: Radeon RX 580 Series (pcie 8), OpenCL 1.2, 8 GB VRAM, 36 CUs
+2020.10.18:02:15:20.836: main AMD sysfs monitor initialized
+2020.10.18:02:15:20.838: main Eth: Loading pools from epools.txt
+2020.10.18:02:15:20.839: main Eth: the pool list contains 5 pools (0 from command-line)
+2020.10.18:02:15:20.840: main Eth: primary pool: europe.ethash-hub.miningpoolhub.com:20535
+2020.10.18:02:15:20.840: main Starting GPU mining
+2020.10.18:02:15:20.840: main GPU1: fan PWM control mode 2, min 0, max 255
+2020.10.18:02:15:20.840: main GPU2: fan PWM control mode 2, min 0, max 255
+2020.10.18:02:15:20.840: main GPU3: fan PWM control mode 2, min 0, max 255
+2020.10.18:02:15:20.840: main GPU4: fan PWM control mode 2, min 0, max 255
+2020.10.18:02:15:20.840: main GPU5: fan PWM control mode 2, min 0, max 255
+2020.10.18:02:15:20.840: main GPU6: fan PWM control mode 2, min 0, max 255
+2020.10.18:02:15:20.941: wdog Starting watchdog thread
+2020.10.18:02:15:20.943: main Eth: Connecting to ethash pool europe.ethash-hub.miningpoolhub.com:20535 (proto: Stratum)
+2020.10.18:02:15:20.943: main GPU1: 31C 49% 42W, GPU2: 31C 49% 43W, GPU3: 28C 49% 42W, GPU4: 28C 49% 46W, GPU5: 26C 49% 44W, GPU6: 32C 49% 43W
+GPUs power: 260.9 W
+2020.10.18:02:15:21.116: eths Eth: Connected to ethash pool europe.ethash-hub.miningpoolhub.com:20535 (18.195.252.71)
+2020.10.18:02:15:21.116: eths Eth: Send: {"id":1,"method":"mining.subscribe","params":[]}
+
+2020.10.18:02:15:21.143: main Listening for CDM remote manager at port 3333 in read-only mode
+2020.10.18:02:15:21.250: eths Eth: Received: {"id":1,"result":[[["mining.set_difficulty","deadbeefcafebabe1820000000000000"],["mining.notify","deadbeefcafebabe1820000000000000"]],"0fffe447",4],"error":null}
+2020.10.18:02:15:21.251: eths Eth: Subscribed to ethash pool
+2020.10.18:02:15:21.251: eths Eth: Send: {"id":2,"method":"mining.extranonce.subscribe","params":[]}
+{"id":3,"method":"mining.authorize","params":["IdentIc-IdIlIya.IdentIc-IdIlIya","x"]}
+
+2020.10.18:02:15:21.384: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d55f","0xc4a15e4781ff0c70655ec104f35baaab37e5ba28a299b60ceed40c0b06926a4d","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:21.389: eths Eth: New job #c4a15e47 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:21.389: GPU1 GPU1: Starting up... (0)
+2020.10.18:02:15:21.389: GPU1 GPU1: Generating ethash light cache for epoch #369
+2020.10.18:02:15:21.395: GPU2 GPU2: Starting up... (0)
+2020.10.18:02:15:21.398: GPU3 GPU3: Starting up... (0)
+2020.10.18:02:15:21.402: GPU4 GPU4: Starting up... (0)
+2020.10.18:02:15:21.405: GPU5 GPU5: Starting up... (0)
+2020.10.18:02:15:21.415: GPU6 GPU6: Starting up... (0)
+2020.10.18:02:15:21.563: eths Eth: Received: {"id":3,"result":true,"error":null}
+2020.10.18:02:15:21.563: eths Eth: Worker IdentIc-IdIlIya.IdentIc-IdIlIya authorized
+2020.10.18:02:15:21.901: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d560","0x172a05e7efea790328cea2659916febf17f3b843e5bcf78366b7eb1751ba635d","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:21.901: eths Eth: New job #172a05e7 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:23.439: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d561","0xcf60d0c21ac4a659cfc80d0c5547bfeebe5be41f8f59ffd93fda376ba913aed3","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:23.439: eths Eth: New job #cf60d0c2 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:23.612: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d562","0xb9ba469f52b73c14d29dbd3bee6e43f73924aca89ab43ee4f1181307d71b0759","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:23.612: eths Eth: New job #b9ba469f from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:24.293: GPU1 Light cache generated in 2.9 s (21.4 MB/s)
+2020.10.18:02:15:24.961: GPU2 GPU2: Free VRAM: 7.938 GB; used: 0.051 GB
+2020.10.18:02:15:24.975: GPU2 GPU2: Allocating DAG (3.90) GB; good for epoch up to #371
+2020.10.18:02:15:24.975: GPU2 GPU2: Generating DAG for epoch #369
+2020.10.18:02:15:25.103: GPU3 GPU3: Free VRAM: 7.938 GB; used: 0.051 GB
+2020.10.18:02:15:25.111: GPU3 GPU3: Allocating DAG (3.90) GB; good for epoch up to #371
+2020.10.18:02:15:25.111: GPU3 GPU3: Generating DAG for epoch #369
+2020.10.18:02:15:25.247: GPU4 GPU4: Free VRAM: 7.938 GB; used: 0.051 GB
+2020.10.18:02:15:25.259: GPU4 GPU4: Allocating DAG (3.90) GB; good for epoch up to #371
+2020.10.18:02:15:25.259: GPU4 GPU4: Generating DAG for epoch #369
+2020.10.18:02:15:25.391: GPU5 GPU5: Free VRAM: 7.938 GB; used: 0.051 GB
+2020.10.18:02:15:25.398: GPU5 GPU5: Allocating DAG (3.90) GB; good for epoch up to #371
+2020.10.18:02:15:25.399: GPU5 GPU5: Generating DAG for epoch #369
+2020.10.18:02:15:25.535: GPU6 GPU6: Free VRAM: 7.938 GB; used: 0.051 GB
+2020.10.18:02:15:25.543: GPU6 GPU6: Allocating DAG (3.90) GB; good for epoch up to #371
+2020.10.18:02:15:25.543: GPU6 GPU6: Generating DAG for epoch #369
+2020.10.18:02:15:25.679: GPU1 GPU1: Free VRAM: 7.938 GB; used: 0.051 GB
+2020.10.18:02:15:25.679: GPU1 GPU1: Allocating DAG (3.90) GB; good for epoch up to #371
+2020.10.18:02:15:25.679: GPU1 GPU1: Generating DAG for epoch #369
+2020.10.18:02:15:25.949: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2020.10.18:02:15:25.949: main GPUs: 1: 0.000 MH/s (0) 2: 0.000 MH/s (0) 3: 0.000 MH/s (0) 4: 0.000 MH/s (0) 5: 0.000 MH/s (0) 6: 0.000 MH/s (0)
+2020.10.18:02:15:26.571: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d563","0x2868a10f8f21e6e81e63126062ba04417b746e1b281d27795136e22466a001b2","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:26.571: eths Eth: New job #2868a10f from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:26.678: GPU2 GPU2: DAG  16%
+2020.10.18:02:15:26.832: GPU3 GPU3: DAG  22%
+2020.10.18:02:15:26.942: GPU4 GPU4: DAG  16%
+2020.10.18:02:15:27.192: GPU5 GPU5: DAG  18%
+2020.10.18:02:15:27.332: GPU6 GPU6: DAG  18%
+2020.10.18:02:15:27.392: GPU1 GPU1: DAG  16%
+2020.10.18:02:15:28.277: GPU2 GPU2: DAG  34%
+2020.10.18:02:15:28.391: GPU3 GPU3: DAG  45%
+2020.10.18:02:15:28.530: GPU4 GPU4: DAG  34%
+2020.10.18:02:15:28.714: GPU5 GPU5: DAG  36%
+2020.10.18:02:15:28.855: GPU6 GPU6: DAG  36%
+2020.10.18:02:15:28.991: GPU1 GPU1: DAG  34%
+2020.10.18:02:15:29.791: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d564","0x0f1c299e54ffefdc160c8875fd64b3df7a8b3cb2bc857f157fbc09c9f9062b6e","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:29.791: eths Eth: New job #0f1c299e from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:29.876: GPU2 GPU2: DAG  53%
+2020.10.18:02:15:29.950: GPU3 GPU3: DAG  69%
+2020.10.18:02:15:30.118: GPU4 GPU4: DAG  53%
+2020.10.18:02:15:30.236: GPU5 GPU5: DAG  54%
+2020.10.18:02:15:30.377: GPU6 GPU6: DAG  54%
+2020.10.18:02:15:30.590: GPU1 GPU1: DAG  53%
+2020.10.18:02:15:30.957: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2020.10.18:02:15:30.957: main GPUs: 1: 0.000 MH/s (0) 2: 0.000 MH/s (0) 3: 0.000 MH/s (0) 4: 0.000 MH/s (0) 5: 0.000 MH/s (0) 6: 0.000 MH/s (0)
+2020.10.18:02:15:31.475: GPU2 GPU2: DAG  71%
+2020.10.18:02:15:31.490: GPU3 GPU3: DAG  87%
+2020.10.18:02:15:31.706: GPU4 GPU4: DAG  71%
+2020.10.18:02:15:32.189: GPU1 GPU1: DAG  71%
+2020.10.18:02:15:32.204: GPU5 GPU5: DAG  74%
+2020.10.18:02:15:32.343: GPU6 GPU6: DAG  74%
+2020.10.18:02:15:32.548: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d565","0xcba30f9512a9210f8acfc4065b56d0e96083dfb83214829b5ea969f0f7c20bb0","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:32.548: eths Eth: New job #cba30f95 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:32.598: GPU3 GPU3: DAG generated in 7.5 s (531.1 MB/s)
+2020.10.18:02:15:32.599: GPU3 GPU3: Using Ethash OCL kernels (Ellesmere; -clkernel 1)
+2020.10.18:02:15:32.599: GPU3 GPU3: no -gt value specified, switching to auto-tune
+2020.10.18:02:15:32.599: GPU3 GPU3: starting auto-tune process
+2020.10.18:02:15:33.035: GPU2 GPU2: DAG  85%
+2020.10.18:02:15:33.240: GPU4 GPU4: DAG  85%
+2020.10.18:02:15:33.726: GPU5 GPU5: DAG  92%
+2020.10.18:02:15:33.748: GPU1 GPU1: DAG  85%
+2020.10.18:02:15:33.866: GPU6 GPU6: DAG  92%
+2020.10.18:02:15:34.622: GPU2 GPU2: DAG generated in 9.6 s (412.1 MB/s)
+2020.10.18:02:15:34.622: GPU2 GPU2: Using Ethash OCL kernels (Ellesmere; -clkernel 1)
+2020.10.18:02:15:34.623: GPU2 GPU2: no -gt value specified, switching to auto-tune
+2020.10.18:02:15:34.623: GPU2 GPU2: starting auto-tune process
+2020.10.18:02:15:34.635: GPU5 GPU5: DAG generated in 9.2 s (430.5 MB/s)
+2020.10.18:02:15:34.635: GPU5 GPU5: Using Ethash OCL kernels (Ellesmere; -clkernel 1)
+2020.10.18:02:15:34.635: GPU5 GPU5: no -gt value specified, switching to auto-tune
+2020.10.18:02:15:34.635: GPU5 GPU5: starting auto-tune process
+2020.10.18:02:15:34.774: GPU6 GPU6: DAG generated in 9.2 s (430.7 MB/s)
+2020.10.18:02:15:34.775: GPU6 GPU6: Using Ethash OCL kernels (Ellesmere; -clkernel 1)
+2020.10.18:02:15:34.775: GPU6 GPU6: no -gt value specified, switching to auto-tune
+2020.10.18:02:15:34.775: GPU6 GPU6: starting auto-tune process
+2020.10.18:02:15:34.817: GPU4 GPU4: DAG generated in 9.6 s (416.0 MB/s)
+2020.10.18:02:15:34.817: GPU4 GPU4: Using Ethash OCL kernels (Ellesmere; -clkernel 1)
+2020.10.18:02:15:34.817: GPU4 GPU4: no -gt value specified, switching to auto-tune
+2020.10.18:02:15:34.817: GPU4 GPU4: starting auto-tune process
+2020.10.18:02:15:35.337: GPU1 GPU1: DAG generated in 9.7 s (411.7 MB/s)
+2020.10.18:02:15:35.337: GPU1 GPU1: Using Ethash OCL kernels (Ellesmere; -clkernel 1)
+2020.10.18:02:15:35.337: GPU1 GPU1: no -gt value specified, switching to auto-tune
+2020.10.18:02:15:35.337: GPU1 GPU1: starting auto-tune process
+2020.10.18:02:15:35.534: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d566","0xac3ec49052aedc42823984265161d5451f67f552bed30431e7f8e17fed349d53","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:35.534: eths Eth: New job #ac3ec490 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:35.904: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d567","0xc1983473c7a9c2eb9972312353024b936b6705b9e6e5b33ac926fa76c37609e9","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:35.904: eths Eth: New job #c1983473 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:35.964: main Eth speed: 115.778 MH/s, shares: 0/0/0, time: 0:00
+2020.10.18:02:15:35.964: main GPUs: 1: 0.000 MH/s (0) 2: 22.838 MH/s (0) 3: 23.832 MH/s (0) 4: 22.977 MH/s (0) 5: 23.063 MH/s (0) 6: 23.068 MH/s (0)
+2020.10.18:02:15:36.038: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d568","0xf0a0fbb568e3c0fe6822c845ec79e4799fb0fc91a0bcbb66c14dd8838677817d","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:36.038: eths Eth: New job #f0a0fbb5 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:39.254: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d569","0x7bfd9bbcc8598c96c45d9f96a4090f831e13e34d4bb03d5756764a0db302fde8","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:39.254: eths Eth: New job #7bfd9bbc from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:40.972: main Eth speed: 159.126 MH/s, shares: 0/0/0, time: 0:00
+2020.10.18:02:15:40.972: main GPUs: 1: 26.008 MH/s (0) 2: 26.032 MH/s (0) 3: 26.873 MH/s (0) 4: 26.347 MH/s (0) 5: 26.933 MH/s (0) 6: 26.932 MH/s (0)
+2020.10.18:02:15:41.116: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9295808","0xa88ee26210395418ea40638564b2137d6ff704cd9132b1fdf6a35e6a9f5c947b"]}
+
+2020.10.18:02:15:41.250: eths Eth: Received: {"id":6,"result":true,"error":null}
+2020.10.18:02:15:42.052: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d56a","0x25dc8e90bdd7335888f90a542e2ce289d51554ac7a80d46127cad4078afbe705","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:42.052: eths Eth: New job #25dc8e90 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:45.042: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d56b","0xd60dc0376776f8905ed26791ec110f39ea114db06d9a622bf3a55ff02948a701","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:45.042: eths Eth: New job #d60dc037 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:45.980: main Eth speed: 150.779 MH/s, shares: 0/0/0, time: 0:00
+2020.10.18:02:15:45.980: main GPUs: 1: 24.772 MH/s (0) 2: 24.790 MH/s (0) 3: 24.500 MH/s (0) 4: 25.319 MH/s (0) 5: 25.701 MH/s (0) 6: 25.696 MH/s (0)
+2020.10.18:02:15:46.234: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["IdentIc-IdIlIya.IdentIc-IdIlIya","d56b","0xa4fb8b996772d24c","0xd60dc0376776f8905ed26791ec110f39ea114db06d9a622bf3a55ff02948a701","0x5b92f70016867adb223b0f2c41790aa3795186e6dfb455ed75052cca2aac6b2f"]}
+
+2020.10.18:02:15:46.234: eths Eth: Share actual difficulty: 22.8 GH (!)
+2020.10.18:02:15:46.234: GPU2 Eth: GPU2: ETH share found!
+2020.10.18:02:15:46.372: eths Eth: Received: {"id":4,"result":true,"error":null}
+2020.10.18:02:15:46.372: eths Eth: Share accepted in 138 ms
+2020.10.18:02:15:48.150: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d56c","0x3d1d24cee7a09b5c6af8ed083bdd22560a137b1c1a8b79dd0600057e86c3a7a6","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:48.151: eths Eth: New job #3d1d24ce from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:50.987: main Eth speed: 138.662 MH/s, shares: 1/0/0, time: 0:00
+2020.10.18:02:15:50.987: main GPUs: 1: 22.751 MH/s (0) 2: 23.493 MH/s (1) 3: 23.031 MH/s (0) 4: 22.959 MH/s (0) 5: 23.216 MH/s (0) 6: 23.212 MH/s (0)
+2020.10.18:02:15:50.987: main GPU1: 40C 49% 84W, GPU2: 40C 49% 92W, GPU3: 39C 49% 96W, GPU4: 38C 49% 93W, GPU5: 37C 49% 97W, GPU6: 42C 49% 91W
+GPUs power: 553.8 W
+2020.10.18:02:15:51.023: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d56d","0x14cf872291d54ddc33cd024a0b6e49f3fa79764048b2ae5102a72232e160c4dc","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:51.023: eths Eth: New job #14cf8722 from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:51.156: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d56e","0x60a7baed1fe95afd4fc672ffdfc019317b4b41cb2cfa0fd462063dfa09b551f1","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:51.156: eths Eth: New job #60a7baed from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:51.290: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d56f","0x5351c5ed171b68465ae2b3fbc32f069251ffd4f6aa34c5041a2d0f26eaa8e34a","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:51.290: eths Eth: New job #5351c5ed from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:54.166: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d570","0x0db2793cd23095cc937982538e34ef8a9d8f1828d23af21eee961d168c81ec21","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:54.166: eths Eth: New job #0db2793c from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:55.731: main Quitting...
+2020.10.18:02:15:55.731: main GPU1 auto-tune process aborted
+2020.10.18:02:15:55.896: log Quitting...
+2020.10.18:02:15:56.048: log Quitting...
+2020.10.18:02:15:56.210: log Quitting...
+2020.10.18:02:15:56.374: log Quitting...
+2020.10.18:02:15:56.528: log Quitting...
+2020.10.18:02:15:56.563: main GPU2 auto-tune process aborted
+2020.10.18:02:15:56.711: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["IdentIc-IdIlIya.IdentIc-IdIlIya","d570","0x4a374991caee5b62","0x0db2793cd23095cc937982538e34ef8a9d8f1828d23af21eee961d168c81ec21","0x55ade7843fa09a8e62194417c1f601e96a6f2b4edc9079468df0e5744b2a92d9"]}
+
+2020.10.18:02:15:56.711: eths Eth: Share actual difficulty: 9649 MH
+2020.10.18:02:15:56.711: GPU4 Eth: GPU4: ETH share found!
+2020.10.18:02:15:56.849: eths Eth: Received: {"id":4,"result":true,"error":null}
+2020.10.18:02:15:56.849: eths Eth: Share accepted in 138 ms
+2020.10.18:02:15:57.082: main GPU3 auto-tune process aborted
+2020.10.18:02:15:57.445: eths Eth: Received: {"id":null,"method":"mining.notify","params":["d571","0x5808239b1667a77cf6d078256a17e19f2cf003ae676d9d62e6b2dc8862f973fd","0x991cc86d32e3f20929778d6d7a4ea4f839f8e70b4e203866c9d5fcd1b55ab6d3","0x000000007ffffffe00000007ffffffe00000007ffffffe00000007ffffffe000",true]}
+2020.10.18:02:15:57.445: eths Eth: New job #5808239b from europe.ethash-hub.miningpoolhub.com:20535; diff: 8589MH
+2020.10.18:02:15:57.694: main GPU4 auto-tune process aborted
+2020.10.18:02:15:57.914: log Quitting...
+2020.10.18:02:15:58.084: main GPU5 auto-tune process aborted
+2020.10.18:02:15:58.414: log Quitting...
+2020.10.18:02:15:58.445: log Quitting...
+2020.10.18:02:15:58.477: log Quitting...
+2020.10.18:02:15:58.507: log Quitting...
+2020.10.18:02:15:58.521: main GPU6 auto-tune process aborted
+2020.10.18:02:15:58.537: log Quitting...
+2020.10.18:02:15:58.567: log Quitting...
+2020.10.18:02:15:58.597: log Quitting...
+2020.10.18:02:15:58.628: log Quitting...
+2020.10.18:02:15:58.658: log Quitting...
+2020.10.18:02:15:58.688: log Quitting...
+2020.10.18:02:15:58.718: log Quitting...
+2020.10.18:02:15:58.748: log Quitting...
+2020.10.18:02:15:58.778: log Quitting...
+2020.10.18:02:15:58.809: log Quitting...
+2020.10.18:02:15:58.839: log Quitting...
+2020.10.18:02:15:58.869: log Quitting...
+2020.10.18:02:15:58.899: log Quitting...
+2020.10.18:02:15:59.081: wdog Stopping watchdog thread
+2020.10.18:02:15:59.081: main Exit code: 0

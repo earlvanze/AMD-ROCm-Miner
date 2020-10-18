@@ -1,9 +1,15 @@
-# NiceHash DaggerHashimoto (Ethash) Miner (configured in start-rtminer.sh)
-killall ethdcrminer64
-nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool 1.2.3.4:8008 -ewal 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 -epsw x \
--asm 1 -esm 3 -allpools 1 -estale 0 -wd 0 -r 60 -logsmaxsize 0 \
--ftime 10 -tstop 75 -tstart 55 -tt 65 -ttli 70 -fanmin 50 -fanmax 85 \
--mport -3001 &
+# NiceHash DaggerHashimoto (Ethash) Miner using Phoenix (configured in start-rtminer.sh)
+killall PhoenixMiner
+nohup taskset -c 1 /rootr/PhoenixMiner/PhoenixMiner -pool 1.2.3.4:8008 -wal 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig2 -pass x \
+-log 0 -retrydelay 1 -ftime 55 -tt 65 -tstop 75 -tstart 55 -fanmin 50 -fanmax 85 \
+-Rmode 1 -proto 4 -stales 0 -fret 1 -rate 1 &
+
+# NiceHash DaggerHashimoto (Ethash) Miner using Claymore (configured in start-rtminer.sh)
+#killall ethdcrminer64
+#nohup taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool 1.2.3.4:8008 -ewal 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 -epsw x \
+#-asm 1 -esm 3 -allpools 1 -estale 0 -wd 0 -r 60 -logsmaxsize 0 -minspeed 200 \
+#-ftime 10 -tstop 75 -tstart 55 -tt 65 -ttli 70 -fanmin 50 -fanmax 85 \
+#-mport -3001 &
 
 # MiningPoolHub ZCL Miner
 #killall miner
