@@ -1,220 +1,3 @@
-rm nohup.out 
-cat /nohup.out 
-ls
-nano Claymore_ZCL/stratum_proxy.py 
-nano start-rtminer.sh 
-sudo reboot
-cat /nohup.out 
-cat /nohup.out 
-/opt/rocm/bin/rocm-smi
-top
-clear
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi -a
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cd /root/lolMiner/
-ls
-nano /root/mine.sh 
-cd ..
-ls
-wget https://github.com/develsoftware/GMinerRelease/releases/download/1.68/gminer_1_68_linux64.tar.xz
-tar -xzvf gminer_1_68_linux64.tar.xz 
-tar -xvf gminer_1_68_linux64.tar.xz
-ls
-rm mine_aeternity.sh
-mine_aion.sh
-mine_beam.sh
-mine_bitgrin29.sh
-mine_btcz.sh
-mine_btg.sh
-mine_grimm.sh
-mine_grin29.sh
-mine_grin31.sh
-mine_mnx.sh
-miner
-mine_swap.sh
-mine_vds.sh
-mine_ycash.sh
-mine_zelcash.sh
-mine_zero.sh
-readme.txt
-rm mine_aion.sh 
-rm readme.txt 
-rm sample_config.txt 
-mv mine.sh run.sh
-ls
-rm mine_*
-rm mine_*
-mv mine.sh run.sh
-ls
-rm miner 
-mv run.sh mine.sh
-mkdir gminer
-ls
-tar -xvf gminer_1_68_linux64.tar.xz gminer
-mv gminer_1_68_linux64.tar.xz gminer
-ls
-cd gminer/
-tar -xvf gminer_1_68_linux64.tar.xz
-ls
-rm gminer_1_68_linux64.tar.xz 
-nano sample_config.txt 
-nano mine_zero.sh 
-nano mine_zero.sh 
-cat mine_zero.sh 
-killall lolMiner
-cd ..
-ls
-nano mine.sh 
-./miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen --pass x
-taskset -c 1 ./miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen --pass x
-taskset -c 1 /rootr/gminer/miner --algo 192_7 --pers ZcashPoW --server us-east.equihash-hub.miningpoolhub.com --port 20574 --user digitalkid23.denizen --pass x
-nano mine.sh 
-./mine.sh 
-nano mine.sh 
-nano mine.sh 
-./mine.sh 
-nano mine.sh 
-./mine.sh 
-cat /nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi --setsclk 4
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi --setsclk 2
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi --setsclk 5
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-/opt/rocm/bin/rocm-smi --setsclk 3
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-cat nohup.out 
-nano start-rtminer.sh 
-cp Claymore_ZCL/stratum_proxy.py gminer
 ls
 ls gminer/
 cat /proc/interrupts 
@@ -497,4 +280,221 @@ watch -n 1 tail -n 55 nohup.out
 rm nohup.out 
 cd ..
 rm nohup.out 
+sudo reboot
+ls -la /rootr
+ls -la /rootr/PhoenixMiner/
+ls -la /rootr/Claymore
+chmod 775 /root/PhoenixMiner/PhoenixMiner 
+ls -la /rootr/PhoenixMiner/
+./mine.sh 
+cat no
+cat nohup.out 
+ls -la /rootr/PhoenixMiner/
+ls -la
+chmod 775 PhoenixMiner/
+chown guru PhoenixMiner/
+chown guru PhoenixMiner/ -R
+chgrp guru PhoenixMiner/ -R
+./mine.sh 
+cat nohup.out 
+ls -la /rootr
+chmod -R 775 PhoenixMiner/
+./mine.sh 
+]
+cat nohup.out 
+./mine.sh 
+cat nohup.out 
+cd PhoenixMiner/
+./PhoenixMiner 
+cd ..
+ls
+cat mine.sh 
+sudo nano mine.sh 
+/rootr/PhoenixMiner -pool 1.2.3.4:8008 -wal 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig2 -pass x -log 0 -retrydelay 1 -ftime 55 --tt 65 -tstop 75 -tstart 55 -fanmin 50 -fanmax 85 -Rmode 1 -proto 4 -stales 0 -fret 1 -rate 1 &
+sudo nano mine.sh 
+./mine.sh 
+cat mine.sh 
+cat nohup.out 
+sudo nano mine.sh 
+./mine.sh 
+sudo nano mine.sh 
+cat nohup.out 
+cat nohup.out 
+watch -n 1 nohup 
+watch -n 1 nohup.out
+s
+kls
+ls
+watch -n 1 tail -n 55 nohup.out 
+watch -n 1 tail -n 45 nohup.out 
+watch -n 1 tail -n 50 nohup.out 
+ls
+git status
+git add -A
+git commit -m "Switch to PhoenixMiner"
+git push
+sudo reboot
+cd /root
+ls
+nano mine.sh 
+sudo nano Claymore/stratum_proxy.py 
+sudo nano mine.sh 
+nano start-rtminer.sh 
+nano start-rtminer.sh 
+nano mine.sh
+reboot
+cd /root
+wget https://github.com/todxx/teamredminer/releases/download/0.7.18/teamredminer-v0.7.18-linux.tgz
+tar -xvzf teamredminer-v0.7.18-linux.tgz 
+ls
+rm teamredminer-v0.7.18-linux.tgz 
+mv teamredminer-v0.7.18-linux/ teamredminer
+ls
+cd teamredminer/
+ls
+cat ETHASH_GENERAL_TUNING.txt 
+ls
+cat ETHASH_4GB_HOWTO.txt 
+./teamredminer -h
+= 390 will be assumed to be etchash, lower epochs ethash. Pool
+                                          algo flags are not used.ls
+ls
+nano start_eth.sh
+nano ../mine.sh 
+nano start_eth.sh
+nano ../start-rtminer.sh 
+ls ../Claymore
+ls ../Claymore/stratum_proxy.py 
+cat ../Claymore/config.txt 
+cat ../Claymore/stratum_proxy.py 
+nano ../start-rtminer.sh 
+nano ../root/mine.sh
+nano /root/mine.sh
+nano start_eth.sh 
+nano /root/mine.sh
+nano /root/start-rtlinux.sh 
+nano /root/start-net.sh 
+nano /root/start-rtlinux.sh 
+ls /root
+nano /root/start-oc.sh
+nano /root/start-oc.sh
+nano /root/mine.sh
+nano /root/mine.sh
+y
+nano start_eth.sh 
+nano /root/mine.sh
+killall PhoenixMiner
+./teamredminer -a ethash --eth_variant_mode=auto -o stratum+tcp://1.2.3.4:8008 -u 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 -p x
+nano /root/mine.sh
+ls
+cat watchdog.sh
+nano /root/mine.sh
+./teamredminer -a ethash --eth_variant_mode=auto -o stratum+tcp://1.2.3.4:8008 -u 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 -p x --api_listen=3333
+reboot
+cd /root
+ls
+nano mine.sh 
+./teamredminer -a ethash --eth_variant_mode=auto -o 1.2.3.4:8008 -u 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 -p x \
+cd /root
+nano start-rtminer.sh 
+/root/start-rtminer.sh 
+watch -n 1 tail -n 20000 /nohup.out 
+tail -n 20000 /nohup.out 
+tail -n 20000 /nohup.out 
+nano /root/mine.sh 
+nano /root/mine.sh 
+/root/start-rtminer.sh 
+tail -n 20000 /nohup.out 
+tail -n 20000 /nohup.out 
+tail -n 20000 /nohup.out 
+/root/start-rtminer.sh 
+nano /root/mine.sh 
+nano teamredminer/start_eth_4gb.sh 
+/root/start-rtminer.sh 
+/root/start-rtminer.sh 
+nano /root/mine.sh 
+sudo reboot
+sudo tail -n 20000 /nohup.out 
+ls /root
+ls /rootr
+ls
+mkdir fah
+cd fah
+git init
+git remote add origin -f https://github.com/earlvanze/AMD-ROCm-Miner
+git checkout a76311f9794ec38d544264e6268730591bdce9ec -- fah
+ls
+cat fah
+ls fag
+ls fah
+nano ../.gitignore 
+ls
+ls -lah
+rm -git
+rm .git
+rm .git -R
+ls
+mv fah/* .
+ls
+ls -lah fah
+rm -R fah/
+ls
+sudo tail -n 20000 /nohup.out 
+cd ..
+ls
+rm /nohup.out 
+rm nohup.out 
+rm fah/nohup.out 
+reboot
+sudo tail -n 20000 /nohup.out 
+nano /root/start-rtminer.sh 
+mkdir /root/fahtmpfs
+ls
+ls -lah /
+ls -lah /root
+nano /root/start-oc.old
+nano /root/start-oc.sh
+nano /root/start.sh
+nano mine.sh 
+nano /root/start.sh
+nano /root/start.sh
+ls
+nano mine.sh 
+cat /nohup.out 
+nano mine.sh 
+sudo reboot
+sudo tail -n 20000 /nohup.out 
+sudo tail -n 20000 /nohup.out 
+nano /root/mine.sh 
+/root/start-rtminer.sh 
+nano /root/mine.sh 
+/root/start-rtminer.sh 
+nano /root/mine.sh 
+nano /root/mine.sh 
+nano /root/mine.sh 
+/root/start-rtminer.sh 
+nano /root/mine.sh 
+/root/start-rtminer.sh 
+/root/start-rtminer.sh 
+nano /root/mine.sh 
+nano /root/mine.sh 
+/root/start-rtminer.sh 
+reboot
+cd /root/fah
+ls
+nano FAHCoreWrapper 
+cat nohup.out 
+ls
+rm nohup.out 
+nano config.xml 
+fg
+nano config.xml 
+ls
+cat sample-config.xml 
+nano sample-config.xml 
+nano config.xml 
+nano sample-config.xml 
+nano config.xml 
+ls
+sudo tail -n 20000 /nohup.out 
 sudo reboot
