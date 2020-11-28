@@ -1,7 +1,7 @@
 # NiceHash DaggerHashimoto (Ethash) Miner using TeamRedMiner
 killall teamredminer
-./teamredminer -a ethash --eth_variant_mode=auto -o stratum+tcp://1.2.3.4:8008 -u 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig2 -p x \
---init_style=3
+nohup taskset -c 1 /rootr/teamredminer/teamredminer -o stratum+tcp://1.2.3.4:8008 -u 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig2 -p x \
+-a ethash --eth_variant_mode=auto --init_style=3
 #--eth_stratum_mode=stratum
 #--api_listen=0.0.0.0:3333
 
