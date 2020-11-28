@@ -1,0 +1,8 @@
+POOL: blake2s.eu.nicehash.com:3361, WALLET: 1Pz3EcHsRuJkraNRACUrBrLaxiTPP1VHJZ, PSW: z, ESM: 3, ALLPOOLS: 1
+POOL: xvg.eu1.unimining.net:5770, WALLET: D6DWVDQ5PUsies5dgQXPMd4y7F4bfB5uuL.test, PSW: c=XVG, DCOIN: blake2s
+POOL: xvg.blake2s.com:8888, WALLET: D6DWVDQ5PUsies5dgQXPMd4y7F4bfB5uuL.test, PSW: c=XVG, DCOIN: blake2s
+POOL: s.antminepool.com:9008, WALLET: D6DWVDQ5PUsies5dgQXPMd4y7F4bfB5uuL, PSW: c=XVGB, DCOIN: blake2s
+POOL: pool.unimining.net:5770, WALLET: D6DWVDQ5PUsies5dgQXPMd4y7F4bfB5uuL.test, PSW: c=XVG, DCOIN: blake2s
+POOL: s.antminepool.com:9009, WALLET: D6DWVDQ5PUsies5dgQXPMd4y7F4bfB5uuL, PSW: c=XVGB, DCOIN: blake2s
+
+
