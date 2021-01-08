@@ -13,11 +13,11 @@ printf %x $((2**4-2)) | egrep -v 122 | egrep -v 123|egrep -v 124|egrep -v 125|eg
 echo 0 > /proc/irq/120/smp_affinity_list
 echo 0 > /proc/irq/121/smp_affinity_list
 echo 0 > /proc/irq/122/smp_affinity_list
-echo 0 > /proc/irq/123/smp_affinity_list
-echo 0 > /proc/irq/124/smp_affinity_list
-echo 0 > /proc/irq/125/smp_affinity_list
 
 #amdgpu(s)
+echo 1 > /proc/irq/123/smp_affinity_list
+echo 1 > /proc/irq/124/smp_affinity_list
+echo 1 > /proc/irq/125/smp_affinity_list
 echo 1 > /proc/irq/126/smp_affinity_list
 echo 1 > /proc/irq/127/smp_affinity_list
 echo 1 > /proc/irq/128/smp_affinity_list
@@ -25,3 +25,6 @@ echo 1 > /proc/irq/129/smp_affinity_list
 echo 1 > /proc/irq/130/smp_affinity_list
 echo 1 > /proc/irq/131/smp_affinity_list
 echo 1 > /proc/irq/132/smp_affinity_list
+echo 1 > /proc/irq/133/smp_affinity_list
+echo 1 > /proc/irq/134/smp_affinity_list
+
