@@ -24,7 +24,7 @@ cd /root
 cd /root/QuantumRNG
 while sleep 600; do /root/QuantumRNG/pollinate; done&
 
-cd /root/Claymore
+cd /root
 /root/start-rtminer.sh&
 
 #cd /root/oclvanityminer

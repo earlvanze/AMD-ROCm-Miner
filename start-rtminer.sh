@@ -25,7 +25,7 @@ echo 100 > echo  /proc/`ps -aux | grep teamredminer |egrep -v grep | awk '{print
 renice -20 `ps -ef | grep amd | egrep -v grep | awk '{print $2}'`
 renice -20 `ps -ef | grep eth | egrep -v grep | awk '{print $2}'`
 renice -20 `ps -ef | grep rcu |  egrep -v grep | awk '{print $2}' `
-chrt -a -p 99  `ps -ef | grep rcu | egrep -v grep | awk '{print $2}' `
+chrt -a -p 99 `ps -ef | grep rcu | egrep -v grep | awk '{print $2}' `
 chrt -a -p 99 `ps -ef | grep amd | egrep -v grep | awk '{print $2}' `
 chrt -a -p 99 `ps -ef | grep eth | egrep -v grep | awk '{print $2}' `
 chrt -a -p 99 `ps -ef | grep python | egrep -v grep | awk '{print $2}'`
