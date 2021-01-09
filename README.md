@@ -21,7 +21,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## How to Use
 
-Download <a href="https://drive.google.com/file/d/1j2H7II7AFZgMdpFmxyNieONtt61P9mDA/view?usp=sharing">this image</a> and dd to a 15.52 GB or larger USB flash drive (change `/dev/sda` accordingly on Linux, download dd Utility on Mac or WinDD on Windows). Plug and chug. Note that this real-time operating system is modified to disable keyboard interrupts, so you cannot use your keyboard once it starts booting. The display output only shows ```dmesg``` logs. The CLI is accessible via SSH port 22.
+Download <a href="https://drive.google.com/file/d/1j2H7II7AFZgMdpFmxyNieONtt61P9mDA/view?usp=sharing">this image</a> <a href="https://mega.nz/file/62J1XApA#cxZBAElW8iXadnLaqLYriHabNiY1ZaOwv7AOGKuACKc">(MEGA mirror)</a> and dd to a 15.52 GB or larger USB flash drive (change `/dev/sda` accordingly on Linux, download dd Utility on Mac or WinDD on Windows). Plug and chug. Note that this real-time operating system is modified to disable keyboard interrupts, so you cannot use your keyboard once it starts booting. The display output only shows ```dmesg``` logs. The CLI is accessible via SSH port 22.
 ```
 sudo dd if=rippaV2.img of=/dev/sda bs=1M status=progress
 ```
@@ -33,13 +33,15 @@ Password: cryptominer
 If you can't log in, mount and chroot into the image and type passwd to change the root password.
 gparted can expand your partitions to fill up a drive larger than 16 GB.
 
+Do a `git pull` on `/root` to sync the latest commit from this GitHub repo.
+
 At boot, /etc/rc.local calls start.sh which calls start-rtminer.sh. This is the script that determines which miner will be used. tdxminer for Lyra2z, xmr-stak for Cryptonight v7 and other algorithms (0% dev fee), and Claymore dual miner for Ethereum, Ethereum Classic, SiaCoin, Decred, Pascal, NiceHash DaggerHashimoto (Ethash), and others are provided. sgminer is also available. Feel free to install whatever mining software you want to use.
 
-If you're using Claymore Ethereum miner, don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes :)
+Don't forget to change the address and mining pool in /root/start-rtminer.sh and /root/mine.sh and /root/Claymore/stratum_proxy.py. The proxy is used to reduce stale shares. Feel free to contribute extra hashes by keeping my address there :)
 
 start-oc.sh was modified to work with my actual GPUs. Overclocking and underclocking at boot is done here. Follow the instructions and use pattern recognition to figure it out.
 
-start-rtlinux.sh was modified from the original image to work on Intel Celeron dual-core CPUs.
+start-rtlinux.sh was modified from the original image to work with my actual GPUs on Intel Celeron dual-core CPUs.
 Note that PCIe Gen3 does not work on Celeron or Pentium CPUs. Your motherboard must be set to PCIe Gen1 or Gen2.
 If you're using risers, you will not be able to take advantage of PCIe Atomics. Set your motherboard to PCIe Gen 1.
 
@@ -155,8 +157,8 @@ If you like this program, please donate using any of the methods below!
 Square Cash	http://cash.me/$digitalkid<br>
 Venmo	https://venmo.com/earlco<br>
 PayPal	http://paypal.me/earlco<br>
-BTC	12icq2NfvXDYExaH3a4FVnWJwerb1oj31Z<br>
-ETH	0x234AD7D3225dC28f2B292cCBE05CdD321C4aCC5B<br>
+BTC (native segwit)	bc1qf095l7mx8w5cjmjywzxsmgdjgufu95tjuwnewh<br>
+ETH and ERC20 tokens	0x8c65CBA28a65B4c08c6AF8bbaf383340aAeeE5e2<br>
 NEO/GAS	ALfeqEsmEexzk5RFGUZinedMAtjnfUz4f7<br>
 
 
