@@ -13,26 +13,29 @@
 /opt/rocm/bin/rocm-smi -d 4 --setsclk 3
 /opt/rocm/bin/rocm-smi -d 5 --setsclk 3
 /opt/rocm/bin/rocm-smi -d 6 --setsclk 3
+/opt/rocm/bin/rocm-smi -d 7 --setsclk 3
 
 #Use the command to find all the cards at once
 #find /sys | grep power_dpm_state
 #find /sys | grep power_dpm_force_performance_level
 
-echo performance > /sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/power_dpm_state
-echo performance > /sys/devices/pci0000:00/0000:00:1b.4/0000:02:00.0/power_dpm_state
-echo performance > /sys/devices/pci0000:00/0000:00:1c.7/0000:07:00.0/power_dpm_state
-echo performance > /sys/devices/pci0000:00/0000:00:1b.0/0000:01:00.0/power_dpm_state
-echo performance > /sys/devices/pci0000:00/0000:00:1c.1/0000:04:00.0/power_dpm_state
-echo performance > /sys/devices/pci0000:00/0000:00:1d.0/0000:08:00.0/power_dpm_state
-echo performance > /sys/devices/pci0000:00/0000:00:1c.6/0000:06:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:1c.0/0000:05:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:1b.4/0000:04:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:1c.7/0000:09:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:1b.0/0000:03:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:1c.1/0000:06:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/power_dpm_state
+echo performance >/sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/power_dpm_state
 
-echo manual > /sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/power_dpm_force_performance_level
-echo manual > /sys/devices/pci0000:00/0000:00:1b.4/0000:02:00.0/power_dpm_force_performance_level
-echo manual > /sys/devices/pci0000:00/0000:00:1c.7/0000:07:00.0/power_dpm_force_performance_level
-echo manual > /sys/devices/pci0000:00/0000:00:1b.0/0000:01:00.0/power_dpm_force_performance_level
-echo manual > /sys/devices/pci0000:00/0000:00:1c.1/0000:04:00.0/power_dpm_force_performance_level
-echo manual > /sys/devices/pci0000:00/0000:00:1d.0/0000:08:00.0/power_dpm_force_performance_level
-echo manual > /sys/devices/pci0000:00/0000:00:1c.6/0000:06:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:1c.0/0000:05:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:1b.4/0000:04:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:1c.7/0000:09:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:1b.0/0000:03:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:1c.1/0000:06:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/power_dpm_force_performance_level
+echo manual >/sys/devices/pci0000:00/0000:00:1c.6/0000:08:00.0/power_dpm_force_performance_level
 
 #Run the first command and then then it will give you the find command to run to
 #get the over drive paths

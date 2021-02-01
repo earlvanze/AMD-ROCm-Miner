@@ -25,3 +25,4 @@ echo 1 > /proc/irq/129/smp_affinity_list
 echo 1 > /proc/irq/130/smp_affinity_list
 echo 1 > /proc/irq/131/smp_affinity_list
 echo 1 > /proc/irq/132/smp_affinity_list
+echo 1 > /proc/irq/133/smp_affinity_list
