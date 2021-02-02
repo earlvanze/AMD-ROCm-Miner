@@ -14,7 +14,8 @@ nohup taskset -c 0 /root/fahtmpfs/FAHClient &	# temporarily disable to test oclv
 cd /rootr
 #nohup python /rootr/gminer/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host us-east.equihash-hub.miningpoolhub.com --remote-port 25074 --wallet-address digitalkid23.denizen & 
 #(while :; cd /rootr/gminer; do /rootr/mine.sh; sleep 3611; done) &
-nohup python /rootr/Claymore/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host daggerhashimoto.usa.nicehash.com --remote-port 3353 --wallet-address 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 &
+#nohup python /rootr/Claymore/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host daggerhashimoto.usa.nicehash.com --remote-port 3353 --wallet-address 3NktvtucrCFRDdNi8aHiA9ozpYDnKZxDkJ.Rig1 &
+nohup python /rootr/Claymore/stratum_proxy.py --local-host 1.2.3.4 --local-port 8008 --remote-host eth-us-west.flexpool.io --remote-port 5555 --wallet-address 0xbB6915E489C771E04A7f31feAD29A3db77083fd8.Rig0 &
 (while :; cd /rootr/teamredminer; do /rootr/mine.sh; sleep 3611; done) &
 #(while :; cd /rootr/PhoenixMiner; do /rootr/mine.sh; sleep 3611; done) &
 #(while :; cd /rootr/Claymore; do /rootr/mine.sh; sleep 3611; done) &
